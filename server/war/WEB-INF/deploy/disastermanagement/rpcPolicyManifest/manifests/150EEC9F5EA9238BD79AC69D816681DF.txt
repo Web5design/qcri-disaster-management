@@ -1,0 +1,2 @@
+serviceClass: disastermanagement.client.GreetingService
+path: 6CAE972F93B679D6CA281DAE3A32E250.gwt.rpc
