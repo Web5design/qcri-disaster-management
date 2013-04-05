@@ -1,0 +1,193 @@
+2013-04-05T18:35:57-04:00
+22695 rows in source/NY12.txt.csv
+E1 CONVERSION
+========== edu.rpi.tw.data.csv.CSVtoRDF version 2013-Jan-16 initiated:
+fileName:                     source/NY12.txt.csv
+sampleLimit:                  10
+enhancementParametersURL:     manual/NY12.txt.csv.e1.params.ttl
+VoIDDumpExtensions:           ttl.gz
+outputFileName:               automatic/NY12.txt.csv.e1.sample.ttl
+converterIdentifier:          csv2rdf4lod_
+==============================
+manual/NY12.txt.csv.e1.params.ttl
+org.openrdf.rio.RDFParseException: Expected ']', found 'a' [line 145]
+	at org.openrdf.rio.helpers.RDFParserBase.reportError(RDFParserBase.java:464)
+	at org.openrdf.rio.turtle.TurtleParser.reportError(TurtleParser.java:1093)
+	at org.openrdf.rio.turtle.TurtleParser.verifyCharacter(TurtleParser.java:996)
+	at org.openrdf.rio.turtle.TurtleParser.parseImplicitBlank(TurtleParser.java:502)
+	at org.openrdf.rio.turtle.TurtleParser.parseObject(TurtleParser.java:408)
+	at org.openrdf.rio.turtle.TurtleParser.parseObjectList(TurtleParser.java:337)
+	at org.openrdf.rio.turtle.TurtleParser.parsePredicateObjectList(TurtleParser.java:330)
+	at org.openrdf.rio.turtle.TurtleParser.parseImplicitBlank(TurtleParser.java:497)
+	at org.openrdf.rio.turtle.TurtleParser.parseObject(TurtleParser.java:408)
+	at org.openrdf.rio.turtle.TurtleParser.parseObjectList(TurtleParser.java:337)
+	at org.openrdf.rio.turtle.TurtleParser.parsePredicateObjectList(TurtleParser.java:330)
+	at org.openrdf.rio.turtle.TurtleParser.parseTriples(TurtleParser.java:299)
+	at org.openrdf.rio.turtle.TurtleParser.parseStatement(TurtleParser.java:206)
+	at org.openrdf.rio.turtle.TurtleParser.parse(TurtleParser.java:184)
+	at org.openrdf.rio.turtle.TurtleParser.parse(TurtleParser.java:129)
+	at org.openrdf.repository.base.RepositoryConnectionBase.addInputStreamOrReader(RepositoryConnectionBase.java:354)
+	at org.openrdf.repository.base.RepositoryConnectionBase.add(RepositoryConnectionBase.java:243)
+	at org.openrdf.repository.base.RepositoryConnectionBase.add(RepositoryConnectionBase.java:203)
+	at edu.rpi.tw.data.rdf.utils.pipes.starts.Cat.load(Cat.java:175)
+	at edu.rpi.tw.data.rdf.utils.pipes.starts.Cat.load(Cat.java:124)
+	at edu.rpi.tw.data.csv.CSVtoRDF.main(CSVtoRDF.java:429)
+ERROR; invalid RDF syntax in manual/NY12.txt.csv.e1.params.ttl
+Finished converting -sample 10 sample rows.
+========== edu.rpi.tw.data.csv.CSVtoRDF version 2013-Jan-16 initiated:
+fileName:                     source/NY12.txt.csv
+enhancementParametersURL:     manual/NY12.txt.csv.e1.params.ttl
+VoIDDumpExtensions:           ttl.gz
+outputFileName:               automatic/NY12.txt.csv.e1.ttl
+metaOutputFileName:           automatic/NY12.txt.csv.e1.void.ttl
+converterIdentifier:          csv2rdf4lod_
+==============================
+manual/NY12.txt.csv.e1.params.ttl
+org.openrdf.rio.RDFParseException: Expected ']', found 'a' [line 145]
+	at org.openrdf.rio.helpers.RDFParserBase.reportError(RDFParserBase.java:464)
+	at org.openrdf.rio.turtle.TurtleParser.reportError(TurtleParser.java:1093)
+	at org.openrdf.rio.turtle.TurtleParser.verifyCharacter(TurtleParser.java:996)
+	at org.openrdf.rio.turtle.TurtleParser.parseImplicitBlank(TurtleParser.java:502)
+	at org.openrdf.rio.turtle.TurtleParser.parseObject(TurtleParser.java:408)
+	at org.openrdf.rio.turtle.TurtleParser.parseObjectList(TurtleParser.java:337)
+	at org.openrdf.rio.turtle.TurtleParser.parsePredicateObjectList(TurtleParser.java:330)
+	at org.openrdf.rio.turtle.TurtleParser.parseImplicitBlank(TurtleParser.java:497)
+	at org.openrdf.rio.turtle.TurtleParser.parseObject(TurtleParser.java:408)
+	at org.openrdf.rio.turtle.TurtleParser.parseObjectList(TurtleParser.java:337)
+	at org.openrdf.rio.turtle.TurtleParser.parsePredicateObjectList(TurtleParser.java:330)
+	at org.openrdf.rio.turtle.TurtleParser.parseTriples(TurtleParser.java:299)
+	at org.openrdf.rio.turtle.TurtleParser.parseStatement(TurtleParser.java:206)
+	at org.openrdf.rio.turtle.TurtleParser.parse(TurtleParser.java:184)
+	at org.openrdf.rio.turtle.TurtleParser.parse(TurtleParser.java:129)
+	at org.openrdf.repository.base.RepositoryConnectionBase.addInputStreamOrReader(RepositoryConnectionBase.java:354)
+	at org.openrdf.repository.base.RepositoryConnectionBase.add(RepositoryConnectionBase.java:243)
+	at org.openrdf.repository.base.RepositoryConnectionBase.add(RepositoryConnectionBase.java:203)
+	at edu.rpi.tw.data.rdf.utils.pipes.starts.Cat.load(Cat.java:175)
+	at edu.rpi.tw.data.rdf.utils.pipes.starts.Cat.load(Cat.java:124)
+	at edu.rpi.tw.data.csv.CSVtoRDF.main(CSVtoRDF.java:429)
+ERROR; invalid RDF syntax in manual/NY12.txt.csv.e1.params.ttl
+   convert.sh done
+convert-aggregate.sh publishing raw and enhancements.
+NOTE: rapper not found. Some serializations will probably be empty.
+publish/--2013-Apr-04.raw.ttl
+publish/--2013-Apr-04.raw.sample.ttl
+publish/--2013-Apr-04.eWorking.ttl
+publish/--2013-Apr-04.eWorking.sample.ttl
+publish/--2013-Apr-04.edirectory.ttl
+publish/--2013-Apr-04.edirectory.sample.ttl
+publish/--2013-Apr-04.edoes.ttl
+publish/--2013-Apr-04.edoes.sample.ttl
+publish/--2013-Apr-04.enot.ttl
+publish/--2013-Apr-04.enot.sample.ttl
+publish/--2013-Apr-04.eappear.ttl
+publish/--2013-Apr-04.eappear.sample.ttl
+publish/--2013-Apr-04.eto.ttl
+publish/--2013-Apr-04.eto.sample.ttl
+publish/--2013-Apr-04.ebe.ttl
+publish/--2013-Apr-04.ebe.sample.ttl
+publish/--2013-Apr-04.ea.ttl
+publish/--2013-Apr-04.ea.sample.ttl
+publish/--2013-Apr-04.econversion.ttl
+publish/--2013-Apr-04.econversion.sample.ttl
+publish/--2013-Apr-04.ecockpit..ttl
+publish/--2013-Apr-04.ecockpit..sample.ttl
+publish/--2013-Apr-04.eYou.ttl
+publish/--2013-Apr-04.eYou.sample.ttl
+publish/--2013-Apr-04.ecan.ttl
+publish/--2013-Apr-04.ecan.sample.ttl
+publish/--2013-Apr-04.erun.ttl
+publish/--2013-Apr-04.erun.sample.ttl
+publish/--2013-Apr-04.ethis.ttl
+publish/--2013-Apr-04.ethis.sample.ttl
+publish/--2013-Apr-04.efrom.ttl
+publish/--2013-Apr-04.efrom.sample.ttl
+publish/--2013-Apr-04.ea.ttl
+publish/--2013-Apr-04.ea.sample.ttl
+publish/--2013-Apr-04.econversion.ttl
+publish/--2013-Apr-04.econversion.sample.ttl
+publish/--2013-Apr-04.ecockpit..ttl
+publish/--2013-Apr-04.ecockpit..sample.ttl
+publish/--2013-Apr-04.e(e.g..ttl
+publish/--2013-Apr-04.e(e.g..sample.ttl
+publish/--2013-Apr-04.e$whatever/source/mySOURCE/myDATASET/version/VVV/)..ttl
+publish/--2013-Apr-04.e$whatever/source/mySOURCE/myDATASET/version/VVV/)..sample.ttl
+publish/--2013-Apr-04.pml.ttl
+  (including source/NY12.txt.csv.pml.ttl)
+publish/--2013-Apr-04.void.ttl
+  (including automatic/NY12.txt.csv.e1.void.ttl)
+  (including automatic/NY12.txt.csv.raw.void.ttl)
+  (including publish/--2013-Apr-04.pml.ttl)
+publish/--2013-Apr-04.ttl
+  (including publish/--2013-Apr-04.eWorking.ttl)
+  (including publish/--2013-Apr-04.edirectory.ttl)
+  (including publish/--2013-Apr-04.edoes.ttl)
+  (including publish/--2013-Apr-04.enot.ttl)
+  (including publish/--2013-Apr-04.eappear.ttl)
+  (including publish/--2013-Apr-04.eto.ttl)
+  (including publish/--2013-Apr-04.ebe.ttl)
+  (including publish/--2013-Apr-04.ea.ttl)
+  (including publish/--2013-Apr-04.econversion.ttl)
+  (including publish/--2013-Apr-04.ecockpit..ttl)
+  (including publish/--2013-Apr-04.eYou.ttl)
+  (including publish/--2013-Apr-04.ecan.ttl)
+  (including publish/--2013-Apr-04.erun.ttl)
+  (including publish/--2013-Apr-04.ethis.ttl)
+  (including publish/--2013-Apr-04.efrom.ttl)
+  (including publish/--2013-Apr-04.ea.ttl)
+  (including publish/--2013-Apr-04.econversion.ttl)
+  (including publish/--2013-Apr-04.ecockpit..ttl)
+  (including publish/--2013-Apr-04.e(e.g..ttl)
+  (including publish/--2013-Apr-04.e$whatever/source/mySOURCE/myDATASET/version/VVV/)..ttl)
+  (including publish/--2013-Apr-04.raw.ttl)
+  (including publish/--2013-Apr-04.void.ttl)
+publish/--2013-Apr-04.nt - skipping; set CSV2RDF4LOD_PUBLISH_NT=true in source-me.sh to publish N-Triples.
+publish/--2013-Apr-04.sameas.nt (3 triples)
+publish/--2013-Apr-04.rdf - skipping; set CSV2RDF4LOD_PUBLISH_RDFXML=true in source-me.sh to publish RDF/XML.
+publish/--2013-Apr-04.eWorking.ttl.gz (will delete uncompressed version at end of processing)
+publish/--2013-Apr-04.edirectory.ttl.gz (will delete uncompressed version at end of processing)
+publish/--2013-Apr-04.edoes.ttl.gz (will delete uncompressed version at end of processing)
+publish/--2013-Apr-04.enot.ttl.gz (will delete uncompressed version at end of processing)
+publish/--2013-Apr-04.eappear.ttl.gz (will delete uncompressed version at end of processing)
+publish/--2013-Apr-04.eto.ttl.gz (will delete uncompressed version at end of processing)
+publish/--2013-Apr-04.ebe.ttl.gz (will delete uncompressed version at end of processing)
+publish/--2013-Apr-04.ea.ttl.gz (will delete uncompressed version at end of processing)
+publish/--2013-Apr-04.econversion.ttl.gz (will delete uncompressed version at end of processing)
+publish/--2013-Apr-04.ecockpit..ttl.gz (will delete uncompressed version at end of processing)
+publish/--2013-Apr-04.eYou.ttl.gz (will delete uncompressed version at end of processing)
+publish/--2013-Apr-04.ecan.ttl.gz (will delete uncompressed version at end of processing)
+publish/--2013-Apr-04.erun.ttl.gz (will delete uncompressed version at end of processing)
+publish/--2013-Apr-04.ethis.ttl.gz (will delete uncompressed version at end of processing)
+publish/--2013-Apr-04.efrom.ttl.gz (will delete uncompressed version at end of processing)
+publish/--2013-Apr-04.ea.ttl.gz (will delete uncompressed version at end of processing)
+publish/--2013-Apr-04.econversion.ttl.gz (will delete uncompressed version at end of processing)
+publish/--2013-Apr-04.ecockpit..ttl.gz (will delete uncompressed version at end of processing)
+publish/--2013-Apr-04.e(e.g..ttl.gz (will delete uncompressed version at end of processing)
+publish/--2013-Apr-04.e$whatever/source/mySOURCE/myDATASET/version/VVV/)..ttl.gz (will delete uncompressed version at end of processing)
+publish/--2013-Apr-04.ttl.gz (will delete uncompressed version at end of processing)
+publish/bin/ln-to-www-root---2013-Apr-04.sh
+ - skipping. Set CSV2RDF4LOD_PUBLISH_VARWWW_DUMP_FILES=true and CSV2RDF4LOD_PUBLISH_LOD_MATERIALIZATION_WWW_ROOT to /var/www
+publish/tdb/     - skipping; set CSV2RDF4LOD_PUBLISH_TDB=true in source-me.sh to load conversions into publish/tdb/.
+                 - or run publish/bin/tdbloader---2013-Apr-04.sh.
+                 - then run $TDBROOT/bin/rdfserver with publish/bin/joseki-config-anterior---2013-Apr-04.ttl.
+publish/lod-mat/ - skipping; set CSV2RDF4LOD_PUBLISH_LOD_MATERIALIZATION=true in source-me.sh to load conversions into publish/lod-mat/,
+                 - or run automatic/lod-materialize---2013-Apr-04.sh.
+publish/--2013-Apr-04.eWorking.ttl - removed b/c $CSV2RDF4LOD_PUBLISH_COMPRESS="true"
+publish/--2013-Apr-04.edirectory.ttl - removed b/c $CSV2RDF4LOD_PUBLISH_COMPRESS="true"
+publish/--2013-Apr-04.edoes.ttl - removed b/c $CSV2RDF4LOD_PUBLISH_COMPRESS="true"
+publish/--2013-Apr-04.enot.ttl - removed b/c $CSV2RDF4LOD_PUBLISH_COMPRESS="true"
+publish/--2013-Apr-04.eappear.ttl - removed b/c $CSV2RDF4LOD_PUBLISH_COMPRESS="true"
+publish/--2013-Apr-04.eto.ttl - removed b/c $CSV2RDF4LOD_PUBLISH_COMPRESS="true"
+publish/--2013-Apr-04.ebe.ttl - removed b/c $CSV2RDF4LOD_PUBLISH_COMPRESS="true"
+publish/--2013-Apr-04.ea.ttl - removed b/c $CSV2RDF4LOD_PUBLISH_COMPRESS="true"
+publish/--2013-Apr-04.econversion.ttl - removed b/c $CSV2RDF4LOD_PUBLISH_COMPRESS="true"
+publish/--2013-Apr-04.ecockpit..ttl - removed b/c $CSV2RDF4LOD_PUBLISH_COMPRESS="true"
+publish/--2013-Apr-04.eYou.ttl - removed b/c $CSV2RDF4LOD_PUBLISH_COMPRESS="true"
+publish/--2013-Apr-04.ecan.ttl - removed b/c $CSV2RDF4LOD_PUBLISH_COMPRESS="true"
+publish/--2013-Apr-04.erun.ttl - removed b/c $CSV2RDF4LOD_PUBLISH_COMPRESS="true"
+publish/--2013-Apr-04.ethis.ttl - removed b/c $CSV2RDF4LOD_PUBLISH_COMPRESS="true"
+publish/--2013-Apr-04.efrom.ttl - removed b/c $CSV2RDF4LOD_PUBLISH_COMPRESS="true"
+publish/--2013-Apr-04.ea.ttl - removed b/c $CSV2RDF4LOD_PUBLISH_COMPRESS="true"
+publish/--2013-Apr-04.econversion.ttl - removed b/c $CSV2RDF4LOD_PUBLISH_COMPRESS="true"
+publish/--2013-Apr-04.ecockpit..ttl - removed b/c $CSV2RDF4LOD_PUBLISH_COMPRESS="true"
+publish/--2013-Apr-04.e(e.g..ttl - removed b/c $CSV2RDF4LOD_PUBLISH_COMPRESS="true"
+publish/--2013-Apr-04.ttl - removed b/c $CSV2RDF4LOD_PUBLISH_COMPRESS="true"

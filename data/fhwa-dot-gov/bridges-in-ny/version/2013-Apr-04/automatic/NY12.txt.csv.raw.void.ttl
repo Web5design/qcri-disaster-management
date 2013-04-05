@@ -1,0 +1,2795 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd2: <http://www.w3.org/TR/xmlschema-2/#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix conversion: <http://purl.org/twc/vocab/conversion/> .
+@prefix ov: <http://open.vocab.org/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix scovo: <http://purl.org/NET/scovo#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix frbrcore: <http://purl.org/vocab/frbr/core#> .
+@prefix coin: <http://purl.org/court/def/2009/coin#> .
+@prefix bridges-in-ny: <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/> .
+@prefix fhwa-dot-gov_vocab: <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/vocab/> .
+@prefix base_vocab: <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/vocab/> .
+@prefix bridges-in-ny_vocab: <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/vocab/> .
+@prefix raw: <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/vocab/raw/> .
+@prefix bridges-in-ny_global_value: <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+
+raw:state_code_001 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "1"^^xsd:integer ;
+	ov:csvHeader "STATE_CODE_001" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "STATE_CODE_001" ;
+	rdfs:range rdfs:Literal .
+
+raw:structure_number_008 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "2"^^xsd:integer ;
+	ov:csvHeader "STRUCTURE_NUMBER_008" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "STRUCTURE_NUMBER_008" ;
+	rdfs:range rdfs:Literal .
+
+raw:record_type_005a a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "3"^^xsd:integer ;
+	ov:csvHeader "RECORD_TYPE_005A" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "RECORD_TYPE_005A" ;
+	rdfs:range rdfs:Literal .
+
+raw:route_prefix_005b a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "4"^^xsd:integer ;
+	ov:csvHeader "ROUTE_PREFIX_005B" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "ROUTE_PREFIX_005B" ;
+	rdfs:range rdfs:Literal .
+
+raw:service_level_005c a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "5"^^xsd:integer ;
+	ov:csvHeader "SERVICE_LEVEL_005C" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "SERVICE_LEVEL_005C" ;
+	rdfs:range rdfs:Literal .
+
+raw:route_number_005d a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "6"^^xsd:integer ;
+	ov:csvHeader "ROUTE_NUMBER_005D" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "ROUTE_NUMBER_005D" ;
+	rdfs:range rdfs:Literal .
+
+raw:direction_005e a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "7"^^xsd:integer ;
+	ov:csvHeader "DIRECTION_005E" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "DIRECTION_005E" ;
+	rdfs:range rdfs:Literal .
+
+raw:highway_district_002 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "8"^^xsd:integer ;
+	ov:csvHeader "HIGHWAY_DISTRICT_002" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "HIGHWAY_DISTRICT_002" ;
+	rdfs:range rdfs:Literal .
+
+raw:county_code_003 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "9"^^xsd:integer ;
+	ov:csvHeader "COUNTY_CODE_003" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "COUNTY_CODE_003" ;
+	rdfs:range rdfs:Literal .
+
+raw:place_code_004 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "10"^^xsd:integer ;
+	ov:csvHeader "PLACE_CODE_004" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "PLACE_CODE_004" ;
+	rdfs:range rdfs:Literal .
+
+raw:features_desc_006a a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "11"^^xsd:integer ;
+	ov:csvHeader "FEATURES_DESC_006A" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "FEATURES_DESC_006A" ;
+	rdfs:range rdfs:Literal .
+
+raw:critical_facility_006b a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "12"^^xsd:integer ;
+	ov:csvHeader "CRITICAL_FACILITY_006B" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "CRITICAL_FACILITY_006B" ;
+	rdfs:range rdfs:Literal .
+
+raw:facility_carried_007 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "13"^^xsd:integer ;
+	ov:csvHeader "FACILITY_CARRIED_007" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "FACILITY_CARRIED_007" ;
+	rdfs:range rdfs:Literal .
+
+raw:location_009 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "14"^^xsd:integer ;
+	ov:csvHeader "LOCATION_009" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "LOCATION_009" ;
+	rdfs:range rdfs:Literal .
+
+raw:min_vert_clr_010 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "15"^^xsd:integer ;
+	ov:csvHeader "MIN_VERT_CLR_010" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "MIN_VERT_CLR_010" ;
+	rdfs:range rdfs:Literal .
+
+raw:kilopoint_011 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "16"^^xsd:integer ;
+	ov:csvHeader "KILOPOINT_011" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "KILOPOINT_011" ;
+	rdfs:range rdfs:Literal .
+
+raw:base_hwy_network_012 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "17"^^xsd:integer ;
+	ov:csvHeader "BASE_HWY_NETWORK_012" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "BASE_HWY_NETWORK_012" ;
+	rdfs:range rdfs:Literal .
+
+raw:lrs_inv_route_013a a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "18"^^xsd:integer ;
+	ov:csvHeader "LRS_INV_ROUTE_013A" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "LRS_INV_ROUTE_013A" ;
+	rdfs:range rdfs:Literal .
+
+raw:subroute_no_013b a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "19"^^xsd:integer ;
+	ov:csvHeader "SUBROUTE_NO_013B" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "SUBROUTE_NO_013B" ;
+	rdfs:range rdfs:Literal .
+
+raw:lat_016 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "20"^^xsd:integer ;
+	ov:csvHeader "LAT_016" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "LAT_016" ;
+	rdfs:range rdfs:Literal .
+
+raw:long_017 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "21"^^xsd:integer ;
+	ov:csvHeader "LONG_017" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "LONG_017" ;
+	rdfs:range rdfs:Literal .
+
+raw:detour_kilos_019 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "22"^^xsd:integer ;
+	ov:csvHeader "DETOUR_KILOS_019" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "DETOUR_KILOS_019" ;
+	rdfs:range rdfs:Literal .
+
+raw:toll_020 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "23"^^xsd:integer ;
+	ov:csvHeader "TOLL_020" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "TOLL_020" ;
+	rdfs:range rdfs:Literal .
+
+raw:maintenance_021 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "24"^^xsd:integer ;
+	ov:csvHeader "MAINTENANCE_021" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "MAINTENANCE_021" ;
+	rdfs:range rdfs:Literal .
+
+raw:owner_022 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "25"^^xsd:integer ;
+	ov:csvHeader "OWNER_022" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "OWNER_022" ;
+	rdfs:range rdfs:Literal .
+
+raw:functional_class_026 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "26"^^xsd:integer ;
+	ov:csvHeader "FUNCTIONAL_CLASS_026" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "FUNCTIONAL_CLASS_026" ;
+	rdfs:range rdfs:Literal .
+
+raw:year_built_027 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "27"^^xsd:integer ;
+	ov:csvHeader "YEAR_BUILT_027" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "YEAR_BUILT_027" ;
+	rdfs:range rdfs:Literal .
+
+raw:traffic_lanes_on_028a a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "28"^^xsd:integer ;
+	ov:csvHeader "TRAFFIC_LANES_ON_028A" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "TRAFFIC_LANES_ON_028A" ;
+	rdfs:range rdfs:Literal .
+
+raw:traffic_lanes_und_028b a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "29"^^xsd:integer ;
+	ov:csvHeader "TRAFFIC_LANES_UND_028B" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "TRAFFIC_LANES_UND_028B" ;
+	rdfs:range rdfs:Literal .
+
+raw:adt_029 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "30"^^xsd:integer ;
+	ov:csvHeader "ADT_029" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "ADT_029" ;
+	rdfs:range rdfs:Literal .
+
+raw:year_adt_030 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "31"^^xsd:integer ;
+	ov:csvHeader "YEAR_ADT_030" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "YEAR_ADT_030" ;
+	rdfs:range rdfs:Literal .
+
+raw:design_load_031 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "32"^^xsd:integer ;
+	ov:csvHeader "DESIGN_LOAD_031" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "DESIGN_LOAD_031" ;
+	rdfs:range rdfs:Literal .
+
+raw:appr_width_mt_032 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "33"^^xsd:integer ;
+	ov:csvHeader "APPR_WIDTH_MT_032" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "APPR_WIDTH_MT_032" ;
+	rdfs:range rdfs:Literal .
+
+raw:median_code_033 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "34"^^xsd:integer ;
+	ov:csvHeader "MEDIAN_CODE_033" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "MEDIAN_CODE_033" ;
+	rdfs:range rdfs:Literal .
+
+raw:degrees_skew_034 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "35"^^xsd:integer ;
+	ov:csvHeader "DEGREES_SKEW_034" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "DEGREES_SKEW_034" ;
+	rdfs:range rdfs:Literal .
+
+raw:structure_flared_035 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "36"^^xsd:integer ;
+	ov:csvHeader "STRUCTURE_FLARED_035" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "STRUCTURE_FLARED_035" ;
+	rdfs:range rdfs:Literal .
+
+raw:railings_036a a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "37"^^xsd:integer ;
+	ov:csvHeader "RAILINGS_036A" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "RAILINGS_036A" ;
+	rdfs:range rdfs:Literal .
+
+raw:transitions_036b a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "38"^^xsd:integer ;
+	ov:csvHeader "TRANSITIONS_036B" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "TRANSITIONS_036B" ;
+	rdfs:range rdfs:Literal .
+
+raw:appr_rail_036c a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "39"^^xsd:integer ;
+	ov:csvHeader "APPR_RAIL_036C" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "APPR_RAIL_036C" ;
+	rdfs:range rdfs:Literal .
+
+raw:appr_rail_end_036d a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "40"^^xsd:integer ;
+	ov:csvHeader "APPR_RAIL_END_036D" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "APPR_RAIL_END_036D" ;
+	rdfs:range rdfs:Literal .
+
+raw:history_037 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "41"^^xsd:integer ;
+	ov:csvHeader "HISTORY_037" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "HISTORY_037" ;
+	rdfs:range rdfs:Literal .
+
+raw:navigation_038 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "42"^^xsd:integer ;
+	ov:csvHeader "NAVIGATION_038" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "NAVIGATION_038" ;
+	rdfs:range rdfs:Literal .
+
+raw:nav_vert_clr_mt_039 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "43"^^xsd:integer ;
+	ov:csvHeader "NAV_VERT_CLR_MT_039" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "NAV_VERT_CLR_MT_039" ;
+	rdfs:range rdfs:Literal .
+
+raw:nav_horr_clr_mt_040 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "44"^^xsd:integer ;
+	ov:csvHeader "NAV_HORR_CLR_MT_040" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "NAV_HORR_CLR_MT_040" ;
+	rdfs:range rdfs:Literal .
+
+raw:open_closed_posted_041 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "45"^^xsd:integer ;
+	ov:csvHeader "OPEN_CLOSED_POSTED_041" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "OPEN_CLOSED_POSTED_041" ;
+	rdfs:range rdfs:Literal .
+
+raw:service_on_042a a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "46"^^xsd:integer ;
+	ov:csvHeader "SERVICE_ON_042A" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "SERVICE_ON_042A" ;
+	rdfs:range rdfs:Literal .
+
+raw:service_und_042b a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "47"^^xsd:integer ;
+	ov:csvHeader "SERVICE_UND_042B" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "SERVICE_UND_042B" ;
+	rdfs:range rdfs:Literal .
+
+raw:structure_kind_043a a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "48"^^xsd:integer ;
+	ov:csvHeader "STRUCTURE_KIND_043A" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "STRUCTURE_KIND_043A" ;
+	rdfs:range rdfs:Literal .
+
+raw:structure_type_043b a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "49"^^xsd:integer ;
+	ov:csvHeader "STRUCTURE_TYPE_043B" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "STRUCTURE_TYPE_043B" ;
+	rdfs:range rdfs:Literal .
+
+raw:appr_kind_044a a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "50"^^xsd:integer ;
+	ov:csvHeader "APPR_KIND_044A" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "APPR_KIND_044A" ;
+	rdfs:range rdfs:Literal .
+
+raw:appr_type_044b a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "51"^^xsd:integer ;
+	ov:csvHeader "APPR_TYPE_044B" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "APPR_TYPE_044B" ;
+	rdfs:range rdfs:Literal .
+
+raw:main_unit_spans_045 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "52"^^xsd:integer ;
+	ov:csvHeader "MAIN_UNIT_SPANS_045" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "MAIN_UNIT_SPANS_045" ;
+	rdfs:range rdfs:Literal .
+
+raw:appr_spans_046 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "53"^^xsd:integer ;
+	ov:csvHeader "APPR_SPANS_046" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "APPR_SPANS_046" ;
+	rdfs:range rdfs:Literal .
+
+raw:horr_clr_mt_047 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "54"^^xsd:integer ;
+	ov:csvHeader "HORR_CLR_MT_047" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "HORR_CLR_MT_047" ;
+	rdfs:range rdfs:Literal .
+
+raw:max_span_len_mt_048 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "55"^^xsd:integer ;
+	ov:csvHeader "MAX_SPAN_LEN_MT_048" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "MAX_SPAN_LEN_MT_048" ;
+	rdfs:range rdfs:Literal .
+
+raw:structure_len_mt_049 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "56"^^xsd:integer ;
+	ov:csvHeader "STRUCTURE_LEN_MT_049" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "STRUCTURE_LEN_MT_049" ;
+	rdfs:range rdfs:Literal .
+
+raw:left_curb_mt_050a a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "57"^^xsd:integer ;
+	ov:csvHeader "LEFT_CURB_MT_050A" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "LEFT_CURB_MT_050A" ;
+	rdfs:range rdfs:Literal .
+
+raw:right_curb_mt_050b a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "58"^^xsd:integer ;
+	ov:csvHeader "RIGHT_CURB_MT_050B" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "RIGHT_CURB_MT_050B" ;
+	rdfs:range rdfs:Literal .
+
+raw:roadway_width_mt_051 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "59"^^xsd:integer ;
+	ov:csvHeader "ROADWAY_WIDTH_MT_051" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "ROADWAY_WIDTH_MT_051" ;
+	rdfs:range rdfs:Literal .
+
+raw:deck_width_mt_052 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "60"^^xsd:integer ;
+	ov:csvHeader "DECK_WIDTH_MT_052" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "DECK_WIDTH_MT_052" ;
+	rdfs:range rdfs:Literal .
+
+raw:vert_clr_over_mt_053 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "61"^^xsd:integer ;
+	ov:csvHeader "VERT_CLR_OVER_MT_053" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "VERT_CLR_OVER_MT_053" ;
+	rdfs:range rdfs:Literal .
+
+raw:vert_clr_und_ref_054a a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "62"^^xsd:integer ;
+	ov:csvHeader "VERT_CLR_UND_REF_054A" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "VERT_CLR_UND_REF_054A" ;
+	rdfs:range rdfs:Literal .
+
+raw:vert_clr_und_054b a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "63"^^xsd:integer ;
+	ov:csvHeader "VERT_CLR_UND_054B" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "VERT_CLR_UND_054B" ;
+	rdfs:range rdfs:Literal .
+
+raw:lat_und_ref_055a a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "64"^^xsd:integer ;
+	ov:csvHeader "LAT_UND_REF_055A" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "LAT_UND_REF_055A" ;
+	rdfs:range rdfs:Literal .
+
+raw:lat_und_mt_055b a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "65"^^xsd:integer ;
+	ov:csvHeader "LAT_UND_MT_055B" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "LAT_UND_MT_055B" ;
+	rdfs:range rdfs:Literal .
+
+raw:left_lat_und_mt_056 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "66"^^xsd:integer ;
+	ov:csvHeader "LEFT_LAT_UND_MT_056" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "LEFT_LAT_UND_MT_056" ;
+	rdfs:range rdfs:Literal .
+
+raw:deck_cond_058 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "67"^^xsd:integer ;
+	ov:csvHeader "DECK_COND_058" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "DECK_COND_058" ;
+	rdfs:range rdfs:Literal .
+
+raw:superstructure_cond_059 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "68"^^xsd:integer ;
+	ov:csvHeader "SUPERSTRUCTURE_COND_059" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "SUPERSTRUCTURE_COND_059" ;
+	rdfs:range rdfs:Literal .
+
+raw:substructure_cond_060 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "69"^^xsd:integer ;
+	ov:csvHeader "SUBSTRUCTURE_COND_060" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "SUBSTRUCTURE_COND_060" ;
+	rdfs:range rdfs:Literal .
+
+raw:channel_cond_061 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "70"^^xsd:integer ;
+	ov:csvHeader "CHANNEL_COND_061" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "CHANNEL_COND_061" ;
+	rdfs:range rdfs:Literal .
+
+raw:culvert_cond_062 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "71"^^xsd:integer ;
+	ov:csvHeader "CULVERT_COND_062" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "CULVERT_COND_062" ;
+	rdfs:range rdfs:Literal .
+
+raw:opr_rating_meth_063 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "72"^^xsd:integer ;
+	ov:csvHeader "OPR_RATING_METH_063" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "OPR_RATING_METH_063" ;
+	rdfs:range rdfs:Literal .
+
+raw:operating_rating_064 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "73"^^xsd:integer ;
+	ov:csvHeader "OPERATING_RATING_064" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "OPERATING_RATING_064" ;
+	rdfs:range rdfs:Literal .
+
+raw:inv_rating_meth_065 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "74"^^xsd:integer ;
+	ov:csvHeader "INV_RATING_METH_065" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "INV_RATING_METH_065" ;
+	rdfs:range rdfs:Literal .
+
+raw:inventory_rating_066 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "75"^^xsd:integer ;
+	ov:csvHeader "INVENTORY_RATING_066" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "INVENTORY_RATING_066" ;
+	rdfs:range rdfs:Literal .
+
+raw:structural_eval_067 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "76"^^xsd:integer ;
+	ov:csvHeader "STRUCTURAL_EVAL_067" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "STRUCTURAL_EVAL_067" ;
+	rdfs:range rdfs:Literal .
+
+raw:deck_geometry_eval_068 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "77"^^xsd:integer ;
+	ov:csvHeader "DECK_GEOMETRY_EVAL_068" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "DECK_GEOMETRY_EVAL_068" ;
+	rdfs:range rdfs:Literal .
+
+raw:undclrence_eval_069 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "78"^^xsd:integer ;
+	ov:csvHeader "UNDCLRENCE_EVAL_069" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "UNDCLRENCE_EVAL_069" ;
+	rdfs:range rdfs:Literal .
+
+raw:posting_eval_070 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "79"^^xsd:integer ;
+	ov:csvHeader "POSTING_EVAL_070" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "POSTING_EVAL_070" ;
+	rdfs:range rdfs:Literal .
+
+raw:waterway_eval_071 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "80"^^xsd:integer ;
+	ov:csvHeader "WATERWAY_EVAL_071" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "WATERWAY_EVAL_071" ;
+	rdfs:range rdfs:Literal .
+
+raw:appr_road_eval_072 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "81"^^xsd:integer ;
+	ov:csvHeader "APPR_ROAD_EVAL_072" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "APPR_ROAD_EVAL_072" ;
+	rdfs:range rdfs:Literal .
+
+raw:work_proposed_075a a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "82"^^xsd:integer ;
+	ov:csvHeader "WORK_PROPOSED_075A" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "WORK_PROPOSED_075A" ;
+	rdfs:range rdfs:Literal .
+
+raw:work_done_by_075b a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "83"^^xsd:integer ;
+	ov:csvHeader "WORK_DONE_BY_075B" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "WORK_DONE_BY_075B" ;
+	rdfs:range rdfs:Literal .
+
+raw:imp_len_mt_076 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "84"^^xsd:integer ;
+	ov:csvHeader "IMP_LEN_MT_076" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "IMP_LEN_MT_076" ;
+	rdfs:range rdfs:Literal .
+
+raw:date_of_inspect_090 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "85"^^xsd:integer ;
+	ov:csvHeader "DATE_OF_INSPECT_090" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "DATE_OF_INSPECT_090" ;
+	rdfs:range rdfs:Literal .
+
+raw:inspect_freq_months_091 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "86"^^xsd:integer ;
+	ov:csvHeader "INSPECT_FREQ_MONTHS_091" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "INSPECT_FREQ_MONTHS_091" ;
+	rdfs:range rdfs:Literal .
+
+raw:fracture_092a a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "87"^^xsd:integer ;
+	ov:csvHeader "FRACTURE_092A" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "FRACTURE_092A" ;
+	rdfs:range rdfs:Literal .
+
+raw:undwater_look_see_092b a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "88"^^xsd:integer ;
+	ov:csvHeader "UNDWATER_LOOK_SEE_092B" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "UNDWATER_LOOK_SEE_092B" ;
+	rdfs:range rdfs:Literal .
+
+raw:spec_inspect_092c a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "89"^^xsd:integer ;
+	ov:csvHeader "SPEC_INSPECT_092C" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "SPEC_INSPECT_092C" ;
+	rdfs:range rdfs:Literal .
+
+raw:fracture_last_date_093a a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "90"^^xsd:integer ;
+	ov:csvHeader "FRACTURE_LAST_DATE_093A" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "FRACTURE_LAST_DATE_093A" ;
+	rdfs:range rdfs:Literal .
+
+raw:undwater_last_date_093b a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "91"^^xsd:integer ;
+	ov:csvHeader "UNDWATER_LAST_DATE_093B" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "UNDWATER_LAST_DATE_093B" ;
+	rdfs:range rdfs:Literal .
+
+raw:spec_last_date_093c a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "92"^^xsd:integer ;
+	ov:csvHeader "SPEC_LAST_DATE_093C" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "SPEC_LAST_DATE_093C" ;
+	rdfs:range rdfs:Literal .
+
+raw:bridge_imp_cost_094 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "93"^^xsd:integer ;
+	ov:csvHeader "BRIDGE_IMP_COST_094" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "BRIDGE_IMP_COST_094" ;
+	rdfs:range rdfs:Literal .
+
+raw:roadway_imp_cost_095 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "94"^^xsd:integer ;
+	ov:csvHeader "ROADWAY_IMP_COST_095" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "ROADWAY_IMP_COST_095" ;
+	rdfs:range rdfs:Literal .
+
+raw:total_imp_cost_096 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "95"^^xsd:integer ;
+	ov:csvHeader "TOTAL_IMP_COST_096" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "TOTAL_IMP_COST_096" ;
+	rdfs:range rdfs:Literal .
+
+raw:year_of_imp_097 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "96"^^xsd:integer ;
+	ov:csvHeader "YEAR_OF_IMP_097" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "YEAR_OF_IMP_097" ;
+	rdfs:range rdfs:Literal .
+
+raw:other_state_code_098a a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "97"^^xsd:integer ;
+	ov:csvHeader "OTHER_STATE_CODE_098A" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "OTHER_STATE_CODE_098A" ;
+	rdfs:range rdfs:Literal .
+
+raw:other_state_pcnt_098b a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "98"^^xsd:integer ;
+	ov:csvHeader "OTHER_STATE_PCNT_098B" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "OTHER_STATE_PCNT_098B" ;
+	rdfs:range rdfs:Literal .
+
+raw:othr_state_struc_no_099 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "99"^^xsd:integer ;
+	ov:csvHeader "OTHR_STATE_STRUC_NO_099" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "OTHR_STATE_STRUC_NO_099" ;
+	rdfs:range rdfs:Literal .
+
+raw:strahnet_highway_100 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "100"^^xsd:integer ;
+	ov:csvHeader "STRAHNET_HIGHWAY_100" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "STRAHNET_HIGHWAY_100" ;
+	rdfs:range rdfs:Literal .
+
+raw:parallel_structure_101 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "101"^^xsd:integer ;
+	ov:csvHeader "PARALLEL_STRUCTURE_101" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "PARALLEL_STRUCTURE_101" ;
+	rdfs:range rdfs:Literal .
+
+raw:traffic_direction_102 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "102"^^xsd:integer ;
+	ov:csvHeader "TRAFFIC_DIRECTION_102" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "TRAFFIC_DIRECTION_102" ;
+	rdfs:range rdfs:Literal .
+
+raw:temp_structure_103 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "103"^^xsd:integer ;
+	ov:csvHeader "TEMP_STRUCTURE_103" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "TEMP_STRUCTURE_103" ;
+	rdfs:range rdfs:Literal .
+
+raw:highway_system_104 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "104"^^xsd:integer ;
+	ov:csvHeader "HIGHWAY_SYSTEM_104" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "HIGHWAY_SYSTEM_104" ;
+	rdfs:range rdfs:Literal .
+
+raw:federal_lands_105 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "105"^^xsd:integer ;
+	ov:csvHeader "FEDERAL_LANDS_105" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "FEDERAL_LANDS_105" ;
+	rdfs:range rdfs:Literal .
+
+raw:year_reconstructed_106 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "106"^^xsd:integer ;
+	ov:csvHeader "YEAR_RECONSTRUCTED_106" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "YEAR_RECONSTRUCTED_106" ;
+	rdfs:range rdfs:Literal .
+
+raw:deck_structure_type_107 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "107"^^xsd:integer ;
+	ov:csvHeader "DECK_STRUCTURE_TYPE_107" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "DECK_STRUCTURE_TYPE_107" ;
+	rdfs:range rdfs:Literal .
+
+raw:surface_type_108a a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "108"^^xsd:integer ;
+	ov:csvHeader "SURFACE_TYPE_108A" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "SURFACE_TYPE_108A" ;
+	rdfs:range rdfs:Literal .
+
+raw:membrane_type_108b a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "109"^^xsd:integer ;
+	ov:csvHeader "MEMBRANE_TYPE_108B" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "MEMBRANE_TYPE_108B" ;
+	rdfs:range rdfs:Literal .
+
+raw:deck_protection_108c a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "110"^^xsd:integer ;
+	ov:csvHeader "DECK_PROTECTION_108C" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "DECK_PROTECTION_108C" ;
+	rdfs:range rdfs:Literal .
+
+raw:percent_adt_truck_109 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "111"^^xsd:integer ;
+	ov:csvHeader "PERCENT_ADT_TRUCK_109" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "PERCENT_ADT_TRUCK_109" ;
+	rdfs:range rdfs:Literal .
+
+raw:national_network_110 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "112"^^xsd:integer ;
+	ov:csvHeader "NATIONAL_NETWORK_110" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "NATIONAL_NETWORK_110" ;
+	rdfs:range rdfs:Literal .
+
+raw:pier_protection_111 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "113"^^xsd:integer ;
+	ov:csvHeader "PIER_PROTECTION_111" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "PIER_PROTECTION_111" ;
+	rdfs:range rdfs:Literal .
+
+raw:bridge_len_ind_112 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "114"^^xsd:integer ;
+	ov:csvHeader "BRIDGE_LEN_IND_112" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "BRIDGE_LEN_IND_112" ;
+	rdfs:range rdfs:Literal .
+
+raw:scour_critical_113 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "115"^^xsd:integer ;
+	ov:csvHeader "SCOUR_CRITICAL_113" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "SCOUR_CRITICAL_113" ;
+	rdfs:range rdfs:Literal .
+
+raw:future_adt_114 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "116"^^xsd:integer ;
+	ov:csvHeader "FUTURE_ADT_114" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "FUTURE_ADT_114" ;
+	rdfs:range rdfs:Literal .
+
+raw:year_of_future_adt_115 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "117"^^xsd:integer ;
+	ov:csvHeader "YEAR_OF_FUTURE_ADT_115" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "YEAR_OF_FUTURE_ADT_115" ;
+	rdfs:range rdfs:Literal .
+
+raw:min_nav_clr_mt_116 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "118"^^xsd:integer ;
+	ov:csvHeader "MIN_NAV_CLR_MT_116" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "MIN_NAV_CLR_MT_116" ;
+	rdfs:range rdfs:Literal .
+
+raw:fed_agency a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "119"^^xsd:integer ;
+	ov:csvHeader "FED_AGENCY" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "FED_AGENCY" ;
+	rdfs:range rdfs:Literal .
+
+raw:date_last_update a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "120"^^xsd:integer ;
+	ov:csvHeader "DATE_LAST_UPDATE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "DATE_LAST_UPDATE" ;
+	rdfs:range rdfs:Literal .
+
+raw:type_last_update a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "121"^^xsd:integer ;
+	ov:csvHeader "TYPE_LAST_UPDATE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "TYPE_LAST_UPDATE" ;
+	rdfs:range rdfs:Literal .
+
+raw:deduct_code a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "122"^^xsd:integer ;
+	ov:csvHeader "DEDUCT_CODE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "DEDUCT_CODE" ;
+	rdfs:range rdfs:Literal .
+
+raw:remarks a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "123"^^xsd:integer ;
+	ov:csvHeader "REMARKS" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "REMARKS" ;
+	rdfs:range rdfs:Literal .
+
+raw:program_code a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "124"^^xsd:integer ;
+	ov:csvHeader "PROGRAM_CODE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "PROGRAM_CODE" ;
+	rdfs:range rdfs:Literal .
+
+raw:proj_no a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "125"^^xsd:integer ;
+	ov:csvHeader "PROJ_NO" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "PROJ_NO" ;
+	rdfs:range rdfs:Literal .
+
+raw:proj_suffix a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "126"^^xsd:integer ;
+	ov:csvHeader "PROJ_SUFFIX" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "PROJ_SUFFIX" ;
+	rdfs:range rdfs:Literal .
+
+raw:nbi_type_of_imp a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "127"^^xsd:integer ;
+	ov:csvHeader "NBI_TYPE_OF_IMP" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "NBI_TYPE_OF_IMP" ;
+	rdfs:range rdfs:Literal .
+
+raw:dtl_type_of_imp a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "128"^^xsd:integer ;
+	ov:csvHeader "DTL_TYPE_OF_IMP" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "DTL_TYPE_OF_IMP" ;
+	rdfs:range rdfs:Literal .
+
+raw:special_code a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "129"^^xsd:integer ;
+	ov:csvHeader "SPECIAL_CODE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "SPECIAL_CODE" ;
+	rdfs:range rdfs:Literal .
+
+raw:step_code a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "130"^^xsd:integer ;
+	ov:csvHeader "STEP_CODE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "STEP_CODE" ;
+	rdfs:range rdfs:Literal .
+
+raw:status a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "131"^^xsd:integer ;
+	ov:csvHeader "STATUS" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "STATUS" ;
+	rdfs:range rdfs:Literal .
+
+raw:sufficiency_asterc a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "132"^^xsd:integer ;
+	ov:csvHeader "SUFFICIENCY_ASTERC" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "SUFFICIENCY_ASTERC" ;
+	rdfs:range rdfs:Literal .
+
+raw:sufficiency_rating a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "133"^^xsd:integer ;
+	ov:csvHeader "SUFFICIENCY_RATING" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	rdfs:label "SUFFICIENCY_RATING" ;
+	rdfs:range rdfs:Literal .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd2: <http://www.w3.org/TR/xmlschema-2/#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix conversion: <http://purl.org/twc/vocab/conversion/> .
+@prefix ov: <http://open.vocab.org/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix scovo: <http://purl.org/NET/scovo#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix frbrcore: <http://purl.org/vocab/frbr/core#> .
+@prefix coin: <http://purl.org/court/def/2009/coin#> .
+@prefix bridges-in-ny: <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/> .
+@prefix fhwa-dot-gov_vocab: <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/vocab/> .
+@prefix base_vocab: <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/vocab/> .
+@prefix bridges-in-ny_vocab: <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/vocab/> .
+@prefix raw: <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/vocab/raw/> .
+@prefix bridges-in-ny_global_value: <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/void.ttl> a void:DatasetDescription ;
+	foaf:topic <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny> ;
+	foaf:primaryTopic <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/void> .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/void> a void:Dataset ;
+	void:subset <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny> .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny> a fhwa-dot-gov_vocab:Dataset , conversion:Dataset , conversion:AbstractDataset , void:Dataset ;
+	conversion:base_uri "https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#" ;
+	conversion:source_identifier "fhwa-dot-gov" ;
+	conversion:dataset_identifier "bridges-in-ny" ;
+	dcterms:contributor <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov> ;
+	dcterms:identifier "fhwa-dot-gov bridges-in-ny" ;
+	foaf:isPrimaryTopicOf <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset_page/bridges-in-ny> ;
+	void:subset <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04> , <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/subset/meta> ;
+	dcterms:modified "2013-04-05T17:50:44.252-05:00"^^xsd:dateTime .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04> a fhwa-dot-gov_vocab:Dataset , conversion:Dataset , conversion:VersionedDataset , void:Dataset ;
+	conversion:base_uri "https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#" ;
+	conversion:source_identifier "fhwa-dot-gov" ;
+	conversion:dataset_identifier "bridges-in-ny" ;
+	conversion:version_identifier "2013-Apr-04" ;
+	conversion:dataset_version "2013-Apr-04" ;
+	dcterms:contributor <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov> ;
+	dcterms:identifier "fhwa-dot-gov bridges-in-ny 2013-Apr-04" ;
+	dcterms:modified "2013-04-05T17:50:44.252-05:00"^^xsd:dateTime ;
+	foaf:isPrimaryTopicOf <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset_page/bridges-in-ny/version/2013-Apr-04> ;
+	void:dataDump <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/file/bridges-in-ny/version/2013-Apr-04/conversion/fhwa-dot-gov-bridges-in-ny-2013-Apr-04.ttl.gz> ;
+	void:subset <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> a fhwa-dot-gov_vocab:Dataset , conversion:Dataset , conversion:LayerDataset , void:Dataset , conversion:RawDataset ;
+	dcterms:modified "2013-04-05T17:50:44.252-05:00"^^xsd:dateTime ;
+	conversion:base_uri "https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#" ;
+	conversion:source_identifier "fhwa-dot-gov" ;
+	conversion:dataset_identifier "bridges-in-ny" ;
+	conversion:version_identifier "2013-Apr-04" ;
+	conversion:dataset_version "2013-Apr-04" ;
+	conversion:conversion_identifier "raw" ;
+	foaf:isPrimaryTopicOf <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset_page/bridges-in-ny/version/2013-Apr-04/conversion/raw> ;
+	void:dataDump <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/file/bridges-in-ny/version/2013-Apr-04/conversion/fhwa-dot-gov-bridges-in-ny-2013-Apr-04.raw.ttl.gz> ;
+	void:subset <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw/subset/sample> ;
+	conversion:uses_predicate raw:place_code_004 , raw:pier_protection_111 , raw:scour_critical_113 , raw:deck_cond_058 , raw:othr_state_struc_no_099 , raw:other_state_pcnt_098b , raw:degrees_skew_034 , raw:structure_number_008 , raw:bridge_len_ind_112 , raw:percent_adt_truck_109 , raw:history_037 , raw:adt_029 , raw:remarks , raw:fracture_last_date_093a , raw:status , raw:undwater_last_date_093b , raw:navigation_038 , raw:left_curb_mt_050a , raw:deduct_code , raw:traffic_lanes_und_028b , raw:surface_type_108a , raw:appr_rail_end_036d , raw:structure_flared_035 , raw:county_code_003 , raw:sufficiency_asterc , raw:bridge_imp_cost_094 , raw:railings_036a , raw:proj_suffix , raw:culvert_cond_062 , raw:route_number_005d , raw:undclrence_eval_069 , raw:subroute_no_013b , raw:work_proposed_075a , raw:maintenance_021 , raw:structure_kind_043a , raw:design_load_031 , raw:strahnet_highway_100 , dcterms:isReferencedBy , raw:posting_eval_070 , raw:kilopoint_011 , raw:route_prefix_005b , raw:structure_type_043b , raw:date_of_inspect_090 , raw:vert_clr_over_mt_053 , raw:appr_kind_044a , raw:owner_022 , raw:date_last_update , raw:operating_rating_064 , raw:deck_protection_108c , raw:appr_road_eval_072 , raw:special_code , raw:structure_len_mt_049 , raw:inventory_rating_066 , raw:highway_district_002 , raw:right_curb_mt_050b , raw:total_imp_cost_096 , raw:direction_005e , raw:roadway_width_mt_051 , raw:substructure_cond_060 , raw:vert_clr_und_ref_054a , raw:superstructure_cond_059 , raw:fed_agency , raw:channel_cond_061 , raw:imp_len_mt_076 , raw:year_of_future_adt_115 , raw:base_hwy_network_012 , raw:federal_lands_105 , raw:membrane_type_108b , raw:other_state_code_098a , raw:service_und_042b , ov:csvRow , raw:horr_clr_mt_047 , raw:inspect_freq_months_091 , raw:min_nav_clr_mt_116 , raw:long_017 , raw:structural_eval_067 , raw:waterway_eval_071 , raw:year_adt_030 , raw:roadway_imp_cost_095 , raw:future_adt_114 , raw:type_last_update , raw:median_code_033 , raw:detour_kilos_019 , raw:step_code , raw:year_reconstructed_106 , raw:location_009 , raw:max_span_len_mt_048 , raw:proj_no , raw:fracture_092a , raw:appr_spans_046 , raw:nav_vert_clr_mt_039 , raw:service_on_042a , raw:lat_und_ref_055a , raw:temp_structure_103 , raw:spec_inspect_092c , raw:traffic_direction_102 , raw:lrs_inv_route_013a , raw:undwater_look_see_092b , void:inDataset , raw:highway_system_104 , raw:appr_rail_036c , raw:critical_facility_006b , raw:nav_horr_clr_mt_040 , raw:functional_class_026 , raw:features_desc_006a , raw:sufficiency_rating , raw:year_built_027 , raw:facility_carried_007 , raw:service_level_005c , raw:work_done_by_075b , raw:open_closed_posted_041 , raw:opr_rating_meth_063 , raw:transitions_036b , raw:left_lat_und_mt_056 , raw:traffic_lanes_on_028a , raw:deck_structure_type_107 , raw:appr_width_mt_032 , raw:toll_020 , raw:year_of_imp_097 , raw:lat_016 , raw:appr_type_044b , raw:parallel_structure_101 , raw:record_type_005a , raw:dtl_type_of_imp , raw:main_unit_spans_045 , raw:deck_width_mt_052 , raw:lat_und_mt_055b , raw:program_code , raw:min_vert_clr_010 , raw:vert_clr_und_054b , raw:spec_last_date_093c , raw:state_code_001 , raw:nbi_type_of_imp , raw:national_network_110 , raw:deck_geometry_eval_068 , raw:inv_rating_meth_065 ;
+	void:vocabulary <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> , <http://purl.org/dc/terms/> , <http://open.vocab.org/terms/> , <http://rdfs.org/ns/void#> .
+
+raw:place_code_004 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:pier_protection_111 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:scour_critical_113 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:deck_cond_058 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:othr_state_struc_no_099 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:other_state_pcnt_098b rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:degrees_skew_034 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:structure_number_008 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:bridge_len_ind_112 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:percent_adt_truck_109 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:history_037 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:adt_029 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:remarks rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:fracture_last_date_093a rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:status rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:undwater_last_date_093b rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:navigation_038 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:left_curb_mt_050a rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:deduct_code rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:traffic_lanes_und_028b rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:surface_type_108a rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:appr_rail_end_036d rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:structure_flared_035 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:county_code_003 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:sufficiency_asterc rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:bridge_imp_cost_094 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:railings_036a rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:proj_suffix rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:culvert_cond_062 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:route_number_005d rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:undclrence_eval_069 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:subroute_no_013b rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:work_proposed_075a rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:maintenance_021 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:structure_kind_043a rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:design_load_031 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:strahnet_highway_100 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+dcterms:isReferencedBy rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://purl.org/dc> .
+
+raw:posting_eval_070 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:kilopoint_011 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:route_prefix_005b rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:structure_type_043b rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:date_of_inspect_090 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:vert_clr_over_mt_053 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:appr_kind_044a rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:owner_022 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:date_last_update rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:operating_rating_064 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:deck_protection_108c rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:appr_road_eval_072 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:special_code rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:structure_len_mt_049 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:inventory_rating_066 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:highway_district_002 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:right_curb_mt_050b rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:total_imp_cost_096 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:direction_005e rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:roadway_width_mt_051 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:substructure_cond_060 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:vert_clr_und_ref_054a rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:superstructure_cond_059 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:fed_agency rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:channel_cond_061 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:imp_len_mt_076 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:year_of_future_adt_115 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:base_hwy_network_012 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:federal_lands_105 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:membrane_type_108b rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:other_state_code_098a rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:service_und_042b rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+ov:csvRow rdfs:isDefinedBy <http://open.vocab.org/terms/> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://open.vocab.org> .
+
+raw:horr_clr_mt_047 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:inspect_freq_months_091 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:min_nav_clr_mt_116 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:long_017 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:structural_eval_067 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:waterway_eval_071 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:year_adt_030 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:roadway_imp_cost_095 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:future_adt_114 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:type_last_update rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:median_code_033 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:detour_kilos_019 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:step_code rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:year_reconstructed_106 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:location_009 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:max_span_len_mt_048 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:proj_no rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:fracture_092a rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:appr_spans_046 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:nav_vert_clr_mt_039 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:service_on_042a rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:lat_und_ref_055a rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:temp_structure_103 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:spec_inspect_092c rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:traffic_direction_102 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:lrs_inv_route_013a rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:undwater_look_see_092b rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+void:inDataset rdfs:isDefinedBy <http://rdfs.org/ns/void#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://rdfs.org> .
+
+raw:highway_system_104 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:appr_rail_036c rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:critical_facility_006b rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:nav_horr_clr_mt_040 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:functional_class_026 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:features_desc_006a rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:sufficiency_rating rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:year_built_027 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:facility_carried_007 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:service_level_005c rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:work_done_by_075b rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:open_closed_posted_041 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:opr_rating_meth_063 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:transitions_036b rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:left_lat_und_mt_056 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:traffic_lanes_on_028a rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:deck_structure_type_107 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:appr_width_mt_032 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:toll_020 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:year_of_imp_097 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:lat_016 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:appr_type_044b rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:parallel_structure_101 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:record_type_005a rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:dtl_type_of_imp rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:main_unit_spans_045 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:deck_width_mt_052 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:lat_und_mt_055b rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:program_code rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:min_vert_clr_010 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:vert_clr_und_054b rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:spec_last_date_093c rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:state_code_001 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:nbi_type_of_imp rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:national_network_110 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:deck_geometry_eval_068 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:inv_rating_meth_065 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> void:exampleResource bridges-in-ny:thing_2 , bridges-in-ny:thing_22695 ;
+	dcterms:created "2013-04-05T17:49:55.825-05:00"^^xsd:dateTime ;
+	dcterms:contributor <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov> ;
+	dcterms:identifier "fhwa-dot-gov bridges-in-ny 2013-Apr-04 raw" .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw/subset/sample> a fhwa-dot-gov_vocab:Dataset , conversion:Dataset , conversion:DatasetSample , void:Dataset ;
+	conversion:base_uri "https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#" ;
+	conversion:source_identifier "fhwa-dot-gov" ;
+	conversion:dataset_identifier "bridges-in-ny" ;
+	conversion:version_identifier "2013-Apr-04" ;
+	conversion:dataset_version "2013-Apr-04" ;
+	conversion:conversion_identifier "raw" ;
+	dcterms:modified "2013-04-05T17:50:44.252-05:00"^^xsd:dateTime ;
+	foaf:isPrimaryTopicOf <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset_page/bridges-in-ny/version/2013-Apr-04/conversion/raw/subset/sample> ;
+	void:dataDump <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/file/bridges-in-ny/version/2013-Apr-04/conversion/fhwa-dot-gov-bridges-in-ny-2013-Apr-04.raw.sample.ttl> .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/file/bridges-in-ny/version/2013-Apr-04/conversion/fhwa-dot-gov-bridges-in-ny-2013-Apr-04.raw.sample.ttl> dcterms:format <http://www.w3.org/ns/formats/Turtle> .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov> a foaf:Agent ;
+	dcterms:identifier "fhwa-dot-gov" ;
+	foaf:isPrimaryTopicOf <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source_page/fhwa-dot-gov> .
+
+_:node17ne2qokcx3 vann:preferredNamespacePrefix "rdf" ;
+	vann:preferredNamespaceUri "http://www.w3.org/1999/02/22-rdf-syntax-ns#" .
+
+_:node17ne2qokcx4 vann:preferredNamespacePrefix "rdfs" ;
+	vann:preferredNamespaceUri "http://www.w3.org/2000/01/rdf-schema#" .
+
+_:node17ne2qokcx5 vann:preferredNamespacePrefix "xsd" ;
+	vann:preferredNamespaceUri "http://www.w3.org/2001/XMLSchema#" .
+
+_:node17ne2qokcx6 vann:preferredNamespacePrefix "xsd2" ;
+	vann:preferredNamespaceUri "http://www.w3.org/TR/xmlschema-2/#" .
+
+_:node17ne2qokcx7 vann:preferredNamespacePrefix "owl" ;
+	vann:preferredNamespaceUri "http://www.w3.org/2002/07/owl#" .
+
+_:node17ne2qokcx8 vann:preferredNamespacePrefix "conversion" ;
+	vann:preferredNamespaceUri "http://purl.org/twc/vocab/conversion/" .
+
+_:node17ne2qokcx9 vann:preferredNamespacePrefix "ov" ;
+	vann:preferredNamespaceUri "http://open.vocab.org/terms/" .
+
+_:node17ne2qokcx10 vann:preferredNamespacePrefix "dcterms" ;
+	vann:preferredNamespaceUri "http://purl.org/dc/terms/" .
+
+_:node17ne2qokcx11 vann:preferredNamespacePrefix "foaf" ;
+	vann:preferredNamespaceUri "http://xmlns.com/foaf/0.1/" .
+
+_:node17ne2qokcx12 vann:preferredNamespacePrefix "void" ;
+	vann:preferredNamespaceUri "http://rdfs.org/ns/void#" .
+
+_:node17ne2qokcx13 vann:preferredNamespacePrefix "doap" ;
+	vann:preferredNamespaceUri "http://usefulinc.com/ns/doap#" .
+
+_:node17ne2qokcx14 vann:preferredNamespacePrefix "scovo" ;
+	vann:preferredNamespaceUri "http://purl.org/NET/scovo#" .
+
+_:node17ne2qokcx15 vann:preferredNamespacePrefix "qb" ;
+	vann:preferredNamespaceUri "http://purl.org/linked-data/cube#" .
+
+_:node17ne2qokcx16 vann:preferredNamespacePrefix "vann" ;
+	vann:preferredNamespaceUri "http://purl.org/vocab/vann/" .
+
+_:node17ne2qokcx17 vann:preferredNamespacePrefix "frbrcore" ;
+	vann:preferredNamespaceUri "http://purl.org/vocab/frbr/core#" .
+
+_:node17ne2qokcx18 vann:preferredNamespacePrefix "coin" ;
+	vann:preferredNamespaceUri "http://purl.org/court/def/2009/coin#" .
+
+_:node17ne2qokcx19 vann:preferredNamespacePrefix "bridges-in-ny" ;
+	vann:preferredNamespaceUri "https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/" .
+
+_:node17ne2qokcx20 vann:preferredNamespacePrefix "fhwa-dot-gov_vocab" ;
+	vann:preferredNamespaceUri "https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/vocab/" .
+
+_:node17ne2qokcx21 vann:preferredNamespacePrefix "base_vocab" ;
+	vann:preferredNamespaceUri "https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/vocab/" .
+
+_:node17ne2qokcx22 vann:preferredNamespacePrefix "bridges-in-ny_vocab" ;
+	vann:preferredNamespaceUri "https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/vocab/" .
+
+_:node17ne2qokcx23 vann:preferredNamespacePrefix "raw" ;
+	vann:preferredNamespaceUri "https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/vocab/raw/" .
+
+_:node17ne2qokcx24 vann:preferredNamespacePrefix "bridges-in-ny_global_value" ;
+	vann:preferredNamespaceUri "https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/" .
+
+_:node17ne2qokcx25 vann:preferredNamespacePrefix "sioc" ;
+	vann:preferredNamespaceUri "http://rdfs.org/sioc/ns#" .
+
+_:node17ne2qokcx2 rdfs:seeAlso _:node17ne2qokcx3 , _:node17ne2qokcx4 , _:node17ne2qokcx5 , _:node17ne2qokcx6 , _:node17ne2qokcx7 , _:node17ne2qokcx8 , _:node17ne2qokcx9 , _:node17ne2qokcx10 , _:node17ne2qokcx11 , _:node17ne2qokcx12 , _:node17ne2qokcx13 , _:node17ne2qokcx14 , _:node17ne2qokcx15 , _:node17ne2qokcx16 , _:node17ne2qokcx17 , _:node17ne2qokcx18 , _:node17ne2qokcx19 , _:node17ne2qokcx20 , _:node17ne2qokcx21 , _:node17ne2qokcx22 , _:node17ne2qokcx23 , _:node17ne2qokcx24 , _:node17ne2qokcx25 .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/provenance/bridges-in-ny/version/2013-Apr-04/conversion/raw/nodeset_1> a <http://inference-web.org/2.0/pml-justification.owl#NodeSet> ;
+	<http://inference-web.org/2.0/pml-justification.owl#hasConclusion> <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/file/bridges-in-ny/version/2013-Apr-04/conversion/fhwa-dot-gov-bridges-in-ny-2013-Apr-04.raw.ttl.gz> ;
+	<http://inference-web.org/2.0/pml-justification.owl#isConsequentOf> <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/provenance/bridges-in-ny/version/2013-Apr-04/conversion/raw/infstep_1> .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/provenance/bridges-in-ny/version/2013-Apr-04/conversion/raw/nodeset_2> a <http://inference-web.org/2.0/pml-justification.owl#NodeSet> ;
+	<http://inference-web.org/2.0/pml-justification.owl#hasConclusion> <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/file/bridges-in-ny/version/2013-Apr-04/conversion/fhwa-dot-gov-bridges-in-ny-2013-Apr-04.raw.sample.ttl> ;
+	<http://inference-web.org/2.0/pml-justification.owl#isConsequentOf> <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/provenance/bridges-in-ny/version/2013-Apr-04/conversion/raw/infstep_1> .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/provenance/bridges-in-ny/version/2013-Apr-04/conversion/raw/nodeset_3> a <http://inference-web.org/2.0/pml-justification.owl#NodeSet> ;
+	<http://inference-web.org/2.0/pml-justification.owl#hasConclusion> <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/file/bridges-in-ny/version/2013-Apr-04/conversion/fhwa-dot-gov-bridges-in-ny-2013-Apr-04.ttl.gz> ;
+	<http://inference-web.org/2.0/pml-justification.owl#isConsequentOf> <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/provenance/bridges-in-ny/version/2013-Apr-04/conversion/raw/infstep_1> .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/provenance/bridges-in-ny/version/2013-Apr-04/conversion/raw/infstep_1> a <http://inference-web.org/2.0/pml-justification.owl#InferenceStep> ;
+	<http://inference-web.org/2.0/pml-justification.owl#hasInferenceEngine> _:node17ne2qokcx1 ;
+	<http://inference-web.org/2.0/pml-justification.owl#hasAntecedentList> _:node17ne2qokcx26 ;
+	<http://inference-web.org/2.1exper/pml-provenance.owl#hasAntecedentRole> _:node17ne2qokcx27 , _:node17ne2qokcx28 .
+
+<http://purl.org/twc/id/software/csv2rdf4lod> <http://www.w3.org/2000/10/swap/pim/contact#preferredURI> _:node17ne2qokcx1 .
+
+<http://data.lod2.eu/2011/tools/CSV2RDF4LOD> <http://www.w3.org/2000/10/swap/pim/contact#preferredURI> _:node17ne2qokcx1 .
+
+<http://data-gov.tw.rpi.edu/wiki/Special:URIResolver/csv2rdf4lod> <http://www.w3.org/2000/10/swap/pim/contact#preferredURI> _:node17ne2qokcx1 .
+
+_:node17ne2qokcx1 a <http://inference-web.org/2.0/pml-provenance.owl#InferenceEngine> , doap:Version ;
+	dcterms:version "2013-Jan-16" ;
+	doap:revision "2013-Jan-16" ;
+	doap:platform "Java" ;
+	<http://www.w3.org/ns/prov#specializationOf> <http://data-gov.tw.rpi.edu/wiki/Special:URIResolver/csv2rdf4lod> .
+
+<http://purl.org/twc/id/software/csv2rdf4lod> rdfs:seeAlso <https://github.com/timrdf/csv2rdf4lod-automation/wiki> .
+
+<http://data-gov.tw.rpi.edu/wiki/Special:URIResolver/csv2rdf4lod> a doap:Project ;
+	doap:implements <http://data-gov.tw.rpi.edu/wiki/Special:URIResolver/URI_design_for_RDF_conversion_of_CSV-based_data> , <http://purl.org/twc/vocab/conversion/> ;
+	dcterms:author <http://tw.rpi.edu/instances/TimLebo> ;
+	doap:developer <http://tw.rpi.edu/instances/TimLebo> , <http://tw.rpi.edu/instances/GregoryToddWilliams> , <http://kasei.us/about/foaf.xrdf#greg> , <http://tw.rpi.edu/instances/JamesMcCusker> , <http://tw.rpi.edu/instances/ZhenningShangguan> ;
+	doap:maintainer <http://tw.rpi.edu/instances/TimLebo> ;
+	doap:documenter <http://tw.rpi.edu/instances/TimLebo> , <http://tw.rpi.edu/instances/JohannaFlores> , <http://tw.rpi.edu/instances/LiDing> , <http://tw.rpi.edu/instances/GinoGervasio> ;
+	doap:helper <http://tw.rpi.edu/instances/AlvaroGraves> , <http://tw.rpi.edu/instances/DominicDiFranzo> , <http://tw.rpi.edu/instances/GinoGervasio> , <http://tw.rpi.edu/instances/PingWang> , <http://tw.rpi.edu/instances/XianLi> , <http://tw.rpi.edu/instances/JamesMcCusker> , <http://www.w3.org/People/Eric/ericP-foaf#ericP> , <http://tw.rpi.edu/instances/AnkitSrivastava> , <http://purl.org/twc/id/person/Maryam_Fazel-Zarandi> , <http://tw.rpi.edu/instances/AlexanderLahuerta> ;
+	doap:homepage <https://github.com/timrdf/csv2rdf4lod-automation/wiki> ;
+	doap:audience "Data modelers and architects that need (potentially non-RDB) tabular data encoded within the Resource Description Framework." ;
+	doap:shortdesc "Converts CSV files to RDF using parameters specified by http://purl.org/twc/vocab/conversion/" ;
+	doap:description "Converts CSV files to RDF using parameters specified by http://purl.org/twc/vocab/conversion/. Organizes datasets using 'source', 'dataset', and 'version' identifiers to allow for third-party aggregation, refinement, and integration of third-party data. Uses predicate 'layers' to allow backward-compatible refinements of Resources' descriptions. Minimizes human error and increases transparancy of conversion by using RDF-encoded interpretation parameters to control all processing." .
+
+_:node17ne2qokcx29 a doap:GitRepository ;
+	foaf:isPrimaryTopicOf <https://github.com/timrdf/csv2rdf4lod-automation> ;
+	doap:browse <https://github.com/timrdf/csv2rdf4lod-automation> .
+
+<http://tw.rpi.edu/instances/GregoryToddWilliams> <http://www.w3.org/2000/10/swap/pim/contact#preferredURI> <http://kasei.us/about/foaf.xrdf#greg> .
+
+<http://tw.rpi.edu/instances/AlvaroGraves> <http://www.w3.org/2000/10/swap/pim/contact#preferredURI> <http://alvaro.graves.cl> .
+
+<http://purl.org/twc/id/person/TimLebo> <http://www.w3.org/2000/10/swap/pim/contact#preferredURI> <http://tw.rpi.edu/instances/TimLebo> .
+
+<http://tw.rpi.edu/wiki/Special:URIResolver/Tim_Lebo> <http://www.w3.org/2000/10/swap/pim/contact#preferredURI> <http://tw.rpi.edu/instances/TimLebo> .
+
+<http://www.cs.rpi.edu/~weavej3/r/Tim_Lebo> <http://www.w3.org/2000/10/swap/pim/contact#preferredURI> <http://tw.rpi.edu/instances/TimLebo> .
+
+<http://purl.org/twc/id/person/Maryam_Fazel-Zarandi> <http://www.w3.org/2000/10/swap/pim/contact#preferredURI> <http://tw.rpi.edu/instances/MaryamFazel-Zarandi> .
+
+_:node17ne2qokcx26 a rdf:List ;
+	rdf:first <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/provenance/bridges-in-ny/version/2013-Apr-04/conversion/raw/nodeset_4> .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/provenance/bridges-in-ny/version/2013-Apr-04/conversion/raw/nodeset_4> a <http://inference-web.org/2.0/pml-justification.owl#NodeSet> ;
+	<http://inference-web.org/2.0/pml-justification.owl#hasConclusion> <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/filebridges-in-ny/version/2013-Apr-04/source/NY12.txt.csv> .
+
+_:node17ne2qokcx26 rdf:rest _:node17ne2qokcx30 .
+
+_:node17ne2qokcx30 a rdf:List ;
+	rdf:first <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/provenance/bridges-in-ny/version/2013-Apr-04/conversion/raw/nodeset_5> .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/provenance/bridges-in-ny/version/2013-Apr-04/conversion/raw/nodeset_5> a <http://inference-web.org/2.0/pml-justification.owl#NodeSet> ;
+	<http://inference-web.org/2.0/pml-justification.owl#hasConclusion> <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/filebridges-in-ny/version/2013-Apr-04/automatic/NY12.txt.csv.raw.params.ttl> .
+
+_:node17ne2qokcx28 <http://inference-web.org/2.1exper/pml-provenance.owl#hasRole> <http://inference-web.org/registry/ROLE/Parameters.owl#Parameters> .
+
+_:node17ne2qokcx30 rdf:rest rdf:nil .
+
+_:node17ne2qokcx27 a <http://inference-web.org/2.1exper/pml-provenance.owl#AntecedentRole> ;
+	<http://inference-web.org/2.1exper/pml-provenance.owl#hasAntecedent> <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/filebridges-in-ny/version/2013-Apr-04/source/NY12.txt.csv> ;
+	<http://inference-web.org/2.1exper/pml-provenance.owl#hasRole> <http://inference-web.org/registry/ROLE/Input.owl#Input> .
+
+_:node17ne2qokcx28 a <http://inference-web.org/2.1exper/pml-provenance.owl#AntecedentRole> ;
+	<http://inference-web.org/2.1exper/pml-provenance.owl#hasAntecedent> <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/filebridges-in-ny/version/2013-Apr-04/automatic/NY12.txt.csv.raw.params.ttl> .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/filebridges-in-ny/version/2013-Apr-04/source/NY12.txt.csv> a <http://inference-web.org/2.0/pml-provenance.owl#Information> ;
+	<http://inference-web.org/2.0/pml-provenance.owl#hasFormat> <http://iw.cs.utep.edu/registry/FMT/text/CSV.owl#CSV> .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/filebridges-in-ny/version/2013-Apr-04/automatic/NY12.txt.csv.raw.params.ttl> a <http://inference-web.org/2.0/pml-provenance.owl#Information> ;
+	<http://inference-web.org/2.0/pml-provenance.owl#hasFormat> <http://inference-web.org/registry/FMT/RDFAbstractSyntax.owl#RDFAbstractSyntax> .
+
+conversion:SameAsDataset rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:uses_class rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:has_version rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:MetaDataset rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:num_triples rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:enhances rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:enhancement_layer rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:DatasetSample rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:source_identifier rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:VersionedDataset rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:LayerDataset rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:base_uri rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:uses_predicate rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:interpretation rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:symbol rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:dataset_identifier rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:conversion_identifier rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:AbstractDataset rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:null rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:subject_discriminator rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:Dataset rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:version_identifier rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> conversion:base_uri "https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#"^^xsd:anyURI .
+
+_:node17ne2qolix1 a conversion:RawConversionProcess ;
+	conversion:conversion_identifier "raw" .
+
+_:node17ne2qolix2 a foaf:OnlineAccount ;
+	foaf:accountName "oshani" .
+
+_:node17ne2qolix1 dcterms:creator _:node17ne2qolix2 ;
+	dcterms:created "2013-04-05T17:49:51-04:00"^^xsd:dateTime ;
+	conversion:delimits_cell "," .
+
+_:node17ne2qolix3 ov:csvCol "1"^^xsd:integer ;
+	ov:csvHeader "STATE_CODE_001" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix3 .
+
+_:node17ne2qolix4 ov:csvCol "2"^^xsd:integer ;
+	ov:csvHeader "STRUCTURE_NUMBER_008" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix4 .
+
+_:node17ne2qolix5 ov:csvCol "3"^^xsd:integer ;
+	ov:csvHeader "RECORD_TYPE_005A" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix5 .
+
+_:node17ne2qolix6 ov:csvCol "4"^^xsd:integer ;
+	ov:csvHeader "ROUTE_PREFIX_005B" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix6 .
+
+_:node17ne2qolix7 ov:csvCol "5"^^xsd:integer ;
+	ov:csvHeader "SERVICE_LEVEL_005C" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix7 .
+
+_:node17ne2qolix8 ov:csvCol "6"^^xsd:integer ;
+	ov:csvHeader "ROUTE_NUMBER_005D" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix8 .
+
+_:node17ne2qolix9 ov:csvCol "7"^^xsd:integer ;
+	ov:csvHeader "DIRECTION_005E" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix9 .
+
+_:node17ne2qolix10 ov:csvCol "8"^^xsd:integer ;
+	ov:csvHeader "HIGHWAY_DISTRICT_002" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix10 .
+
+_:node17ne2qolix11 ov:csvCol "9"^^xsd:integer ;
+	ov:csvHeader "COUNTY_CODE_003" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix11 .
+
+_:node17ne2qolix12 ov:csvCol "10"^^xsd:integer ;
+	ov:csvHeader "PLACE_CODE_004" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix12 .
+
+_:node17ne2qolix13 ov:csvCol "11"^^xsd:integer ;
+	ov:csvHeader "FEATURES_DESC_006A" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix13 .
+
+_:node17ne2qolix14 ov:csvCol "12"^^xsd:integer ;
+	ov:csvHeader "CRITICAL_FACILITY_006B" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix14 .
+
+_:node17ne2qolix15 ov:csvCol "13"^^xsd:integer ;
+	ov:csvHeader "FACILITY_CARRIED_007" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix15 .
+
+_:node17ne2qolix16 ov:csvCol "14"^^xsd:integer ;
+	ov:csvHeader "LOCATION_009" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix16 .
+
+_:node17ne2qolix17 ov:csvCol "15"^^xsd:integer ;
+	ov:csvHeader "MIN_VERT_CLR_010" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix17 .
+
+_:node17ne2qolix18 ov:csvCol "16"^^xsd:integer ;
+	ov:csvHeader "KILOPOINT_011" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix18 .
+
+_:node17ne2qolix19 ov:csvCol "17"^^xsd:integer ;
+	ov:csvHeader "BASE_HWY_NETWORK_012" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix19 .
+
+_:node17ne2qolix20 ov:csvCol "18"^^xsd:integer ;
+	ov:csvHeader "LRS_INV_ROUTE_013A" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix20 .
+
+_:node17ne2qolix21 ov:csvCol "19"^^xsd:integer ;
+	ov:csvHeader "SUBROUTE_NO_013B" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix21 .
+
+_:node17ne2qolix22 ov:csvCol "20"^^xsd:integer ;
+	ov:csvHeader "LAT_016" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix22 .
+
+_:node17ne2qolix23 ov:csvCol "21"^^xsd:integer ;
+	ov:csvHeader "LONG_017" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix23 .
+
+_:node17ne2qolix24 ov:csvCol "22"^^xsd:integer ;
+	ov:csvHeader "DETOUR_KILOS_019" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix24 .
+
+_:node17ne2qolix25 ov:csvCol "23"^^xsd:integer ;
+	ov:csvHeader "TOLL_020" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix25 .
+
+_:node17ne2qolix26 ov:csvCol "24"^^xsd:integer ;
+	ov:csvHeader "MAINTENANCE_021" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix26 .
+
+_:node17ne2qolix27 ov:csvCol "25"^^xsd:integer ;
+	ov:csvHeader "OWNER_022" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix27 .
+
+_:node17ne2qolix28 ov:csvCol "26"^^xsd:integer ;
+	ov:csvHeader "FUNCTIONAL_CLASS_026" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix28 .
+
+_:node17ne2qolix29 ov:csvCol "27"^^xsd:integer ;
+	ov:csvHeader "YEAR_BUILT_027" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix29 .
+
+_:node17ne2qolix30 ov:csvCol "28"^^xsd:integer ;
+	ov:csvHeader "TRAFFIC_LANES_ON_028A" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix30 .
+
+_:node17ne2qolix31 ov:csvCol "29"^^xsd:integer ;
+	ov:csvHeader "TRAFFIC_LANES_UND_028B" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix31 .
+
+_:node17ne2qolix32 ov:csvCol "30"^^xsd:integer ;
+	ov:csvHeader "ADT_029" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix32 .
+
+_:node17ne2qolix33 ov:csvCol "31"^^xsd:integer ;
+	ov:csvHeader "YEAR_ADT_030" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix33 .
+
+_:node17ne2qolix34 ov:csvCol "32"^^xsd:integer ;
+	ov:csvHeader "DESIGN_LOAD_031" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix34 .
+
+_:node17ne2qolix35 ov:csvCol "33"^^xsd:integer ;
+	ov:csvHeader "APPR_WIDTH_MT_032" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix35 .
+
+_:node17ne2qolix36 ov:csvCol "34"^^xsd:integer ;
+	ov:csvHeader "MEDIAN_CODE_033" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix36 .
+
+_:node17ne2qolix37 ov:csvCol "35"^^xsd:integer ;
+	ov:csvHeader "DEGREES_SKEW_034" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix37 .
+
+_:node17ne2qolix38 ov:csvCol "36"^^xsd:integer ;
+	ov:csvHeader "STRUCTURE_FLARED_035" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix38 .
+
+_:node17ne2qolix39 ov:csvCol "37"^^xsd:integer ;
+	ov:csvHeader "RAILINGS_036A" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix39 .
+
+_:node17ne2qolix40 ov:csvCol "38"^^xsd:integer ;
+	ov:csvHeader "TRANSITIONS_036B" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix40 .
+
+_:node17ne2qolix41 ov:csvCol "39"^^xsd:integer ;
+	ov:csvHeader "APPR_RAIL_036C" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix41 .
+
+_:node17ne2qolix42 ov:csvCol "40"^^xsd:integer ;
+	ov:csvHeader "APPR_RAIL_END_036D" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix42 .
+
+_:node17ne2qolix43 ov:csvCol "41"^^xsd:integer ;
+	ov:csvHeader "HISTORY_037" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix43 .
+
+_:node17ne2qolix44 ov:csvCol "42"^^xsd:integer ;
+	ov:csvHeader "NAVIGATION_038" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix44 .
+
+_:node17ne2qolix45 ov:csvCol "43"^^xsd:integer ;
+	ov:csvHeader "NAV_VERT_CLR_MT_039" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix45 .
+
+_:node17ne2qolix46 ov:csvCol "44"^^xsd:integer ;
+	ov:csvHeader "NAV_HORR_CLR_MT_040" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix46 .
+
+_:node17ne2qolix47 ov:csvCol "45"^^xsd:integer ;
+	ov:csvHeader "OPEN_CLOSED_POSTED_041" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix47 .
+
+_:node17ne2qolix48 ov:csvCol "46"^^xsd:integer ;
+	ov:csvHeader "SERVICE_ON_042A" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix48 .
+
+_:node17ne2qolix49 ov:csvCol "47"^^xsd:integer ;
+	ov:csvHeader "SERVICE_UND_042B" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix49 .
+
+_:node17ne2qolix50 ov:csvCol "48"^^xsd:integer ;
+	ov:csvHeader "STRUCTURE_KIND_043A" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix50 .
+
+_:node17ne2qolix51 ov:csvCol "49"^^xsd:integer ;
+	ov:csvHeader "STRUCTURE_TYPE_043B" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix51 .
+
+_:node17ne2qolix52 ov:csvCol "50"^^xsd:integer ;
+	ov:csvHeader "APPR_KIND_044A" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix52 .
+
+_:node17ne2qolix53 ov:csvCol "51"^^xsd:integer ;
+	ov:csvHeader "APPR_TYPE_044B" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix53 .
+
+_:node17ne2qolix54 ov:csvCol "52"^^xsd:integer ;
+	ov:csvHeader "MAIN_UNIT_SPANS_045" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix54 .
+
+_:node17ne2qolix55 ov:csvCol "53"^^xsd:integer ;
+	ov:csvHeader "APPR_SPANS_046" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix55 .
+
+_:node17ne2qolix56 ov:csvCol "54"^^xsd:integer ;
+	ov:csvHeader "HORR_CLR_MT_047" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix56 .
+
+_:node17ne2qolix57 ov:csvCol "55"^^xsd:integer ;
+	ov:csvHeader "MAX_SPAN_LEN_MT_048" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix57 .
+
+_:node17ne2qolix58 ov:csvCol "56"^^xsd:integer ;
+	ov:csvHeader "STRUCTURE_LEN_MT_049" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix58 .
+
+_:node17ne2qolix59 ov:csvCol "57"^^xsd:integer ;
+	ov:csvHeader "LEFT_CURB_MT_050A" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix59 .
+
+_:node17ne2qolix60 ov:csvCol "58"^^xsd:integer ;
+	ov:csvHeader "RIGHT_CURB_MT_050B" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix60 .
+
+_:node17ne2qolix61 ov:csvCol "59"^^xsd:integer ;
+	ov:csvHeader "ROADWAY_WIDTH_MT_051" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix61 .
+
+_:node17ne2qolix62 ov:csvCol "60"^^xsd:integer ;
+	ov:csvHeader "DECK_WIDTH_MT_052" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix62 .
+
+_:node17ne2qolix63 ov:csvCol "61"^^xsd:integer ;
+	ov:csvHeader "VERT_CLR_OVER_MT_053" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix63 .
+
+_:node17ne2qolix64 ov:csvCol "62"^^xsd:integer ;
+	ov:csvHeader "VERT_CLR_UND_REF_054A" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix64 .
+
+_:node17ne2qolix65 ov:csvCol "63"^^xsd:integer ;
+	ov:csvHeader "VERT_CLR_UND_054B" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix65 .
+
+_:node17ne2qolix66 ov:csvCol "64"^^xsd:integer ;
+	ov:csvHeader "LAT_UND_REF_055A" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix66 .
+
+_:node17ne2qolix67 ov:csvCol "65"^^xsd:integer ;
+	ov:csvHeader "LAT_UND_MT_055B" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix67 .
+
+_:node17ne2qolix68 ov:csvCol "66"^^xsd:integer ;
+	ov:csvHeader "LEFT_LAT_UND_MT_056" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix68 .
+
+_:node17ne2qolix69 ov:csvCol "67"^^xsd:integer ;
+	ov:csvHeader "DECK_COND_058" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix69 .
+
+_:node17ne2qolix70 ov:csvCol "68"^^xsd:integer ;
+	ov:csvHeader "SUPERSTRUCTURE_COND_059" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix70 .
+
+_:node17ne2qolix71 ov:csvCol "69"^^xsd:integer ;
+	ov:csvHeader "SUBSTRUCTURE_COND_060" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix71 .
+
+_:node17ne2qolix72 ov:csvCol "70"^^xsd:integer ;
+	ov:csvHeader "CHANNEL_COND_061" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix72 .
+
+_:node17ne2qolix73 ov:csvCol "71"^^xsd:integer ;
+	ov:csvHeader "CULVERT_COND_062" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix73 .
+
+_:node17ne2qolix74 ov:csvCol "72"^^xsd:integer ;
+	ov:csvHeader "OPR_RATING_METH_063" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix74 .
+
+_:node17ne2qolix75 ov:csvCol "73"^^xsd:integer ;
+	ov:csvHeader "OPERATING_RATING_064" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix75 .
+
+_:node17ne2qolix76 ov:csvCol "74"^^xsd:integer ;
+	ov:csvHeader "INV_RATING_METH_065" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix76 .
+
+_:node17ne2qolix77 ov:csvCol "75"^^xsd:integer ;
+	ov:csvHeader "INVENTORY_RATING_066" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix77 .
+
+_:node17ne2qolix78 ov:csvCol "76"^^xsd:integer ;
+	ov:csvHeader "STRUCTURAL_EVAL_067" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix78 .
+
+_:node17ne2qolix79 ov:csvCol "77"^^xsd:integer ;
+	ov:csvHeader "DECK_GEOMETRY_EVAL_068" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix79 .
+
+_:node17ne2qolix80 ov:csvCol "78"^^xsd:integer ;
+	ov:csvHeader "UNDCLRENCE_EVAL_069" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix80 .
+
+_:node17ne2qolix81 ov:csvCol "79"^^xsd:integer ;
+	ov:csvHeader "POSTING_EVAL_070" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix81 .
+
+_:node17ne2qolix82 ov:csvCol "80"^^xsd:integer ;
+	ov:csvHeader "WATERWAY_EVAL_071" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix82 .
+
+_:node17ne2qolix83 ov:csvCol "81"^^xsd:integer ;
+	ov:csvHeader "APPR_ROAD_EVAL_072" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix83 .
+
+_:node17ne2qolix84 ov:csvCol "82"^^xsd:integer ;
+	ov:csvHeader "WORK_PROPOSED_075A" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix84 .
+
+_:node17ne2qolix85 ov:csvCol "83"^^xsd:integer ;
+	ov:csvHeader "WORK_DONE_BY_075B" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix85 .
+
+_:node17ne2qolix86 ov:csvCol "84"^^xsd:integer ;
+	ov:csvHeader "IMP_LEN_MT_076" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix86 .
+
+_:node17ne2qolix87 ov:csvCol "85"^^xsd:integer ;
+	ov:csvHeader "DATE_OF_INSPECT_090" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix87 .
+
+_:node17ne2qolix88 ov:csvCol "86"^^xsd:integer ;
+	ov:csvHeader "INSPECT_FREQ_MONTHS_091" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix88 .
+
+_:node17ne2qolix89 ov:csvCol "87"^^xsd:integer ;
+	ov:csvHeader "FRACTURE_092A" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix89 .
+
+_:node17ne2qolix90 ov:csvCol "88"^^xsd:integer ;
+	ov:csvHeader "UNDWATER_LOOK_SEE_092B" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix90 .
+
+_:node17ne2qolix91 ov:csvCol "89"^^xsd:integer ;
+	ov:csvHeader "SPEC_INSPECT_092C" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix91 .
+
+_:node17ne2qolix92 ov:csvCol "90"^^xsd:integer ;
+	ov:csvHeader "FRACTURE_LAST_DATE_093A" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix92 .
+
+_:node17ne2qolix93 ov:csvCol "91"^^xsd:integer ;
+	ov:csvHeader "UNDWATER_LAST_DATE_093B" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix93 .
+
+_:node17ne2qolix94 ov:csvCol "92"^^xsd:integer ;
+	ov:csvHeader "SPEC_LAST_DATE_093C" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix94 .
+
+_:node17ne2qolix95 ov:csvCol "93"^^xsd:integer ;
+	ov:csvHeader "BRIDGE_IMP_COST_094" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix95 .
+
+_:node17ne2qolix96 ov:csvCol "94"^^xsd:integer ;
+	ov:csvHeader "ROADWAY_IMP_COST_095" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix96 .
+
+_:node17ne2qolix97 ov:csvCol "95"^^xsd:integer ;
+	ov:csvHeader "TOTAL_IMP_COST_096" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix97 .
+
+_:node17ne2qolix98 ov:csvCol "96"^^xsd:integer ;
+	ov:csvHeader "YEAR_OF_IMP_097" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix98 .
+
+_:node17ne2qolix99 ov:csvCol "97"^^xsd:integer ;
+	ov:csvHeader "OTHER_STATE_CODE_098A" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix99 .
+
+_:node17ne2qolix100 ov:csvCol "98"^^xsd:integer ;
+	ov:csvHeader "OTHER_STATE_PCNT_098B" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix100 .
+
+_:node17ne2qolix101 ov:csvCol "99"^^xsd:integer ;
+	ov:csvHeader "OTHR_STATE_STRUC_NO_099" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix101 .
+
+_:node17ne2qolix102 ov:csvCol "100"^^xsd:integer ;
+	ov:csvHeader "STRAHNET_HIGHWAY_100" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix102 .
+
+_:node17ne2qolix103 ov:csvCol "101"^^xsd:integer ;
+	ov:csvHeader "PARALLEL_STRUCTURE_101" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix103 .
+
+_:node17ne2qolix104 ov:csvCol "102"^^xsd:integer ;
+	ov:csvHeader "TRAFFIC_DIRECTION_102" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix104 .
+
+_:node17ne2qolix105 ov:csvCol "103"^^xsd:integer ;
+	ov:csvHeader "TEMP_STRUCTURE_103" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix105 .
+
+_:node17ne2qolix106 ov:csvCol "104"^^xsd:integer ;
+	ov:csvHeader "HIGHWAY_SYSTEM_104" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix106 .
+
+_:node17ne2qolix107 ov:csvCol "105"^^xsd:integer ;
+	ov:csvHeader "FEDERAL_LANDS_105" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix107 .
+
+_:node17ne2qolix108 ov:csvCol "106"^^xsd:integer ;
+	ov:csvHeader "YEAR_RECONSTRUCTED_106" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix108 .
+
+_:node17ne2qolix109 ov:csvCol "107"^^xsd:integer ;
+	ov:csvHeader "DECK_STRUCTURE_TYPE_107" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix109 .
+
+_:node17ne2qolix110 ov:csvCol "108"^^xsd:integer ;
+	ov:csvHeader "SURFACE_TYPE_108A" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix110 .
+
+_:node17ne2qolix111 ov:csvCol "109"^^xsd:integer ;
+	ov:csvHeader "MEMBRANE_TYPE_108B" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix111 .
+
+_:node17ne2qolix112 ov:csvCol "110"^^xsd:integer ;
+	ov:csvHeader "DECK_PROTECTION_108C" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix112 .
+
+_:node17ne2qolix113 ov:csvCol "111"^^xsd:integer ;
+	ov:csvHeader "PERCENT_ADT_TRUCK_109" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix113 .
+
+_:node17ne2qolix114 ov:csvCol "112"^^xsd:integer ;
+	ov:csvHeader "NATIONAL_NETWORK_110" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix114 .
+
+_:node17ne2qolix115 ov:csvCol "113"^^xsd:integer ;
+	ov:csvHeader "PIER_PROTECTION_111" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix115 .
+
+_:node17ne2qolix116 ov:csvCol "114"^^xsd:integer ;
+	ov:csvHeader "BRIDGE_LEN_IND_112" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix116 .
+
+_:node17ne2qolix117 ov:csvCol "115"^^xsd:integer ;
+	ov:csvHeader "SCOUR_CRITICAL_113" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix117 .
+
+_:node17ne2qolix118 ov:csvCol "116"^^xsd:integer ;
+	ov:csvHeader "FUTURE_ADT_114" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix118 .
+
+_:node17ne2qolix119 ov:csvCol "117"^^xsd:integer ;
+	ov:csvHeader "YEAR_OF_FUTURE_ADT_115" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix119 .
+
+_:node17ne2qolix120 ov:csvCol "118"^^xsd:integer ;
+	ov:csvHeader "MIN_NAV_CLR_MT_116" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix120 .
+
+_:node17ne2qolix121 ov:csvCol "119"^^xsd:integer ;
+	ov:csvHeader "FED_AGENCY" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix121 .
+
+_:node17ne2qolix122 ov:csvCol "120"^^xsd:integer ;
+	ov:csvHeader "DATE_LAST_UPDATE" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix122 .
+
+_:node17ne2qolix123 ov:csvCol "121"^^xsd:integer ;
+	ov:csvHeader "TYPE_LAST_UPDATE" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix123 .
+
+_:node17ne2qolix124 ov:csvCol "122"^^xsd:integer ;
+	ov:csvHeader "DEDUCT_CODE" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix124 .
+
+_:node17ne2qolix125 ov:csvCol "123"^^xsd:integer ;
+	ov:csvHeader "REMARKS" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix125 .
+
+_:node17ne2qolix126 ov:csvCol "124"^^xsd:integer ;
+	ov:csvHeader "PROGRAM_CODE" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix126 .
+
+_:node17ne2qolix127 ov:csvCol "125"^^xsd:integer ;
+	ov:csvHeader "PROJ_NO" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix127 .
+
+_:node17ne2qolix128 ov:csvCol "126"^^xsd:integer ;
+	ov:csvHeader "PROJ_SUFFIX" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix128 .
+
+_:node17ne2qolix129 ov:csvCol "127"^^xsd:integer ;
+	ov:csvHeader "NBI_TYPE_OF_IMP" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix129 .
+
+_:node17ne2qolix130 ov:csvCol "128"^^xsd:integer ;
+	ov:csvHeader "DTL_TYPE_OF_IMP" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix130 .
+
+_:node17ne2qolix131 ov:csvCol "129"^^xsd:integer ;
+	ov:csvHeader "SPECIAL_CODE" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix131 .
+
+_:node17ne2qolix132 ov:csvCol "130"^^xsd:integer ;
+	ov:csvHeader "STEP_CODE" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix132 .
+
+_:node17ne2qolix133 ov:csvCol "131"^^xsd:integer ;
+	ov:csvHeader "STATUS" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix133 .
+
+_:node17ne2qolix134 ov:csvCol "132"^^xsd:integer ;
+	ov:csvHeader "SUFFICIENCY_ASTERC" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix134 .
+
+_:node17ne2qolix135 ov:csvCol "133"^^xsd:integer ;
+	ov:csvHeader "SUFFICIENCY_RATING" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17ne2qolix1 conversion:enhance _:node17ne2qolix135 .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> conversion:conversion_process _:node17ne2qolix1 .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/subset/meta> a fhwa-dot-gov_vocab:Dataset , conversion:Dataset , conversion:MetaDataset , void:Dataset ;
+	conversion:base_uri "https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#" ;
+	conversion:source_identifier "fhwa-dot-gov" ;
+	conversion:dataset_identifier "bridges-in-ny" ;
+	dcterms:modified "2013-04-05T17:50:44.252-05:00"^^xsd:dateTime ;
+	foaf:isPrimaryTopicOf <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset_page/bridges-in-ny/subset/meta> ;
+	void:dataDump <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/file/bridges-in-ny/version/2013-Apr-04/conversion/fhwa-dot-gov-bridges-in-ny-2013-Apr-04.void.ttl.gz> .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> conversion:num_triples "3087320"^^xsd:integer ;
+	void:triples "3087320"^^xsd:integer ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/provenance/bridges-in-ny/version/2013-Apr-04/conversion/raw/translationActivity_3ada32f9-f023-4f67-9bdc-53439b64b749> .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/provenance/bridges-in-ny/version/2013-Apr-04/conversion/raw/translationActivity_3ada32f9-f023-4f67-9bdc-53439b64b749> a <http://www.w3.org/ns/prov#Activity> , <http://provenanceweb.org/ns/pml#TranslationActivity> ;
+	conversion:triples_per_minute "3825201.338124148"^^xsd:double ;
+	<http://www.w3.org/ns/prov#used> raw:place_code_004 , raw:pier_protection_111 , raw:scour_critical_113 , raw:deck_cond_058 , raw:othr_state_struc_no_099 , raw:other_state_pcnt_098b , raw:degrees_skew_034 , raw:structure_number_008 , raw:bridge_len_ind_112 , raw:percent_adt_truck_109 , raw:history_037 , raw:adt_029 , raw:remarks , raw:fracture_last_date_093a , raw:status , raw:undwater_last_date_093b , raw:navigation_038 , raw:left_curb_mt_050a , raw:deduct_code , raw:traffic_lanes_und_028b , raw:surface_type_108a , raw:appr_rail_end_036d , raw:structure_flared_035 , raw:county_code_003 , raw:sufficiency_asterc , raw:bridge_imp_cost_094 , raw:railings_036a , raw:proj_suffix , raw:culvert_cond_062 , raw:route_number_005d , raw:undclrence_eval_069 , raw:subroute_no_013b , raw:work_proposed_075a , raw:maintenance_021 , raw:structure_kind_043a , raw:design_load_031 , raw:strahnet_highway_100 , dcterms:isReferencedBy , raw:posting_eval_070 , raw:kilopoint_011 , raw:route_prefix_005b , raw:structure_type_043b , raw:date_of_inspect_090 , raw:vert_clr_over_mt_053 , raw:appr_kind_044a , raw:owner_022 , raw:date_last_update , raw:operating_rating_064 , raw:deck_protection_108c , raw:appr_road_eval_072 , raw:special_code , raw:structure_len_mt_049 , raw:inventory_rating_066 , raw:highway_district_002 , raw:right_curb_mt_050b , raw:total_imp_cost_096 , raw:direction_005e , raw:roadway_width_mt_051 , raw:substructure_cond_060 , raw:vert_clr_und_ref_054a , raw:superstructure_cond_059 , raw:fed_agency , raw:channel_cond_061 , raw:imp_len_mt_076 , raw:year_of_future_adt_115 , raw:base_hwy_network_012 , raw:federal_lands_105 , raw:membrane_type_108b , raw:other_state_code_098a , raw:service_und_042b , ov:csvRow , raw:horr_clr_mt_047 , raw:inspect_freq_months_091 , raw:min_nav_clr_mt_116 , raw:long_017 , raw:structural_eval_067 , raw:waterway_eval_071 , raw:year_adt_030 , raw:roadway_imp_cost_095 , raw:future_adt_114 , raw:type_last_update , raw:median_code_033 , raw:detour_kilos_019 , raw:step_code , raw:year_reconstructed_106 , raw:location_009 , raw:max_span_len_mt_048 , raw:proj_no , raw:fracture_092a , raw:appr_spans_046 , raw:nav_vert_clr_mt_039 , raw:service_on_042a , raw:lat_und_ref_055a , raw:temp_structure_103 , raw:spec_inspect_092c , raw:traffic_direction_102 , raw:lrs_inv_route_013a , raw:undwater_look_see_092b , void:inDataset , raw:highway_system_104 , raw:appr_rail_036c , raw:critical_facility_006b , raw:nav_horr_clr_mt_040 , raw:functional_class_026 , raw:features_desc_006a , raw:sufficiency_rating , raw:year_built_027 , raw:facility_carried_007 , raw:service_level_005c , raw:work_done_by_075b , raw:open_closed_posted_041 , raw:opr_rating_meth_063 , raw:transitions_036b , raw:left_lat_und_mt_056 , raw:traffic_lanes_on_028a , raw:deck_structure_type_107 , raw:appr_width_mt_032 , raw:toll_020 , raw:year_of_imp_097 , raw:lat_016 , raw:appr_type_044b , raw:parallel_structure_101 , raw:record_type_005a , raw:dtl_type_of_imp , raw:main_unit_spans_045 , raw:deck_width_mt_052 , raw:lat_und_mt_055b , raw:program_code , raw:min_vert_clr_010 , raw:vert_clr_und_054b , raw:spec_last_date_093c , raw:state_code_001 , raw:nbi_type_of_imp , raw:national_network_110 , raw:deck_geometry_eval_068 , raw:inv_rating_meth_065 ;
+	void:vocabulary <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> , <http://purl.org/dc/terms/> , <http://open.vocab.org/terms/> , <http://rdfs.org/ns/void#> .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/subset/meta> conversion:uses_predicate ov:csvRow , <http://inference-web.org/2.1exper/pml-provenance.owl#hasAntecedent> , void:dataDump , conversion:VersionedDataset , rdfs:label , foaf:topic , foaf:isPrimaryTopicOf , dcterms:author , doap:implements , <http://inference-web.org/2.0/pml-justification.owl#hasInferenceEngine> , dcterms:identifier , doap:revision , dcterms:modified , vann:preferredNamespaceUri , rdfs:isDefinedBy , doap:helper , conversion:uses_predicate , ov:csvCol , doap:audience , doap:description , dcterms:format , doap:documenter , conversion:conversion_identifier , rdfs:range , conversion:version_identifier , <http://inference-web.org/2.0/pml-provenance.owl#hasFormat> , doap:homepage , conversion:num_triples , doap:shortdesc , <http://inference-web.org/2.0/pml-justification.owl#hasConclusion> , dcterms:isReferencedBy , <http://inference-web.org/2.0/pml-justification.owl#hasAntecedentList> , foaf:primaryTopic , conversion:base_uri , <http://inference-web.org/2.1exper/pml-provenance.owl#hasAntecedentRole> , void:exampleResource , conversion:dataset_identifier , rdf:type , void:subset , <http://www.w3.org/2000/10/swap/pim/contact#preferredURI> , void:triples , doap:browse , doap:developer , ov:csvHeader , rdfs:seeAlso , doap:maintainer , conversion:source_identifier , conversion:LayerDataset , dcterms:contributor , doap:platform , vann:preferredNamespacePrefix , <http://inference-web.org/2.0/pml-justification.owl#isConsequentOf> , <http://inference-web.org/2.1exper/pml-provenance.owl#hasRole> , void:vocabulary , dcterms:version ;
+	void:vocabulary <http://open.vocab.org/terms/> , <http://inference-web.org/2.1exper/pml-provenance.owl#> , <http://rdfs.org/ns/void#> , <http://purl.org/twc/vocab/conversion/> , <http://www.w3.org/2000/01/rdf-schema#> , <http://xmlns.com/foaf/0.1/> , <http://purl.org/dc/terms/> , <http://usefulinc.com/ns/doap#> , <http://inference-web.org/2.0/pml-justification.owl#> , <http://purl.org/vocab/vann/> , <http://inference-web.org/2.0/pml-provenance.owl#> , <http://www.w3.org/1999/02/22-rdf-syntax-ns#> , <http://www.w3.org/2000/10/swap/pim/contact#> .
+
+<http://inference-web.org/2.1exper/pml-provenance.owl#hasAntecedent> rdfs:isDefinedBy <http://inference-web.org/2.1exper/pml-provenance.owl#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://inference-web.org> .
+
+void:dataDump rdfs:isDefinedBy <http://rdfs.org/ns/void#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://rdfs.org> .
+
+conversion:VersionedDataset <http://www.w3.org/ns/prov#wasAttributedTo> <http://purl.org/twc> .
+
+rdfs:label rdfs:isDefinedBy <http://www.w3.org/2000/01/rdf-schema#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://www.w3.org> .
+
+foaf:topic rdfs:isDefinedBy <http://xmlns.com/foaf/0.1/> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://xmlns.com> .
+
+foaf:isPrimaryTopicOf rdfs:isDefinedBy <http://xmlns.com/foaf/0.1/> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://xmlns.com> .
+
+dcterms:author rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://purl.org/dc> .
+
+doap:implements rdfs:isDefinedBy <http://usefulinc.com/ns/doap#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://usefulinc.com> .
+
+<http://inference-web.org/2.0/pml-justification.owl#hasInferenceEngine> rdfs:isDefinedBy <http://inference-web.org/2.0/pml-justification.owl#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://inference-web.org> .
+
+dcterms:identifier rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://purl.org/dc> .
+
+doap:revision rdfs:isDefinedBy <http://usefulinc.com/ns/doap#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://usefulinc.com> .
+
+dcterms:modified rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://purl.org/dc> .
+
+vann:preferredNamespaceUri rdfs:isDefinedBy <http://purl.org/vocab/vann/> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://purl.org/vocab> .
+
+rdfs:isDefinedBy rdfs:isDefinedBy <http://www.w3.org/2000/01/rdf-schema#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://www.w3.org> .
+
+doap:helper rdfs:isDefinedBy <http://usefulinc.com/ns/doap#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://usefulinc.com> .
+
+conversion:uses_predicate <http://www.w3.org/ns/prov#wasAttributedTo> <http://purl.org/twc> .
+
+ov:csvCol rdfs:isDefinedBy <http://open.vocab.org/terms/> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://open.vocab.org> .
+
+doap:audience rdfs:isDefinedBy <http://usefulinc.com/ns/doap#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://usefulinc.com> .
+
+doap:description rdfs:isDefinedBy <http://usefulinc.com/ns/doap#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://usefulinc.com> .
+
+dcterms:format rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://purl.org/dc> .
+
+doap:documenter rdfs:isDefinedBy <http://usefulinc.com/ns/doap#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://usefulinc.com> .
+
+conversion:conversion_identifier <http://www.w3.org/ns/prov#wasAttributedTo> <http://purl.org/twc> .
+
+rdfs:range rdfs:isDefinedBy <http://www.w3.org/2000/01/rdf-schema#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://www.w3.org> .
+
+conversion:version_identifier <http://www.w3.org/ns/prov#wasAttributedTo> <http://purl.org/twc> .
+
+<http://inference-web.org/2.0/pml-provenance.owl#hasFormat> rdfs:isDefinedBy <http://inference-web.org/2.0/pml-provenance.owl#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://inference-web.org> .
+
+doap:homepage rdfs:isDefinedBy <http://usefulinc.com/ns/doap#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://usefulinc.com> .
+
+conversion:num_triples <http://www.w3.org/ns/prov#wasAttributedTo> <http://purl.org/twc> .
+
+doap:shortdesc rdfs:isDefinedBy <http://usefulinc.com/ns/doap#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://usefulinc.com> .
+
+<http://inference-web.org/2.0/pml-justification.owl#hasConclusion> rdfs:isDefinedBy <http://inference-web.org/2.0/pml-justification.owl#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://inference-web.org> .
+
+<http://inference-web.org/2.0/pml-justification.owl#hasAntecedentList> rdfs:isDefinedBy <http://inference-web.org/2.0/pml-justification.owl#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://inference-web.org> .
+
+foaf:primaryTopic rdfs:isDefinedBy <http://xmlns.com/foaf/0.1/> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://xmlns.com> .
+
+conversion:base_uri <http://www.w3.org/ns/prov#wasAttributedTo> <http://purl.org/twc> .
+
+<http://inference-web.org/2.1exper/pml-provenance.owl#hasAntecedentRole> rdfs:isDefinedBy <http://inference-web.org/2.1exper/pml-provenance.owl#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://inference-web.org> .
+
+void:exampleResource rdfs:isDefinedBy <http://rdfs.org/ns/void#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://rdfs.org> .
+
+conversion:dataset_identifier <http://www.w3.org/ns/prov#wasAttributedTo> <http://purl.org/twc> .
+
+rdf:type rdfs:isDefinedBy <http://www.w3.org/1999/02/22-rdf-syntax-ns#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://www.w3.org> .
+
+void:subset rdfs:isDefinedBy <http://rdfs.org/ns/void#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://rdfs.org> .
+
+<http://www.w3.org/2000/10/swap/pim/contact#preferredURI> rdfs:isDefinedBy <http://www.w3.org/2000/10/swap/pim/contact#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://www.w3.org> .
+
+void:triples rdfs:isDefinedBy <http://rdfs.org/ns/void#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://rdfs.org> .
+
+doap:browse rdfs:isDefinedBy <http://usefulinc.com/ns/doap#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://usefulinc.com> .
+
+doap:developer rdfs:isDefinedBy <http://usefulinc.com/ns/doap#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://usefulinc.com> .
+
+ov:csvHeader rdfs:isDefinedBy <http://open.vocab.org/terms/> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://open.vocab.org> .
+
+rdfs:seeAlso rdfs:isDefinedBy <http://www.w3.org/2000/01/rdf-schema#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://www.w3.org> .
+
+doap:maintainer rdfs:isDefinedBy <http://usefulinc.com/ns/doap#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://usefulinc.com> .
+
+conversion:source_identifier <http://www.w3.org/ns/prov#wasAttributedTo> <http://purl.org/twc> .
+
+conversion:LayerDataset <http://www.w3.org/ns/prov#wasAttributedTo> <http://purl.org/twc> .
+
+dcterms:contributor rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://purl.org/dc> .
+
+doap:platform rdfs:isDefinedBy <http://usefulinc.com/ns/doap#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://usefulinc.com> .
+
+vann:preferredNamespacePrefix rdfs:isDefinedBy <http://purl.org/vocab/vann/> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://purl.org/vocab> .
+
+<http://inference-web.org/2.0/pml-justification.owl#isConsequentOf> rdfs:isDefinedBy <http://inference-web.org/2.0/pml-justification.owl#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://inference-web.org> .
+
+<http://inference-web.org/2.1exper/pml-provenance.owl#hasRole> rdfs:isDefinedBy <http://inference-web.org/2.1exper/pml-provenance.owl#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://inference-web.org> .
+
+void:vocabulary rdfs:isDefinedBy <http://rdfs.org/ns/void#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://rdfs.org> .
+
+dcterms:version rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://purl.org/dc> .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/subset/meta> conversion:uses_class void:Dataset , foaf:Agent , conversion:MetaDataset , conversion:DatasetSample , conversion:AbstractDataset , void:DatasetDescription , conversion:Dataset , fhwa-dot-gov_vocab:Dataset ;
+	void:vocabulary <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+void:Dataset rdfs:isDefinedBy <http://rdfs.org/ns/void#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://rdfs.org> .
+
+foaf:Agent rdfs:isDefinedBy <http://xmlns.com/foaf/0.1/> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://xmlns.com> .
+
+conversion:MetaDataset <http://www.w3.org/ns/prov#wasAttributedTo> <http://purl.org/twc> .
+
+conversion:DatasetSample <http://www.w3.org/ns/prov#wasAttributedTo> <http://purl.org/twc> .
+
+conversion:AbstractDataset <http://www.w3.org/ns/prov#wasAttributedTo> <http://purl.org/twc> .
+
+void:DatasetDescription rdfs:isDefinedBy <http://rdfs.org/ns/void#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://rdfs.org> .
+
+conversion:Dataset <http://www.w3.org/ns/prov#wasAttributedTo> <http://purl.org/twc> .
+
+fhwa-dot-gov_vocab:Dataset rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/raw> rdfs:comment "hash: 178e9a7d99a045710385625127e199309e32b92002b40e" .
