@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # run publish/bin/virtuoso-load---2013-Apr-04.sh
-# from /Users/oshani/Projects/qcri-disaster-management/data/fhwa-dot-gov/bridges-in-ny/version/2013-Apr-04/
+# from /home/dmiao/Documents/dig/QCRI/qcri-disaster-management/data/fhwa-dot-gov/bridges-in-ny/version/2013-Apr-04/
 #
 # graph was 
   Working directory does not appear to be a dataset. You can run this from a dataset.
@@ -212,7 +212,7 @@ fi
 
 
 dump='publish/--2013-Apr-04.nt'
-url='http://dig.csail.mit.edu//source//file//version/2013-Apr-04/conversion/--2013-Apr-04.nt'
+url='http://dig.csail.mit.edu/2013/QCRI/bridges/source//file//version/2013-Apr-04/conversion/--2013-Apr-04.nt'
 if [ -e $dump ]; then
    echo pvdelete.sh $graph
    ${CSV2RDF4LOD_HOME}/bin/util/pvdelete.sh $graph
@@ -224,7 +224,7 @@ elif [ -e $dump.gz ]; then
 fi
 
 dump='publish/--2013-Apr-04.ttl'
-url='http://dig.csail.mit.edu//source//file//version/2013-Apr-04/conversion/--2013-Apr-04.ttl'
+url='http://dig.csail.mit.edu/2013/QCRI/bridges/source//file//version/2013-Apr-04/conversion/--2013-Apr-04.ttl'
 if [ -e $dump ]; then
    echo pvdelete.sh $graph
    ${CSV2RDF4LOD_HOME}/bin/util/pvdelete.sh $graph
@@ -236,7 +236,7 @@ elif [ -e $dump.gz ]; then
 fi
 
 dump='publish/--2013-Apr-04.rdf'
-url='http://dig.csail.mit.edu//source//file//version/2013-Apr-04/conversion/--2013-Apr-04.rdf'
+url='http://dig.csail.mit.edu/2013/QCRI/bridges/source//file//version/2013-Apr-04/conversion/--2013-Apr-04.rdf'
 if [ -e $dump ]; then
    ${CSV2RDF4LOD_HOME}/bin/util/pvdelete.sh $graph
    exit 1
@@ -244,6 +244,6 @@ elif [ -e $dump.gz ]; then
    ${CSV2RDF4LOD_HOME}/bin/util/pvdelete.sh $graph
    exit 1
 fi
-#3> <> prov:wasAttributedTo <http://dig.csail.mit.edu//id/csv2rdf4lod/cad7f75d46fbc5c430a2045bc1a07fad> .
-#3> <> prov:generatedAtTime "2013-04-05T18:37:54-04:00"^^xsd:dateTime .
-#3> <http://dig.csail.mit.edu//id/csv2rdf4lod/cad7f75d46fbc5c430a2045bc1a07fad> foaf:name "convert-bridges-in-ny.sh" .
+#3> <> prov:wasAttributedTo <http://dig.csail.mit.edu/2013/QCRI/bridges/id/csv2rdf4lod/cad7f75d46fbc5c430a2045bc1a07fad> .
+#3> <> prov:generatedAtTime "2013-04-05T21:58:57-04:00"^^xsd:dateTime .
+#3> <http://dig.csail.mit.edu/2013/QCRI/bridges/id/csv2rdf4lod/cad7f75d46fbc5c430a2045bc1a07fad> foaf:name "convert-bridges-in-ny.sh" .

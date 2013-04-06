@@ -1,145 +1,141 @@
-@base <http://dig.csail.mit.edu//source//file//version/2013-Apr-04/source/> .
-
-@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
-@prefix dcterms:    <http://purl.org/dc/terms/> .
-@prefix pmlp:       <http://inference-web.org/2.0/pml-provenance.owl#> .
-@prefix pmlj:       <http://inference-web.org/2.0/pml-justification.owl#> .
-@prefix foaf:       <http://xmlns.com/foaf/0.1/> .
-@prefix sioc:       <http://rdfs.org/sioc/ns#> .
-@prefix oboro:      <http://obofoundry.org/ro/ro.owl#> .
-@prefix oprov:      <http://openprovenance.org/ontology#> .
-@prefix hartigprov: <http://purl.org/net/provenance/ns#> .
-@prefix irw:        <http://www.ontologydesignpatterns.org/ont/web/irw.owl#> .
-@prefix nfo:        <http://www.semanticdesktop.org/ontologies/nfo/#> .
-@prefix conv:       <http://purl.org/twc/vocab/conversion/> .
-@prefix httphead:   <http://inference-web.org/registry/MPR/HTTP_1_1_HEAD.owl#> .
-@prefix httpget:    <http://inference-web.org/registry/MPR/HTTP_1_1_GET.owl#> .
-@prefix httppost:   <http://inference-web.org/registry/MPR/HTTP_1_1_POST.owl#> .
-@prefix prov:       <http://www.w3.org/ns/prov#> .
-
-@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
-@prefix sioc:    <http://rdfs.org/sioc/ns#> .
+@base <http://dig.csail.mit.edu/2013/QCRI/bridges/source//file//version/2013-Apr-04/source/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix prov:    <http://www.w3.org/ns/prov#> .
-
-
-<http://www.fhwa.dot.gov/bridge/nbi/2012/delimited/NY12.txt>
-   a pmlp:Source, prov:Entity;
-.
-
-<http://www.fhwa.dot.gov/bridge/nbi/2012/delimited/NY12.txt>
-   a pmlp:Source, prov:Entity;
-   pmlp:hasModificationDateTime "2012-09-04T12:05:51"^^xsd:dateTime;
-   dcterms:modified             "2012-09-04T12:05:51"^^xsd:dateTime;
-.
+@prefix pmlp: <http://inference-web.org/2.0/pml-provenance.owl#> .
+@prefix pmlj: <http://inference-web.org/2.0/pml-justification.owl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix oboro: <http://obofoundry.org/ro/ro.owl#> .
+@prefix oprov: <http://openprovenance.org/ontology#> .
+@prefix hartigprov: <http://purl.org/net/provenance/ns#> .
+@prefix irw: <http://www.ontologydesignpatterns.org/ont/web/irw.owl#> .
+@prefix nfo: <http://www.semanticdesktop.org/ontologies/nfo/#> .
+@prefix conv: <http://purl.org/twc/vocab/conversion/> .
+@prefix httphead: <http://inference-web.org/registry/MPR/HTTP_1_1_HEAD.owl#> .
+@prefix httpget: <http://inference-web.org/registry/MPR/HTTP_1_1_GET.owl#> .
+@prefix httppost: <http://inference-web.org/registry/MPR/HTTP_1_1_POST.owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
 
 <NY12.txt.csv>
-   a nfo:FileDataObject, prov:Entity, pmlp:Information;
-   prov:wasQuotedFrom      <http://www.fhwa.dot.gov/bridge/nbi/2012/delimited/NY12.txt>;
-   prov:qualifiedQuotation <quotation_9ba1aa0f-7f92-4feb-865b-70f57142e148>;
-   pmlp:hasReferenceSourceUsage <sourceUsage9ba1aa0f-7f92-4feb-865b-70f57142e148_content>;
-.
-<NY12.txt.csv>
-   a nfo:FileDataObject;
-   nfo:fileName "NY12.txt.csv";
-   nfo:hasHash <md5_4f32fda4e09e3391c572fd17233eda1e_time_1365194343>;
-.
-<md5_4f32fda4e09e3391c572fd17233eda1e_time_1365194343>
-   a nfo:FileHash; 
-   dcterms:date      "2013-04-05T16:39:03-04:00"^^xsd:dateTime;
-   nfo:hashAlgorithm "md5";
-   nfo:hashValue     "4f32fda4e09e3391c572fd17233eda1e";
-.
+    pmlp:hasReferenceSourceUsage <sourceUsage9ba1aa0f-7f92-4feb-865b-70f57142e148_content> ;
+    nfo:fileName "NY12.txt.csv" ;
+    nfo:hasHash <md5_4f32fda4e09e3391c572fd17233eda1e_time_1365194343> ;
+    a pmlp:Information, nfo:FileDataObject, prov:Entity ;
+    prov:qualifiedQuotation <quotation_9ba1aa0f-7f92-4feb-865b-70f57142e148> ;
+    prov:wasQuotedFrom <http://www.fhwa.dot.gov/bridge/nbi/2012/delimited/NY12.txt> .
 
-<nodeSet9ba1aa0f-7f92-4feb-865b-70f57142e148_content>
-   a pmlj:NodeSet;
-   pmlj:hasConclusion <NY12.txt.csv>;
-   pmlj:isConsequentOf <inferenceStep9ba1aa0f-7f92-4feb-865b-70f57142e148_content>;
-.
 <inferenceStep9ba1aa0f-7f92-4feb-865b-70f57142e148_content>
-   a pmlj:InferenceStep;
-   pmlj:hasIndex 0;
-   pmlj:hasAntecedentList ();
-   pmlj:hasSourceUsage     <sourceUsage9ba1aa0f-7f92-4feb-865b-70f57142e148_content>;
-   pmlj:hasInferenceEngine conv:curl_md5_68747d1ce7649146fec40489f72105a2;
-   pmlj:hasInferenceRule   httpget:HTTP_1_1_GET;
-   oboro:has_agent          [ a foaf:OnlineAccount; foaf:accountName "oshani" ];
-   hartigprov:involvedActor [ a foaf:OnlineAccount; foaf:accountName "oshani" ];
-.
+    pmlj:hasAntecedentList rdf:nil ;
+    pmlj:hasIndex 0 ;
+    pmlj:hasInferenceEngine conv:curl_md5_68747d1ce7649146fec40489f72105a2 ;
+    pmlj:hasInferenceRule httpget:HTTP_1_1_GET ;
+    pmlj:hasSourceUsage <sourceUsage9ba1aa0f-7f92-4feb-865b-70f57142e148_content> ;
+    oboro:has_agent [
+        a foaf:OnlineAccount ;
+        foaf:accountName "oshani"
+    ] ;
+    hartigprov:involvedActor [
+        a foaf:OnlineAccount ;
+        foaf:accountName "oshani"
+    ] ;
+    a pmlj:InferenceStep .
 
-<quotation_9ba1aa0f-7f92-4feb-865b-70f57142e148>
-   a prov:Quotation;
-   prov:entity <http://www.fhwa.dot.gov/bridge/nbi/2012/delimited/NY12.txt>;
-   prov:atTime "2013-04-05T16:39:00-04:00"^^xsd:dateTime;
-.
+<inferenceStep9ba1aa0f-7f92-4feb-865b-70f57142e148_url_header>
+    pmlj:hasAntecedentList rdf:nil ;
+    pmlj:hasIndex 0 ;
+    pmlj:hasInferenceEngine conv:curl_md5_68747d1ce7649146fec40489f72105a2 ;
+    pmlj:hasInferenceRule httphead:HTTP_1_1_HEAD ;
+    pmlj:hasSourceUsage <sourceUsage9ba1aa0f-7f92-4feb-865b-70f57142e148_url_header> ;
+    oboro:has_agent [
+        a foaf:OnlineAccount ;
+        foaf:accountName "oshani"
+    ] ;
+    hartigprov:involvedActor [
+        a foaf:OnlineAccount ;
+        foaf:accountName "oshani"
+    ] ;
+    a pmlj:InferenceStep .
 
-<sourceUsage9ba1aa0f-7f92-4feb-865b-70f57142e148_content>
-   a pmlp:SourceUsage;
-   pmlp:hasSource        <http://www.fhwa.dot.gov/bridge/nbi/2012/delimited/NY12.txt>;
-   pmlp:hasUsageDateTime "2013-04-05T16:39:00-04:00"^^xsd:dateTime;
-.
-
-<wasControlledBy9ba1aa0f-7f92-4feb-865b-70f57142e148_content>
-   a oprov:WasControlledBy;
-   oprov:cause  [ a foaf:OnlineAccount; foaf:accountName "oshani" ];
-   oprov:effect <inferenceStep9ba1aa0f-7f92-4feb-865b-70f57142e148_content>;
-   oprov:endTime "2013-04-05T16:39:00-04:00"^^xsd:dateTime;
-.
- 
 <info9ba1aa0f-7f92-4feb-865b-70f57142e148_url_header>
-   a pmlp:Information, conv:HTTPHeader;
-   pmlp:hasRawString """HTTP/1.1 200 OK
+    pmlp:hasRawString """HTTP/1.1 200 OK
 Content-Length: 10054227
 Content-Type: text/plain
 Last-Modified: Tue, 04 Sep 2012 12:05:51 GMT
 Accept-Ranges: bytes
-ETag: "80f96ea0958acd1:0"
+ETag: \"80f96ea0958acd1:0\"
 Server: Microsoft-IIS/7.5
 X-Powered-By: ASP.NET
 Date: Fri, 05 Apr 2013 20:38:59 GMT
-""";
-   pmlp:hasReferenceSourceUsage <sourceUsage9ba1aa0f-7f92-4feb-865b-70f57142e148_url_header>;
-.
- 
+""" ;
+    pmlp:hasReferenceSourceUsage <sourceUsage9ba1aa0f-7f92-4feb-865b-70f57142e148_url_header> ;
+    a pmlp:Information, conv:HTTPHeader .
+
+<md5_4f32fda4e09e3391c572fd17233eda1e_time_1365194343>
+    dcterms:date "2013-04-05T16:39:03-04:00"^^xsd:dateTime ;
+    nfo:hashAlgorithm "md5" ;
+    nfo:hashValue "4f32fda4e09e3391c572fd17233eda1e" ;
+    a nfo:FileHash .
+
+<nodeSet9ba1aa0f-7f92-4feb-865b-70f57142e148_content>
+    pmlj:hasConclusion <NY12.txt.csv> ;
+    pmlj:isConsequentOf <inferenceStep9ba1aa0f-7f92-4feb-865b-70f57142e148_content> ;
+    a pmlj:NodeSet .
+
 <nodeSet9ba1aa0f-7f92-4feb-865b-70f57142e148_url_header>
-   a pmlj:NodeSet;
-   pmlj:hasConclusion <info9ba1aa0f-7f92-4feb-865b-70f57142e148_url_header>;
-   pmlj:isConsequentOf <inferenceStep9ba1aa0f-7f92-4feb-865b-70f57142e148_url_header>;
-.
-<inferenceStep9ba1aa0f-7f92-4feb-865b-70f57142e148_url_header>
-   a pmlj:InferenceStep;
-   pmlj:hasIndex 0;
-   pmlj:hasAntecedentList ();
-   pmlj:hasSourceUsage     <sourceUsage9ba1aa0f-7f92-4feb-865b-70f57142e148_url_header>;
-   pmlj:hasInferenceEngine conv:curl_md5_68747d1ce7649146fec40489f72105a2;
-   pmlj:hasInferenceRule   httphead:HTTP_1_1_HEAD;
-   oboro:has_agent          [ a foaf:OnlineAccount; foaf:accountName "oshani" ];
-   hartigprov:involvedActor [ a foaf:OnlineAccount; foaf:accountName "oshani" ];
-.
+    pmlj:hasConclusion <info9ba1aa0f-7f92-4feb-865b-70f57142e148_url_header> ;
+    pmlj:isConsequentOf <inferenceStep9ba1aa0f-7f92-4feb-865b-70f57142e148_url_header> ;
+    a pmlj:NodeSet .
+
+<quotation_9ba1aa0f-7f92-4feb-865b-70f57142e148>
+    a prov:Quotation ;
+    prov:atTime "2013-04-05T16:39:00-04:00"^^xsd:dateTime ;
+    prov:entity <http://www.fhwa.dot.gov/bridge/nbi/2012/delimited/NY12.txt> .
+
+<sourceUsage9ba1aa0f-7f92-4feb-865b-70f57142e148_content>
+    pmlp:hasSource <http://www.fhwa.dot.gov/bridge/nbi/2012/delimited/NY12.txt> ;
+    pmlp:hasUsageDateTime "2013-04-05T16:39:00-04:00"^^xsd:dateTime ;
+    a pmlp:SourceUsage .
 
 <sourceUsage9ba1aa0f-7f92-4feb-865b-70f57142e148_url_header>
-   a pmlp:SourceUsage;
-   pmlp:hasSource        <http://www.fhwa.dot.gov/bridge/nbi/2012/delimited/NY12.txt>;
-   pmlp:hasUsageDateTime "2013-04-05T16:39:00-04:00"^^xsd:dateTime;
-.
-<wasControlledBy9ba1aa0f-7f92-4feb-865b-70f57142e148_url_header>
-   a oprov:WasControlledBy;
-   oprov:cause  [ a foaf:OnlineAccount; foaf:accountName "oshani" ];
-   oprov:effect <nodeSet9ba1aa0f-7f92-4feb-865b-70f57142e148_url_header>;
-   oprov:endTime "2013-04-05T16:39:00-04:00"^^xsd:dateTime;
-.
+    pmlp:hasSource <http://www.fhwa.dot.gov/bridge/nbi/2012/delimited/NY12.txt> ;
+    pmlp:hasUsageDateTime "2013-04-05T16:39:00-04:00"^^xsd:dateTime ;
+    a pmlp:SourceUsage .
 
+<wasControlledBy9ba1aa0f-7f92-4feb-865b-70f57142e148_content>
+    oprov:cause [
+        a foaf:OnlineAccount ;
+        foaf:accountName "oshani"
+    ] ;
+    oprov:effect <inferenceStep9ba1aa0f-7f92-4feb-865b-70f57142e148_content> ;
+    oprov:endTime "2013-04-05T16:39:00-04:00"^^xsd:dateTime ;
+    a oprov:WasControlledBy .
+
+<wasControlledBy9ba1aa0f-7f92-4feb-865b-70f57142e148_url_header>
+    oprov:cause [
+        a foaf:OnlineAccount ;
+        foaf:accountName "oshani"
+    ] ;
+    oprov:effect <nodeSet9ba1aa0f-7f92-4feb-865b-70f57142e148_url_header> ;
+    oprov:endTime "2013-04-05T16:39:00-04:00"^^xsd:dateTime ;
+    a oprov:WasControlledBy .
+
+conv:Curl
+    rdfs:subClassOf pmlp:InferenceEngine .
 
 conv:curl_md5_68747d1ce7649146fec40489f72105a2
-   a prov:Agent, pmlp:InferenceEngine, conv:Curl;
-   dcterms:identifier "md5_68747d1ce7649146fec40489f72105a2";
-   dcterms:description """curl 7.29.0 (x86_64-apple-darwin12.2.0) libcurl/7.29.0 OpenSSL/1.0.1e zlib/1.2.7 libidn/1.26
+    dcterms:description """curl 7.29.0 (x86_64-apple-darwin12.2.0) libcurl/7.29.0 OpenSSL/1.0.1e zlib/1.2.7 libidn/1.26
 Protocols: dict file ftp ftps gopher http https imap imaps pop3 pop3s rtsp smtp smtps telnet tftp 
-Features: IDN IPv6 Largefile NTLM NTLM_WB SSL libz TLS-SRP """;
-.
+Features: IDN IPv6 Largefile NTLM NTLM_WB SSL libz TLS-SRP """ ;
+    dcterms:identifier "md5_68747d1ce7649146fec40489f72105a2" ;
+    a pmlp:InferenceEngine, conv:Curl, prov:Agent .
 
-conv:Curl rdfs:subClassOf pmlp:InferenceEngine .
+<http://www.fhwa.dot.gov/bridge/nbi/2012/delimited/NY12.txt>
+    pmlp:hasModificationDateTime "2012-09-04T12:05:51"^^xsd:dateTime ;
+    dcterms:modified "2012-09-04T12:05:51"^^xsd:dateTime ;
+    a pmlp:Source, prov:Entity .
+
 <
   Working directory does not appear to be a dataset. You can run this from a dataset.
   (e.g. $whatever/source/mySOURCE/myDATASET/).

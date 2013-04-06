@@ -23,26 +23,26 @@
 @prefix bridges-in-ny_global_value: <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset/bridges-in-ny/> .
 @prefix typed_state: <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset/bridges-in-ny/typed/state/> .
 @prefix typed_structure_number: <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset/bridges-in-ny/typed/structure_number/> .
-@prefix bibo: <http://purl.org/ontology/bibo/> .
-@prefix geonamesid: <http://sws.geonames.org/> .
-@prefix wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix muo: <http://purl.oclc.org/NET/muo/muo#> .
+@prefix geonames: <http://www.geonames.org/ontology#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix govtrackusgov: <http://www.rdfabout.com/rdf/usgov/geo/us/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix geonamesid: <http://sws.geonames.org/> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
 @prefix con: <http://www.w3.org/2000/10/swap/pim/contact#> .
-@prefix dbpediaprop: <http://dbpedia.org/property/> .
-@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
 @prefix vsr: <http://purl.org/twc/vocab/vsr#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix geonames: <http://www.geonames.org/ontology#> .
-@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix dbpediaprop: <http://dbpedia.org/property/> .
 @prefix sio: <http://semanticscience.org/resource/> .
-@prefix dgtwc: <http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#> .
-@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
-@prefix time: <http://www.w3.org/2006/time#> .
-@prefix dbpediaowl: <http://dbpedia.org/ontology/> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix nfo: <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#> .
-@prefix dcat: <http://www.w3.org/ns/dcat#> .
-@prefix muo: <http://purl.oclc.org/NET/muo/muo#> .
+@prefix dbpediaowl: <http://dbpedia.org/ontology/> .
+@prefix dgtwc: <http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
 @prefix value_of_state_code: <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset/bridges-in-ny/value-of/state_code/> .
 @prefix value_of_structure_number: <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset/bridges-in-ny/value-of/structure_number/> .
 
@@ -1406,26 +1406,26 @@ e1:sufficiency_rating a rdf:Property ;
 @prefix bridges-in-ny_global_value: <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset/bridges-in-ny/> .
 @prefix typed_state: <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset/bridges-in-ny/typed/state/> .
 @prefix typed_structure_number: <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset/bridges-in-ny/typed/structure_number/> .
-@prefix bibo: <http://purl.org/ontology/bibo/> .
-@prefix geonamesid: <http://sws.geonames.org/> .
-@prefix wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix muo: <http://purl.oclc.org/NET/muo/muo#> .
+@prefix geonames: <http://www.geonames.org/ontology#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix govtrackusgov: <http://www.rdfabout.com/rdf/usgov/geo/us/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix geonamesid: <http://sws.geonames.org/> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
 @prefix con: <http://www.w3.org/2000/10/swap/pim/contact#> .
-@prefix dbpediaprop: <http://dbpedia.org/property/> .
-@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
 @prefix vsr: <http://purl.org/twc/vocab/vsr#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix geonames: <http://www.geonames.org/ontology#> .
-@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix dbpediaprop: <http://dbpedia.org/property/> .
 @prefix sio: <http://semanticscience.org/resource/> .
-@prefix dgtwc: <http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#> .
-@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
-@prefix time: <http://www.w3.org/2006/time#> .
-@prefix dbpediaowl: <http://dbpedia.org/ontology/> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix nfo: <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#> .
-@prefix dcat: <http://www.w3.org/ns/dcat#> .
-@prefix muo: <http://purl.oclc.org/NET/muo/muo#> .
+@prefix dbpediaowl: <http://dbpedia.org/ontology/> .
+@prefix dgtwc: <http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
 @prefix value_of_state_code: <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset/bridges-in-ny/value-of/state_code/> .
 @prefix value_of_structure_number: <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset/bridges-in-ny/value-of/structure_number/> .
 
@@ -1444,7 +1444,7 @@ e1:sufficiency_rating a rdf:Property ;
 	dcterms:identifier "fhwa-dot-gov bridges-in-ny" ;
 	foaf:isPrimaryTopicOf <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset_page/bridges-in-ny> ;
 	void:subset <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04> , <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset/bridges-in-ny/subset/meta> , <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset/bridges-in-ny/subset/sameas> ;
-	dcterms:modified "2013-04-05T18:37:48.581-05:00"^^xsd:dateTime .
+	dcterms:modified "2013-04-05T21:57:56.934-05:00"^^xsd:dateTime .
 
 <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04> a fhwa-dot-gov_vocab:Dataset , conversion:Dataset , conversion:VersionedDataset , void:Dataset , conversion:EnhancedDataset ;
 	conversion:base_uri "http://dig.csail.mit.edu/2013/QCRI/bridges" ;
@@ -1454,13 +1454,13 @@ e1:sufficiency_rating a rdf:Property ;
 	conversion:dataset_version "2013-Apr-04" ;
 	dcterms:contributor <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov> ;
 	dcterms:identifier "fhwa-dot-gov bridges-in-ny 2013-Apr-04" ;
-	dcterms:modified "2013-04-05T18:37:48.581-05:00"^^xsd:dateTime ;
+	dcterms:modified "2013-04-05T21:57:56.934-05:00"^^xsd:dateTime ;
 	foaf:isPrimaryTopicOf <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset_page/bridges-in-ny/version/2013-Apr-04> ;
 	void:dataDump <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/file/bridges-in-ny/version/2013-Apr-04/conversion/fhwa-dot-gov-bridges-in-ny-2013-Apr-04.ttl.gz> ;
 	void:subset <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/enhancement/1> .
 
 <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/enhancement/1> a fhwa-dot-gov_vocab:Dataset , conversion:Dataset , conversion:LayerDataset , void:Dataset , conversion:EnhancedDataset ;
-	dcterms:modified "2013-04-05T18:37:48.581-05:00"^^xsd:dateTime ;
+	dcterms:modified "2013-04-05T21:57:56.934-05:00"^^xsd:dateTime ;
 	conversion:base_uri "http://dig.csail.mit.edu/2013/QCRI/bridges" ;
 	conversion:source_identifier "fhwa-dot-gov" ;
 	conversion:dataset_identifier "bridges-in-ny" ;
@@ -1470,7 +1470,7 @@ e1:sufficiency_rating a rdf:Property ;
 	foaf:isPrimaryTopicOf <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset_page/bridges-in-ny/version/2013-Apr-04/conversion/enhancement/1> ;
 	void:dataDump <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/file/bridges-in-ny/version/2013-Apr-04/conversion/fhwa-dot-gov-bridges-in-ny-2013-Apr-04.e1.ttl.gz> ;
 	void:subset <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/enhancement/1/subset/sample> ;
-	conversion:uses_predicate e1:deck_cond_058 , e1:features_desc , e1:horr_clr_mt_047 , e1:place_code , e1:other_state_pcnt_098b , e1:vert_clr_over_mt_053 , e1:owner_022 , e1:median_code_033 , e1:open_closed_posted_041 , e1:structural_eval_067 , e1:year_reconstructed_106 , e1:proj_suffix , e1:work_done_by_075b , e1:special_code , e1:future_adt_114 , e1:inventory_rating_066 , e1:status , e1:surface_type_108a , e1:lrs_inv_route , e1:structure_kind_043a , e1:design_load_031 , e1:right_curb_mt_050b , e1:navigation_038 , e1:appr_road_eval_072 , e1:step_code , e1:deck_protection_108c , e1:appr_type_044b , e1:work_proposed_075a , owl:sameAs , e1:service_level , e1:imp_len_mt_076 , e1:scour_critical_113 , dcterms:isReferencedBy , e1:total_imp_cost_096 , e1:undwater_last_date_093b , e1:national_network_110 , e1:appr_spans_046 , e1:appr_kind_044a , e1:nav_horr_clr_mt_040 , e1:structure_type_043b , e1:direction , e1:max_span_len_mt_048 , e1:dtl_type_of_imp , e1:type_last_update , e1:pier_protection_111 , e1:membrane_type_108b , e1:vert_clr_und_054b , e1:facility_carried , e1:bridge_len_ind_112 , e1:date_last_update , e1:vert_clr_und_ref_054a , e1:fed_agency , e1:deck_geometry_eval_068 , e1:waterway_eval_071 , e1:service_und_042b , e1:deduct_code , e1:functional_class_026 , e1:history_037 , e1:opr_rating_meth_063 , e1:subroute_no , e1:fracture_092a , e1:percent_adt_truck_109 , e1:state_code , e1:othr_state_struc_no_099 , e1:date_of_inspect_090 , e1:undwater_look_see_092b , ov:csvRow , e1:posting_eval_070 , e1:min_nav_clr_mt_116 , e1:appr_width_mt_032 , e1:remarks , e1:adt_029 , e1:structure_len_mt_049 , e1:highway_district , e1:spec_last_date_093c , rdfs:label , e1:appr_rail_end_036d , e1:sufficiency_asterc , e1:base_hwy_network , e1:railings_036a , e1:degrees_skew_034 , e1:main_unit_spans_045 , e1:critical_facility , e1:substructure_cond_060 , e1:other_state_code_098a , e1:structure_flared_035 , e1:county_code , e1:route_prefix , dcterms:identifier , e1:year_of_imp_097 , e1:deck_width_mt_052 , e1:sufficiency_rating , e1:detour_kilos_019 , e1:lat_und_ref_055a , e1:kilopoint , e1:service_on_042a , e1:year_built_027 , e1:channel_cond_061 , wgs:lat , void:inDataset , e1:bridge_imp_cost_094 , e1:nbi_type_of_imp , e1:location , e1:nav_vert_clr_mt_039 , e1:year_adt_030 , e1:record_type_005a , e1:transitions_036b , e1:federal_lands_105 , e1:deck_structure_type_107 , e1:operating_rating_064 , e1:highway_system_104 , e1:toll_020 , wgs:long , e1:superstructure_cond_059 , e1:traffic_lanes_und_028b , rdf:type , e1:traffic_direction_102 , e1:maintenance_021 , e1:min_vert_clr , e1:culvert_cond_062 , e1:roadway_imp_cost_095 , e1:proj_no , e1:parallel_structure_101 , e1:left_curb_mt_050a , e1:structure_number , e1:appr_rail_036c , e1:roadway_width_mt_051 , e1:left_lat_und_mt_056 , e1:route_number , e1:undclrence_eval_069 , e1:spec_inspect_092c , e1:traffic_lanes_on_028a , e1:inspect_freq_months_091 , e1:year_of_future_adt_115 , e1:inv_rating_meth_065 , e1:program_code , e1:lat_und_mt_055b , e1:temp_structure_103 , e1:strahnet_highway_100 , e1:fracture_last_date_093a ;
+	conversion:uses_predicate e1:deck_cond_058 , e1:features_desc , e1:horr_clr_mt_047 , e1:place_code , e1:other_state_pcnt_098b , e1:vert_clr_over_mt_053 , e1:owner_022 , e1:median_code_033 , e1:open_closed_posted_041 , e1:structural_eval_067 , e1:year_reconstructed_106 , e1:proj_suffix , e1:work_done_by_075b , e1:special_code , e1:future_adt_114 , e1:inventory_rating_066 , e1:status , e1:surface_type_108a , e1:lrs_inv_route , e1:structure_kind_043a , e1:design_load_031 , e1:right_curb_mt_050b , e1:navigation_038 , e1:appr_road_eval_072 , e1:step_code , e1:deck_protection_108c , e1:appr_type_044b , e1:work_proposed_075a , owl:sameAs , e1:service_level , e1:imp_len_mt_076 , e1:scour_critical_113 , e1:total_imp_cost_096 , dcterms:isReferencedBy , e1:undwater_last_date_093b , e1:national_network_110 , e1:appr_spans_046 , e1:appr_kind_044a , e1:nav_horr_clr_mt_040 , e1:structure_type_043b , e1:direction , e1:max_span_len_mt_048 , e1:dtl_type_of_imp , e1:type_last_update , e1:pier_protection_111 , e1:membrane_type_108b , e1:vert_clr_und_054b , e1:facility_carried , e1:bridge_len_ind_112 , e1:date_last_update , e1:vert_clr_und_ref_054a , e1:fed_agency , e1:deck_geometry_eval_068 , e1:waterway_eval_071 , e1:service_und_042b , e1:deduct_code , e1:functional_class_026 , e1:history_037 , e1:opr_rating_meth_063 , e1:subroute_no , e1:fracture_092a , e1:percent_adt_truck_109 , e1:state_code , e1:othr_state_struc_no_099 , e1:date_of_inspect_090 , e1:undwater_look_see_092b , ov:csvRow , e1:posting_eval_070 , e1:min_nav_clr_mt_116 , e1:appr_width_mt_032 , e1:remarks , e1:adt_029 , e1:structure_len_mt_049 , e1:highway_district , e1:spec_last_date_093c , rdfs:label , e1:appr_rail_end_036d , e1:sufficiency_asterc , e1:base_hwy_network , e1:railings_036a , e1:degrees_skew_034 , e1:main_unit_spans_045 , e1:critical_facility , e1:substructure_cond_060 , e1:other_state_code_098a , e1:structure_flared_035 , e1:county_code , e1:route_prefix , dcterms:identifier , e1:year_of_imp_097 , e1:deck_width_mt_052 , e1:sufficiency_rating , e1:detour_kilos_019 , e1:lat_und_ref_055a , e1:kilopoint , e1:service_on_042a , e1:year_built_027 , e1:channel_cond_061 , wgs:lat , void:inDataset , e1:bridge_imp_cost_094 , e1:nbi_type_of_imp , e1:location , e1:nav_vert_clr_mt_039 , e1:year_adt_030 , e1:record_type_005a , e1:transitions_036b , e1:federal_lands_105 , e1:deck_structure_type_107 , e1:operating_rating_064 , e1:highway_system_104 , e1:toll_020 , wgs:long , e1:superstructure_cond_059 , e1:traffic_lanes_und_028b , rdf:type , e1:traffic_direction_102 , e1:maintenance_021 , e1:min_vert_clr , e1:culvert_cond_062 , e1:roadway_imp_cost_095 , e1:proj_no , e1:parallel_structure_101 , e1:left_curb_mt_050a , e1:structure_number , e1:appr_rail_036c , e1:roadway_width_mt_051 , e1:left_lat_und_mt_056 , e1:route_number , e1:undclrence_eval_069 , e1:spec_inspect_092c , e1:traffic_lanes_on_028a , e1:inspect_freq_months_091 , e1:year_of_future_adt_115 , e1:inv_rating_meth_065 , e1:program_code , e1:lat_und_mt_055b , e1:temp_structure_103 , e1:strahnet_highway_100 , e1:fracture_last_date_093a ;
 	void:vocabulary <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset/bridges-in-ny/vocab/enhancement/1/> , <http://www.w3.org/2002/07/owl#> , <http://purl.org/dc/terms/> , <http://open.vocab.org/terms/> , <http://www.w3.org/2000/01/rdf-schema#> , <http://www.w3.org/2003/01/geo/wgs84_pos#> , <http://rdfs.org/ns/void#> , <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 e1:deck_cond_058 rdfs:isDefinedBy <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset/bridges-in-ny/vocab/enhancement/1/> ;
@@ -1569,11 +1569,11 @@ e1:imp_len_mt_076 rdfs:isDefinedBy <http://dig.csail.mit.edu/2013/QCRI/bridges/s
 e1:scour_critical_113 rdfs:isDefinedBy <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset/bridges-in-ny/vocab/enhancement/1/> ;
 	prov:wasAttributedTo <http://dig.csail.mit.edu> .
 
-dcterms:isReferencedBy rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-	prov:wasAttributedTo <http://purl.org/dc> .
-
 e1:total_imp_cost_096 rdfs:isDefinedBy <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset/bridges-in-ny/vocab/enhancement/1/> ;
 	prov:wasAttributedTo <http://dig.csail.mit.edu> .
+
+dcterms:isReferencedBy rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+	prov:wasAttributedTo <http://purl.org/dc> .
 
 e1:undwater_last_date_093b rdfs:isDefinedBy <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset/bridges-in-ny/vocab/enhancement/1/> ;
 	prov:wasAttributedTo <http://dig.csail.mit.edu> .
@@ -1904,7 +1904,7 @@ bridges-in-ny_vocab:State rdfs:isDefinedBy <http://dig.csail.mit.edu/2013/QCRI/b
 
 <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/enhancement/1> void:exampleResource bridges-in-ny:thing_2 , bridges-in-ny:thing_22695 ;
 	conversion:enhancement_identifier "1" ;
-	dcterms:created "2013-04-05T18:36:47.449-05:00"^^xsd:dateTime ;
+	dcterms:created "2013-04-05T21:56:18.603-05:00"^^xsd:dateTime ;
 	dcterms:contributor <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov> ;
 	dcterms:identifier "fhwa-dot-gov bridges-in-ny 2013-Apr-04 e1" .
 
@@ -1912,7 +1912,7 @@ bridges-in-ny_vocab:State rdfs:isDefinedBy <http://dig.csail.mit.edu/2013/QCRI/b
 	conversion:base_uri "http://dig.csail.mit.edu/2013/QCRI/bridges" ;
 	conversion:source_identifier "fhwa-dot-gov" ;
 	conversion:dataset_identifier "bridges-in-ny" ;
-	dcterms:modified "2013-04-05T18:37:48.581-05:00"^^xsd:dateTime ;
+	dcterms:modified "2013-04-05T21:57:56.934-05:00"^^xsd:dateTime ;
 	foaf:isPrimaryTopicOf <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset_page/bridges-in-ny/subset/sameas> ;
 	void:vocabulary <http://www.w3.org/2002/07/owl#> ;
 	void:dataDump <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/file/bridges-in-ny/version/2013-Apr-04/conversion/fhwa-dot-gov-bridges-in-ny-2013-Apr-04.sameas.ttl.gz> .
@@ -1924,7 +1924,7 @@ bridges-in-ny_vocab:State rdfs:isDefinedBy <http://dig.csail.mit.edu/2013/QCRI/b
 	conversion:version_identifier "2013-Apr-04" ;
 	conversion:dataset_version "2013-Apr-04" ;
 	conversion:conversion_identifier "enhancement/1" ;
-	dcterms:modified "2013-04-05T18:37:48.581-05:00"^^xsd:dateTime ;
+	dcterms:modified "2013-04-05T21:57:56.934-05:00"^^xsd:dateTime ;
 	foaf:isPrimaryTopicOf <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset_page/bridges-in-ny/version/2013-Apr-04/conversion/enhancement/1/subset/sample> ;
 	void:dataDump <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/file/bridges-in-ny/version/2013-Apr-04/conversion/fhwa-dot-gov-bridges-in-ny-2013-Apr-04.e1.sample.ttl> .
 
@@ -1934,154 +1934,154 @@ bridges-in-ny_vocab:State rdfs:isDefinedBy <http://dig.csail.mit.edu/2013/QCRI/b
 	dcterms:identifier "fhwa-dot-gov" ;
 	foaf:isPrimaryTopicOf <http://dig.csail.mit.edu/2013/QCRI/bridges/source_page/fhwa-dot-gov> .
 
-_:node17ne5gia0x3 vann:preferredNamespacePrefix "rdf" ;
+_:node17negtrogx3 vann:preferredNamespacePrefix "rdf" ;
 	vann:preferredNamespaceUri "http://www.w3.org/1999/02/22-rdf-syntax-ns#" .
 
-_:node17ne5gia0x4 vann:preferredNamespacePrefix "rdfs" ;
+_:node17negtrogx4 vann:preferredNamespacePrefix "rdfs" ;
 	vann:preferredNamespaceUri "http://www.w3.org/2000/01/rdf-schema#" .
 
-_:node17ne5gia0x5 vann:preferredNamespacePrefix "xsd" ;
+_:node17negtrogx5 vann:preferredNamespacePrefix "xsd" ;
 	vann:preferredNamespaceUri "http://www.w3.org/2001/XMLSchema#" .
 
-_:node17ne5gia0x6 vann:preferredNamespacePrefix "xsd2" ;
+_:node17negtrogx6 vann:preferredNamespacePrefix "xsd2" ;
 	vann:preferredNamespaceUri "http://www.w3.org/TR/xmlschema-2/#" .
 
-_:node17ne5gia0x7 vann:preferredNamespacePrefix "owl" ;
+_:node17negtrogx7 vann:preferredNamespacePrefix "owl" ;
 	vann:preferredNamespaceUri "http://www.w3.org/2002/07/owl#" .
 
-_:node17ne5gia0x8 vann:preferredNamespacePrefix "conversion" ;
+_:node17negtrogx8 vann:preferredNamespacePrefix "conversion" ;
 	vann:preferredNamespaceUri "http://purl.org/twc/vocab/conversion/" .
 
-_:node17ne5gia0x9 vann:preferredNamespacePrefix "ov" ;
+_:node17negtrogx9 vann:preferredNamespacePrefix "ov" ;
 	vann:preferredNamespaceUri "http://open.vocab.org/terms/" .
 
-_:node17ne5gia0x10 vann:preferredNamespacePrefix "dcterms" ;
+_:node17negtrogx10 vann:preferredNamespacePrefix "dcterms" ;
 	vann:preferredNamespaceUri "http://purl.org/dc/terms/" .
 
-_:node17ne5gia0x11 vann:preferredNamespacePrefix "foaf" ;
+_:node17negtrogx11 vann:preferredNamespacePrefix "foaf" ;
 	vann:preferredNamespaceUri "http://xmlns.com/foaf/0.1/" .
 
-_:node17ne5gia0x12 vann:preferredNamespacePrefix "void" ;
+_:node17negtrogx12 vann:preferredNamespacePrefix "void" ;
 	vann:preferredNamespaceUri "http://rdfs.org/ns/void#" .
 
-_:node17ne5gia0x13 vann:preferredNamespacePrefix "doap" ;
+_:node17negtrogx13 vann:preferredNamespacePrefix "doap" ;
 	vann:preferredNamespaceUri "http://usefulinc.com/ns/doap#" .
 
-_:node17ne5gia0x14 vann:preferredNamespacePrefix "scovo" ;
+_:node17negtrogx14 vann:preferredNamespacePrefix "scovo" ;
 	vann:preferredNamespaceUri "http://purl.org/NET/scovo#" .
 
-_:node17ne5gia0x15 vann:preferredNamespacePrefix "qb" ;
+_:node17negtrogx15 vann:preferredNamespacePrefix "qb" ;
 	vann:preferredNamespaceUri "http://purl.org/linked-data/cube#" .
 
-_:node17ne5gia0x16 vann:preferredNamespacePrefix "vann" ;
+_:node17negtrogx16 vann:preferredNamespacePrefix "vann" ;
 	vann:preferredNamespaceUri "http://purl.org/vocab/vann/" .
 
-_:node17ne5gia0x17 vann:preferredNamespacePrefix "frbrcore" ;
+_:node17negtrogx17 vann:preferredNamespacePrefix "frbrcore" ;
 	vann:preferredNamespaceUri "http://purl.org/vocab/frbr/core#" .
 
-_:node17ne5gia0x18 vann:preferredNamespacePrefix "coin" ;
+_:node17negtrogx18 vann:preferredNamespacePrefix "coin" ;
 	vann:preferredNamespaceUri "http://purl.org/court/def/2009/coin#" .
 
-_:node17ne5gia0x19 vann:preferredNamespacePrefix "bridges-in-ny" ;
+_:node17negtrogx19 vann:preferredNamespacePrefix "bridges-in-ny" ;
 	vann:preferredNamespaceUri "http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/" .
 
-_:node17ne5gia0x20 vann:preferredNamespacePrefix "fhwa-dot-gov_vocab" ;
+_:node17negtrogx20 vann:preferredNamespacePrefix "fhwa-dot-gov_vocab" ;
 	vann:preferredNamespaceUri "http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/vocab/" .
 
-_:node17ne5gia0x21 vann:preferredNamespacePrefix "base_vocab" ;
+_:node17negtrogx21 vann:preferredNamespacePrefix "base_vocab" ;
 	vann:preferredNamespaceUri "http://dig.csail.mit.edu/2013/QCRI/bridges/vocab/" .
 
-_:node17ne5gia0x22 vann:preferredNamespacePrefix "bridges-in-ny_vocab" ;
+_:node17negtrogx22 vann:preferredNamespacePrefix "bridges-in-ny_vocab" ;
 	vann:preferredNamespaceUri "http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset/bridges-in-ny/vocab/" .
 
-_:node17ne5gia0x23 vann:preferredNamespacePrefix "raw" ;
+_:node17negtrogx23 vann:preferredNamespacePrefix "raw" ;
 	vann:preferredNamespaceUri "http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset/bridges-in-ny/vocab/raw/" .
 
-_:node17ne5gia0x24 vann:preferredNamespacePrefix "e1" ;
+_:node17negtrogx24 vann:preferredNamespacePrefix "e1" ;
 	vann:preferredNamespaceUri "http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset/bridges-in-ny/vocab/enhancement/1/" .
 
-_:node17ne5gia0x25 vann:preferredNamespacePrefix "bridges-in-ny_global_value" ;
+_:node17negtrogx25 vann:preferredNamespacePrefix "bridges-in-ny_global_value" ;
 	vann:preferredNamespaceUri "http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset/bridges-in-ny/" .
 
-_:node17ne5gia0x26 vann:preferredNamespacePrefix "typed_state" ;
+_:node17negtrogx26 vann:preferredNamespacePrefix "typed_state" ;
 	vann:preferredNamespaceUri "http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset/bridges-in-ny/typed/state/" .
 
-_:node17ne5gia0x27 vann:preferredNamespacePrefix "typed_structure_number" ;
+_:node17negtrogx27 vann:preferredNamespacePrefix "typed_structure_number" ;
 	vann:preferredNamespaceUri "http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset/bridges-in-ny/typed/structure_number/" .
 
-_:node17ne5gia0x28 vann:preferredNamespacePrefix "bibo" ;
-	vann:preferredNamespaceUri "http://purl.org/ontology/bibo/" .
-
-_:node17ne5gia0x29 vann:preferredNamespacePrefix "geonamesid" ;
-	vann:preferredNamespaceUri "http://sws.geonames.org/" .
-
-_:node17ne5gia0x30 vann:preferredNamespacePrefix "wgs" ;
-	vann:preferredNamespaceUri "http://www.w3.org/2003/01/geo/wgs84_pos#" .
-
-_:node17ne5gia0x31 vann:preferredNamespacePrefix "govtrackusgov" ;
-	vann:preferredNamespaceUri "http://www.rdfabout.com/rdf/usgov/geo/us/" .
-
-_:node17ne5gia0x32 vann:preferredNamespacePrefix "con" ;
-	vann:preferredNamespaceUri "http://www.w3.org/2000/10/swap/pim/contact#" .
-
-_:node17ne5gia0x33 vann:preferredNamespacePrefix "dbpediaprop" ;
-	vann:preferredNamespaceUri "http://dbpedia.org/property/" .
-
-_:node17ne5gia0x34 vann:preferredNamespacePrefix "sioc" ;
-	vann:preferredNamespaceUri "http://rdfs.org/sioc/ns#" .
-
-_:node17ne5gia0x35 vann:preferredNamespacePrefix "vsr" ;
-	vann:preferredNamespaceUri "http://purl.org/twc/vocab/vsr#" .
-
-_:node17ne5gia0x36 vann:preferredNamespacePrefix "skos" ;
-	vann:preferredNamespaceUri "http://www.w3.org/2004/02/skos/core#" .
-
-_:node17ne5gia0x37 vann:preferredNamespacePrefix "frbr" ;
-	vann:preferredNamespaceUri "http://purl.org/vocab/frbr/core#" .
-
-_:node17ne5gia0x38 vann:preferredNamespacePrefix "geonames" ;
-	vann:preferredNamespaceUri "http://www.geonames.org/ontology#" .
-
-_:node17ne5gia0x39 vann:preferredNamespacePrefix "dbpedia" ;
-	vann:preferredNamespaceUri "http://dbpedia.org/resource/" .
-
-_:node17ne5gia0x40 vann:preferredNamespacePrefix "sio" ;
-	vann:preferredNamespaceUri "http://semanticscience.org/resource/" .
-
-_:node17ne5gia0x41 vann:preferredNamespacePrefix "dgtwc" ;
-	vann:preferredNamespaceUri "http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#" .
-
-_:node17ne5gia0x42 vann:preferredNamespacePrefix "vs" ;
-	vann:preferredNamespaceUri "http://www.w3.org/2003/06/sw-vocab-status/ns#" .
-
-_:node17ne5gia0x43 vann:preferredNamespacePrefix "todo" ;
-	vann:preferredNamespaceUri "http://www.w3.org/2000/01/rdf-schema#" .
-
-_:node17ne5gia0x44 vann:preferredNamespacePrefix "time" ;
-	vann:preferredNamespaceUri "http://www.w3.org/2006/time#" .
-
-_:node17ne5gia0x45 vann:preferredNamespacePrefix "dbpediaowl" ;
-	vann:preferredNamespaceUri "http://dbpedia.org/ontology/" .
-
-_:node17ne5gia0x46 vann:preferredNamespacePrefix "prov" ;
-	vann:preferredNamespaceUri "http://www.w3.org/ns/prov#" .
-
-_:node17ne5gia0x47 vann:preferredNamespacePrefix "nfo" ;
-	vann:preferredNamespaceUri "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#" .
-
-_:node17ne5gia0x48 vann:preferredNamespacePrefix "dcat" ;
-	vann:preferredNamespaceUri "http://www.w3.org/ns/dcat#" .
-
-_:node17ne5gia0x49 vann:preferredNamespacePrefix "muo" ;
+_:node17negtrogx28 vann:preferredNamespacePrefix "muo" ;
 	vann:preferredNamespaceUri "http://purl.oclc.org/NET/muo/muo#" .
 
-_:node17ne5gia0x50 vann:preferredNamespacePrefix "value_of_state_code" ;
+_:node17negtrogx29 vann:preferredNamespacePrefix "geonames" ;
+	vann:preferredNamespaceUri "http://www.geonames.org/ontology#" .
+
+_:node17negtrogx30 vann:preferredNamespacePrefix "time" ;
+	vann:preferredNamespaceUri "http://www.w3.org/2006/time#" .
+
+_:node17negtrogx31 vann:preferredNamespacePrefix "vs" ;
+	vann:preferredNamespaceUri "http://www.w3.org/2003/06/sw-vocab-status/ns#" .
+
+_:node17negtrogx32 vann:preferredNamespacePrefix "govtrackusgov" ;
+	vann:preferredNamespaceUri "http://www.rdfabout.com/rdf/usgov/geo/us/" .
+
+_:node17negtrogx33 vann:preferredNamespacePrefix "dcat" ;
+	vann:preferredNamespaceUri "http://www.w3.org/ns/dcat#" .
+
+_:node17negtrogx34 vann:preferredNamespacePrefix "geonamesid" ;
+	vann:preferredNamespaceUri "http://sws.geonames.org/" .
+
+_:node17negtrogx35 vann:preferredNamespacePrefix "todo" ;
+	vann:preferredNamespaceUri "http://www.w3.org/2000/01/rdf-schema#" .
+
+_:node17negtrogx36 vann:preferredNamespacePrefix "dbpedia" ;
+	vann:preferredNamespaceUri "http://dbpedia.org/resource/" .
+
+_:node17negtrogx37 vann:preferredNamespacePrefix "con" ;
+	vann:preferredNamespaceUri "http://www.w3.org/2000/10/swap/pim/contact#" .
+
+_:node17negtrogx38 vann:preferredNamespacePrefix "bibo" ;
+	vann:preferredNamespaceUri "http://purl.org/ontology/bibo/" .
+
+_:node17negtrogx39 vann:preferredNamespacePrefix "vsr" ;
+	vann:preferredNamespaceUri "http://purl.org/twc/vocab/vsr#" .
+
+_:node17negtrogx40 vann:preferredNamespacePrefix "skos" ;
+	vann:preferredNamespaceUri "http://www.w3.org/2004/02/skos/core#" .
+
+_:node17negtrogx41 vann:preferredNamespacePrefix "dbpediaprop" ;
+	vann:preferredNamespaceUri "http://dbpedia.org/property/" .
+
+_:node17negtrogx42 vann:preferredNamespacePrefix "sio" ;
+	vann:preferredNamespaceUri "http://semanticscience.org/resource/" .
+
+_:node17negtrogx43 vann:preferredNamespacePrefix "wgs" ;
+	vann:preferredNamespaceUri "http://www.w3.org/2003/01/geo/wgs84_pos#" .
+
+_:node17negtrogx44 vann:preferredNamespacePrefix "nfo" ;
+	vann:preferredNamespaceUri "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#" .
+
+_:node17negtrogx45 vann:preferredNamespacePrefix "frbr" ;
+	vann:preferredNamespaceUri "http://purl.org/vocab/frbr/core#" .
+
+_:node17negtrogx46 vann:preferredNamespacePrefix "dbpediaowl" ;
+	vann:preferredNamespaceUri "http://dbpedia.org/ontology/" .
+
+_:node17negtrogx47 vann:preferredNamespacePrefix "dgtwc" ;
+	vann:preferredNamespaceUri "http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#" .
+
+_:node17negtrogx48 vann:preferredNamespacePrefix "prov" ;
+	vann:preferredNamespaceUri "http://www.w3.org/ns/prov#" .
+
+_:node17negtrogx49 vann:preferredNamespacePrefix "sioc" ;
+	vann:preferredNamespaceUri "http://rdfs.org/sioc/ns#" .
+
+_:node17negtrogx50 vann:preferredNamespacePrefix "value_of_state_code" ;
 	vann:preferredNamespaceUri "http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset/bridges-in-ny/value-of/state_code/" .
 
-_:node17ne5gia0x51 vann:preferredNamespacePrefix "value_of_structure_number" ;
+_:node17negtrogx51 vann:preferredNamespacePrefix "value_of_structure_number" ;
 	vann:preferredNamespaceUri "http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset/bridges-in-ny/value-of/structure_number/" .
 
-_:node17ne5gia0x2 rdfs:seeAlso _:node17ne5gia0x3 , _:node17ne5gia0x4 , _:node17ne5gia0x5 , _:node17ne5gia0x6 , _:node17ne5gia0x7 , _:node17ne5gia0x8 , _:node17ne5gia0x9 , _:node17ne5gia0x10 , _:node17ne5gia0x11 , _:node17ne5gia0x12 , _:node17ne5gia0x13 , _:node17ne5gia0x14 , _:node17ne5gia0x15 , _:node17ne5gia0x16 , _:node17ne5gia0x17 , _:node17ne5gia0x18 , _:node17ne5gia0x19 , _:node17ne5gia0x20 , _:node17ne5gia0x21 , _:node17ne5gia0x22 , _:node17ne5gia0x23 , _:node17ne5gia0x24 , _:node17ne5gia0x25 , _:node17ne5gia0x26 , _:node17ne5gia0x27 , _:node17ne5gia0x28 , _:node17ne5gia0x29 , _:node17ne5gia0x30 , _:node17ne5gia0x31 , _:node17ne5gia0x32 , _:node17ne5gia0x33 , _:node17ne5gia0x34 , _:node17ne5gia0x35 , _:node17ne5gia0x36 , _:node17ne5gia0x37 , _:node17ne5gia0x38 , _:node17ne5gia0x39 , _:node17ne5gia0x40 , _:node17ne5gia0x41 , _:node17ne5gia0x42 , _:node17ne5gia0x43 , _:node17ne5gia0x44 , _:node17ne5gia0x45 , _:node17ne5gia0x46 , _:node17ne5gia0x47 , _:node17ne5gia0x48 , _:node17ne5gia0x49 , _:node17ne5gia0x50 , _:node17ne5gia0x51 .
+_:node17negtrogx2 rdfs:seeAlso _:node17negtrogx3 , _:node17negtrogx4 , _:node17negtrogx5 , _:node17negtrogx6 , _:node17negtrogx7 , _:node17negtrogx8 , _:node17negtrogx9 , _:node17negtrogx10 , _:node17negtrogx11 , _:node17negtrogx12 , _:node17negtrogx13 , _:node17negtrogx14 , _:node17negtrogx15 , _:node17negtrogx16 , _:node17negtrogx17 , _:node17negtrogx18 , _:node17negtrogx19 , _:node17negtrogx20 , _:node17negtrogx21 , _:node17negtrogx22 , _:node17negtrogx23 , _:node17negtrogx24 , _:node17negtrogx25 , _:node17negtrogx26 , _:node17negtrogx27 , _:node17negtrogx28 , _:node17negtrogx29 , _:node17negtrogx30 , _:node17negtrogx31 , _:node17negtrogx32 , _:node17negtrogx33 , _:node17negtrogx34 , _:node17negtrogx35 , _:node17negtrogx36 , _:node17negtrogx37 , _:node17negtrogx38 , _:node17negtrogx39 , _:node17negtrogx40 , _:node17negtrogx41 , _:node17negtrogx42 , _:node17negtrogx43 , _:node17negtrogx44 , _:node17negtrogx45 , _:node17negtrogx46 , _:node17negtrogx47 , _:node17negtrogx48 , _:node17negtrogx49 , _:node17negtrogx50 , _:node17negtrogx51 .
 
 <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/provenance/bridges-in-ny/version/2013-Apr-04/conversion/enhancement/1/nodeset_1> a <http://inference-web.org/2.0/pml-justification.owl#NodeSet> ;
 	<http://inference-web.org/2.0/pml-justification.owl#hasConclusion> <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/file/bridges-in-ny/version/2013-Apr-04/conversion/fhwa-dot-gov-bridges-in-ny-2013-Apr-04.sameas.ttl.gz> ;
@@ -2100,17 +2100,17 @@ _:node17ne5gia0x2 rdfs:seeAlso _:node17ne5gia0x3 , _:node17ne5gia0x4 , _:node17n
 	<http://inference-web.org/2.0/pml-justification.owl#isConsequentOf> <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/provenance/bridges-in-ny/version/2013-Apr-04/conversion/enhancement/1/infstep_1> .
 
 <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/provenance/bridges-in-ny/version/2013-Apr-04/conversion/enhancement/1/infstep_1> a <http://inference-web.org/2.0/pml-justification.owl#InferenceStep> ;
-	<http://inference-web.org/2.0/pml-justification.owl#hasInferenceEngine> _:node17ne5gia0x1 ;
-	<http://inference-web.org/2.0/pml-justification.owl#hasAntecedentList> _:node17ne5gia0x52 ;
-	<http://inference-web.org/2.1exper/pml-provenance.owl#hasAntecedentRole> _:node17ne5gia0x53 , _:node17ne5gia0x54 .
+	<http://inference-web.org/2.0/pml-justification.owl#hasInferenceEngine> _:node17negtrogx1 ;
+	<http://inference-web.org/2.0/pml-justification.owl#hasAntecedentList> _:node17negtrogx52 ;
+	<http://inference-web.org/2.1exper/pml-provenance.owl#hasAntecedentRole> _:node17negtrogx53 , _:node17negtrogx54 .
 
-<http://purl.org/twc/id/software/csv2rdf4lod> con:preferredURI _:node17ne5gia0x1 .
+<http://purl.org/twc/id/software/csv2rdf4lod> con:preferredURI _:node17negtrogx1 .
 
-<http://data.lod2.eu/2011/tools/CSV2RDF4LOD> con:preferredURI _:node17ne5gia0x1 .
+<http://data.lod2.eu/2011/tools/CSV2RDF4LOD> con:preferredURI _:node17negtrogx1 .
 
-<http://data-gov.tw.rpi.edu/wiki/Special:URIResolver/csv2rdf4lod> con:preferredURI _:node17ne5gia0x1 .
+<http://data-gov.tw.rpi.edu/wiki/Special:URIResolver/csv2rdf4lod> con:preferredURI _:node17negtrogx1 .
 
-_:node17ne5gia0x1 a <http://inference-web.org/2.0/pml-provenance.owl#InferenceEngine> , doap:Version ;
+_:node17negtrogx1 a <http://inference-web.org/2.0/pml-provenance.owl#InferenceEngine> , doap:Version ;
 	dcterms:version "2013-Jan-16" ;
 	doap:revision "2013-Jan-16" ;
 	doap:platform "Java" ;
@@ -2130,7 +2130,7 @@ _:node17ne5gia0x1 a <http://inference-web.org/2.0/pml-provenance.owl#InferenceEn
 	doap:shortdesc "Converts CSV files to RDF using parameters specified by http://purl.org/twc/vocab/conversion/" ;
 	doap:description "Converts CSV files to RDF using parameters specified by http://purl.org/twc/vocab/conversion/. Organizes datasets using 'source', 'dataset', and 'version' identifiers to allow for third-party aggregation, refinement, and integration of third-party data. Uses predicate 'layers' to allow backward-compatible refinements of Resources' descriptions. Minimizes human error and increases transparancy of conversion by using RDF-encoded interpretation parameters to control all processing." .
 
-_:node17ne5gia0x55 a doap:GitRepository ;
+_:node17negtrogx55 a doap:GitRepository ;
 	foaf:isPrimaryTopicOf <https://github.com/timrdf/csv2rdf4lod-automation> ;
 	doap:browse <https://github.com/timrdf/csv2rdf4lod-automation> .
 
@@ -2146,33 +2146,33 @@ _:node17ne5gia0x55 a doap:GitRepository ;
 
 <http://purl.org/twc/id/person/Maryam_Fazel-Zarandi> con:preferredURI <http://tw.rpi.edu/instances/MaryamFazel-Zarandi> .
 
-_:node17ne5gia0x52 a rdf:List ;
+_:node17negtrogx52 a rdf:List ;
 	rdf:first <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/provenance/bridges-in-ny/version/2013-Apr-04/conversion/enhancement/1/nodeset_5> .
 
 <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/provenance/bridges-in-ny/version/2013-Apr-04/conversion/enhancement/1/nodeset_5> a <http://inference-web.org/2.0/pml-justification.owl#NodeSet> ;
 	<http://inference-web.org/2.0/pml-justification.owl#hasConclusion> <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/filebridges-in-ny/version/2013-Apr-04/source/NY12.txt.csv> .
 
-_:node17ne5gia0x52 rdf:rest _:node17ne5gia0x56 .
+_:node17negtrogx52 rdf:rest _:node17negtrogx56 .
 
-_:node17ne5gia0x56 a rdf:List ;
+_:node17negtrogx56 a rdf:List ;
 	rdf:first <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/provenance/bridges-in-ny/version/2013-Apr-04/conversion/enhancement/1/nodeset_6> .
 
 <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/provenance/bridges-in-ny/version/2013-Apr-04/conversion/enhancement/1/nodeset_6> a <http://inference-web.org/2.0/pml-justification.owl#NodeSet> ;
 	<http://inference-web.org/2.0/pml-justification.owl#hasConclusion> <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/filebridges-in-ny/version/2013-Apr-04/manual/NY12.txt.csv.e1.params.ttl> .
 
-_:node17ne5gia0x54 <http://inference-web.org/2.1exper/pml-provenance.owl#hasRole> <http://inference-web.org/registry/ROLE/Parameters.owl#Parameters> .
+<http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/filebridges-in-ny/version/2013-Apr-04/source/NY12.txt.csv> a <http://inference-web.org/2.0/pml-provenance.owl#Information> .
 
-_:node17ne5gia0x56 rdf:rest rdf:nil .
+_:node17negtrogx56 rdf:rest rdf:nil .
 
-_:node17ne5gia0x53 a <http://inference-web.org/2.1exper/pml-provenance.owl#AntecedentRole> ;
+_:node17negtrogx53 a <http://inference-web.org/2.1exper/pml-provenance.owl#AntecedentRole> ;
 	<http://inference-web.org/2.1exper/pml-provenance.owl#hasAntecedent> <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/filebridges-in-ny/version/2013-Apr-04/source/NY12.txt.csv> ;
 	<http://inference-web.org/2.1exper/pml-provenance.owl#hasRole> <http://inference-web.org/registry/ROLE/Input.owl#Input> .
 
-_:node17ne5gia0x54 a <http://inference-web.org/2.1exper/pml-provenance.owl#AntecedentRole> ;
-	<http://inference-web.org/2.1exper/pml-provenance.owl#hasAntecedent> <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/filebridges-in-ny/version/2013-Apr-04/manual/NY12.txt.csv.e1.params.ttl> .
+_:node17negtrogx54 a <http://inference-web.org/2.1exper/pml-provenance.owl#AntecedentRole> ;
+	<http://inference-web.org/2.1exper/pml-provenance.owl#hasAntecedent> <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/filebridges-in-ny/version/2013-Apr-04/manual/NY12.txt.csv.e1.params.ttl> ;
+	<http://inference-web.org/2.1exper/pml-provenance.owl#hasRole> <http://inference-web.org/registry/ROLE/Parameters.owl#Parameters> .
 
-<http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/filebridges-in-ny/version/2013-Apr-04/source/NY12.txt.csv> a <http://inference-web.org/2.0/pml-provenance.owl#Information> ;
-	<http://inference-web.org/2.0/pml-provenance.owl#hasFormat> <http://iw.cs.utep.edu/registry/FMT/text/CSV.owl#CSV> .
+<http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/filebridges-in-ny/version/2013-Apr-04/source/NY12.txt.csv> <http://inference-web.org/2.0/pml-provenance.owl#hasFormat> <http://iw.cs.utep.edu/registry/FMT/text/CSV.owl#CSV> .
 
 <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/filebridges-in-ny/version/2013-Apr-04/manual/NY12.txt.csv.e1.params.ttl> a <http://inference-web.org/2.0/pml-provenance.owl#Information> ;
 	<http://inference-web.org/2.0/pml-provenance.owl#hasFormat> <http://inference-web.org/registry/FMT/RDFAbstractSyntax.owl#RDFAbstractSyntax> .
@@ -2191,9 +2191,9 @@ conversion:enhances rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
 
 conversion:enhancement_layer rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
 
-conversion:DatasetSample rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
-
 conversion:source_identifier rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:DatasetSample rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
 
 conversion:VersionedDataset rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
 
@@ -2228,17 +2228,17 @@ conversion:version_identifier rdfs:isDefinedBy <http://purl.org/twc/vocab/conver
 	conversion:version_identifier "2013-Apr-04" ;
 	conversion:enhancement_identifier "1" .
 
-_:node17ne5gib5x1 a conversion:RawConversionProcess ;
+_:node17negtrq8x1 a conversion:RawConversionProcess ;
 	conversion:enhancement_identifier "1" .
 
-_:node17ne5gib5x2 a foaf:OnlineAccount ;
+_:node17negtrq8x2 a foaf:OnlineAccount ;
 	foaf:accountName "oshani" .
 
-_:node17ne5gib5x1 dcterms:creator _:node17ne5gib5x2 ;
+_:node17negtrq8x1 dcterms:creator _:node17negtrq8x2 ;
 	dcterms:created "2013-04-05T16:41:17-04:00"^^xsd:dateTime ;
 	conversion:delimits_cell "," .
 
-_:node17ne5gib5x3 ov:csvCol "1"^^xsd:integer ;
+_:node17negtrq8x3 ov:csvCol "1"^^xsd:integer ;
 	ov:csvHeader "STATE_CODE_001" ;
 	conversion:label "STATE_CODE" ;
 	conversion:comment "" ;
@@ -2250,9 +2250,9 @@ _:node17ne5gib5x3 ov:csvCol "1"^^xsd:integer ;
 	conversion:links_via <http://homepages.rpi.edu/~lebot/lod-links/state-fips-geonames.ttl> ;
 	conversion:subject_of dcterms:identifier .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x3 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x3 .
 
-_:node17ne5gib5x4 ov:csvCol "2"^^xsd:integer ;
+_:node17negtrq8x4 ov:csvCol "2"^^xsd:integer ;
 	ov:csvHeader "STRUCTURE_NUMBER_008" ;
 	conversion:label "STRUCTURE_NUMBER" ;
 	conversion:comment "" ;
@@ -2260,229 +2260,229 @@ _:node17ne5gib5x4 ov:csvCol "2"^^xsd:integer ;
 	a conversion:TypedResourcePromotionEnhancement ;
 	conversion:range_name "structure_number" .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x4 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x4 .
 
-_:node17ne5gib5x5 ov:csvCol "3"^^xsd:integer ;
+_:node17negtrq8x5 ov:csvCol "3"^^xsd:integer ;
 	ov:csvHeader "RECORD_TYPE_005A" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x6 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x6 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x5 conversion:bundled_by _:node17ne5gib5x6 .
+_:node17negtrq8x5 conversion:bundled_by _:node17negtrq8x6 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x5 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x5 .
 
-_:node17ne5gib5x7 ov:csvCol "4"^^xsd:integer ;
+_:node17negtrq8x7 ov:csvCol "4"^^xsd:integer ;
 	ov:csvHeader "ROUTE_PREFIX_005B" ;
 	conversion:label "ROUTE_PREFIX" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x8 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x8 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x7 conversion:bundled_by _:node17ne5gib5x8 .
+_:node17negtrq8x7 conversion:bundled_by _:node17negtrq8x8 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x7 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x7 .
 
-_:node17ne5gib5x9 ov:csvCol "5"^^xsd:integer ;
+_:node17negtrq8x9 ov:csvCol "5"^^xsd:integer ;
 	ov:csvHeader "SERVICE_LEVEL_005C" ;
 	conversion:label "SERVICE_LEVEL" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x10 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x10 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x9 conversion:bundled_by _:node17ne5gib5x10 .
+_:node17negtrq8x9 conversion:bundled_by _:node17negtrq8x10 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x9 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x9 .
 
-_:node17ne5gib5x11 ov:csvCol "6"^^xsd:integer ;
+_:node17negtrq8x11 ov:csvCol "6"^^xsd:integer ;
 	ov:csvHeader "ROUTE_NUMBER_005D" ;
 	conversion:label "ROUTE_NUMBER" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x12 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x12 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x11 conversion:bundled_by _:node17ne5gib5x12 .
+_:node17negtrq8x11 conversion:bundled_by _:node17negtrq8x12 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x11 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x11 .
 
-_:node17ne5gib5x13 ov:csvCol "7"^^xsd:integer ;
+_:node17negtrq8x13 ov:csvCol "7"^^xsd:integer ;
 	ov:csvHeader "DIRECTION_005E" ;
 	conversion:label "DIRECTION" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x14 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x14 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x13 conversion:bundled_by _:node17ne5gib5x14 .
+_:node17negtrq8x13 conversion:bundled_by _:node17negtrq8x14 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x13 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x13 .
 
-_:node17ne5gib5x15 ov:csvCol "8"^^xsd:integer ;
+_:node17negtrq8x15 ov:csvCol "8"^^xsd:integer ;
 	ov:csvHeader "HIGHWAY_DISTRICT_002" ;
 	conversion:label "HIGHWAY_DISTRICT" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x16 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x16 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x15 conversion:bundled_by _:node17ne5gib5x16 .
+_:node17negtrq8x15 conversion:bundled_by _:node17negtrq8x16 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x15 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x15 .
 
-_:node17ne5gib5x17 ov:csvCol "9"^^xsd:integer ;
+_:node17negtrq8x17 ov:csvCol "9"^^xsd:integer ;
 	ov:csvHeader "COUNTY_CODE_003" ;
 	conversion:label "COUNTY_CODE" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x18 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x18 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x17 conversion:bundled_by _:node17ne5gib5x18 .
+_:node17negtrq8x17 conversion:bundled_by _:node17negtrq8x18 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x17 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x17 .
 
-_:node17ne5gib5x19 ov:csvCol "10"^^xsd:integer ;
+_:node17negtrq8x19 ov:csvCol "10"^^xsd:integer ;
 	ov:csvHeader "PLACE_CODE_004" ;
 	conversion:label "PLACE_CODE" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x20 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x20 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x19 conversion:bundled_by _:node17ne5gib5x20 .
+_:node17negtrq8x19 conversion:bundled_by _:node17negtrq8x20 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x19 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x19 .
 
-_:node17ne5gib5x21 ov:csvCol "11"^^xsd:integer ;
+_:node17negtrq8x21 ov:csvCol "11"^^xsd:integer ;
 	ov:csvHeader "FEATURES_DESC_006A" ;
 	conversion:label "FEATURES_DESC" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x22 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x22 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x21 conversion:bundled_by _:node17ne5gib5x22 .
+_:node17negtrq8x21 conversion:bundled_by _:node17negtrq8x22 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x21 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x21 .
 
-_:node17ne5gib5x23 ov:csvCol "12"^^xsd:integer ;
+_:node17negtrq8x23 ov:csvCol "12"^^xsd:integer ;
 	ov:csvHeader "CRITICAL_FACILITY_006B" ;
 	conversion:label "CRITICAL_FACILITY" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x24 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x24 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x23 conversion:bundled_by _:node17ne5gib5x24 .
+_:node17negtrq8x23 conversion:bundled_by _:node17negtrq8x24 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x23 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x23 .
 
-_:node17ne5gib5x25 ov:csvCol "13"^^xsd:integer ;
+_:node17negtrq8x25 ov:csvCol "13"^^xsd:integer ;
 	ov:csvHeader "FACILITY_CARRIED_007" ;
 	conversion:label "FACILITY_CARRIED" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x26 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x26 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x25 conversion:bundled_by _:node17ne5gib5x26 .
+_:node17negtrq8x25 conversion:bundled_by _:node17negtrq8x26 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x25 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x25 .
 
-_:node17ne5gib5x27 ov:csvCol "14"^^xsd:integer ;
+_:node17negtrq8x27 ov:csvCol "14"^^xsd:integer ;
 	ov:csvHeader "LOCATION_009" ;
 	conversion:label "LOCATION" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x28 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x28 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x27 conversion:bundled_by _:node17ne5gib5x28 .
+_:node17negtrq8x27 conversion:bundled_by _:node17negtrq8x28 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x27 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x27 .
 
-_:node17ne5gib5x29 ov:csvCol "15"^^xsd:integer ;
+_:node17negtrq8x29 ov:csvCol "15"^^xsd:integer ;
 	ov:csvHeader "MIN_VERT_CLR_010" ;
 	conversion:label "MIN_VERT_CLR" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x30 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x30 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x29 conversion:bundled_by _:node17ne5gib5x30 .
+_:node17negtrq8x29 conversion:bundled_by _:node17negtrq8x30 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x29 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x29 .
 
-_:node17ne5gib5x31 ov:csvCol "16"^^xsd:integer ;
+_:node17negtrq8x31 ov:csvCol "16"^^xsd:integer ;
 	ov:csvHeader "KILOPOINT_011" ;
 	conversion:label "KILOPOINT" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x32 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x32 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x31 conversion:bundled_by _:node17ne5gib5x32 .
+_:node17negtrq8x31 conversion:bundled_by _:node17negtrq8x32 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x31 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x31 .
 
-_:node17ne5gib5x33 ov:csvCol "17"^^xsd:integer ;
+_:node17negtrq8x33 ov:csvCol "17"^^xsd:integer ;
 	ov:csvHeader "BASE_HWY_NETWORK_012" ;
 	conversion:label "BASE_HWY_NETWORK" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x34 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x34 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x33 conversion:bundled_by _:node17ne5gib5x34 .
+_:node17negtrq8x33 conversion:bundled_by _:node17negtrq8x34 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x33 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x33 .
 
-_:node17ne5gib5x35 ov:csvCol "18"^^xsd:integer ;
+_:node17negtrq8x35 ov:csvCol "18"^^xsd:integer ;
 	ov:csvHeader "LRS_INV_ROUTE_013A" ;
 	conversion:label "LRS_INV_ROUTE" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x36 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x36 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x35 conversion:bundled_by _:node17ne5gib5x36 .
+_:node17negtrq8x35 conversion:bundled_by _:node17negtrq8x36 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x35 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x35 .
 
-_:node17ne5gib5x37 ov:csvCol "19"^^xsd:integer ;
+_:node17negtrq8x37 ov:csvCol "19"^^xsd:integer ;
 	ov:csvHeader "SUBROUTE_NO_013B" ;
 	conversion:label "SUBROUTE_NO" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x38 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x38 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x37 conversion:bundled_by _:node17ne5gib5x38 .
+_:node17negtrq8x37 conversion:bundled_by _:node17negtrq8x38 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x37 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x37 .
 
-_:node17ne5gib5x39 ov:csvCol "20"^^xsd:integer ;
+_:node17negtrq8x39 ov:csvCol "20"^^xsd:integer ;
 	ov:csvHeader "LAT_016" ;
 	conversion:label "LAT" ;
 	conversion:comment "" ;
@@ -2490,13 +2490,13 @@ _:node17ne5gib5x39 ov:csvCol "20"^^xsd:integer ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x40 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x40 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x39 conversion:bundled_by _:node17ne5gib5x40 .
+_:node17negtrq8x39 conversion:bundled_by _:node17negtrq8x40 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x39 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x39 .
 
-_:node17ne5gib5x41 ov:csvCol "21"^^xsd:integer ;
+_:node17negtrq8x41 ov:csvCol "21"^^xsd:integer ;
 	ov:csvHeader "LONG_017" ;
 	conversion:label "LONG" ;
 	conversion:comment "" ;
@@ -2504,1073 +2504,1373 @@ _:node17ne5gib5x41 ov:csvCol "21"^^xsd:integer ;
 	conversion:equivalent_property wgs:long ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x42 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x42 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x41 conversion:bundled_by _:node17ne5gib5x42 .
+_:node17negtrq8x41 conversion:bundled_by _:node17negtrq8x42 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x41 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x41 .
 
-_:node17ne5gib5x43 ov:csvCol "22"^^xsd:integer ;
+_:node17negtrq8x43 ov:csvCol "22"^^xsd:integer ;
 	ov:csvHeader "DETOUR_KILOS_019" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x44 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x44 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x43 conversion:bundled_by _:node17ne5gib5x44 .
+_:node17negtrq8x43 conversion:bundled_by _:node17negtrq8x44 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x43 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x43 .
 
-_:node17ne5gib5x45 ov:csvCol "23"^^xsd:integer ;
+_:node17negtrq8x45 ov:csvCol "23"^^xsd:integer ;
 	ov:csvHeader "TOLL_020" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x46 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x46 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x45 conversion:bundled_by _:node17ne5gib5x46 .
+_:node17negtrq8x45 conversion:bundled_by _:node17negtrq8x46 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x45 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x45 .
 
-_:node17ne5gib5x47 ov:csvCol "24"^^xsd:integer ;
+_:node17negtrq8x47 ov:csvCol "24"^^xsd:integer ;
 	ov:csvHeader "MAINTENANCE_021" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x48 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x48 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x47 conversion:bundled_by _:node17ne5gib5x48 .
+_:node17negtrq8x47 conversion:bundled_by _:node17negtrq8x48 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x47 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x47 .
 
-_:node17ne5gib5x49 ov:csvCol "25"^^xsd:integer ;
+_:node17negtrq8x49 ov:csvCol "25"^^xsd:integer ;
 	ov:csvHeader "OWNER_022" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x50 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x50 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x49 conversion:bundled_by _:node17ne5gib5x50 .
+_:node17negtrq8x49 conversion:bundled_by _:node17negtrq8x50 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x49 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x49 .
 
-_:node17ne5gib5x51 ov:csvCol "26"^^xsd:integer ;
+_:node17negtrq8x51 ov:csvCol "26"^^xsd:integer ;
 	ov:csvHeader "FUNCTIONAL_CLASS_026" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x52 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x52 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x51 conversion:bundled_by _:node17ne5gib5x52 .
+_:node17negtrq8x51 conversion:bundled_by _:node17negtrq8x52 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x51 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x51 .
 
-_:node17ne5gib5x53 ov:csvCol "27"^^xsd:integer ;
+_:node17negtrq8x53 ov:csvCol "27"^^xsd:integer ;
 	ov:csvHeader "YEAR_BUILT_027" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x54 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x54 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x53 conversion:bundled_by _:node17ne5gib5x54 .
+_:node17negtrq8x53 conversion:bundled_by _:node17negtrq8x54 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x53 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x53 .
 
-_:node17ne5gib5x55 ov:csvCol "28"^^xsd:integer ;
+_:node17negtrq8x55 ov:csvCol "28"^^xsd:integer ;
 	ov:csvHeader "TRAFFIC_LANES_ON_028A" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x56 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x56 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x55 conversion:bundled_by _:node17ne5gib5x56 .
+_:node17negtrq8x55 conversion:bundled_by _:node17negtrq8x56 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x55 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x55 .
 
-_:node17ne5gib5x57 ov:csvCol "29"^^xsd:integer ;
+_:node17negtrq8x57 ov:csvCol "29"^^xsd:integer ;
 	ov:csvHeader "TRAFFIC_LANES_UND_028B" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x58 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x58 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x57 conversion:bundled_by _:node17ne5gib5x58 .
+_:node17negtrq8x57 conversion:bundled_by _:node17negtrq8x58 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x57 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x57 .
 
-_:node17ne5gib5x59 ov:csvCol "30"^^xsd:integer ;
+_:node17negtrq8x59 ov:csvCol "30"^^xsd:integer ;
 	ov:csvHeader "ADT_029" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x60 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x60 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x59 conversion:bundled_by _:node17ne5gib5x60 .
+_:node17negtrq8x59 conversion:bundled_by _:node17negtrq8x60 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x59 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x59 .
 
-_:node17ne5gib5x61 ov:csvCol "31"^^xsd:integer ;
+_:node17negtrq8x61 ov:csvCol "31"^^xsd:integer ;
 	ov:csvHeader "YEAR_ADT_030" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x62 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x62 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x61 conversion:bundled_by _:node17ne5gib5x62 .
+_:node17negtrq8x61 conversion:bundled_by _:node17negtrq8x62 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x61 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x61 .
 
-_:node17ne5gib5x63 ov:csvCol "32"^^xsd:integer ;
+_:node17negtrq8x63 ov:csvCol "32"^^xsd:integer ;
 	ov:csvHeader "DESIGN_LOAD_031" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x64 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x64 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x63 conversion:bundled_by _:node17ne5gib5x64 .
+_:node17negtrq8x63 conversion:bundled_by _:node17negtrq8x64 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x63 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x63 .
 
-_:node17ne5gib5x65 ov:csvCol "33"^^xsd:integer ;
+_:node17negtrq8x65 ov:csvCol "33"^^xsd:integer ;
 	ov:csvHeader "APPR_WIDTH_MT_032" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x66 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x66 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x65 conversion:bundled_by _:node17ne5gib5x66 .
+_:node17negtrq8x65 conversion:bundled_by _:node17negtrq8x66 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x65 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x65 .
 
-_:node17ne5gib5x67 ov:csvCol "34"^^xsd:integer ;
+_:node17negtrq8x67 ov:csvCol "34"^^xsd:integer ;
 	ov:csvHeader "MEDIAN_CODE_033" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x68 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x68 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x67 conversion:bundled_by _:node17ne5gib5x68 .
+_:node17negtrq8x67 conversion:bundled_by _:node17negtrq8x68 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x67 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x67 .
 
-_:node17ne5gib5x69 ov:csvCol "35"^^xsd:integer ;
+_:node17negtrq8x69 ov:csvCol "35"^^xsd:integer ;
 	ov:csvHeader "DEGREES_SKEW_034" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x70 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x70 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x69 conversion:bundled_by _:node17ne5gib5x70 .
+_:node17negtrq8x69 conversion:bundled_by _:node17negtrq8x70 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x69 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x69 .
 
-_:node17ne5gib5x71 ov:csvCol "36"^^xsd:integer ;
+_:node17negtrq8x71 ov:csvCol "36"^^xsd:integer ;
 	ov:csvHeader "STRUCTURE_FLARED_035" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x72 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x72 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x71 conversion:bundled_by _:node17ne5gib5x72 .
+_:node17negtrq8x71 conversion:bundled_by _:node17negtrq8x72 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x71 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x71 .
 
-_:node17ne5gib5x73 ov:csvCol "37"^^xsd:integer ;
+_:node17negtrq8x73 ov:csvCol "37"^^xsd:integer ;
 	ov:csvHeader "RAILINGS_036A" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x74 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x74 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x73 conversion:bundled_by _:node17ne5gib5x74 .
+_:node17negtrq8x73 conversion:bundled_by _:node17negtrq8x74 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x73 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x73 .
 
-_:node17ne5gib5x75 ov:csvCol "38"^^xsd:integer ;
+_:node17negtrq8x75 ov:csvCol "38"^^xsd:integer ;
 	ov:csvHeader "TRANSITIONS_036B" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x76 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x76 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x75 conversion:bundled_by _:node17ne5gib5x76 .
+_:node17negtrq8x75 conversion:bundled_by _:node17negtrq8x76 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x75 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x75 .
 
-_:node17ne5gib5x77 ov:csvCol "39"^^xsd:integer ;
+_:node17negtrq8x77 ov:csvCol "39"^^xsd:integer ;
 	ov:csvHeader "APPR_RAIL_036C" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x78 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x78 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x77 conversion:bundled_by _:node17ne5gib5x78 .
+_:node17negtrq8x77 conversion:bundled_by _:node17negtrq8x78 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x77 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x77 .
 
-_:node17ne5gib5x79 ov:csvCol "40"^^xsd:integer ;
+_:node17negtrq8x79 ov:csvCol "40"^^xsd:integer ;
 	ov:csvHeader "APPR_RAIL_END_036D" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x80 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x80 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x79 conversion:bundled_by _:node17ne5gib5x80 .
+_:node17negtrq8x79 conversion:bundled_by _:node17negtrq8x80 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x79 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x79 .
 
-_:node17ne5gib5x81 ov:csvCol "41"^^xsd:integer ;
+_:node17negtrq8x81 ov:csvCol "41"^^xsd:integer ;
 	ov:csvHeader "HISTORY_037" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x82 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x82 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x81 conversion:bundled_by _:node17ne5gib5x82 .
+_:node17negtrq8x81 conversion:bundled_by _:node17negtrq8x82 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x81 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x81 .
 
-_:node17ne5gib5x83 ov:csvCol "42"^^xsd:integer ;
+_:node17negtrq8x83 ov:csvCol "42"^^xsd:integer ;
 	ov:csvHeader "NAVIGATION_038" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x84 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x84 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x83 conversion:bundled_by _:node17ne5gib5x84 .
+_:node17negtrq8x83 conversion:bundled_by _:node17negtrq8x84 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x83 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x83 .
 
-_:node17ne5gib5x85 ov:csvCol "43"^^xsd:integer ;
+_:node17negtrq8x85 ov:csvCol "43"^^xsd:integer ;
 	ov:csvHeader "NAV_VERT_CLR_MT_039" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x86 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x86 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x85 conversion:bundled_by _:node17ne5gib5x86 .
+_:node17negtrq8x85 conversion:bundled_by _:node17negtrq8x86 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x85 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x85 .
 
-_:node17ne5gib5x87 ov:csvCol "44"^^xsd:integer ;
+_:node17negtrq8x87 ov:csvCol "44"^^xsd:integer ;
 	ov:csvHeader "NAV_HORR_CLR_MT_040" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x88 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x88 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x87 conversion:bundled_by _:node17ne5gib5x88 .
+_:node17negtrq8x87 conversion:bundled_by _:node17negtrq8x88 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x87 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x87 .
 
-_:node17ne5gib5x89 ov:csvCol "45"^^xsd:integer ;
+_:node17negtrq8x89 ov:csvCol "45"^^xsd:integer ;
 	ov:csvHeader "OPEN_CLOSED_POSTED_041" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x90 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x90 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x89 conversion:bundled_by _:node17ne5gib5x90 .
+_:node17negtrq8x89 conversion:bundled_by _:node17negtrq8x90 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x89 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x89 .
 
-_:node17ne5gib5x91 ov:csvCol "46"^^xsd:integer ;
+_:node17negtrq8x91 ov:csvCol "46"^^xsd:integer ;
 	ov:csvHeader "SERVICE_ON_042A" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x92 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x92 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x91 conversion:bundled_by _:node17ne5gib5x92 .
+_:node17negtrq8x91 conversion:bundled_by _:node17negtrq8x92 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x91 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x91 .
 
-_:node17ne5gib5x93 ov:csvCol "47"^^xsd:integer ;
+_:node17negtrq8x93 ov:csvCol "47"^^xsd:integer ;
 	ov:csvHeader "SERVICE_UND_042B" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x94 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x94 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x93 conversion:bundled_by _:node17ne5gib5x94 .
+_:node17negtrq8x93 conversion:bundled_by _:node17negtrq8x94 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x93 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x93 .
 
-_:node17ne5gib5x95 ov:csvCol "48"^^xsd:integer ;
+_:node17negtrq8x95 ov:csvCol "48"^^xsd:integer ;
 	ov:csvHeader "STRUCTURE_KIND_043A" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x96 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x96 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x95 conversion:bundled_by _:node17ne5gib5x96 .
+_:node17negtrq8x95 conversion:bundled_by _:node17negtrq8x96 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x95 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x95 .
 
-_:node17ne5gib5x97 ov:csvCol "49"^^xsd:integer ;
+_:node17negtrq8x97 ov:csvCol "49"^^xsd:integer ;
 	ov:csvHeader "STRUCTURE_TYPE_043B" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x98 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x98 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x97 conversion:bundled_by _:node17ne5gib5x98 .
+_:node17negtrq8x97 conversion:bundled_by _:node17negtrq8x98 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x97 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x97 .
 
-_:node17ne5gib5x99 ov:csvCol "50"^^xsd:integer ;
+_:node17negtrq8x99 ov:csvCol "50"^^xsd:integer ;
 	ov:csvHeader "APPR_KIND_044A" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x100 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x100 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x99 conversion:bundled_by _:node17ne5gib5x100 .
+_:node17negtrq8x99 conversion:bundled_by _:node17negtrq8x100 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x99 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x99 .
 
-_:node17ne5gib5x101 ov:csvCol "51"^^xsd:integer ;
+_:node17negtrq8x101 ov:csvCol "51"^^xsd:integer ;
 	ov:csvHeader "APPR_TYPE_044B" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x102 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x102 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x101 conversion:bundled_by _:node17ne5gib5x102 .
+_:node17negtrq8x101 conversion:bundled_by _:node17negtrq8x102 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x101 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x101 .
 
-_:node17ne5gib5x103 ov:csvCol "52"^^xsd:integer ;
+_:node17negtrq8x103 ov:csvCol "52"^^xsd:integer ;
 	ov:csvHeader "MAIN_UNIT_SPANS_045" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x104 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x104 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x103 conversion:bundled_by _:node17ne5gib5x104 .
+_:node17negtrq8x103 conversion:bundled_by _:node17negtrq8x104 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x103 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x103 .
 
-_:node17ne5gib5x105 ov:csvCol "53"^^xsd:integer ;
+_:node17negtrq8x105 ov:csvCol "53"^^xsd:integer ;
 	ov:csvHeader "APPR_SPANS_046" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x106 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x106 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x105 conversion:bundled_by _:node17ne5gib5x106 .
+_:node17negtrq8x105 conversion:bundled_by _:node17negtrq8x106 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x105 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x105 .
 
-_:node17ne5gib5x107 ov:csvCol "54"^^xsd:integer ;
+_:node17negtrq8x107 ov:csvCol "54"^^xsd:integer ;
 	ov:csvHeader "HORR_CLR_MT_047" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x108 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x108 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x107 conversion:bundled_by _:node17ne5gib5x108 .
+_:node17negtrq8x107 conversion:bundled_by _:node17negtrq8x108 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x107 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x107 .
 
-_:node17ne5gib5x109 ov:csvCol "55"^^xsd:integer ;
+_:node17negtrq8x109 ov:csvCol "55"^^xsd:integer ;
 	ov:csvHeader "MAX_SPAN_LEN_MT_048" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x110 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x110 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x109 conversion:bundled_by _:node17ne5gib5x110 .
+_:node17negtrq8x109 conversion:bundled_by _:node17negtrq8x110 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x109 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x109 .
 
-_:node17ne5gib5x111 ov:csvCol "56"^^xsd:integer ;
+_:node17negtrq8x111 ov:csvCol "56"^^xsd:integer ;
 	ov:csvHeader "STRUCTURE_LEN_MT_049" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x112 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x112 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x111 conversion:bundled_by _:node17ne5gib5x112 .
+_:node17negtrq8x111 conversion:bundled_by _:node17negtrq8x112 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x111 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x111 .
 
-_:node17ne5gib5x113 ov:csvCol "57"^^xsd:integer ;
+_:node17negtrq8x113 ov:csvCol "57"^^xsd:integer ;
 	ov:csvHeader "LEFT_CURB_MT_050A" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x114 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x114 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x113 conversion:bundled_by _:node17ne5gib5x114 .
+_:node17negtrq8x113 conversion:bundled_by _:node17negtrq8x114 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x113 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x113 .
 
-_:node17ne5gib5x115 ov:csvCol "58"^^xsd:integer ;
+_:node17negtrq8x115 ov:csvCol "58"^^xsd:integer ;
 	ov:csvHeader "RIGHT_CURB_MT_050B" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x116 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x116 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x115 conversion:bundled_by _:node17ne5gib5x116 .
+_:node17negtrq8x115 conversion:bundled_by _:node17negtrq8x116 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x115 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x115 .
 
-_:node17ne5gib5x117 ov:csvCol "59"^^xsd:integer ;
+_:node17negtrq8x117 ov:csvCol "59"^^xsd:integer ;
 	ov:csvHeader "ROADWAY_WIDTH_MT_051" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x118 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x118 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x117 conversion:bundled_by _:node17ne5gib5x118 .
+_:node17negtrq8x117 conversion:bundled_by _:node17negtrq8x118 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x117 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x117 .
 
-_:node17ne5gib5x119 ov:csvCol "60"^^xsd:integer ;
+_:node17negtrq8x119 ov:csvCol "60"^^xsd:integer ;
 	ov:csvHeader "DECK_WIDTH_MT_052" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x120 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x120 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x119 conversion:bundled_by _:node17ne5gib5x120 .
+_:node17negtrq8x119 conversion:bundled_by _:node17negtrq8x120 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x119 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x119 .
 
-_:node17ne5gib5x121 ov:csvCol "61"^^xsd:integer ;
+_:node17negtrq8x121 ov:csvCol "61"^^xsd:integer ;
 	ov:csvHeader "VERT_CLR_OVER_MT_053" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x122 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x122 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x121 conversion:bundled_by _:node17ne5gib5x122 .
+_:node17negtrq8x121 conversion:bundled_by _:node17negtrq8x122 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x121 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x121 .
 
-_:node17ne5gib5x123 ov:csvCol "62"^^xsd:integer ;
+_:node17negtrq8x123 ov:csvCol "62"^^xsd:integer ;
 	ov:csvHeader "VERT_CLR_UND_REF_054A" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x124 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x124 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x123 conversion:bundled_by _:node17ne5gib5x124 .
+_:node17negtrq8x123 conversion:bundled_by _:node17negtrq8x124 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x123 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x123 .
 
-_:node17ne5gib5x125 ov:csvCol "63"^^xsd:integer ;
+_:node17negtrq8x125 ov:csvCol "63"^^xsd:integer ;
 	ov:csvHeader "VERT_CLR_UND_054B" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x126 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x126 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x125 conversion:bundled_by _:node17ne5gib5x126 .
+_:node17negtrq8x125 conversion:bundled_by _:node17negtrq8x126 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x125 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x125 .
 
-_:node17ne5gib5x127 ov:csvCol "64"^^xsd:integer ;
+_:node17negtrq8x127 ov:csvCol "64"^^xsd:integer ;
 	ov:csvHeader "LAT_UND_REF_055A" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x128 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x128 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x127 conversion:bundled_by _:node17ne5gib5x128 .
+_:node17negtrq8x127 conversion:bundled_by _:node17negtrq8x128 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x127 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x127 .
 
-_:node17ne5gib5x129 ov:csvCol "65"^^xsd:integer ;
+_:node17negtrq8x129 ov:csvCol "65"^^xsd:integer ;
 	ov:csvHeader "LAT_UND_MT_055B" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x130 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x130 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x129 conversion:bundled_by _:node17ne5gib5x130 .
+_:node17negtrq8x129 conversion:bundled_by _:node17negtrq8x130 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x129 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x129 .
 
-_:node17ne5gib5x131 ov:csvCol "66"^^xsd:integer ;
+_:node17negtrq8x131 ov:csvCol "66"^^xsd:integer ;
 	ov:csvHeader "LEFT_LAT_UND_MT_056" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x132 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x132 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x131 conversion:bundled_by _:node17ne5gib5x132 .
+_:node17negtrq8x131 conversion:bundled_by _:node17negtrq8x132 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x131 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x131 .
 
-_:node17ne5gib5x133 ov:csvCol "67"^^xsd:integer ;
+_:node17negtrq8x133 ov:csvCol "67"^^xsd:integer ;
 	ov:csvHeader "DECK_COND_058" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x134 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x134 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x133 conversion:bundled_by _:node17ne5gib5x134 .
+_:node17negtrq8x133 conversion:bundled_by _:node17negtrq8x134 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x133 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x133 .
 
-_:node17ne5gib5x135 ov:csvCol "68"^^xsd:integer ;
+_:node17negtrq8x135 ov:csvCol "68"^^xsd:integer ;
 	ov:csvHeader "SUPERSTRUCTURE_COND_059" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x136 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x136 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x135 conversion:bundled_by _:node17ne5gib5x136 .
+_:node17negtrq8x135 conversion:bundled_by _:node17negtrq8x136 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x135 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x135 .
 
-_:node17ne5gib5x137 ov:csvCol "69"^^xsd:integer ;
+_:node17negtrq8x137 ov:csvCol "69"^^xsd:integer ;
 	ov:csvHeader "SUBSTRUCTURE_COND_060" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x138 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x138 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x137 conversion:bundled_by _:node17ne5gib5x138 .
+_:node17negtrq8x137 conversion:bundled_by _:node17negtrq8x138 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x137 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x137 .
 
-_:node17ne5gib5x139 ov:csvCol "70"^^xsd:integer ;
+_:node17negtrq8x139 ov:csvCol "70"^^xsd:integer ;
 	ov:csvHeader "CHANNEL_COND_061" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x140 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x140 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x139 conversion:bundled_by _:node17ne5gib5x140 .
+_:node17negtrq8x139 conversion:bundled_by _:node17negtrq8x140 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x139 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x139 .
 
-_:node17ne5gib5x141 ov:csvCol "71"^^xsd:integer ;
+_:node17negtrq8x141 ov:csvCol "71"^^xsd:integer ;
 	ov:csvHeader "CULVERT_COND_062" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x142 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x142 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x141 conversion:bundled_by _:node17ne5gib5x142 .
+_:node17negtrq8x141 conversion:bundled_by _:node17negtrq8x142 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x141 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x141 .
 
-_:node17ne5gib5x143 ov:csvCol "72"^^xsd:integer ;
+_:node17negtrq8x143 ov:csvCol "72"^^xsd:integer ;
 	ov:csvHeader "OPR_RATING_METH_063" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x144 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x144 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x143 conversion:bundled_by _:node17ne5gib5x144 .
+_:node17negtrq8x143 conversion:bundled_by _:node17negtrq8x144 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x143 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x143 .
 
-_:node17ne5gib5x145 ov:csvCol "73"^^xsd:integer ;
+_:node17negtrq8x145 ov:csvCol "73"^^xsd:integer ;
 	ov:csvHeader "OPERATING_RATING_064" ;
 	conversion:comment "" ;
 	conversion:range rdfs:Literal ;
 	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x146 ov:csvCol "2"^^xsd:integer .
+_:node17negtrq8x146 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x145 conversion:bundled_by _:node17ne5gib5x146 .
+_:node17negtrq8x145 conversion:bundled_by _:node17negtrq8x146 .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x145 .
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x145 .
 
-_:node17ne5gib5x147 ov:csvCol "74"^^xsd:integer ;
+_:node17negtrq8x147 ov:csvCol "74"^^xsd:integer ;
 	ov:csvHeader "INV_RATING_METH_065" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x147 .
+_:node17negtrq8x148 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x148 ov:csvCol "75"^^xsd:integer ;
+_:node17negtrq8x147 conversion:bundled_by _:node17negtrq8x148 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x147 .
+
+_:node17negtrq8x149 ov:csvCol "75"^^xsd:integer ;
 	ov:csvHeader "INVENTORY_RATING_066" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x148 .
+_:node17negtrq8x150 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x149 ov:csvCol "76"^^xsd:integer ;
+_:node17negtrq8x149 conversion:bundled_by _:node17negtrq8x150 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x149 .
+
+_:node17negtrq8x151 ov:csvCol "76"^^xsd:integer ;
 	ov:csvHeader "STRUCTURAL_EVAL_067" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x149 .
+_:node17negtrq8x152 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x150 ov:csvCol "77"^^xsd:integer ;
+_:node17negtrq8x151 conversion:bundled_by _:node17negtrq8x152 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x151 .
+
+_:node17negtrq8x153 ov:csvCol "77"^^xsd:integer ;
 	ov:csvHeader "DECK_GEOMETRY_EVAL_068" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x150 .
+_:node17negtrq8x154 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x151 ov:csvCol "78"^^xsd:integer ;
+_:node17negtrq8x153 conversion:bundled_by _:node17negtrq8x154 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x153 .
+
+_:node17negtrq8x155 ov:csvCol "78"^^xsd:integer ;
 	ov:csvHeader "UNDCLRENCE_EVAL_069" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x151 .
+_:node17negtrq8x156 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x152 ov:csvCol "79"^^xsd:integer ;
+_:node17negtrq8x155 conversion:bundled_by _:node17negtrq8x156 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x155 .
+
+_:node17negtrq8x157 ov:csvCol "79"^^xsd:integer ;
 	ov:csvHeader "POSTING_EVAL_070" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x152 .
+_:node17negtrq8x158 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x153 ov:csvCol "80"^^xsd:integer ;
+_:node17negtrq8x157 conversion:bundled_by _:node17negtrq8x158 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x157 .
+
+_:node17negtrq8x159 ov:csvCol "80"^^xsd:integer ;
 	ov:csvHeader "WATERWAY_EVAL_071" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x153 .
+_:node17negtrq8x160 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x154 ov:csvCol "81"^^xsd:integer ;
+_:node17negtrq8x159 conversion:bundled_by _:node17negtrq8x160 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x159 .
+
+_:node17negtrq8x161 ov:csvCol "81"^^xsd:integer ;
 	ov:csvHeader "APPR_ROAD_EVAL_072" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x154 .
+_:node17negtrq8x162 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x155 ov:csvCol "82"^^xsd:integer ;
+_:node17negtrq8x161 conversion:bundled_by _:node17negtrq8x162 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x161 .
+
+_:node17negtrq8x163 ov:csvCol "82"^^xsd:integer ;
 	ov:csvHeader "WORK_PROPOSED_075A" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x155 .
+_:node17negtrq8x164 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x156 ov:csvCol "83"^^xsd:integer ;
+_:node17negtrq8x163 conversion:bundled_by _:node17negtrq8x164 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x163 .
+
+_:node17negtrq8x165 ov:csvCol "83"^^xsd:integer ;
 	ov:csvHeader "WORK_DONE_BY_075B" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x156 .
+_:node17negtrq8x166 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x157 ov:csvCol "84"^^xsd:integer ;
+_:node17negtrq8x165 conversion:bundled_by _:node17negtrq8x166 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x165 .
+
+_:node17negtrq8x167 ov:csvCol "84"^^xsd:integer ;
 	ov:csvHeader "IMP_LEN_MT_076" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x157 .
+_:node17negtrq8x168 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x158 ov:csvCol "85"^^xsd:integer ;
+_:node17negtrq8x167 conversion:bundled_by _:node17negtrq8x168 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x167 .
+
+_:node17negtrq8x169 ov:csvCol "85"^^xsd:integer ;
 	ov:csvHeader "DATE_OF_INSPECT_090" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x158 .
+_:node17negtrq8x170 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x159 ov:csvCol "86"^^xsd:integer ;
+_:node17negtrq8x169 conversion:bundled_by _:node17negtrq8x170 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x169 .
+
+_:node17negtrq8x171 ov:csvCol "86"^^xsd:integer ;
 	ov:csvHeader "INSPECT_FREQ_MONTHS_091" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x159 .
+_:node17negtrq8x172 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x160 ov:csvCol "87"^^xsd:integer ;
+_:node17negtrq8x171 conversion:bundled_by _:node17negtrq8x172 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x171 .
+
+_:node17negtrq8x173 ov:csvCol "87"^^xsd:integer ;
 	ov:csvHeader "FRACTURE_092A" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x160 .
+_:node17negtrq8x174 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x161 ov:csvCol "88"^^xsd:integer ;
+_:node17negtrq8x173 conversion:bundled_by _:node17negtrq8x174 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x173 .
+
+_:node17negtrq8x175 ov:csvCol "88"^^xsd:integer ;
 	ov:csvHeader "UNDWATER_LOOK_SEE_092B" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x161 .
+_:node17negtrq8x176 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x162 ov:csvCol "89"^^xsd:integer ;
+_:node17negtrq8x175 conversion:bundled_by _:node17negtrq8x176 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x175 .
+
+_:node17negtrq8x177 ov:csvCol "89"^^xsd:integer ;
 	ov:csvHeader "SPEC_INSPECT_092C" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x162 .
+_:node17negtrq8x178 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x163 ov:csvCol "90"^^xsd:integer ;
+_:node17negtrq8x177 conversion:bundled_by _:node17negtrq8x178 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x177 .
+
+_:node17negtrq8x179 ov:csvCol "90"^^xsd:integer ;
 	ov:csvHeader "FRACTURE_LAST_DATE_093A" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x163 .
+_:node17negtrq8x180 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x164 ov:csvCol "91"^^xsd:integer ;
+_:node17negtrq8x179 conversion:bundled_by _:node17negtrq8x180 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x179 .
+
+_:node17negtrq8x181 ov:csvCol "91"^^xsd:integer ;
 	ov:csvHeader "UNDWATER_LAST_DATE_093B" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x164 .
+_:node17negtrq8x182 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x165 ov:csvCol "92"^^xsd:integer ;
+_:node17negtrq8x181 conversion:bundled_by _:node17negtrq8x182 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x181 .
+
+_:node17negtrq8x183 ov:csvCol "92"^^xsd:integer ;
 	ov:csvHeader "SPEC_LAST_DATE_093C" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x165 .
+_:node17negtrq8x184 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x166 ov:csvCol "93"^^xsd:integer ;
+_:node17negtrq8x183 conversion:bundled_by _:node17negtrq8x184 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x183 .
+
+_:node17negtrq8x185 ov:csvCol "93"^^xsd:integer ;
 	ov:csvHeader "BRIDGE_IMP_COST_094" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x166 .
+_:node17negtrq8x186 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x167 ov:csvCol "94"^^xsd:integer ;
+_:node17negtrq8x185 conversion:bundled_by _:node17negtrq8x186 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x185 .
+
+_:node17negtrq8x187 ov:csvCol "94"^^xsd:integer ;
 	ov:csvHeader "ROADWAY_IMP_COST_095" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x167 .
+_:node17negtrq8x188 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x168 ov:csvCol "95"^^xsd:integer ;
+_:node17negtrq8x187 conversion:bundled_by _:node17negtrq8x188 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x187 .
+
+_:node17negtrq8x189 ov:csvCol "95"^^xsd:integer ;
 	ov:csvHeader "TOTAL_IMP_COST_096" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x168 .
+_:node17negtrq8x190 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x169 ov:csvCol "96"^^xsd:integer ;
+_:node17negtrq8x189 conversion:bundled_by _:node17negtrq8x190 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x189 .
+
+_:node17negtrq8x191 ov:csvCol "96"^^xsd:integer ;
 	ov:csvHeader "YEAR_OF_IMP_097" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x169 .
+_:node17negtrq8x192 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x170 ov:csvCol "97"^^xsd:integer ;
+_:node17negtrq8x191 conversion:bundled_by _:node17negtrq8x192 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x191 .
+
+_:node17negtrq8x193 ov:csvCol "97"^^xsd:integer ;
 	ov:csvHeader "OTHER_STATE_CODE_098A" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x170 .
+_:node17negtrq8x194 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x171 ov:csvCol "98"^^xsd:integer ;
+_:node17negtrq8x193 conversion:bundled_by _:node17negtrq8x194 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x193 .
+
+_:node17negtrq8x195 ov:csvCol "98"^^xsd:integer ;
 	ov:csvHeader "OTHER_STATE_PCNT_098B" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x171 .
+_:node17negtrq8x196 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x172 ov:csvCol "99"^^xsd:integer ;
+_:node17negtrq8x195 conversion:bundled_by _:node17negtrq8x196 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x195 .
+
+_:node17negtrq8x197 ov:csvCol "99"^^xsd:integer ;
 	ov:csvHeader "OTHR_STATE_STRUC_NO_099" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x172 .
+_:node17negtrq8x198 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x173 ov:csvCol "100"^^xsd:integer ;
+_:node17negtrq8x197 conversion:bundled_by _:node17negtrq8x198 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x197 .
+
+_:node17negtrq8x199 ov:csvCol "100"^^xsd:integer ;
 	ov:csvHeader "STRAHNET_HIGHWAY_100" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x173 .
+_:node17negtrq8x200 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x174 ov:csvCol "101"^^xsd:integer ;
+_:node17negtrq8x199 conversion:bundled_by _:node17negtrq8x200 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x199 .
+
+_:node17negtrq8x201 ov:csvCol "101"^^xsd:integer ;
 	ov:csvHeader "PARALLEL_STRUCTURE_101" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x174 .
+_:node17negtrq8x202 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x175 ov:csvCol "102"^^xsd:integer ;
+_:node17negtrq8x201 conversion:bundled_by _:node17negtrq8x202 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x201 .
+
+_:node17negtrq8x203 ov:csvCol "102"^^xsd:integer ;
 	ov:csvHeader "TRAFFIC_DIRECTION_102" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x175 .
+_:node17negtrq8x204 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x176 ov:csvCol "103"^^xsd:integer ;
+_:node17negtrq8x203 conversion:bundled_by _:node17negtrq8x204 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x203 .
+
+_:node17negtrq8x205 ov:csvCol "103"^^xsd:integer ;
 	ov:csvHeader "TEMP_STRUCTURE_103" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x176 .
+_:node17negtrq8x206 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x177 ov:csvCol "104"^^xsd:integer ;
+_:node17negtrq8x205 conversion:bundled_by _:node17negtrq8x206 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x205 .
+
+_:node17negtrq8x207 ov:csvCol "104"^^xsd:integer ;
 	ov:csvHeader "HIGHWAY_SYSTEM_104" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x177 .
+_:node17negtrq8x208 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x178 ov:csvCol "105"^^xsd:integer ;
+_:node17negtrq8x207 conversion:bundled_by _:node17negtrq8x208 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x207 .
+
+_:node17negtrq8x209 ov:csvCol "105"^^xsd:integer ;
 	ov:csvHeader "FEDERAL_LANDS_105" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x178 .
+_:node17negtrq8x210 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x179 ov:csvCol "106"^^xsd:integer ;
+_:node17negtrq8x209 conversion:bundled_by _:node17negtrq8x210 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x209 .
+
+_:node17negtrq8x211 ov:csvCol "106"^^xsd:integer ;
 	ov:csvHeader "YEAR_RECONSTRUCTED_106" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x179 .
+_:node17negtrq8x212 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x180 ov:csvCol "107"^^xsd:integer ;
+_:node17negtrq8x211 conversion:bundled_by _:node17negtrq8x212 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x211 .
+
+_:node17negtrq8x213 ov:csvCol "107"^^xsd:integer ;
 	ov:csvHeader "DECK_STRUCTURE_TYPE_107" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x180 .
+_:node17negtrq8x214 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x181 ov:csvCol "108"^^xsd:integer ;
+_:node17negtrq8x213 conversion:bundled_by _:node17negtrq8x214 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x213 .
+
+_:node17negtrq8x215 ov:csvCol "108"^^xsd:integer ;
 	ov:csvHeader "SURFACE_TYPE_108A" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x181 .
+_:node17negtrq8x216 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x182 ov:csvCol "109"^^xsd:integer ;
+_:node17negtrq8x215 conversion:bundled_by _:node17negtrq8x216 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x215 .
+
+_:node17negtrq8x217 ov:csvCol "109"^^xsd:integer ;
 	ov:csvHeader "MEMBRANE_TYPE_108B" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x182 .
+_:node17negtrq8x218 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x183 ov:csvCol "110"^^xsd:integer ;
+_:node17negtrq8x217 conversion:bundled_by _:node17negtrq8x218 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x217 .
+
+_:node17negtrq8x219 ov:csvCol "110"^^xsd:integer ;
 	ov:csvHeader "DECK_PROTECTION_108C" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x183 .
+_:node17negtrq8x220 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x184 ov:csvCol "111"^^xsd:integer ;
+_:node17negtrq8x219 conversion:bundled_by _:node17negtrq8x220 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x219 .
+
+_:node17negtrq8x221 ov:csvCol "111"^^xsd:integer ;
 	ov:csvHeader "PERCENT_ADT_TRUCK_109" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x184 .
+_:node17negtrq8x222 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x185 ov:csvCol "112"^^xsd:integer ;
+_:node17negtrq8x221 conversion:bundled_by _:node17negtrq8x222 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x221 .
+
+_:node17negtrq8x223 ov:csvCol "112"^^xsd:integer ;
 	ov:csvHeader "NATIONAL_NETWORK_110" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x185 .
+_:node17negtrq8x224 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x186 ov:csvCol "113"^^xsd:integer ;
+_:node17negtrq8x223 conversion:bundled_by _:node17negtrq8x224 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x223 .
+
+_:node17negtrq8x225 ov:csvCol "113"^^xsd:integer ;
 	ov:csvHeader "PIER_PROTECTION_111" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x186 .
+_:node17negtrq8x226 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x187 ov:csvCol "114"^^xsd:integer ;
+_:node17negtrq8x225 conversion:bundled_by _:node17negtrq8x226 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x225 .
+
+_:node17negtrq8x227 ov:csvCol "114"^^xsd:integer ;
 	ov:csvHeader "BRIDGE_LEN_IND_112" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x187 .
+_:node17negtrq8x228 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x188 ov:csvCol "115"^^xsd:integer ;
+_:node17negtrq8x227 conversion:bundled_by _:node17negtrq8x228 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x227 .
+
+_:node17negtrq8x229 ov:csvCol "115"^^xsd:integer ;
 	ov:csvHeader "SCOUR_CRITICAL_113" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x188 .
+_:node17negtrq8x230 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x189 ov:csvCol "116"^^xsd:integer ;
+_:node17negtrq8x229 conversion:bundled_by _:node17negtrq8x230 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x229 .
+
+_:node17negtrq8x231 ov:csvCol "116"^^xsd:integer ;
 	ov:csvHeader "FUTURE_ADT_114" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x189 .
+_:node17negtrq8x232 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x190 ov:csvCol "117"^^xsd:integer ;
+_:node17negtrq8x231 conversion:bundled_by _:node17negtrq8x232 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x231 .
+
+_:node17negtrq8x233 ov:csvCol "117"^^xsd:integer ;
 	ov:csvHeader "YEAR_OF_FUTURE_ADT_115" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x190 .
+_:node17negtrq8x234 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x191 ov:csvCol "118"^^xsd:integer ;
+_:node17negtrq8x233 conversion:bundled_by _:node17negtrq8x234 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x233 .
+
+_:node17negtrq8x235 ov:csvCol "118"^^xsd:integer ;
 	ov:csvHeader "MIN_NAV_CLR_MT_116" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x191 .
+_:node17negtrq8x236 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x192 ov:csvCol "119"^^xsd:integer ;
+_:node17negtrq8x235 conversion:bundled_by _:node17negtrq8x236 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x235 .
+
+_:node17negtrq8x237 ov:csvCol "119"^^xsd:integer ;
 	ov:csvHeader "FED_AGENCY" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x192 .
+_:node17negtrq8x238 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x193 ov:csvCol "120"^^xsd:integer ;
+_:node17negtrq8x237 conversion:bundled_by _:node17negtrq8x238 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x237 .
+
+_:node17negtrq8x239 ov:csvCol "120"^^xsd:integer ;
 	ov:csvHeader "DATE_LAST_UPDATE" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x193 .
+_:node17negtrq8x240 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x194 ov:csvCol "121"^^xsd:integer ;
+_:node17negtrq8x239 conversion:bundled_by _:node17negtrq8x240 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x239 .
+
+_:node17negtrq8x241 ov:csvCol "121"^^xsd:integer ;
 	ov:csvHeader "TYPE_LAST_UPDATE" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x194 .
+_:node17negtrq8x242 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x195 ov:csvCol "122"^^xsd:integer ;
+_:node17negtrq8x241 conversion:bundled_by _:node17negtrq8x242 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x241 .
+
+_:node17negtrq8x243 ov:csvCol "122"^^xsd:integer ;
 	ov:csvHeader "DEDUCT_CODE" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x195 .
+_:node17negtrq8x244 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x196 ov:csvCol "123"^^xsd:integer ;
+_:node17negtrq8x243 conversion:bundled_by _:node17negtrq8x244 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x243 .
+
+_:node17negtrq8x245 ov:csvCol "123"^^xsd:integer ;
 	ov:csvHeader "REMARKS" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x196 .
+_:node17negtrq8x246 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x197 ov:csvCol "124"^^xsd:integer ;
+_:node17negtrq8x245 conversion:bundled_by _:node17negtrq8x246 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x245 .
+
+_:node17negtrq8x247 ov:csvCol "124"^^xsd:integer ;
 	ov:csvHeader "PROGRAM_CODE" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x197 .
+_:node17negtrq8x248 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x198 ov:csvCol "125"^^xsd:integer ;
+_:node17negtrq8x247 conversion:bundled_by _:node17negtrq8x248 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x247 .
+
+_:node17negtrq8x249 ov:csvCol "125"^^xsd:integer ;
 	ov:csvHeader "PROJ_NO" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x198 .
+_:node17negtrq8x250 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x199 ov:csvCol "126"^^xsd:integer ;
+_:node17negtrq8x249 conversion:bundled_by _:node17negtrq8x250 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x249 .
+
+_:node17negtrq8x251 ov:csvCol "126"^^xsd:integer ;
 	ov:csvHeader "PROJ_SUFFIX" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x199 .
+_:node17negtrq8x252 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x200 ov:csvCol "127"^^xsd:integer ;
+_:node17negtrq8x251 conversion:bundled_by _:node17negtrq8x252 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x251 .
+
+_:node17negtrq8x253 ov:csvCol "127"^^xsd:integer ;
 	ov:csvHeader "NBI_TYPE_OF_IMP" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x200 .
+_:node17negtrq8x254 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x201 ov:csvCol "128"^^xsd:integer ;
+_:node17negtrq8x253 conversion:bundled_by _:node17negtrq8x254 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x253 .
+
+_:node17negtrq8x255 ov:csvCol "128"^^xsd:integer ;
 	ov:csvHeader "DTL_TYPE_OF_IMP" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x201 .
+_:node17negtrq8x256 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x202 ov:csvCol "129"^^xsd:integer ;
+_:node17negtrq8x255 conversion:bundled_by _:node17negtrq8x256 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x255 .
+
+_:node17negtrq8x257 ov:csvCol "129"^^xsd:integer ;
 	ov:csvHeader "SPECIAL_CODE" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x202 .
+_:node17negtrq8x258 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x203 ov:csvCol "130"^^xsd:integer ;
+_:node17negtrq8x257 conversion:bundled_by _:node17negtrq8x258 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x257 .
+
+_:node17negtrq8x259 ov:csvCol "130"^^xsd:integer ;
 	ov:csvHeader "STEP_CODE" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x203 .
+_:node17negtrq8x260 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x204 ov:csvCol "131"^^xsd:integer ;
+_:node17negtrq8x259 conversion:bundled_by _:node17negtrq8x260 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x259 .
+
+_:node17negtrq8x261 ov:csvCol "131"^^xsd:integer ;
 	ov:csvHeader "STATUS" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x204 .
+_:node17negtrq8x262 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x205 ov:csvCol "132"^^xsd:integer ;
+_:node17negtrq8x261 conversion:bundled_by _:node17negtrq8x262 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x261 .
+
+_:node17negtrq8x263 ov:csvCol "132"^^xsd:integer ;
 	ov:csvHeader "SUFFICIENCY_ASTERC" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x205 .
+_:node17negtrq8x264 ov:csvCol "2"^^xsd:integer .
 
-_:node17ne5gib5x206 ov:csvCol "133"^^xsd:integer ;
+_:node17negtrq8x263 conversion:bundled_by _:node17negtrq8x264 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x263 .
+
+_:node17negtrq8x265 ov:csvCol "133"^^xsd:integer ;
 	ov:csvHeader "SUFFICIENCY_RATING" ;
 	conversion:comment "" ;
-	conversion:range rdfs:Literal .
+	conversion:range rdfs:Literal ;
+	a conversion:ExistingBundleEnhancement .
 
-_:node17ne5gib5x1 conversion:enhance _:node17ne5gib5x206 .
+_:node17negtrq8x266 ov:csvCol "2"^^xsd:integer .
 
-<http://dig.csail.mit.edu/2013/QCRI/bridges/dataset> conversion:conversion_process _:node17ne5gib5x1 .
+_:node17negtrq8x265 conversion:bundled_by _:node17negtrq8x266 .
+
+_:node17negtrq8x1 conversion:enhance _:node17negtrq8x265 .
+
+<http://dig.csail.mit.edu/2013/QCRI/bridges/dataset> conversion:conversion_process _:node17negtrq8x1 .
 
 <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset/bridges-in-ny/subset/meta> a fhwa-dot-gov_vocab:Dataset , conversion:Dataset , conversion:MetaDataset , void:Dataset ;
 	conversion:base_uri "http://dig.csail.mit.edu/2013/QCRI/bridges" ;
 	conversion:source_identifier "fhwa-dot-gov" ;
 	conversion:dataset_identifier "bridges-in-ny" ;
-	dcterms:modified "2013-04-05T18:37:48.581-05:00"^^xsd:dateTime ;
+	dcterms:modified "2013-04-05T21:57:56.934-05:00"^^xsd:dateTime ;
 	foaf:isPrimaryTopicOf <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset_page/bridges-in-ny/subset/meta> ;
 	void:dataDump <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/file/bridges-in-ny/version/2013-Apr-04/conversion/fhwa-dot-gov-bridges-in-ny-2013-Apr-04.void.ttl.gz> .
 
-<http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/enhancement/1> conversion:num_triples "3132597"^^xsd:integer ;
-	void:triples "3132597"^^xsd:integer ;
-	prov:wasGeneratedBy <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/provenance/bridges-in-ny/version/2013-Apr-04/conversion/enhancement/1/translationActivity_28083012-7149-4aca-9360-25a7f1406aae> .
+<http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/enhancement/1> conversion:num_triples "3111928"^^xsd:integer ;
+	void:triples "3111928"^^xsd:integer ;
+	prov:wasGeneratedBy <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/provenance/bridges-in-ny/version/2013-Apr-04/conversion/enhancement/1/translationActivity_6a64bfaf-db11-4297-b07e-f70e7023d3aa> .
 
-<http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/provenance/bridges-in-ny/version/2013-Apr-04/conversion/enhancement/1/translationActivity_28083012-7149-4aca-9360-25a7f1406aae> a prov:Activity , <http://provenanceweb.org/ns/pml#TranslationActivity> ;
-	conversion:triples_per_minute "3075696.612665685"^^xsd:double ;
-	prov:used e1:deck_cond_058 , e1:features_desc , e1:horr_clr_mt_047 , e1:place_code , e1:other_state_pcnt_098b , e1:vert_clr_over_mt_053 , e1:owner_022 , e1:median_code_033 , e1:open_closed_posted_041 , e1:structural_eval_067 , e1:year_reconstructed_106 , e1:proj_suffix , e1:work_done_by_075b , e1:special_code , e1:future_adt_114 , e1:inventory_rating_066 , e1:status , e1:surface_type_108a , e1:lrs_inv_route , e1:structure_kind_043a , e1:design_load_031 , e1:right_curb_mt_050b , e1:navigation_038 , e1:appr_road_eval_072 , e1:step_code , e1:deck_protection_108c , e1:appr_type_044b , e1:work_proposed_075a , owl:sameAs , e1:service_level , e1:imp_len_mt_076 , e1:scour_critical_113 , dcterms:isReferencedBy , e1:total_imp_cost_096 , e1:undwater_last_date_093b , e1:national_network_110 , e1:appr_spans_046 , e1:appr_kind_044a , e1:nav_horr_clr_mt_040 , e1:structure_type_043b , e1:direction , e1:max_span_len_mt_048 , e1:dtl_type_of_imp , e1:type_last_update , e1:pier_protection_111 , e1:membrane_type_108b , e1:vert_clr_und_054b , e1:facility_carried , e1:bridge_len_ind_112 , e1:date_last_update , e1:vert_clr_und_ref_054a , e1:fed_agency , e1:deck_geometry_eval_068 , e1:waterway_eval_071 , e1:service_und_042b , e1:deduct_code , e1:functional_class_026 , e1:history_037 , e1:opr_rating_meth_063 , e1:subroute_no , e1:fracture_092a , e1:percent_adt_truck_109 , e1:state_code , e1:othr_state_struc_no_099 , e1:date_of_inspect_090 , e1:undwater_look_see_092b , ov:csvRow , e1:posting_eval_070 , e1:min_nav_clr_mt_116 , e1:appr_width_mt_032 , e1:remarks , e1:adt_029 , e1:structure_len_mt_049 , e1:highway_district , e1:spec_last_date_093c , rdfs:label , e1:appr_rail_end_036d , e1:sufficiency_asterc , e1:base_hwy_network , e1:railings_036a , e1:degrees_skew_034 , e1:main_unit_spans_045 , e1:critical_facility , e1:substructure_cond_060 , e1:other_state_code_098a , e1:structure_flared_035 , e1:county_code , e1:route_prefix , dcterms:identifier , e1:year_of_imp_097 , e1:deck_width_mt_052 , e1:sufficiency_rating , e1:detour_kilos_019 , e1:lat_und_ref_055a , e1:kilopoint , e1:service_on_042a , e1:year_built_027 , e1:channel_cond_061 , wgs:lat , void:inDataset , e1:bridge_imp_cost_094 , e1:nbi_type_of_imp , e1:location , e1:nav_vert_clr_mt_039 , e1:year_adt_030 , e1:record_type_005a , e1:transitions_036b , e1:federal_lands_105 , e1:deck_structure_type_107 , e1:operating_rating_064 , e1:highway_system_104 , e1:toll_020 , wgs:long , e1:superstructure_cond_059 , e1:traffic_lanes_und_028b , rdf:type , e1:traffic_direction_102 , e1:maintenance_021 , e1:min_vert_clr , e1:culvert_cond_062 , e1:roadway_imp_cost_095 , e1:proj_no , e1:parallel_structure_101 , e1:left_curb_mt_050a , e1:structure_number , e1:appr_rail_036c , e1:roadway_width_mt_051 , e1:left_lat_und_mt_056 , e1:route_number , e1:undclrence_eval_069 , e1:spec_inspect_092c , e1:traffic_lanes_on_028a , e1:inspect_freq_months_091 , e1:year_of_future_adt_115 , e1:inv_rating_meth_065 , e1:program_code , e1:lat_und_mt_055b , e1:temp_structure_103 , e1:strahnet_highway_100 , e1:fracture_last_date_093a ;
+<http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/provenance/bridges-in-ny/version/2013-Apr-04/conversion/enhancement/1/translationActivity_6a64bfaf-db11-4297-b07e-f70e7023d3aa> a prov:Activity , <http://provenanceweb.org/ns/pml#TranslationActivity> ;
+	conversion:triples_per_minute "1865477.8699170747"^^xsd:double ;
+	prov:used e1:deck_cond_058 , e1:features_desc , e1:horr_clr_mt_047 , e1:place_code , e1:other_state_pcnt_098b , e1:vert_clr_over_mt_053 , e1:owner_022 , e1:median_code_033 , e1:open_closed_posted_041 , e1:structural_eval_067 , e1:year_reconstructed_106 , e1:proj_suffix , e1:work_done_by_075b , e1:special_code , e1:future_adt_114 , e1:inventory_rating_066 , e1:status , e1:surface_type_108a , e1:lrs_inv_route , e1:structure_kind_043a , e1:design_load_031 , e1:right_curb_mt_050b , e1:navigation_038 , e1:appr_road_eval_072 , e1:step_code , e1:deck_protection_108c , e1:appr_type_044b , e1:work_proposed_075a , owl:sameAs , e1:service_level , e1:imp_len_mt_076 , e1:scour_critical_113 , e1:total_imp_cost_096 , dcterms:isReferencedBy , e1:undwater_last_date_093b , e1:national_network_110 , e1:appr_spans_046 , e1:appr_kind_044a , e1:nav_horr_clr_mt_040 , e1:structure_type_043b , e1:direction , e1:max_span_len_mt_048 , e1:dtl_type_of_imp , e1:type_last_update , e1:pier_protection_111 , e1:membrane_type_108b , e1:vert_clr_und_054b , e1:facility_carried , e1:bridge_len_ind_112 , e1:date_last_update , e1:vert_clr_und_ref_054a , e1:fed_agency , e1:deck_geometry_eval_068 , e1:waterway_eval_071 , e1:service_und_042b , e1:deduct_code , e1:functional_class_026 , e1:history_037 , e1:opr_rating_meth_063 , e1:subroute_no , e1:fracture_092a , e1:percent_adt_truck_109 , e1:state_code , e1:othr_state_struc_no_099 , e1:date_of_inspect_090 , e1:undwater_look_see_092b , ov:csvRow , e1:posting_eval_070 , e1:min_nav_clr_mt_116 , e1:appr_width_mt_032 , e1:remarks , e1:adt_029 , e1:structure_len_mt_049 , e1:highway_district , e1:spec_last_date_093c , rdfs:label , e1:appr_rail_end_036d , e1:sufficiency_asterc , e1:base_hwy_network , e1:railings_036a , e1:degrees_skew_034 , e1:main_unit_spans_045 , e1:critical_facility , e1:substructure_cond_060 , e1:other_state_code_098a , e1:structure_flared_035 , e1:county_code , e1:route_prefix , dcterms:identifier , e1:year_of_imp_097 , e1:deck_width_mt_052 , e1:sufficiency_rating , e1:detour_kilos_019 , e1:lat_und_ref_055a , e1:kilopoint , e1:service_on_042a , e1:year_built_027 , e1:channel_cond_061 , wgs:lat , void:inDataset , e1:bridge_imp_cost_094 , e1:nbi_type_of_imp , e1:location , e1:nav_vert_clr_mt_039 , e1:year_adt_030 , e1:record_type_005a , e1:transitions_036b , e1:federal_lands_105 , e1:deck_structure_type_107 , e1:operating_rating_064 , e1:highway_system_104 , e1:toll_020 , wgs:long , e1:superstructure_cond_059 , e1:traffic_lanes_und_028b , rdf:type , e1:traffic_direction_102 , e1:maintenance_021 , e1:min_vert_clr , e1:culvert_cond_062 , e1:roadway_imp_cost_095 , e1:proj_no , e1:parallel_structure_101 , e1:left_curb_mt_050a , e1:structure_number , e1:appr_rail_036c , e1:roadway_width_mt_051 , e1:left_lat_und_mt_056 , e1:route_number , e1:undclrence_eval_069 , e1:spec_inspect_092c , e1:traffic_lanes_on_028a , e1:inspect_freq_months_091 , e1:year_of_future_adt_115 , e1:inv_rating_meth_065 , e1:program_code , e1:lat_und_mt_055b , e1:temp_structure_103 , e1:strahnet_highway_100 , e1:fracture_last_date_093a ;
 	void:vocabulary <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset/bridges-in-ny/vocab/enhancement/1/> , <http://www.w3.org/2002/07/owl#> , <http://purl.org/dc/terms/> , <http://open.vocab.org/terms/> , <http://www.w3.org/2000/01/rdf-schema#> , <http://www.w3.org/2003/01/geo/wgs84_pos#> , <http://rdfs.org/ns/void#> , <http://www.w3.org/1999/02/22-rdf-syntax-ns#> ;
 	prov:used bridges-in-ny_vocab:structure_number , bridges-in-ny_vocab:State ;
 	void:vocabulary <http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset/bridges-in-ny/vocab/> .
@@ -3756,4 +4056,4 @@ void:DatasetDescription rdfs:isDefinedBy <http://rdfs.org/ns/void#> ;
 
 conversion:Dataset prov:wasAttributedTo <http://purl.org/twc> .
 
-<http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/enhancement/1> rdfs:comment "hash: 17e6c40018bf3ae488a054d96bf9fa1aa890653fe29a09" .
+<http://dig.csail.mit.edu/2013/QCRI/bridges/source/fhwa-dot-gov/dataset/bridges-in-ny/version/2013-Apr-04/conversion/enhancement/1> rdfs:comment "hash: 17bc7b013f31a8950542bf6a6c093eef071b7e43f70158" .

@@ -24,8 +24,8 @@
       a conversion:RawConversionProcess;
       conversion:conversion_identifier "raw";
 
-      dcterms:creator [ a foaf:OnlineAccount; foaf:accountName "oshani" ];
-      dcterms:created "2013-04-05T18:36:41-04:00"^^xsd:dateTime;
+      dcterms:creator [ a foaf:OnlineAccount; foaf:accountName "dmiao" ];
+      dcterms:created "2013-04-05T21:56:06-04:00"^^xsd:dateTime;
 
 
       #conversion:enhance [
