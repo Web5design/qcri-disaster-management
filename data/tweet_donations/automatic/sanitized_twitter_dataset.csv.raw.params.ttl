@@ -1,0 +1,180 @@
+@prefix rdf:           <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:          <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:           <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms:       <http://purl.org/dc/terms/> .
+@prefix void:          <http://rdfs.org/ns/void#> .
+@prefix scovo:         <http://purl.org/NET/scovo#> .
+@prefix sioc:          <http://rdfs.org/sioc/ns#> .
+@prefix foaf:          <http://xmlns.com/foaf/0.1/> .
+@prefix ov:            <http://open.vocab.org/terms/> .
+@prefix conversion:    <http://purl.org/twc/vocab/conversion/> .
+@prefix :              <http://dig.csail.mit.edu/2012/QCRI-DIG-project/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/params/raw/> .
+
+<http://people.apache.org/~oshani/foaf.rdf#me> dcterms:identifier "oshani" .
+
+<http://dig.csail.mit.edu/2012/QCRI-DIG-project/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw>
+   a conversion:LayerDataset, void:Dataset;
+
+   conversion:base_uri           "http://dig.csail.mit.edu/2012/QCRI-DIG-project"^^xsd:anyURI;
+   conversion:source_identifier  "Projects";
+   conversion:dataset_identifier "qcri-disaster-management";
+   conversion:version_identifier "tweet_donations";
+   conversion:conversion_identifier "raw";
+
+   conversion:conversion_process [
+      a conversion:RawConversionProcess;
+      conversion:conversion_identifier "raw";
+
+      dcterms:creator [ a foaf:OnlineAccount; foaf:accountName "oshani";
+                        sioc:account_of <http://people.apache.org/~oshani/foaf.rdf#me> ];
+      dcterms:created "2013-05-06T11:54:47-04:00"^^xsd:dateTime;
+
+
+      #conversion:enhance [
+      #   ov:csvRow 2;
+      #   a conversion:DataStartRow;
+      #];
+
+      conversion:delimits_cell ",";
+      #conversion:delimits_cell "	"; # tab
+      #conversion:delimits_cell "|";   # pipe
+      #conversion:delimits_cell ",";   # comma
+
+      #conversion:interpret [
+      #   conversion:symbol        "";
+      #   conversion:interpretation conversion:null; 
+      #];
+      #conversion:enhance [
+      #   conversion:domain_template "thing_[r]";
+      #   conversion:domain_name     "Thing";
+      #];
+      #conversion:enhance [
+      #   conversion:class_name "Thing";
+      #   conversion:subclass_of <http://purl.org/...>;
+      #];
+      conversion:enhance [
+         ov:csvCol          1;
+         ov:csvHeader       "ID";
+         conversion:comment "";
+         conversion:range   rdfs:Literal;
+      ];
+      conversion:enhance [
+         ov:csvCol          2;
+         ov:csvHeader       "TWEET";
+         conversion:comment "";
+         conversion:range   rdfs:Literal;
+      ];
+      conversion:enhance [
+         ov:csvCol          3;
+         ov:csvHeader       "AUTHOR";
+         conversion:comment "";
+         conversion:range   rdfs:Literal;
+      ];
+      conversion:enhance [
+         ov:csvCol          4;
+         ov:csvHeader       "CREATION-TIME";
+         conversion:comment "";
+         conversion:range   rdfs:Literal;
+      ];
+      conversion:enhance [
+         ov:csvCol          5;
+         ov:csvHeader       "LATITUDE";
+         conversion:comment "";
+         conversion:range   rdfs:Literal;
+      ];
+      conversion:enhance [
+         ov:csvCol          6;
+         ov:csvHeader       "LONGITUDE";
+         conversion:comment "";
+         conversion:range   rdfs:Literal;
+      ];
+      conversion:enhance [
+         ov:csvCol          7;
+         ov:csvHeader       "IS_DONATION";
+         conversion:comment "";
+         conversion:range   rdfs:Literal;
+      ];
+      conversion:enhance [
+         ov:csvCol          8;
+         ov:csvHeader       "IS_DONATION CONFIDENCE";
+         conversion:comment "";
+         conversion:range   rdfs:Literal;
+      ];
+      conversion:enhance [
+         ov:csvCol          9;
+         ov:csvHeader       "IS_DONATION CAUSAL WORDS";
+         conversion:comment "";
+         conversion:range   rdfs:Literal;
+      ];
+      conversion:enhance [
+         ov:csvCol          10;
+         ov:csvHeader       "IS_REQUEST";
+         conversion:comment "";
+         conversion:range   rdfs:Literal;
+      ];
+      conversion:enhance [
+         ov:csvCol          11;
+         ov:csvHeader       "IS_REQUEST CONFIDENCE";
+         conversion:comment "";
+         conversion:range   rdfs:Literal;
+      ];
+      conversion:enhance [
+         ov:csvCol          12;
+         ov:csvHeader       "IS_OFFER";
+         conversion:comment "";
+         conversion:range   rdfs:Literal;
+      ];
+      conversion:enhance [
+         ov:csvCol          13;
+         ov:csvHeader       "IS_OFFER CONFIDENCE";
+         conversion:comment "";
+         conversion:range   rdfs:Literal;
+      ];
+      conversion:enhance [
+         ov:csvCol          14;
+         ov:csvHeader       "NEED-TYPE";
+         conversion:comment "";
+         conversion:range   rdfs:Literal;
+      ];
+      conversion:enhance [
+         ov:csvCol          15;
+         ov:csvHeader       "NEED-TYPE CONFIDENCE";
+         conversion:comment "";
+         conversion:range   rdfs:Literal;
+      ];
+      conversion:enhance [
+         ov:csvCol          16;
+         ov:csvHeader       "SOURCE/TARGET OF DONATION";
+         conversion:comment "";
+         conversion:range   rdfs:Literal;
+      ];
+      conversion:enhance [
+         ov:csvCol          17;
+         ov:csvHeader       "SOURCE/TARGET OF DONATION CONFIDENCE";
+         conversion:comment "";
+         conversion:range   rdfs:Literal;
+      ];
+      conversion:enhance [
+         ov:csvCol          18;
+         ov:csvHeader       "MONEY:RAISING_MODE";
+         conversion:comment "";
+         conversion:range   rdfs:Literal;
+      ];
+      conversion:enhance [
+         ov:csvCol          19;
+         ov:csvHeader       "MONEY:RAISING_MODE CONFIDENCE";
+         conversion:comment "";
+         conversion:range   rdfs:Literal;
+      ];
+      conversion:enhance [
+         ov:csvCol          20;
+         ov:csvHeader       "MONEY:RAISING_MODE CAUSAL WORDS";
+         conversion:comment "";
+         conversion:range   rdfs:Literal;
+      ];
+      #conversion:enhance [            
+      #   ov:csvRow 3,4,5;             
+      #   a conversion:ExampleResource;
+      #];                              
+   ];
+.

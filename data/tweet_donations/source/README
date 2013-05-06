@@ -1,0 +1,6 @@
+The Twitter Donation dataset given by Carlos et al. was sanitized in the following ways:
+* The cell values that had the property qualified before the data was removed. For example: 'knoq:author' in the author column was removed.
+* Some of the sparse columns with data such as 'Food' confidence was removed for simplicity and to reduce the file size (there were lot of NULL values than real values).
+* The regular expression for removing knoq:tweet failed, so it was replaced with a single space character.
+
+  

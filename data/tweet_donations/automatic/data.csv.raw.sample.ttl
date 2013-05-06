@@ -1,0 +1,2352 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd2: <http://www.w3.org/TR/xmlschema-2/#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix conversion: <http://purl.org/twc/vocab/conversion/> .
+@prefix ov: <http://open.vocab.org/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix scovo: <http://purl.org/NET/scovo#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix frbrcore: <http://purl.org/vocab/frbr/core#> .
+@prefix coin: <http://purl.org/court/def/2009/coin#> .
+@prefix qcri-disaster-management: <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/> .
+@prefix Projects_vocab: <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/vocab/> .
+@prefix base_vocab: <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/vocab/> .
+@prefix local_vocab: <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/vocab/> .
+@prefix raw: <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/vocab/raw/> .
+@prefix : <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+
+raw:id a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "1"^^xsd:integer ;
+	ov:csvHeader "ID" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "ID" ;
+	rdfs:range rdfs:Literal .
+
+raw:tweet a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "2"^^xsd:integer ;
+	ov:csvHeader "TWEET" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "TWEET" ;
+	rdfs:range rdfs:Literal .
+
+raw:author a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "3"^^xsd:integer ;
+	ov:csvHeader "AUTHOR" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "AUTHOR" ;
+	rdfs:range rdfs:Literal .
+
+raw:creation_time a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "4"^^xsd:integer ;
+	ov:csvHeader "CREATION-TIME" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "CREATION-TIME" ;
+	rdfs:range rdfs:Literal .
+
+raw:latitude a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "5"^^xsd:integer ;
+	ov:csvHeader "LATITUDE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "LATITUDE" ;
+	rdfs:range rdfs:Literal .
+
+raw:longitude a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "6"^^xsd:integer ;
+	ov:csvHeader "LONGITUDE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "LONGITUDE" ;
+	rdfs:range rdfs:Literal .
+
+raw:is_donation a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "7"^^xsd:integer ;
+	ov:csvHeader "IS_DONATION" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "IS_DONATION" ;
+	rdfs:range rdfs:Literal .
+
+raw:is_donation_confidence a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "8"^^xsd:integer ;
+	ov:csvHeader "IS_DONATION CONFIDENCE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "IS_DONATION CONFIDENCE" ;
+	rdfs:range rdfs:Literal .
+
+raw:is_donation_causal_words a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "9"^^xsd:integer ;
+	ov:csvHeader "IS_DONATION CAUSAL WORDS" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "IS_DONATION CAUSAL WORDS" ;
+	rdfs:range rdfs:Literal .
+
+raw:is_request a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "10"^^xsd:integer ;
+	ov:csvHeader "IS_REQUEST" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "IS_REQUEST" ;
+	rdfs:range rdfs:Literal .
+
+raw:is_request_confidence a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "11"^^xsd:integer ;
+	ov:csvHeader "IS_REQUEST CONFIDENCE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "IS_REQUEST CONFIDENCE" ;
+	rdfs:range rdfs:Literal .
+
+raw:is_offer a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "12"^^xsd:integer ;
+	ov:csvHeader "IS_OFFER" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "IS_OFFER" ;
+	rdfs:range rdfs:Literal .
+
+raw:is_offer_confidence a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "13"^^xsd:integer ;
+	ov:csvHeader "IS_OFFER CONFIDENCE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "IS_OFFER CONFIDENCE" ;
+	rdfs:range rdfs:Literal .
+
+raw:need_type a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "14"^^xsd:integer ;
+	ov:csvHeader "NEED-TYPE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "NEED-TYPE" ;
+	rdfs:range rdfs:Literal .
+
+raw:need_type_confidence a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "15"^^xsd:integer ;
+	ov:csvHeader "NEED-TYPE CONFIDENCE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "NEED-TYPE CONFIDENCE" ;
+	rdfs:range rdfs:Literal .
+
+raw:source_target_of_donation a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "16"^^xsd:integer ;
+	ov:csvHeader "SOURCE/TARGET OF DONATION" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "SOURCE/TARGET OF DONATION" ;
+	rdfs:range rdfs:Literal .
+
+raw:source_target_of_donation_confidence a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "17"^^xsd:integer ;
+	ov:csvHeader "SOURCE/TARGET OF DONATION CONFIDENCE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "SOURCE/TARGET OF DONATION CONFIDENCE" ;
+	rdfs:range rdfs:Literal .
+
+raw:money_raising_mode a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "18"^^xsd:integer ;
+	ov:csvHeader "MONEY:RAISING_MODE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "MONEY:RAISING_MODE" ;
+	rdfs:range rdfs:Literal .
+
+raw:money_raising_mode_confidence a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "19"^^xsd:integer ;
+	ov:csvHeader "MONEY:RAISING_MODE CONFIDENCE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "MONEY:RAISING_MODE CONFIDENCE" ;
+	rdfs:range rdfs:Literal .
+
+raw:money_raising_mode_causal_words a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "20"^^xsd:integer ;
+	ov:csvHeader "MONEY:RAISING_MODE CAUSAL WORDS" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "MONEY:RAISING_MODE CAUSAL WORDS" ;
+	rdfs:range rdfs:Literal .
+
+raw:food_consumer a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "21"^^xsd:integer ;
+	ov:csvHeader "FOOD:CONSUMER" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "FOOD:CONSUMER" ;
+	rdfs:range rdfs:Literal .
+
+raw:food_consumer_confidence a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "22"^^xsd:integer ;
+	ov:csvHeader "FOOD:CONSUMER CONFIDENCE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "FOOD:CONSUMER CONFIDENCE" ;
+	rdfs:range rdfs:Literal .
+
+raw:food_consumer_causal_words a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "23"^^xsd:integer ;
+	ov:csvHeader "FOOD:CONSUMER CAUSAL WORDS" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "FOOD:CONSUMER CAUSAL WORDS" ;
+	rdfs:range rdfs:Literal .
+
+raw:clothing_type a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "24"^^xsd:integer ;
+	ov:csvHeader "CLOTHING:TYPE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "CLOTHING:TYPE" ;
+	rdfs:range rdfs:Literal .
+
+raw:clothing_type_confidence a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "25"^^xsd:integer ;
+	ov:csvHeader "CLOTHING:TYPE CONFIDENCE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "CLOTHING:TYPE CONFIDENCE" ;
+	rdfs:range rdfs:Literal .
+
+raw:clothing_type_causal_words a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "26"^^xsd:integer ;
+	ov:csvHeader "CLOTHING:TYPE CAUSAL WORDS" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "CLOTHING:TYPE CAUSAL WORDS" ;
+	rdfs:range rdfs:Literal .
+
+raw:medical_supply_type a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "27"^^xsd:integer ;
+	ov:csvHeader "MEDICAL:SUPPLY_TYPE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "MEDICAL:SUPPLY_TYPE" ;
+	rdfs:range rdfs:Literal .
+
+raw:medical_supply_type_confidence a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "28"^^xsd:integer ;
+	ov:csvHeader "MEDICAL:SUPPLY_TYPE CONFIDENCE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "MEDICAL:SUPPLY_TYPE CONFIDENCE" ;
+	rdfs:range rdfs:Literal .
+
+raw:medical_supply_type_causal_words a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "29"^^xsd:integer ;
+	ov:csvHeader "MEDICAL:SUPPLY_TYPE CAUSAL WORDS" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "MEDICAL:SUPPLY_TYPE CAUSAL WORDS" ;
+	rdfs:range rdfs:Literal .
+
+raw:shelter_info_mode a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "30"^^xsd:integer ;
+	ov:csvHeader "SHELTER:INFO_MODE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "SHELTER:INFO_MODE" ;
+	rdfs:range rdfs:Literal .
+
+raw:shelter_info_mode_confidence a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "31"^^xsd:integer ;
+	ov:csvHeader "SHELTER:INFO_MODE CONFIDENCE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "SHELTER:INFO_MODE CONFIDENCE" ;
+	rdfs:range rdfs:Literal .
+
+raw:shelter_info_mode_causal_words a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "32"^^xsd:integer ;
+	ov:csvHeader "SHELTER:INFO_MODE CAUSAL WORDS" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "SHELTER:INFO_MODE CAUSAL WORDS" ;
+	rdfs:range rdfs:Literal .
+
+raw:shelter_pet_friendly a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "33"^^xsd:integer ;
+	ov:csvHeader "SHELTER:PET_FRIENDLY" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "SHELTER:PET_FRIENDLY" ;
+	rdfs:range rdfs:Literal .
+
+raw:shelter_pet_friendly_confidence a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "34"^^xsd:integer ;
+	ov:csvHeader "SHELTER:PET_FRIENDLY CONFIDENCE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "SHELTER:PET_FRIENDLY CONFIDENCE" ;
+	rdfs:range rdfs:Literal .
+
+raw:shelter_pet_friendly_causal_words a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "35"^^xsd:integer ;
+	ov:csvHeader "SHELTER:PET_FRIENDLY CAUSAL WORDS" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "SHELTER:PET_FRIENDLY CAUSAL WORDS" ;
+	rdfs:range rdfs:Literal .
+
+raw:volunteer_work_type a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "36"^^xsd:integer ;
+	ov:csvHeader "VOLUNTEER:WORK_TYPE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "VOLUNTEER:WORK_TYPE" ;
+	rdfs:range rdfs:Literal .
+
+raw:volunteer_work_type_confidence a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "37"^^xsd:integer ;
+	ov:csvHeader "VOLUNTEER:WORK_TYPE CONFIDENCE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "VOLUNTEER:WORK_TYPE CONFIDENCE" ;
+	rdfs:range rdfs:Literal .
+
+raw:volunteer_work_type_causal_words a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "38"^^xsd:integer ;
+	ov:csvHeader "VOLUNTEER:WORK_TYPE CAUSAL WORDS" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "VOLUNTEER:WORK_TYPE CAUSAL WORDS" ;
+	rdfs:range rdfs:Literal .
+
+raw:column_39 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "39"^^xsd:integer ;
+	ov:csvHeader "" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "column_39" ;
+	rdfs:range rdfs:Literal .
+
+raw:column_40 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "40"^^xsd:integer ;
+	ov:csvHeader "" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "column_40" ;
+	rdfs:range rdfs:Literal .
+
+raw:column_41 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "41"^^xsd:integer ;
+	ov:csvHeader "" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "column_41" ;
+	rdfs:range rdfs:Literal .
+
+raw:column_42 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "42"^^xsd:integer ;
+	ov:csvHeader "" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "column_42" ;
+	rdfs:range rdfs:Literal .
+
+raw:column_43 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "43"^^xsd:integer ;
+	ov:csvHeader "" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "column_43" ;
+	rdfs:range rdfs:Literal .
+
+raw:column_44 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "44"^^xsd:integer ;
+	ov:csvHeader "" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "column_44" ;
+	rdfs:range rdfs:Literal .
+
+raw:column_45 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "45"^^xsd:integer ;
+	ov:csvHeader "" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "column_45" ;
+	rdfs:range rdfs:Literal .
+
+raw:column_46 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "46"^^xsd:integer ;
+	ov:csvHeader "" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "column_46" ;
+	rdfs:range rdfs:Literal .
+
+raw:column_47 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "47"^^xsd:integer ;
+	ov:csvHeader "" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "column_47" ;
+	rdfs:range rdfs:Literal .
+
+raw:column_48 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "48"^^xsd:integer ;
+	ov:csvHeader "" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "column_48" ;
+	rdfs:range rdfs:Literal .
+
+raw:column_49 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "49"^^xsd:integer ;
+	ov:csvHeader "" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "column_49" ;
+	rdfs:range rdfs:Literal .
+
+raw:column_50 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "50"^^xsd:integer ;
+	ov:csvHeader "" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "column_50" ;
+	rdfs:range rdfs:Literal .
+
+:thing_2 dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations> ;
+	void:inDataset <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations> ;
+	raw:id "2.634E+17" ;
+	raw:tweet "KnoQ:Tweet:Help FOX6 and the American Red Cross raise money for the Disaster Relief Fund in the wake of Hurricane Sandy. Call 414-586-2100 now." ;
+	raw:author "KnoQ:TweetAuthor:fox6now" ;
+	raw:creation_time "KnoQ:DateTime:2012-10-30 22:00:38" ;
+	raw:latitude "KnoQ:Geo_Lat:43.0402" ;
+	raw:longitude "KnoQ:Geo_Long:-87.9145" ;
+	raw:is_donation "KnoQ:Donation:Is_Donation:1:yes" ;
+	raw:is_donation_confidence "KnoQ:Donation:Is_Donation:Confidence:1" ;
+	raw:is_donation_causal_words "KnoQ:Donation:Is_Donation:Words:NULL" ;
+	raw:is_request "KnoQ:Donation:Is_Request:1:request" ;
+	raw:is_request_confidence "KnoQ:Donation:Is_Request:Confidence:0.913" ;
+	raw:is_offer "KnoQ:Donation:Is_Offer:1:offer" ;
+	raw:is_offer_confidence "KnoQ:Donation:Is_Offer:Confidence:0.999" ;
+	raw:need_type "KnoQ:NeedType:4:Money" ;
+	raw:need_type_confidence "KnoQ:NeedType:Confidence:0.999" ;
+	raw:source_target_of_donation "KnoQ:Donation:Source:Third party singular" ;
+	raw:source_target_of_donation_confidence "KnoQ:Donation:Source:Confidence:1.0" ;
+	raw:money_raising_mode "KnoQ:Money:Raising_Mode:via call" ;
+	raw:money_raising_mode_confidence "KnoQ:Money:Raising_Mode:Confidence:1.0" ;
+	raw:money_raising_mode_causal_words "KnoQ:Money:Raising_Mode:Words:Call _NUM_ now ." ;
+	raw:food_consumer "NULL" ;
+	raw:food_consumer_confidence "NULL" ;
+	raw:food_consumer_causal_words "NULL" ;
+	raw:clothing_type "NULL" ;
+	raw:clothing_type_confidence "NULL" ;
+	raw:clothing_type_causal_words "NULL" ;
+	raw:medical_supply_type "NULL" ;
+	raw:medical_supply_type_confidence "NULL" ;
+	raw:medical_supply_type_causal_words "NULL" ;
+	raw:shelter_info_mode "NULL" ;
+	raw:shelter_info_mode_confidence "NULL" ;
+	raw:shelter_info_mode_causal_words "NULL" ;
+	raw:shelter_pet_friendly "NULL" ;
+	raw:shelter_pet_friendly_confidence "NULL" ;
+	raw:shelter_pet_friendly_causal_words "NULL" ;
+	raw:volunteer_work_type "NULL" ;
+	raw:volunteer_work_type_confidence "NULL" ;
+	raw:volunteer_work_type_causal_words "NULL" ;
+	raw:column_39 "NULL" ;
+	raw:column_40 "NULL" ;
+	raw:column_41 "NULL" ;
+	raw:column_42 "NULL" ;
+	raw:column_43 "NULL" ;
+	raw:column_44 "NULL" ;
+	raw:column_45 "NULL" ;
+	raw:column_46 "NULL" ;
+	raw:column_47 "NULL" ;
+	raw:column_48 "NULL" ;
+	raw:column_49 "NULL" ;
+	raw:column_50 "NULL" ;
+	ov:csvRow "2"^^xsd:integer .
+
+:thing_3 dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations> ;
+	void:inDataset <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations> ;
+	raw:id "2.64542E+17" ;
+	raw:tweet "KnoQ:Tweet:Help the victims of Hurricane #Sandy by making a donation to the #RedCross call 1-800-435-7669,Text REDCROSS to 90999 to make a $10 donation" ;
+	raw:author "KnoQ:TweetAuthor:HellRider2131" ;
+	raw:creation_time "KnoQ:DateTime:2012-11-03 01:37:44" ;
+	raw:latitude "KnoQ:Geo_Lat:10000" ;
+	raw:longitude "KnoQ:Geo_Long:10000" ;
+	raw:is_donation "KnoQ:Donation:Is_Donation:1:yes" ;
+	raw:is_donation_confidence "KnoQ:Donation:Is_Donation:Confidence:1" ;
+	raw:is_donation_causal_words "KnoQ:Donation:Is_Donation:Words:NULL" ;
+	raw:is_request "KnoQ:Donation:Is_Request:1:request" ;
+	raw:is_request_confidence "KnoQ:Donation:Is_Request:Confidence:1" ;
+	raw:is_offer "KnoQ:Donation:Is_Offer:1:offer" ;
+	raw:is_offer_confidence "KnoQ:Donation:Is_Offer:Confidence:1" ;
+	raw:need_type "KnoQ:NeedType:4:Money" ;
+	raw:need_type_confidence "KnoQ:NeedType:Confidence:1" ;
+	raw:source_target_of_donation "KnoQ:Donation:Source:Third party singular" ;
+	raw:source_target_of_donation_confidence "KnoQ:Donation:Source:Confidence:1.0" ;
+	raw:money_raising_mode "KnoQ:Money:Raising_Mode:via sms" ;
+	raw:money_raising_mode_confidence "KnoQ:Money:Raising_Mode:Confidence:1.0" ;
+	raw:money_raising_mode_causal_words "KnoQ:Money:Raising_Mode:Words:Text REDCROSS to _NUM_" ;
+	raw:food_consumer "NULL" ;
+	raw:food_consumer_confidence "NULL" ;
+	raw:food_consumer_causal_words "NULL" ;
+	raw:clothing_type "NULL" ;
+	raw:clothing_type_confidence "NULL" ;
+	raw:clothing_type_causal_words "NULL" ;
+	raw:medical_supply_type "NULL" ;
+	raw:medical_supply_type_confidence "NULL" ;
+	raw:medical_supply_type_causal_words "NULL" ;
+	raw:shelter_info_mode "NULL" ;
+	raw:shelter_info_mode_confidence "NULL" ;
+	raw:shelter_info_mode_causal_words "NULL" ;
+	raw:shelter_pet_friendly "NULL" ;
+	raw:shelter_pet_friendly_confidence "NULL" ;
+	raw:shelter_pet_friendly_causal_words "NULL" ;
+	raw:volunteer_work_type "NULL" ;
+	raw:volunteer_work_type_confidence "NULL" ;
+	raw:volunteer_work_type_causal_words "NULL" ;
+	raw:column_39 "NULL" ;
+	raw:column_40 "NULL" ;
+	raw:column_41 "NULL" ;
+	raw:column_42 "NULL" ;
+	raw:column_43 "NULL" ;
+	raw:column_44 "NULL" ;
+	raw:column_45 "NULL" ;
+	raw:column_46 "NULL" ;
+	raw:column_47 "NULL" ;
+	raw:column_48 "NULL" ;
+	raw:column_49 "NULL" ;
+	raw:column_50 "NULL" ;
+	ov:csvRow "3"^^xsd:integer .
+
+:thing_4 dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations> ;
+	void:inDataset <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations> ;
+	raw:id "2.64529E+17" ;
+	raw:tweet "KnoQ:Tweet:RT @blogdiva: RT @ydanis: Telethon on Sunday 12-6pm to raise money for victims of Hurricane Sandy in Staten Island, many of who still la ..." ;
+	raw:author "KnoQ:TweetAuthor:skmrahaman" ;
+	raw:creation_time "KnoQ:DateTime:2012-11-03 00:48:40" ;
+	raw:latitude "KnoQ:Geo_Lat:22.5726" ;
+	raw:longitude "KnoQ:Geo_Long:88.3639" ;
+	raw:is_donation "KnoQ:Donation:Is_Donation:1:yes" ;
+	raw:is_donation_confidence "KnoQ:Donation:Is_Donation:Confidence:1" ;
+	raw:is_donation_causal_words "KnoQ:Donation:Is_Donation:Words:NULL" ;
+	raw:is_request "KnoQ:Donation:Is_Request:1:request" ;
+	raw:is_request_confidence "KnoQ:Donation:Is_Request:Confidence:0.974" ;
+	raw:is_offer "NULL" ;
+	raw:is_offer_confidence "NULL" ;
+	raw:need_type "KnoQ:NeedType:4:Money" ;
+	raw:need_type_confidence "KnoQ:NeedType:Confidence:1" ;
+	raw:source_target_of_donation "KnoQ:Donation:Source:Third party singular" ;
+	raw:source_target_of_donation_confidence "KnoQ:Donation:Source:Confidence:1.0" ;
+	raw:money_raising_mode "KnoQ:Money:Raising_Mode:via call" ;
+	raw:money_raising_mode_confidence "KnoQ:Money:Raising_Mode:Confidence:1.0" ;
+	raw:money_raising_mode_causal_words "KnoQ:Money:Raising_Mode:Words:Telethon on Sunday _NUM_pm" ;
+	raw:food_consumer "NULL" ;
+	raw:food_consumer_confidence "NULL" ;
+	raw:food_consumer_causal_words "NULL" ;
+	raw:clothing_type "NULL" ;
+	raw:clothing_type_confidence "NULL" ;
+	raw:clothing_type_causal_words "NULL" ;
+	raw:medical_supply_type "NULL" ;
+	raw:medical_supply_type_confidence "NULL" ;
+	raw:medical_supply_type_causal_words "NULL" ;
+	raw:shelter_info_mode "NULL" ;
+	raw:shelter_info_mode_confidence "NULL" ;
+	raw:shelter_info_mode_causal_words "NULL" ;
+	raw:shelter_pet_friendly "NULL" ;
+	raw:shelter_pet_friendly_confidence "NULL" ;
+	raw:shelter_pet_friendly_causal_words "NULL" ;
+	raw:volunteer_work_type "NULL" ;
+	raw:volunteer_work_type_confidence "NULL" ;
+	raw:volunteer_work_type_causal_words "NULL" ;
+	raw:column_39 "NULL" ;
+	raw:column_40 "NULL" ;
+	raw:column_41 "NULL" ;
+	raw:column_42 "NULL" ;
+	raw:column_43 "NULL" ;
+	raw:column_44 "NULL" ;
+	raw:column_45 "NULL" ;
+	raw:column_46 "NULL" ;
+	raw:column_47 "NULL" ;
+	raw:column_48 "NULL" ;
+	raw:column_49 "NULL" ;
+	raw:column_50 "NULL" ;
+	ov:csvRow "4"^^xsd:integer .
+
+:thing_5 dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations> ;
+	void:inDataset <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations> ;
+	raw:id "2.64529E+17" ;
+	raw:tweet "KnoQ:Tweet:#SANDYhelp #90999 RT @Darlene4NY: NBC telethon to raise money for Hurricane Sandy. Stories are breaking my heart." ;
+	raw:author "KnoQ:TweetAuthor:RobDash" ;
+	raw:creation_time "KnoQ:DateTime:2012-11-03 00:48:37" ;
+	raw:latitude "KnoQ:Geo_Lat:40.7561" ;
+	raw:longitude "KnoQ:Geo_Long:-73.987" ;
+	raw:is_donation "KnoQ:Donation:Is_Donation:1:yes" ;
+	raw:is_donation_confidence "KnoQ:Donation:Is_Donation:Confidence:1" ;
+	raw:is_donation_causal_words "KnoQ:Donation:Is_Donation:Words:NULL" ;
+	raw:is_request "KnoQ:Donation:Is_Request:1:request" ;
+	raw:is_request_confidence "KnoQ:Donation:Is_Request:Confidence:0.918" ;
+	raw:is_offer "NULL" ;
+	raw:is_offer_confidence "NULL" ;
+	raw:need_type "KnoQ:NeedType:4:Money" ;
+	raw:need_type_confidence "KnoQ:NeedType:Confidence:1" ;
+	raw:source_target_of_donation "KnoQ:Donation:Source:Third party singular" ;
+	raw:source_target_of_donation_confidence "KnoQ:Donation:Source:Confidence:1.0" ;
+	raw:money_raising_mode "KnoQ:Money:Raising_Mode:via call" ;
+	raw:money_raising_mode_confidence "KnoQ:Money:Raising_Mode:Confidence:1.0" ;
+	raw:money_raising_mode_causal_words "KnoQ:Money:Raising_Mode:Words:#_NUM_NBC telethon to raise money for Hurricane Sandy" ;
+	raw:food_consumer "NULL" ;
+	raw:food_consumer_confidence "NULL" ;
+	raw:food_consumer_causal_words "NULL" ;
+	raw:clothing_type "NULL" ;
+	raw:clothing_type_confidence "NULL" ;
+	raw:clothing_type_causal_words "NULL" ;
+	raw:medical_supply_type "NULL" ;
+	raw:medical_supply_type_confidence "NULL" ;
+	raw:medical_supply_type_causal_words "NULL" ;
+	raw:shelter_info_mode "NULL" ;
+	raw:shelter_info_mode_confidence "NULL" ;
+	raw:shelter_info_mode_causal_words "NULL" ;
+	raw:shelter_pet_friendly "NULL" ;
+	raw:shelter_pet_friendly_confidence "NULL" ;
+	raw:shelter_pet_friendly_causal_words "NULL" ;
+	raw:volunteer_work_type "NULL" ;
+	raw:volunteer_work_type_confidence "NULL" ;
+	raw:volunteer_work_type_causal_words "NULL" ;
+	raw:column_39 "NULL" ;
+	raw:column_40 "NULL" ;
+	raw:column_41 "NULL" ;
+	raw:column_42 "NULL" ;
+	raw:column_43 "NULL" ;
+	raw:column_44 "NULL" ;
+	raw:column_45 "NULL" ;
+	raw:column_46 "NULL" ;
+	raw:column_47 "NULL" ;
+	raw:column_48 "NULL" ;
+	raw:column_49 "NULL" ;
+	raw:column_50 "NULL" ;
+	ov:csvRow "5"^^xsd:integer .
+
+:thing_6 dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations> ;
+	void:inDataset <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations> ;
+	raw:id "2.64529E+17" ;
+	raw:tweet "KnoQ:Tweet:RT @ydanis: Telethon on Sunday 12-6pm to raise money for victims of Hurricane Sandy in Staten Island, many of who still lack vital services" ;
+	raw:author "KnoQ:TweetAuthor:blogdiva" ;
+	raw:creation_time "KnoQ:DateTime:2012-11-03 00:47:46" ;
+	raw:latitude "KnoQ:Geo_Lat:10000" ;
+	raw:longitude "KnoQ:Geo_Long:10000" ;
+	raw:is_donation "KnoQ:Donation:Is_Donation:1:yes" ;
+	raw:is_donation_confidence "KnoQ:Donation:Is_Donation:Confidence:1" ;
+	raw:is_donation_causal_words "KnoQ:Donation:Is_Donation:Words:NULL" ;
+	raw:is_request "KnoQ:Donation:Is_Request:1:request" ;
+	raw:is_request_confidence "KnoQ:Donation:Is_Request:Confidence:0.974" ;
+	raw:is_offer "NULL" ;
+	raw:is_offer_confidence "NULL" ;
+	raw:need_type "KnoQ:NeedType:4:Money" ;
+	raw:need_type_confidence "KnoQ:NeedType:Confidence:1" ;
+	raw:source_target_of_donation "KnoQ:Donation:Source:Third party singular" ;
+	raw:source_target_of_donation_confidence "KnoQ:Donation:Source:Confidence:1.0" ;
+	raw:money_raising_mode "KnoQ:Money:Raising_Mode:via call" ;
+	raw:money_raising_mode_confidence "KnoQ:Money:Raising_Mode:Confidence:1.0" ;
+	raw:money_raising_mode_causal_words "KnoQ:Money:Raising_Mode:Words:Telethon on Sunday _NUM_pm" ;
+	raw:food_consumer "NULL" ;
+	raw:food_consumer_confidence "NULL" ;
+	raw:food_consumer_causal_words "NULL" ;
+	raw:clothing_type "NULL" ;
+	raw:clothing_type_confidence "NULL" ;
+	raw:clothing_type_causal_words "NULL" ;
+	raw:medical_supply_type "NULL" ;
+	raw:medical_supply_type_confidence "NULL" ;
+	raw:medical_supply_type_causal_words "NULL" ;
+	raw:shelter_info_mode "NULL" ;
+	raw:shelter_info_mode_confidence "NULL" ;
+	raw:shelter_info_mode_causal_words "NULL" ;
+	raw:shelter_pet_friendly "NULL" ;
+	raw:shelter_pet_friendly_confidence "NULL" ;
+	raw:shelter_pet_friendly_causal_words "NULL" ;
+	raw:volunteer_work_type "NULL" ;
+	raw:volunteer_work_type_confidence "NULL" ;
+	raw:volunteer_work_type_causal_words "NULL" ;
+	raw:column_39 "NULL" ;
+	raw:column_40 "NULL" ;
+	raw:column_41 "NULL" ;
+	raw:column_42 "NULL" ;
+	raw:column_43 "NULL" ;
+	raw:column_44 "NULL" ;
+	raw:column_45 "NULL" ;
+	raw:column_46 "NULL" ;
+	raw:column_47 "NULL" ;
+	raw:column_48 "NULL" ;
+	raw:column_49 "NULL" ;
+	raw:column_50 "NULL" ;
+	ov:csvRow "6"^^xsd:integer .
+
+:thing_7 dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations> ;
+	void:inDataset <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations> ;
+	raw:id "2.64201E+17" ;
+	raw:tweet "KnoQ:Tweet:Telethon on TV tomorrow to raise money for the hurricane victims." ;
+	raw:author "KnoQ:TweetAuthor:PatLANGSTON" ;
+	raw:creation_time "KnoQ:DateTime:2012-11-02 03:01:46" ;
+	raw:latitude "KnoQ:Geo_Lat:37.0902" ;
+	raw:longitude "KnoQ:Geo_Long:-95.7129" ;
+	raw:is_donation "KnoQ:Donation:Is_Donation:1:yes" ;
+	raw:is_donation_confidence "KnoQ:Donation:Is_Donation:Confidence:1" ;
+	raw:is_donation_causal_words "KnoQ:Donation:Is_Donation:Words:NULL" ;
+	raw:is_request "NULL" ;
+	raw:is_request_confidence "NULL" ;
+	raw:is_offer "NULL" ;
+	raw:is_offer_confidence "NULL" ;
+	raw:need_type "KnoQ:NeedType:4:Money" ;
+	raw:need_type_confidence "KnoQ:NeedType:Confidence:1" ;
+	raw:source_target_of_donation "KnoQ:Donation:Source:Third party singular" ;
+	raw:source_target_of_donation_confidence "KnoQ:Donation:Source:Confidence:1.0" ;
+	raw:money_raising_mode "KnoQ:Money:Raising_Mode:via call" ;
+	raw:money_raising_mode_confidence "KnoQ:Money:Raising_Mode:Confidence:1.0" ;
+	raw:money_raising_mode_causal_words "KnoQ:Money:Raising_Mode:Words:Telethon on TV tomorrow to raise money" ;
+	raw:food_consumer "NULL" ;
+	raw:food_consumer_confidence "NULL" ;
+	raw:food_consumer_causal_words "NULL" ;
+	raw:clothing_type "NULL" ;
+	raw:clothing_type_confidence "NULL" ;
+	raw:clothing_type_causal_words "NULL" ;
+	raw:medical_supply_type "NULL" ;
+	raw:medical_supply_type_confidence "NULL" ;
+	raw:medical_supply_type_causal_words "NULL" ;
+	raw:shelter_info_mode "NULL" ;
+	raw:shelter_info_mode_confidence "NULL" ;
+	raw:shelter_info_mode_causal_words "NULL" ;
+	raw:shelter_pet_friendly "NULL" ;
+	raw:shelter_pet_friendly_confidence "NULL" ;
+	raw:shelter_pet_friendly_causal_words "NULL" ;
+	raw:volunteer_work_type "NULL" ;
+	raw:volunteer_work_type_confidence "NULL" ;
+	raw:volunteer_work_type_causal_words "NULL" ;
+	raw:column_39 "NULL" ;
+	raw:column_40 "NULL" ;
+	raw:column_41 "NULL" ;
+	raw:column_42 "NULL" ;
+	raw:column_43 "NULL" ;
+	raw:column_44 "NULL" ;
+	raw:column_45 "NULL" ;
+	raw:column_46 "NULL" ;
+	raw:column_47 "NULL" ;
+	raw:column_48 "NULL" ;
+	raw:column_49 "NULL" ;
+	raw:column_50 "NULL" ;
+	ov:csvRow "7"^^xsd:integer .
+
+:thing_8 dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations> ;
+	void:inDataset <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations> ;
+	raw:id "2.64311E+17" ;
+	raw:tweet "KnoQ:Tweet:To help hurricane victims call the Red Cross to make donation: 1-800-RED-CROSS or text 90999 to make a $10 donation. #WTAE" ;
+	raw:author "KnoQ:TweetAuthor:tvmichelle" ;
+	raw:creation_time "KnoQ:DateTime:2012-11-02 10:21:22" ;
+	raw:latitude "KnoQ:Geo_Lat:40.4384" ;
+	raw:longitude "KnoQ:Geo_Long:-80.0019" ;
+	raw:is_donation "KnoQ:Donation:Is_Donation:1:yes" ;
+	raw:is_donation_confidence "KnoQ:Donation:Is_Donation:Confidence:1" ;
+	raw:is_donation_causal_words "KnoQ:Donation:Is_Donation:Words:NULL" ;
+	raw:is_request "KnoQ:Donation:Is_Request:1:request" ;
+	raw:is_request_confidence "KnoQ:Donation:Is_Request:Confidence:0.986" ;
+	raw:is_offer "KnoQ:Donation:Is_Offer:1:offer" ;
+	raw:is_offer_confidence "KnoQ:Donation:Is_Offer:Confidence:0.997" ;
+	raw:need_type "KnoQ:NeedType:4:Money" ;
+	raw:need_type_confidence "KnoQ:NeedType:Confidence:1" ;
+	raw:source_target_of_donation "KnoQ:Donation:Source:Third party singular" ;
+	raw:source_target_of_donation_confidence "KnoQ:Donation:Source:Confidence:1.0" ;
+	raw:money_raising_mode "KnoQ:Money:Raising_Mode:via sms" ;
+	raw:money_raising_mode_confidence "KnoQ:Money:Raising_Mode:Confidence:1.0" ;
+	raw:money_raising_mode_causal_words "KnoQ:Money:Raising_Mode:Words:text _NUM_" ;
+	raw:food_consumer "NULL" ;
+	raw:food_consumer_confidence "NULL" ;
+	raw:food_consumer_causal_words "NULL" ;
+	raw:clothing_type "NULL" ;
+	raw:clothing_type_confidence "NULL" ;
+	raw:clothing_type_causal_words "NULL" ;
+	raw:medical_supply_type "NULL" ;
+	raw:medical_supply_type_confidence "NULL" ;
+	raw:medical_supply_type_causal_words "NULL" ;
+	raw:shelter_info_mode "NULL" ;
+	raw:shelter_info_mode_confidence "NULL" ;
+	raw:shelter_info_mode_causal_words "NULL" ;
+	raw:shelter_pet_friendly "NULL" ;
+	raw:shelter_pet_friendly_confidence "NULL" ;
+	raw:shelter_pet_friendly_causal_words "NULL" ;
+	raw:volunteer_work_type "NULL" ;
+	raw:volunteer_work_type_confidence "NULL" ;
+	raw:volunteer_work_type_causal_words "NULL" ;
+	raw:column_39 "NULL" ;
+	raw:column_40 "NULL" ;
+	raw:column_41 "NULL" ;
+	raw:column_42 "NULL" ;
+	raw:column_43 "NULL" ;
+	raw:column_44 "NULL" ;
+	raw:column_45 "NULL" ;
+	raw:column_46 "NULL" ;
+	raw:column_47 "NULL" ;
+	raw:column_48 "NULL" ;
+	raw:column_49 "NULL" ;
+	raw:column_50 "NULL" ;
+	ov:csvRow "8"^^xsd:integer .
+
+:thing_9 dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations> ;
+	void:inDataset <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations> ;
+	raw:id "2.64777E+17" ;
+	raw:tweet "KnoQ:Tweet:To make donations and help victims of hurricane sandy call 1-800-Red-Cross or donate $10 by text 90999....Para... http://t.co/lzY3n5So" ;
+	raw:author "KnoQ:TweetAuthor:DJLexOneRumba" ;
+	raw:creation_time "KnoQ:DateTime:2012-11-03 17:13:36" ;
+	raw:latitude "KnoQ:Geo_Lat:-81.4334" ;
+	raw:longitude "KnoQ:Geo_Long:28.6779" ;
+	raw:is_donation "KnoQ:Donation:Is_Donation:1:yes" ;
+	raw:is_donation_confidence "KnoQ:Donation:Is_Donation:Confidence:1" ;
+	raw:is_donation_causal_words "KnoQ:Donation:Is_Donation:Words:NULL" ;
+	raw:is_request "KnoQ:Donation:Is_Request:1:request" ;
+	raw:is_request_confidence "KnoQ:Donation:Is_Request:Confidence:0.985" ;
+	raw:is_offer "NULL" ;
+	raw:is_offer_confidence "NULL" ;
+	raw:need_type "KnoQ:NeedType:4:Money" ;
+	raw:need_type_confidence "KnoQ:NeedType:Confidence:0.906" ;
+	raw:source_target_of_donation "KnoQ:Donation:Source:Third party singular" ;
+	raw:source_target_of_donation_confidence "KnoQ:Donation:Source:Confidence:1.0" ;
+	raw:money_raising_mode "KnoQ:Money:Raising_Mode:via sms" ;
+	raw:money_raising_mode_confidence "KnoQ:Money:Raising_Mode:Confidence:1.0" ;
+	raw:money_raising_mode_causal_words "KnoQ:Money:Raising_Mode:Words:donate $_NUM_ by text _NUM_" ;
+	raw:food_consumer "NULL" ;
+	raw:food_consumer_confidence "NULL" ;
+	raw:food_consumer_causal_words "NULL" ;
+	raw:clothing_type "NULL" ;
+	raw:clothing_type_confidence "NULL" ;
+	raw:clothing_type_causal_words "NULL" ;
+	raw:medical_supply_type "NULL" ;
+	raw:medical_supply_type_confidence "NULL" ;
+	raw:medical_supply_type_causal_words "NULL" ;
+	raw:shelter_info_mode "NULL" ;
+	raw:shelter_info_mode_confidence "NULL" ;
+	raw:shelter_info_mode_causal_words "NULL" ;
+	raw:shelter_pet_friendly "NULL" ;
+	raw:shelter_pet_friendly_confidence "NULL" ;
+	raw:shelter_pet_friendly_causal_words "NULL" ;
+	raw:volunteer_work_type "NULL" ;
+	raw:volunteer_work_type_confidence "NULL" ;
+	raw:volunteer_work_type_causal_words "NULL" ;
+	raw:column_39 "NULL" ;
+	raw:column_40 "NULL" ;
+	raw:column_41 "NULL" ;
+	raw:column_42 "NULL" ;
+	raw:column_43 "NULL" ;
+	raw:column_44 "NULL" ;
+	raw:column_45 "NULL" ;
+	raw:column_46 "NULL" ;
+	raw:column_47 "NULL" ;
+	raw:column_48 "NULL" ;
+	raw:column_49 "NULL" ;
+	raw:column_50 "NULL" ;
+	ov:csvRow "9"^^xsd:integer .
+
+:thing_10 dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations> ;
+	void:inDataset <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations> ;
+	raw:id "2.65564E+17" ;
+	raw:tweet "KnoQ:Tweet:Amazing! Come to Songs at the New World tonight and help us raise money for Hurricane Sandy Relief! http://t.co/pbAZesjx" ;
+	raw:author "KnoQ:TweetAuthor:newworldstages" ;
+	raw:creation_time "KnoQ:DateTime:2012-11-05 21:19:33" ;
+	raw:latitude "KnoQ:Geo_Lat:40.7629" ;
+	raw:longitude "KnoQ:Geo_Long:-73.9875" ;
+	raw:is_donation "KnoQ:Donation:Is_Donation:1:yes" ;
+	raw:is_donation_confidence "KnoQ:Donation:Is_Donation:Confidence:1" ;
+	raw:is_donation_causal_words "KnoQ:Donation:Is_Donation:Words:NULL" ;
+	raw:is_request "KnoQ:Donation:Is_Request:1:request" ;
+	raw:is_request_confidence "KnoQ:Donation:Is_Request:Confidence:1" ;
+	raw:is_offer "KnoQ:Donation:Is_Offer:1:offer" ;
+	raw:is_offer_confidence "KnoQ:Donation:Is_Offer:Confidence:0.999" ;
+	raw:need_type "KnoQ:NeedType:4:Money" ;
+	raw:need_type_confidence "KnoQ:NeedType:Confidence:1" ;
+	raw:source_target_of_donation "KnoQ:Donation:Source:Third party singular" ;
+	raw:source_target_of_donation_confidence "KnoQ:Donation:Source:Confidence:1.0" ;
+	raw:money_raising_mode "KnoQ:Money:Raising_Mode:via event" ;
+	raw:money_raising_mode_confidence "KnoQ:Money:Raising_Mode:Confidence:1.0" ;
+	raw:money_raising_mode_causal_words "KnoQ:Money:Raising_Mode:Words:Come to Songs at the New World tonight" ;
+	raw:food_consumer "NULL" ;
+	raw:food_consumer_confidence "NULL" ;
+	raw:food_consumer_causal_words "NULL" ;
+	raw:clothing_type "NULL" ;
+	raw:clothing_type_confidence "NULL" ;
+	raw:clothing_type_causal_words "NULL" ;
+	raw:medical_supply_type "NULL" ;
+	raw:medical_supply_type_confidence "NULL" ;
+	raw:medical_supply_type_causal_words "NULL" ;
+	raw:shelter_info_mode "NULL" ;
+	raw:shelter_info_mode_confidence "NULL" ;
+	raw:shelter_info_mode_causal_words "NULL" ;
+	raw:shelter_pet_friendly "NULL" ;
+	raw:shelter_pet_friendly_confidence "NULL" ;
+	raw:shelter_pet_friendly_causal_words "NULL" ;
+	raw:volunteer_work_type "NULL" ;
+	raw:volunteer_work_type_confidence "NULL" ;
+	raw:volunteer_work_type_causal_words "NULL" ;
+	raw:column_39 "NULL" ;
+	raw:column_40 "NULL" ;
+	raw:column_41 "NULL" ;
+	raw:column_42 "NULL" ;
+	raw:column_43 "NULL" ;
+	raw:column_44 "NULL" ;
+	raw:column_45 "NULL" ;
+	raw:column_46 "NULL" ;
+	raw:column_47 "NULL" ;
+	raw:column_48 "NULL" ;
+	raw:column_49 "NULL" ;
+	raw:column_50 "NULL" ;
+	ov:csvRow "10"^^xsd:integer .
+
+:thing_11 dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations> ;
+	void:inDataset <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations> ;
+	raw:id "2.65508E+17" ;
+	raw:tweet "KnoQ:Tweet:RT @andreobin: Boston residents, please come out to this show on 11/12.  We are performing live to raise money for hurricane relief: htt ..." ;
+	raw:author "KnoQ:TweetAuthor:honeydiijon" ;
+	raw:creation_time "KnoQ:DateTime:2012-11-05 17:36:24" ;
+	raw:latitude "KnoQ:Geo_Lat:10000" ;
+	raw:longitude "KnoQ:Geo_Long:10000" ;
+	raw:is_donation "KnoQ:Donation:Is_Donation:1:yes" ;
+	raw:is_donation_confidence "KnoQ:Donation:Is_Donation:Confidence:1" ;
+	raw:is_donation_causal_words "KnoQ:Donation:Is_Donation:Words:NULL" ;
+	raw:is_request "KnoQ:Donation:Is_Request:1:request" ;
+	raw:is_request_confidence "KnoQ:Donation:Is_Request:Confidence:0.996" ;
+	raw:is_offer "KnoQ:Donation:Is_Offer:1:offer" ;
+	raw:is_offer_confidence "KnoQ:Donation:Is_Offer:Confidence:0.99" ;
+	raw:need_type "KnoQ:NeedType:4:Money" ;
+	raw:need_type_confidence "KnoQ:NeedType:Confidence:1" ;
+	raw:source_target_of_donation "KnoQ:Donation:Source:Third party singular" ;
+	raw:source_target_of_donation_confidence "KnoQ:Donation:Source:Confidence:1.0" ;
+	raw:money_raising_mode "KnoQ:Money:Raising_Mode:via event" ;
+	raw:money_raising_mode_confidence "KnoQ:Money:Raising_Mode:Confidence:1.0" ;
+	raw:money_raising_mode_causal_words "KnoQ:Money:Raising_Mode:Words:please come out to this show on _NUM_/_NUM_" ;
+	raw:food_consumer "NULL" ;
+	raw:food_consumer_confidence "NULL" ;
+	raw:food_consumer_causal_words "NULL" ;
+	raw:clothing_type "NULL" ;
+	raw:clothing_type_confidence "NULL" ;
+	raw:clothing_type_causal_words "NULL" ;
+	raw:medical_supply_type "NULL" ;
+	raw:medical_supply_type_confidence "NULL" ;
+	raw:medical_supply_type_causal_words "NULL" ;
+	raw:shelter_info_mode "NULL" ;
+	raw:shelter_info_mode_confidence "NULL" ;
+	raw:shelter_info_mode_causal_words "NULL" ;
+	raw:shelter_pet_friendly "NULL" ;
+	raw:shelter_pet_friendly_confidence "NULL" ;
+	raw:shelter_pet_friendly_causal_words "NULL" ;
+	raw:volunteer_work_type "NULL" ;
+	raw:volunteer_work_type_confidence "NULL" ;
+	raw:volunteer_work_type_causal_words "NULL" ;
+	raw:column_39 "NULL" ;
+	raw:column_40 "NULL" ;
+	raw:column_41 "NULL" ;
+	raw:column_42 "NULL" ;
+	raw:column_43 "NULL" ;
+	raw:column_44 "NULL" ;
+	raw:column_45 "NULL" ;
+	raw:column_46 "NULL" ;
+	raw:column_47 "NULL" ;
+	raw:column_48 "NULL" ;
+	raw:column_49 "NULL" ;
+	raw:column_50 "NULL" ;
+	ov:csvRow "11"^^xsd:integer .
+
+# CSV2RDF4LOD DATASET METADATA (reproduced from above):
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd2: <http://www.w3.org/TR/xmlschema-2/#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix conversion: <http://purl.org/twc/vocab/conversion/> .
+@prefix ov: <http://open.vocab.org/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix scovo: <http://purl.org/NET/scovo#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix frbrcore: <http://purl.org/vocab/frbr/core#> .
+@prefix coin: <http://purl.org/court/def/2009/coin#> .
+@prefix qcri-disaster-management: <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/> .
+@prefix Projects_vocab: <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/vocab/> .
+@prefix base_vocab: <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/vocab/> .
+@prefix local_vocab: <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/vocab/> .
+@prefix raw: <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/vocab/raw/> .
+@prefix : <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+
+raw:id a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "1"^^xsd:integer ;
+	ov:csvHeader "ID" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "ID" ;
+	rdfs:range rdfs:Literal .
+
+raw:tweet a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "2"^^xsd:integer ;
+	ov:csvHeader "TWEET" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "TWEET" ;
+	rdfs:range rdfs:Literal .
+
+raw:author a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "3"^^xsd:integer ;
+	ov:csvHeader "AUTHOR" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "AUTHOR" ;
+	rdfs:range rdfs:Literal .
+
+raw:creation_time a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "4"^^xsd:integer ;
+	ov:csvHeader "CREATION-TIME" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "CREATION-TIME" ;
+	rdfs:range rdfs:Literal .
+
+raw:latitude a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "5"^^xsd:integer ;
+	ov:csvHeader "LATITUDE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "LATITUDE" ;
+	rdfs:range rdfs:Literal .
+
+raw:longitude a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "6"^^xsd:integer ;
+	ov:csvHeader "LONGITUDE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "LONGITUDE" ;
+	rdfs:range rdfs:Literal .
+
+raw:is_donation a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "7"^^xsd:integer ;
+	ov:csvHeader "IS_DONATION" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "IS_DONATION" ;
+	rdfs:range rdfs:Literal .
+
+raw:is_donation_confidence a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "8"^^xsd:integer ;
+	ov:csvHeader "IS_DONATION CONFIDENCE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "IS_DONATION CONFIDENCE" ;
+	rdfs:range rdfs:Literal .
+
+raw:is_donation_causal_words a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "9"^^xsd:integer ;
+	ov:csvHeader "IS_DONATION CAUSAL WORDS" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "IS_DONATION CAUSAL WORDS" ;
+	rdfs:range rdfs:Literal .
+
+raw:is_request a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "10"^^xsd:integer ;
+	ov:csvHeader "IS_REQUEST" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "IS_REQUEST" ;
+	rdfs:range rdfs:Literal .
+
+raw:is_request_confidence a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "11"^^xsd:integer ;
+	ov:csvHeader "IS_REQUEST CONFIDENCE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "IS_REQUEST CONFIDENCE" ;
+	rdfs:range rdfs:Literal .
+
+raw:is_offer a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "12"^^xsd:integer ;
+	ov:csvHeader "IS_OFFER" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "IS_OFFER" ;
+	rdfs:range rdfs:Literal .
+
+raw:is_offer_confidence a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "13"^^xsd:integer ;
+	ov:csvHeader "IS_OFFER CONFIDENCE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "IS_OFFER CONFIDENCE" ;
+	rdfs:range rdfs:Literal .
+
+raw:need_type a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "14"^^xsd:integer ;
+	ov:csvHeader "NEED-TYPE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "NEED-TYPE" ;
+	rdfs:range rdfs:Literal .
+
+raw:need_type_confidence a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "15"^^xsd:integer ;
+	ov:csvHeader "NEED-TYPE CONFIDENCE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "NEED-TYPE CONFIDENCE" ;
+	rdfs:range rdfs:Literal .
+
+raw:source_target_of_donation a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "16"^^xsd:integer ;
+	ov:csvHeader "SOURCE/TARGET OF DONATION" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "SOURCE/TARGET OF DONATION" ;
+	rdfs:range rdfs:Literal .
+
+raw:source_target_of_donation_confidence a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "17"^^xsd:integer ;
+	ov:csvHeader "SOURCE/TARGET OF DONATION CONFIDENCE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "SOURCE/TARGET OF DONATION CONFIDENCE" ;
+	rdfs:range rdfs:Literal .
+
+raw:money_raising_mode a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "18"^^xsd:integer ;
+	ov:csvHeader "MONEY:RAISING_MODE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "MONEY:RAISING_MODE" ;
+	rdfs:range rdfs:Literal .
+
+raw:money_raising_mode_confidence a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "19"^^xsd:integer ;
+	ov:csvHeader "MONEY:RAISING_MODE CONFIDENCE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "MONEY:RAISING_MODE CONFIDENCE" ;
+	rdfs:range rdfs:Literal .
+
+raw:money_raising_mode_causal_words a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "20"^^xsd:integer ;
+	ov:csvHeader "MONEY:RAISING_MODE CAUSAL WORDS" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "MONEY:RAISING_MODE CAUSAL WORDS" ;
+	rdfs:range rdfs:Literal .
+
+raw:food_consumer a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "21"^^xsd:integer ;
+	ov:csvHeader "FOOD:CONSUMER" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "FOOD:CONSUMER" ;
+	rdfs:range rdfs:Literal .
+
+raw:food_consumer_confidence a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "22"^^xsd:integer ;
+	ov:csvHeader "FOOD:CONSUMER CONFIDENCE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "FOOD:CONSUMER CONFIDENCE" ;
+	rdfs:range rdfs:Literal .
+
+raw:food_consumer_causal_words a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "23"^^xsd:integer ;
+	ov:csvHeader "FOOD:CONSUMER CAUSAL WORDS" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "FOOD:CONSUMER CAUSAL WORDS" ;
+	rdfs:range rdfs:Literal .
+
+raw:clothing_type a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "24"^^xsd:integer ;
+	ov:csvHeader "CLOTHING:TYPE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "CLOTHING:TYPE" ;
+	rdfs:range rdfs:Literal .
+
+raw:clothing_type_confidence a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "25"^^xsd:integer ;
+	ov:csvHeader "CLOTHING:TYPE CONFIDENCE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "CLOTHING:TYPE CONFIDENCE" ;
+	rdfs:range rdfs:Literal .
+
+raw:clothing_type_causal_words a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "26"^^xsd:integer ;
+	ov:csvHeader "CLOTHING:TYPE CAUSAL WORDS" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "CLOTHING:TYPE CAUSAL WORDS" ;
+	rdfs:range rdfs:Literal .
+
+raw:medical_supply_type a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "27"^^xsd:integer ;
+	ov:csvHeader "MEDICAL:SUPPLY_TYPE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "MEDICAL:SUPPLY_TYPE" ;
+	rdfs:range rdfs:Literal .
+
+raw:medical_supply_type_confidence a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "28"^^xsd:integer ;
+	ov:csvHeader "MEDICAL:SUPPLY_TYPE CONFIDENCE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "MEDICAL:SUPPLY_TYPE CONFIDENCE" ;
+	rdfs:range rdfs:Literal .
+
+raw:medical_supply_type_causal_words a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "29"^^xsd:integer ;
+	ov:csvHeader "MEDICAL:SUPPLY_TYPE CAUSAL WORDS" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "MEDICAL:SUPPLY_TYPE CAUSAL WORDS" ;
+	rdfs:range rdfs:Literal .
+
+raw:shelter_info_mode a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "30"^^xsd:integer ;
+	ov:csvHeader "SHELTER:INFO_MODE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "SHELTER:INFO_MODE" ;
+	rdfs:range rdfs:Literal .
+
+raw:shelter_info_mode_confidence a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "31"^^xsd:integer ;
+	ov:csvHeader "SHELTER:INFO_MODE CONFIDENCE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "SHELTER:INFO_MODE CONFIDENCE" ;
+	rdfs:range rdfs:Literal .
+
+raw:shelter_info_mode_causal_words a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "32"^^xsd:integer ;
+	ov:csvHeader "SHELTER:INFO_MODE CAUSAL WORDS" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "SHELTER:INFO_MODE CAUSAL WORDS" ;
+	rdfs:range rdfs:Literal .
+
+raw:shelter_pet_friendly a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "33"^^xsd:integer ;
+	ov:csvHeader "SHELTER:PET_FRIENDLY" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "SHELTER:PET_FRIENDLY" ;
+	rdfs:range rdfs:Literal .
+
+raw:shelter_pet_friendly_confidence a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "34"^^xsd:integer ;
+	ov:csvHeader "SHELTER:PET_FRIENDLY CONFIDENCE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "SHELTER:PET_FRIENDLY CONFIDENCE" ;
+	rdfs:range rdfs:Literal .
+
+raw:shelter_pet_friendly_causal_words a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "35"^^xsd:integer ;
+	ov:csvHeader "SHELTER:PET_FRIENDLY CAUSAL WORDS" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "SHELTER:PET_FRIENDLY CAUSAL WORDS" ;
+	rdfs:range rdfs:Literal .
+
+raw:volunteer_work_type a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "36"^^xsd:integer ;
+	ov:csvHeader "VOLUNTEER:WORK_TYPE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "VOLUNTEER:WORK_TYPE" ;
+	rdfs:range rdfs:Literal .
+
+raw:volunteer_work_type_confidence a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "37"^^xsd:integer ;
+	ov:csvHeader "VOLUNTEER:WORK_TYPE CONFIDENCE" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "VOLUNTEER:WORK_TYPE CONFIDENCE" ;
+	rdfs:range rdfs:Literal .
+
+raw:volunteer_work_type_causal_words a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "38"^^xsd:integer ;
+	ov:csvHeader "VOLUNTEER:WORK_TYPE CAUSAL WORDS" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "VOLUNTEER:WORK_TYPE CAUSAL WORDS" ;
+	rdfs:range rdfs:Literal .
+
+raw:column_39 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "39"^^xsd:integer ;
+	ov:csvHeader "" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "column_39" ;
+	rdfs:range rdfs:Literal .
+
+raw:column_40 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "40"^^xsd:integer ;
+	ov:csvHeader "" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "column_40" ;
+	rdfs:range rdfs:Literal .
+
+raw:column_41 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "41"^^xsd:integer ;
+	ov:csvHeader "" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "column_41" ;
+	rdfs:range rdfs:Literal .
+
+raw:column_42 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "42"^^xsd:integer ;
+	ov:csvHeader "" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "column_42" ;
+	rdfs:range rdfs:Literal .
+
+raw:column_43 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "43"^^xsd:integer ;
+	ov:csvHeader "" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "column_43" ;
+	rdfs:range rdfs:Literal .
+
+raw:column_44 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "44"^^xsd:integer ;
+	ov:csvHeader "" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "column_44" ;
+	rdfs:range rdfs:Literal .
+
+raw:column_45 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "45"^^xsd:integer ;
+	ov:csvHeader "" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "column_45" ;
+	rdfs:range rdfs:Literal .
+
+raw:column_46 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "46"^^xsd:integer ;
+	ov:csvHeader "" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "column_46" ;
+	rdfs:range rdfs:Literal .
+
+raw:column_47 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "47"^^xsd:integer ;
+	ov:csvHeader "" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "column_47" ;
+	rdfs:range rdfs:Literal .
+
+raw:column_48 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "48"^^xsd:integer ;
+	ov:csvHeader "" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "column_48" ;
+	rdfs:range rdfs:Literal .
+
+raw:column_49 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "49"^^xsd:integer ;
+	ov:csvHeader "" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "column_49" ;
+	rdfs:range rdfs:Literal .
+
+raw:column_50 a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "50"^^xsd:integer ;
+	ov:csvHeader "" ;
+	dcterms:isReferencedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	rdfs:label "column_50" ;
+	rdfs:range rdfs:Literal .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd2: <http://www.w3.org/TR/xmlschema-2/#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix conversion: <http://purl.org/twc/vocab/conversion/> .
+@prefix ov: <http://open.vocab.org/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix scovo: <http://purl.org/NET/scovo#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix frbrcore: <http://purl.org/vocab/frbr/core#> .
+@prefix coin: <http://purl.org/court/def/2009/coin#> .
+@prefix qcri-disaster-management: <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/> .
+@prefix Projects_vocab: <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/vocab/> .
+@prefix base_vocab: <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/vocab/> .
+@prefix local_vocab: <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/vocab/> .
+@prefix raw: <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/vocab/raw/> .
+@prefix : <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/void.ttl> a void:DatasetDescription ;
+	foaf:topic <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management> ;
+	foaf:primaryTopic <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/void> .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/void> a void:Dataset ;
+	void:subset <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management> .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management> a Projects_vocab:Dataset , conversion:Dataset , conversion:AbstractDataset , void:Dataset ;
+	conversion:base_uri "https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#" ;
+	conversion:source_identifier "Projects" ;
+	conversion:dataset_identifier "qcri-disaster-management" ;
+	dcterms:contributor <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects> ;
+	dcterms:identifier "Projects qcri-disaster-management" ;
+	foaf:isPrimaryTopicOf <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset_page/qcri-disaster-management> ;
+	void:subset <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations> , <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/subset/meta> ;
+	dcterms:modified "2013-04-25T13:53:07.206-05:00"^^xsd:dateTime .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations> a Projects_vocab:Dataset , conversion:Dataset , conversion:VersionedDataset , void:Dataset ;
+	conversion:base_uri "https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#" ;
+	conversion:source_identifier "Projects" ;
+	conversion:dataset_identifier "qcri-disaster-management" ;
+	conversion:version_identifier "tweet_donations" ;
+	conversion:dataset_version "tweet_donations" ;
+	dcterms:contributor <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects> ;
+	dcterms:identifier "Projects qcri-disaster-management tweet_donations" ;
+	dcterms:modified "2013-04-25T13:53:07.206-05:00"^^xsd:dateTime ;
+	foaf:isPrimaryTopicOf <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset_page/qcri-disaster-management/version/tweet_donations> ;
+	void:dataDump <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/file/qcri-disaster-management/version/tweet_donations/conversion/Projects-qcri-disaster-management-tweet_donations.ttl.gz> ;
+	void:subset <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> a Projects_vocab:Dataset , conversion:Dataset , conversion:LayerDataset , void:Dataset , conversion:RawDataset ;
+	dcterms:modified "2013-04-25T13:53:07.206-05:00"^^xsd:dateTime ;
+	conversion:base_uri "https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#" ;
+	conversion:source_identifier "Projects" ;
+	conversion:dataset_identifier "qcri-disaster-management" ;
+	conversion:version_identifier "tweet_donations" ;
+	conversion:dataset_version "tweet_donations" ;
+	conversion:conversion_identifier "raw" ;
+	foaf:isPrimaryTopicOf <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset_page/qcri-disaster-management/version/tweet_donations/conversion/raw> ;
+	void:dataDump <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/file/qcri-disaster-management/version/tweet_donations/conversion/Projects-qcri-disaster-management-tweet_donations.raw.ttl.gz> ;
+	void:subset <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw/subset/sample> ;
+	conversion:uses_predicate raw:is_offer_confidence , ov:csvRow , raw:shelter_info_mode_causal_words , raw:volunteer_work_type , raw:longitude , raw:clothing_type_confidence , raw:column_50 , raw:author , raw:tweet , raw:medical_supply_type_confidence , raw:need_type_confidence , raw:id , raw:is_donation_confidence , raw:food_consumer_causal_words , raw:is_request , raw:column_49 , raw:column_48 , raw:column_47 , raw:column_46 , raw:column_44 , raw:column_45 , raw:column_42 , raw:money_raising_mode_causal_words , raw:column_43 , raw:column_40 , raw:column_41 , raw:latitude , raw:is_donation_causal_words , raw:clothing_type , raw:shelter_info_mode_confidence , raw:volunteer_work_type_causal_words , void:inDataset , raw:shelter_pet_friendly , raw:column_39 , raw:clothing_type_causal_words , dcterms:isReferencedBy , raw:source_target_of_donation , raw:shelter_info_mode , raw:shelter_pet_friendly_causal_words , raw:source_target_of_donation_confidence , raw:medical_supply_type , raw:money_raising_mode , raw:creation_time , raw:need_type , raw:money_raising_mode_confidence , raw:food_consumer_confidence , raw:medical_supply_type_causal_words , raw:volunteer_work_type_confidence , raw:food_consumer , raw:is_donation , raw:is_request_confidence , raw:is_offer , raw:shelter_pet_friendly_confidence ;
+	void:vocabulary <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> , <http://open.vocab.org/terms/> , <http://rdfs.org/ns/void#> , <http://purl.org/dc/terms/> .
+
+raw:is_offer_confidence rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+ov:csvRow rdfs:isDefinedBy <http://open.vocab.org/terms/> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://open.vocab.org> .
+
+raw:shelter_info_mode_causal_words rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:volunteer_work_type rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:longitude rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:clothing_type_confidence rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:column_50 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:author rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:tweet rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:medical_supply_type_confidence rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:need_type_confidence rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:id rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:is_donation_confidence rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:food_consumer_causal_words rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:is_request rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:column_49 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:column_48 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:column_47 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:column_46 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:column_44 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:column_45 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:column_42 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:money_raising_mode_causal_words rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:column_43 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:column_40 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:column_41 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:latitude rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:is_donation_causal_words rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:clothing_type rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:shelter_info_mode_confidence rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:volunteer_work_type_causal_words rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+void:inDataset rdfs:isDefinedBy <http://rdfs.org/ns/void#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://rdfs.org> .
+
+raw:shelter_pet_friendly rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:column_39 rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:clothing_type_causal_words rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+dcterms:isReferencedBy rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://purl.org/dc> .
+
+raw:source_target_of_donation rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:shelter_info_mode rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:shelter_pet_friendly_causal_words rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:source_target_of_donation_confidence rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:medical_supply_type rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:money_raising_mode rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:creation_time rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:need_type rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:money_raising_mode_confidence rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:food_consumer_confidence rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:medical_supply_type_causal_words rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:volunteer_work_type_confidence rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:food_consumer rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:is_donation rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:is_request_confidence rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:is_offer rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+raw:shelter_pet_friendly_confidence rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> void:exampleResource :thing_2 , :thing_11 ;
+	dcterms:created "2013-04-25T13:53:06.655-05:00"^^xsd:dateTime ;
+	dcterms:contributor <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects> ;
+	dcterms:identifier "Projects qcri-disaster-management tweet_donations raw" .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw/subset/sample> a Projects_vocab:Dataset , conversion:Dataset , conversion:DatasetSample , void:Dataset ;
+	conversion:base_uri "https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#" ;
+	conversion:source_identifier "Projects" ;
+	conversion:dataset_identifier "qcri-disaster-management" ;
+	conversion:version_identifier "tweet_donations" ;
+	conversion:dataset_version "tweet_donations" ;
+	conversion:conversion_identifier "raw" ;
+	dcterms:modified "2013-04-25T13:53:07.206-05:00"^^xsd:dateTime ;
+	foaf:isPrimaryTopicOf <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset_page/qcri-disaster-management/version/tweet_donations/conversion/raw/subset/sample> ;
+	void:dataDump <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/file/qcri-disaster-management/version/tweet_donations/conversion/Projects-qcri-disaster-management-tweet_donations.raw.sample.ttl> .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/file/qcri-disaster-management/version/tweet_donations/conversion/Projects-qcri-disaster-management-tweet_donations.raw.sample.ttl> dcterms:format <http://www.w3.org/ns/formats/Turtle> .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects> a foaf:Agent ;
+	dcterms:identifier "Projects" ;
+	foaf:isPrimaryTopicOf <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source_page/Projects> .
+
+_:node17p157gs4x3 vann:preferredNamespacePrefix "rdf" ;
+	vann:preferredNamespaceUri "http://www.w3.org/1999/02/22-rdf-syntax-ns#" .
+
+_:node17p157gs4x4 vann:preferredNamespacePrefix "rdfs" ;
+	vann:preferredNamespaceUri "http://www.w3.org/2000/01/rdf-schema#" .
+
+_:node17p157gs4x5 vann:preferredNamespacePrefix "xsd" ;
+	vann:preferredNamespaceUri "http://www.w3.org/2001/XMLSchema#" .
+
+_:node17p157gs4x6 vann:preferredNamespacePrefix "xsd2" ;
+	vann:preferredNamespaceUri "http://www.w3.org/TR/xmlschema-2/#" .
+
+_:node17p157gs4x7 vann:preferredNamespacePrefix "owl" ;
+	vann:preferredNamespaceUri "http://www.w3.org/2002/07/owl#" .
+
+_:node17p157gs4x8 vann:preferredNamespacePrefix "conversion" ;
+	vann:preferredNamespaceUri "http://purl.org/twc/vocab/conversion/" .
+
+_:node17p157gs4x9 vann:preferredNamespacePrefix "ov" ;
+	vann:preferredNamespaceUri "http://open.vocab.org/terms/" .
+
+_:node17p157gs4x10 vann:preferredNamespacePrefix "dcterms" ;
+	vann:preferredNamespaceUri "http://purl.org/dc/terms/" .
+
+_:node17p157gs4x11 vann:preferredNamespacePrefix "foaf" ;
+	vann:preferredNamespaceUri "http://xmlns.com/foaf/0.1/" .
+
+_:node17p157gs4x12 vann:preferredNamespacePrefix "void" ;
+	vann:preferredNamespaceUri "http://rdfs.org/ns/void#" .
+
+_:node17p157gs4x13 vann:preferredNamespacePrefix "doap" ;
+	vann:preferredNamespaceUri "http://usefulinc.com/ns/doap#" .
+
+_:node17p157gs4x14 vann:preferredNamespacePrefix "scovo" ;
+	vann:preferredNamespaceUri "http://purl.org/NET/scovo#" .
+
+_:node17p157gs4x15 vann:preferredNamespacePrefix "qb" ;
+	vann:preferredNamespaceUri "http://purl.org/linked-data/cube#" .
+
+_:node17p157gs4x16 vann:preferredNamespacePrefix "vann" ;
+	vann:preferredNamespaceUri "http://purl.org/vocab/vann/" .
+
+_:node17p157gs4x17 vann:preferredNamespacePrefix "frbrcore" ;
+	vann:preferredNamespaceUri "http://purl.org/vocab/frbr/core#" .
+
+_:node17p157gs4x18 vann:preferredNamespacePrefix "coin" ;
+	vann:preferredNamespaceUri "http://purl.org/court/def/2009/coin#" .
+
+_:node17p157gs4x19 vann:preferredNamespacePrefix "qcri-disaster-management" ;
+	vann:preferredNamespaceUri "https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/" .
+
+_:node17p157gs4x20 vann:preferredNamespacePrefix "Projects_vocab" ;
+	vann:preferredNamespaceUri "https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/vocab/" .
+
+_:node17p157gs4x21 vann:preferredNamespacePrefix "base_vocab" ;
+	vann:preferredNamespaceUri "https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/vocab/" .
+
+_:node17p157gs4x22 vann:preferredNamespacePrefix "local_vocab" ;
+	vann:preferredNamespaceUri "https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/vocab/" .
+
+_:node17p157gs4x23 vann:preferredNamespacePrefix "raw" ;
+	vann:preferredNamespaceUri "https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/vocab/raw/" .
+
+_:node17p157gs4x24 vann:preferredNamespacePrefix "" ;
+	vann:preferredNamespaceUri "https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/" .
+
+_:node17p157gs4x25 vann:preferredNamespacePrefix "_global_value" ;
+	vann:preferredNamespaceUri "https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/" .
+
+_:node17p157gs4x26 vann:preferredNamespacePrefix "sioc" ;
+	vann:preferredNamespaceUri "http://rdfs.org/sioc/ns#" .
+
+_:node17p157gs4x2 rdfs:seeAlso _:node17p157gs4x3 , _:node17p157gs4x4 , _:node17p157gs4x5 , _:node17p157gs4x6 , _:node17p157gs4x7 , _:node17p157gs4x8 , _:node17p157gs4x9 , _:node17p157gs4x10 , _:node17p157gs4x11 , _:node17p157gs4x12 , _:node17p157gs4x13 , _:node17p157gs4x14 , _:node17p157gs4x15 , _:node17p157gs4x16 , _:node17p157gs4x17 , _:node17p157gs4x18 , _:node17p157gs4x19 , _:node17p157gs4x20 , _:node17p157gs4x21 , _:node17p157gs4x22 , _:node17p157gs4x23 , _:node17p157gs4x24 , _:node17p157gs4x25 , _:node17p157gs4x26 .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/provenance/qcri-disaster-management/version/tweet_donations/conversion/raw/nodeset_1> a <http://inference-web.org/2.0/pml-justification.owl#NodeSet> ;
+	<http://inference-web.org/2.0/pml-justification.owl#hasConclusion> <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/file/qcri-disaster-management/version/tweet_donations/conversion/Projects-qcri-disaster-management-tweet_donations.ttl.gz> ;
+	<http://inference-web.org/2.0/pml-justification.owl#isConsequentOf> <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/provenance/qcri-disaster-management/version/tweet_donations/conversion/raw/infstep_1> .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/provenance/qcri-disaster-management/version/tweet_donations/conversion/raw/nodeset_2> a <http://inference-web.org/2.0/pml-justification.owl#NodeSet> ;
+	<http://inference-web.org/2.0/pml-justification.owl#hasConclusion> <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/file/qcri-disaster-management/version/tweet_donations/conversion/Projects-qcri-disaster-management-tweet_donations.raw.sample.ttl> ;
+	<http://inference-web.org/2.0/pml-justification.owl#isConsequentOf> <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/provenance/qcri-disaster-management/version/tweet_donations/conversion/raw/infstep_1> .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/provenance/qcri-disaster-management/version/tweet_donations/conversion/raw/nodeset_3> a <http://inference-web.org/2.0/pml-justification.owl#NodeSet> ;
+	<http://inference-web.org/2.0/pml-justification.owl#hasConclusion> <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/file/qcri-disaster-management/version/tweet_donations/conversion/Projects-qcri-disaster-management-tweet_donations.raw.ttl.gz> ;
+	<http://inference-web.org/2.0/pml-justification.owl#isConsequentOf> <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/provenance/qcri-disaster-management/version/tweet_donations/conversion/raw/infstep_1> .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/provenance/qcri-disaster-management/version/tweet_donations/conversion/raw/infstep_1> a <http://inference-web.org/2.0/pml-justification.owl#InferenceStep> ;
+	<http://inference-web.org/2.0/pml-justification.owl#hasInferenceEngine> _:node17p157gs4x1 ;
+	<http://inference-web.org/2.0/pml-justification.owl#hasAntecedentList> _:node17p157gs4x27 ;
+	<http://inference-web.org/2.1exper/pml-provenance.owl#hasAntecedentRole> _:node17p157gs4x29 , _:node17p157gs4x28 .
+
+<http://purl.org/twc/id/software/csv2rdf4lod> <http://www.w3.org/2000/10/swap/pim/contact#preferredURI> _:node17p157gs4x1 .
+
+<http://data.lod2.eu/2011/tools/CSV2RDF4LOD> <http://www.w3.org/2000/10/swap/pim/contact#preferredURI> _:node17p157gs4x1 .
+
+<http://data-gov.tw.rpi.edu/wiki/Special:URIResolver/csv2rdf4lod> <http://www.w3.org/2000/10/swap/pim/contact#preferredURI> _:node17p157gs4x1 .
+
+_:node17p157gs4x1 a <http://inference-web.org/2.0/pml-provenance.owl#InferenceEngine> , doap:Version ;
+	dcterms:version "2013-Jan-16" ;
+	doap:revision "2013-Jan-16" ;
+	doap:platform "Java" ;
+	<http://www.w3.org/ns/prov#specializationOf> <http://data-gov.tw.rpi.edu/wiki/Special:URIResolver/csv2rdf4lod> .
+
+<http://purl.org/twc/id/software/csv2rdf4lod> rdfs:seeAlso <https://github.com/timrdf/csv2rdf4lod-automation/wiki> .
+
+<http://data-gov.tw.rpi.edu/wiki/Special:URIResolver/csv2rdf4lod> a doap:Project ;
+	doap:implements <http://data-gov.tw.rpi.edu/wiki/Special:URIResolver/URI_design_for_RDF_conversion_of_CSV-based_data> , <http://purl.org/twc/vocab/conversion/> ;
+	dcterms:author <http://tw.rpi.edu/instances/TimLebo> ;
+	doap:developer <http://tw.rpi.edu/instances/TimLebo> , <http://tw.rpi.edu/instances/GregoryToddWilliams> , <http://kasei.us/about/foaf.xrdf#greg> , <http://tw.rpi.edu/instances/JamesMcCusker> , <http://tw.rpi.edu/instances/ZhenningShangguan> ;
+	doap:maintainer <http://tw.rpi.edu/instances/TimLebo> ;
+	doap:documenter <http://tw.rpi.edu/instances/TimLebo> , <http://tw.rpi.edu/instances/JohannaFlores> , <http://tw.rpi.edu/instances/LiDing> , <http://tw.rpi.edu/instances/GinoGervasio> ;
+	doap:helper <http://tw.rpi.edu/instances/AlvaroGraves> , <http://tw.rpi.edu/instances/DominicDiFranzo> , <http://tw.rpi.edu/instances/GinoGervasio> , <http://tw.rpi.edu/instances/PingWang> , <http://tw.rpi.edu/instances/XianLi> , <http://tw.rpi.edu/instances/JamesMcCusker> , <http://www.w3.org/People/Eric/ericP-foaf#ericP> , <http://tw.rpi.edu/instances/AnkitSrivastava> , <http://purl.org/twc/id/person/Maryam_Fazel-Zarandi> , <http://tw.rpi.edu/instances/AlexanderLahuerta> ;
+	doap:homepage <https://github.com/timrdf/csv2rdf4lod-automation/wiki> ;
+	doap:audience "Data modelers and architects that need (potentially non-RDB) tabular data encoded within the Resource Description Framework." ;
+	doap:shortdesc "Converts CSV files to RDF using parameters specified by http://purl.org/twc/vocab/conversion/" ;
+	doap:description "Converts CSV files to RDF using parameters specified by http://purl.org/twc/vocab/conversion/. Organizes datasets using 'source', 'dataset', and 'version' identifiers to allow for third-party aggregation, refinement, and integration of third-party data. Uses predicate 'layers' to allow backward-compatible refinements of Resources' descriptions. Minimizes human error and increases transparancy of conversion by using RDF-encoded interpretation parameters to control all processing." .
+
+_:node17p157gs4x30 a doap:GitRepository ;
+	foaf:isPrimaryTopicOf <https://github.com/timrdf/csv2rdf4lod-automation> ;
+	doap:browse <https://github.com/timrdf/csv2rdf4lod-automation> .
+
+<http://tw.rpi.edu/instances/GregoryToddWilliams> <http://www.w3.org/2000/10/swap/pim/contact#preferredURI> <http://kasei.us/about/foaf.xrdf#greg> .
+
+<http://tw.rpi.edu/instances/AlvaroGraves> <http://www.w3.org/2000/10/swap/pim/contact#preferredURI> <http://alvaro.graves.cl> .
+
+<http://purl.org/twc/id/person/TimLebo> <http://www.w3.org/2000/10/swap/pim/contact#preferredURI> <http://tw.rpi.edu/instances/TimLebo> .
+
+<http://tw.rpi.edu/wiki/Special:URIResolver/Tim_Lebo> <http://www.w3.org/2000/10/swap/pim/contact#preferredURI> <http://tw.rpi.edu/instances/TimLebo> .
+
+<http://www.cs.rpi.edu/~weavej3/r/Tim_Lebo> <http://www.w3.org/2000/10/swap/pim/contact#preferredURI> <http://tw.rpi.edu/instances/TimLebo> .
+
+<http://purl.org/twc/id/person/Maryam_Fazel-Zarandi> <http://www.w3.org/2000/10/swap/pim/contact#preferredURI> <http://tw.rpi.edu/instances/MaryamFazel-Zarandi> .
+
+_:node17p157gs4x27 a rdf:List ;
+	rdf:first <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/provenance/qcri-disaster-management/version/tweet_donations/conversion/raw/nodeset_4> .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/provenance/qcri-disaster-management/version/tweet_donations/conversion/raw/nodeset_4> a <http://inference-web.org/2.0/pml-justification.owl#NodeSet> ;
+	<http://inference-web.org/2.0/pml-justification.owl#hasConclusion> <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/fileqcri-disaster-management/version/tweet_donations/source/data.csv> .
+
+_:node17p157gs4x27 rdf:rest _:node17p157gs4x31 .
+
+_:node17p157gs4x31 a rdf:List ;
+	rdf:first <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/provenance/qcri-disaster-management/version/tweet_donations/conversion/raw/nodeset_5> .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/provenance/qcri-disaster-management/version/tweet_donations/conversion/raw/nodeset_5> a <http://inference-web.org/2.0/pml-justification.owl#NodeSet> ;
+	<http://inference-web.org/2.0/pml-justification.owl#hasConclusion> <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/fileqcri-disaster-management/version/tweet_donations/automatic/data.csv.raw.params.ttl> .
+
+_:node17p157gs4x28 <http://inference-web.org/2.1exper/pml-provenance.owl#hasRole> <http://inference-web.org/registry/ROLE/Input.owl#Input> .
+
+_:node17p157gs4x31 rdf:rest rdf:nil .
+
+_:node17p157gs4x29 a <http://inference-web.org/2.1exper/pml-provenance.owl#AntecedentRole> ;
+	<http://inference-web.org/2.1exper/pml-provenance.owl#hasAntecedent> <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/fileqcri-disaster-management/version/tweet_donations/automatic/data.csv.raw.params.ttl> ;
+	<http://inference-web.org/2.1exper/pml-provenance.owl#hasRole> <http://inference-web.org/registry/ROLE/Parameters.owl#Parameters> .
+
+_:node17p157gs4x28 a <http://inference-web.org/2.1exper/pml-provenance.owl#AntecedentRole> ;
+	<http://inference-web.org/2.1exper/pml-provenance.owl#hasAntecedent> <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/fileqcri-disaster-management/version/tweet_donations/source/data.csv> .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/fileqcri-disaster-management/version/tweet_donations/source/data.csv> a <http://inference-web.org/2.0/pml-provenance.owl#Information> ;
+	<http://inference-web.org/2.0/pml-provenance.owl#hasFormat> <http://iw.cs.utep.edu/registry/FMT/text/CSV.owl#CSV> .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/fileqcri-disaster-management/version/tweet_donations/automatic/data.csv.raw.params.ttl> a <http://inference-web.org/2.0/pml-provenance.owl#Information> ;
+	<http://inference-web.org/2.0/pml-provenance.owl#hasFormat> <http://inference-web.org/registry/FMT/RDFAbstractSyntax.owl#RDFAbstractSyntax> .
+
+conversion:SameAsDataset rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:uses_class rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:has_version rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:MetaDataset rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:num_triples rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:enhances rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:enhancement_layer rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:DatasetSample rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:source_identifier rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:VersionedDataset rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:LayerDataset rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:base_uri rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:uses_predicate rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:interpretation rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:symbol rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:dataset_identifier rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:conversion_identifier rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:AbstractDataset rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:null rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:subject_discriminator rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:Dataset rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:version_identifier rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> conversion:base_uri "https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#"^^xsd:anyURI .
+
+_:node17p157gthx1 a conversion:RawConversionProcess ;
+	conversion:conversion_identifier "raw" .
+
+_:node17p157gthx2 a foaf:OnlineAccount ;
+	foaf:accountName "oshani" .
+
+_:node17p157gthx1 dcterms:creator _:node17p157gthx2 ;
+	dcterms:created "2013-04-25T13:53:05-04:00"^^xsd:dateTime ;
+	conversion:delimits_cell "," .
+
+_:node17p157gthx3 ov:csvCol "1"^^xsd:integer ;
+	ov:csvHeader "ID" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx3 .
+
+_:node17p157gthx4 ov:csvCol "2"^^xsd:integer ;
+	ov:csvHeader "TWEET" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx4 .
+
+_:node17p157gthx5 ov:csvCol "3"^^xsd:integer ;
+	ov:csvHeader "AUTHOR" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx5 .
+
+_:node17p157gthx6 ov:csvCol "4"^^xsd:integer ;
+	ov:csvHeader "CREATION-TIME" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx6 .
+
+_:node17p157gthx7 ov:csvCol "5"^^xsd:integer ;
+	ov:csvHeader "LATITUDE" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx7 .
+
+_:node17p157gthx8 ov:csvCol "6"^^xsd:integer ;
+	ov:csvHeader "LONGITUDE" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx8 .
+
+_:node17p157gthx9 ov:csvCol "7"^^xsd:integer ;
+	ov:csvHeader "IS_DONATION" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx9 .
+
+_:node17p157gthx10 ov:csvCol "8"^^xsd:integer ;
+	ov:csvHeader "IS_DONATION CONFIDENCE" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx10 .
+
+_:node17p157gthx11 ov:csvCol "9"^^xsd:integer ;
+	ov:csvHeader "IS_DONATION CAUSAL WORDS" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx11 .
+
+_:node17p157gthx12 ov:csvCol "10"^^xsd:integer ;
+	ov:csvHeader "IS_REQUEST" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx12 .
+
+_:node17p157gthx13 ov:csvCol "11"^^xsd:integer ;
+	ov:csvHeader "IS_REQUEST CONFIDENCE" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx13 .
+
+_:node17p157gthx14 ov:csvCol "12"^^xsd:integer ;
+	ov:csvHeader "IS_OFFER" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx14 .
+
+_:node17p157gthx15 ov:csvCol "13"^^xsd:integer ;
+	ov:csvHeader "IS_OFFER CONFIDENCE" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx15 .
+
+_:node17p157gthx16 ov:csvCol "14"^^xsd:integer ;
+	ov:csvHeader "NEED-TYPE" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx16 .
+
+_:node17p157gthx17 ov:csvCol "15"^^xsd:integer ;
+	ov:csvHeader "NEED-TYPE CONFIDENCE" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx17 .
+
+_:node17p157gthx18 ov:csvCol "16"^^xsd:integer ;
+	ov:csvHeader "SOURCE/TARGET OF DONATION" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx18 .
+
+_:node17p157gthx19 ov:csvCol "17"^^xsd:integer ;
+	ov:csvHeader "SOURCE/TARGET OF DONATION CONFIDENCE" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx19 .
+
+_:node17p157gthx20 ov:csvCol "18"^^xsd:integer ;
+	ov:csvHeader "MONEY:RAISING_MODE" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx20 .
+
+_:node17p157gthx21 ov:csvCol "19"^^xsd:integer ;
+	ov:csvHeader "MONEY:RAISING_MODE CONFIDENCE" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx21 .
+
+_:node17p157gthx22 ov:csvCol "20"^^xsd:integer ;
+	ov:csvHeader "MONEY:RAISING_MODE CAUSAL WORDS" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx22 .
+
+_:node17p157gthx23 ov:csvCol "21"^^xsd:integer ;
+	ov:csvHeader "FOOD:CONSUMER" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx23 .
+
+_:node17p157gthx24 ov:csvCol "22"^^xsd:integer ;
+	ov:csvHeader "FOOD:CONSUMER CONFIDENCE" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx24 .
+
+_:node17p157gthx25 ov:csvCol "23"^^xsd:integer ;
+	ov:csvHeader "FOOD:CONSUMER CAUSAL WORDS" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx25 .
+
+_:node17p157gthx26 ov:csvCol "24"^^xsd:integer ;
+	ov:csvHeader "CLOTHING:TYPE" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx26 .
+
+_:node17p157gthx27 ov:csvCol "25"^^xsd:integer ;
+	ov:csvHeader "CLOTHING:TYPE CONFIDENCE" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx27 .
+
+_:node17p157gthx28 ov:csvCol "26"^^xsd:integer ;
+	ov:csvHeader "CLOTHING:TYPE CAUSAL WORDS" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx28 .
+
+_:node17p157gthx29 ov:csvCol "27"^^xsd:integer ;
+	ov:csvHeader "MEDICAL:SUPPLY_TYPE" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx29 .
+
+_:node17p157gthx30 ov:csvCol "28"^^xsd:integer ;
+	ov:csvHeader "MEDICAL:SUPPLY_TYPE CONFIDENCE" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx30 .
+
+_:node17p157gthx31 ov:csvCol "29"^^xsd:integer ;
+	ov:csvHeader "MEDICAL:SUPPLY_TYPE CAUSAL WORDS" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx31 .
+
+_:node17p157gthx32 ov:csvCol "30"^^xsd:integer ;
+	ov:csvHeader "SHELTER:INFO_MODE" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx32 .
+
+_:node17p157gthx33 ov:csvCol "31"^^xsd:integer ;
+	ov:csvHeader "SHELTER:INFO_MODE CONFIDENCE" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx33 .
+
+_:node17p157gthx34 ov:csvCol "32"^^xsd:integer ;
+	ov:csvHeader "SHELTER:INFO_MODE CAUSAL WORDS" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx34 .
+
+_:node17p157gthx35 ov:csvCol "33"^^xsd:integer ;
+	ov:csvHeader "SHELTER:PET_FRIENDLY" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx35 .
+
+_:node17p157gthx36 ov:csvCol "34"^^xsd:integer ;
+	ov:csvHeader "SHELTER:PET_FRIENDLY CONFIDENCE" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx36 .
+
+_:node17p157gthx37 ov:csvCol "35"^^xsd:integer ;
+	ov:csvHeader "SHELTER:PET_FRIENDLY CAUSAL WORDS" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx37 .
+
+_:node17p157gthx38 ov:csvCol "36"^^xsd:integer ;
+	ov:csvHeader "VOLUNTEER:WORK_TYPE" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx38 .
+
+_:node17p157gthx39 ov:csvCol "37"^^xsd:integer ;
+	ov:csvHeader "VOLUNTEER:WORK_TYPE CONFIDENCE" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx39 .
+
+_:node17p157gthx40 ov:csvCol "38"^^xsd:integer ;
+	ov:csvHeader "VOLUNTEER:WORK_TYPE CAUSAL WORDS" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx40 .
+
+_:node17p157gthx41 ov:csvCol "39"^^xsd:integer ;
+	ov:csvHeader "" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx41 .
+
+_:node17p157gthx42 ov:csvCol "40"^^xsd:integer ;
+	ov:csvHeader "" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx42 .
+
+_:node17p157gthx43 ov:csvCol "41"^^xsd:integer ;
+	ov:csvHeader "" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx43 .
+
+_:node17p157gthx44 ov:csvCol "42"^^xsd:integer ;
+	ov:csvHeader "" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx44 .
+
+_:node17p157gthx45 ov:csvCol "43"^^xsd:integer ;
+	ov:csvHeader "" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx45 .
+
+_:node17p157gthx46 ov:csvCol "44"^^xsd:integer ;
+	ov:csvHeader "" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx46 .
+
+_:node17p157gthx47 ov:csvCol "45"^^xsd:integer ;
+	ov:csvHeader "" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx47 .
+
+_:node17p157gthx48 ov:csvCol "46"^^xsd:integer ;
+	ov:csvHeader "" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx48 .
+
+_:node17p157gthx49 ov:csvCol "47"^^xsd:integer ;
+	ov:csvHeader "" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx49 .
+
+_:node17p157gthx50 ov:csvCol "48"^^xsd:integer ;
+	ov:csvHeader "" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx50 .
+
+_:node17p157gthx51 ov:csvCol "49"^^xsd:integer ;
+	ov:csvHeader "" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx51 .
+
+_:node17p157gthx52 ov:csvCol "50"^^xsd:integer ;
+	ov:csvHeader "" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17p157gthx1 conversion:enhance _:node17p157gthx52 .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> conversion:conversion_process _:node17p157gthx1 .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/subset/meta> a Projects_vocab:Dataset , conversion:Dataset , conversion:MetaDataset , void:Dataset ;
+	conversion:base_uri "https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#" ;
+	conversion:source_identifier "Projects" ;
+	conversion:dataset_identifier "qcri-disaster-management" ;
+	dcterms:modified "2013-04-25T13:53:07.206-05:00"^^xsd:dateTime ;
+	foaf:isPrimaryTopicOf <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset_page/qcri-disaster-management/subset/meta> ;
+	void:dataDump <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/file/qcri-disaster-management/version/tweet_donations/conversion/Projects-qcri-disaster-management-tweet_donations.void.ttl.gz> .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> conversion:num_triples "885"^^xsd:integer ;
+	void:triples "885"^^xsd:integer ;
+	<http://www.w3.org/ns/prov#wasGeneratedBy> <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/provenance/qcri-disaster-management/version/tweet_donations/conversion/raw/translationActivity_333b6dbf-9172-4870-916d-387a570e9f3e> .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/provenance/qcri-disaster-management/version/tweet_donations/conversion/raw/translationActivity_333b6dbf-9172-4870-916d-387a570e9f3e> a <http://www.w3.org/ns/prov#Activity> , <http://provenanceweb.org/ns/pml#TranslationActivity> ;
+	conversion:triples_per_minute "99624.76547842401"^^xsd:double ;
+	<http://www.w3.org/ns/prov#used> raw:is_offer_confidence , ov:csvRow , raw:shelter_info_mode_causal_words , raw:volunteer_work_type , raw:longitude , raw:clothing_type_confidence , raw:column_50 , raw:author , raw:tweet , raw:medical_supply_type_confidence , raw:need_type_confidence , raw:id , raw:is_donation_confidence , raw:food_consumer_causal_words , raw:is_request , raw:column_49 , raw:column_48 , raw:column_47 , raw:column_46 , raw:column_44 , raw:column_45 , raw:column_42 , raw:money_raising_mode_causal_words , raw:column_43 , raw:column_40 , raw:column_41 , raw:latitude , raw:is_donation_causal_words , raw:clothing_type , raw:shelter_info_mode_confidence , raw:volunteer_work_type_causal_words , void:inDataset , raw:shelter_pet_friendly , raw:column_39 , raw:clothing_type_causal_words , dcterms:isReferencedBy , raw:source_target_of_donation , raw:shelter_info_mode , raw:shelter_pet_friendly_causal_words , raw:source_target_of_donation_confidence , raw:medical_supply_type , raw:money_raising_mode , raw:creation_time , raw:need_type , raw:money_raising_mode_confidence , raw:food_consumer_confidence , raw:medical_supply_type_causal_words , raw:volunteer_work_type_confidence , raw:food_consumer , raw:is_donation , raw:is_request_confidence , raw:is_offer , raw:shelter_pet_friendly_confidence ;
+	void:vocabulary <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> , <http://open.vocab.org/terms/> , <http://rdfs.org/ns/void#> , <http://purl.org/dc/terms/> .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/subset/meta> conversion:uses_predicate ov:csvRow , <http://inference-web.org/2.1exper/pml-provenance.owl#hasAntecedent> , void:dataDump , conversion:VersionedDataset , rdfs:label , foaf:topic , foaf:isPrimaryTopicOf , dcterms:author , doap:implements , <http://inference-web.org/2.0/pml-justification.owl#hasInferenceEngine> , dcterms:identifier , doap:revision , dcterms:modified , vann:preferredNamespaceUri , rdfs:isDefinedBy , doap:helper , conversion:uses_predicate , ov:csvCol , doap:audience , doap:description , dcterms:format , doap:documenter , conversion:conversion_identifier , rdfs:range , conversion:version_identifier , <http://inference-web.org/2.0/pml-provenance.owl#hasFormat> , doap:homepage , conversion:num_triples , doap:shortdesc , <http://inference-web.org/2.0/pml-justification.owl#hasConclusion> , dcterms:isReferencedBy , <http://inference-web.org/2.0/pml-justification.owl#hasAntecedentList> , foaf:primaryTopic , conversion:base_uri , <http://inference-web.org/2.1exper/pml-provenance.owl#hasAntecedentRole> , void:exampleResource , conversion:dataset_identifier , rdf:type , void:subset , <http://www.w3.org/2000/10/swap/pim/contact#preferredURI> , void:triples , doap:browse , doap:developer , ov:csvHeader , rdfs:seeAlso , doap:maintainer , conversion:source_identifier , conversion:LayerDataset , dcterms:contributor , doap:platform , vann:preferredNamespacePrefix , <http://inference-web.org/2.0/pml-justification.owl#isConsequentOf> , <http://inference-web.org/2.1exper/pml-provenance.owl#hasRole> , void:vocabulary , dcterms:version ;
+	void:vocabulary <http://open.vocab.org/terms/> , <http://inference-web.org/2.1exper/pml-provenance.owl#> , <http://rdfs.org/ns/void#> , <http://purl.org/twc/vocab/conversion/> , <http://www.w3.org/2000/01/rdf-schema#> , <http://xmlns.com/foaf/0.1/> , <http://purl.org/dc/terms/> , <http://usefulinc.com/ns/doap#> , <http://inference-web.org/2.0/pml-justification.owl#> , <http://purl.org/vocab/vann/> , <http://inference-web.org/2.0/pml-provenance.owl#> , <http://www.w3.org/1999/02/22-rdf-syntax-ns#> , <http://www.w3.org/2000/10/swap/pim/contact#> .
+
+<http://inference-web.org/2.1exper/pml-provenance.owl#hasAntecedent> rdfs:isDefinedBy <http://inference-web.org/2.1exper/pml-provenance.owl#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://inference-web.org> .
+
+void:dataDump rdfs:isDefinedBy <http://rdfs.org/ns/void#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://rdfs.org> .
+
+conversion:VersionedDataset <http://www.w3.org/ns/prov#wasAttributedTo> <http://purl.org/twc> .
+
+rdfs:label rdfs:isDefinedBy <http://www.w3.org/2000/01/rdf-schema#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://www.w3.org> .
+
+foaf:topic rdfs:isDefinedBy <http://xmlns.com/foaf/0.1/> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://xmlns.com> .
+
+foaf:isPrimaryTopicOf rdfs:isDefinedBy <http://xmlns.com/foaf/0.1/> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://xmlns.com> .
+
+dcterms:author rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://purl.org/dc> .
+
+doap:implements rdfs:isDefinedBy <http://usefulinc.com/ns/doap#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://usefulinc.com> .
+
+<http://inference-web.org/2.0/pml-justification.owl#hasInferenceEngine> rdfs:isDefinedBy <http://inference-web.org/2.0/pml-justification.owl#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://inference-web.org> .
+
+dcterms:identifier rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://purl.org/dc> .
+
+doap:revision rdfs:isDefinedBy <http://usefulinc.com/ns/doap#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://usefulinc.com> .
+
+dcterms:modified rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://purl.org/dc> .
+
+vann:preferredNamespaceUri rdfs:isDefinedBy <http://purl.org/vocab/vann/> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://purl.org/vocab> .
+
+rdfs:isDefinedBy rdfs:isDefinedBy <http://www.w3.org/2000/01/rdf-schema#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://www.w3.org> .
+
+doap:helper rdfs:isDefinedBy <http://usefulinc.com/ns/doap#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://usefulinc.com> .
+
+conversion:uses_predicate <http://www.w3.org/ns/prov#wasAttributedTo> <http://purl.org/twc> .
+
+ov:csvCol rdfs:isDefinedBy <http://open.vocab.org/terms/> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://open.vocab.org> .
+
+doap:audience rdfs:isDefinedBy <http://usefulinc.com/ns/doap#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://usefulinc.com> .
+
+doap:description rdfs:isDefinedBy <http://usefulinc.com/ns/doap#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://usefulinc.com> .
+
+dcterms:format rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://purl.org/dc> .
+
+doap:documenter rdfs:isDefinedBy <http://usefulinc.com/ns/doap#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://usefulinc.com> .
+
+conversion:conversion_identifier <http://www.w3.org/ns/prov#wasAttributedTo> <http://purl.org/twc> .
+
+rdfs:range rdfs:isDefinedBy <http://www.w3.org/2000/01/rdf-schema#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://www.w3.org> .
+
+conversion:version_identifier <http://www.w3.org/ns/prov#wasAttributedTo> <http://purl.org/twc> .
+
+<http://inference-web.org/2.0/pml-provenance.owl#hasFormat> rdfs:isDefinedBy <http://inference-web.org/2.0/pml-provenance.owl#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://inference-web.org> .
+
+doap:homepage rdfs:isDefinedBy <http://usefulinc.com/ns/doap#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://usefulinc.com> .
+
+conversion:num_triples <http://www.w3.org/ns/prov#wasAttributedTo> <http://purl.org/twc> .
+
+doap:shortdesc rdfs:isDefinedBy <http://usefulinc.com/ns/doap#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://usefulinc.com> .
+
+<http://inference-web.org/2.0/pml-justification.owl#hasConclusion> rdfs:isDefinedBy <http://inference-web.org/2.0/pml-justification.owl#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://inference-web.org> .
+
+<http://inference-web.org/2.0/pml-justification.owl#hasAntecedentList> rdfs:isDefinedBy <http://inference-web.org/2.0/pml-justification.owl#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://inference-web.org> .
+
+foaf:primaryTopic rdfs:isDefinedBy <http://xmlns.com/foaf/0.1/> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://xmlns.com> .
+
+conversion:base_uri <http://www.w3.org/ns/prov#wasAttributedTo> <http://purl.org/twc> .
+
+<http://inference-web.org/2.1exper/pml-provenance.owl#hasAntecedentRole> rdfs:isDefinedBy <http://inference-web.org/2.1exper/pml-provenance.owl#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://inference-web.org> .
+
+void:exampleResource rdfs:isDefinedBy <http://rdfs.org/ns/void#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://rdfs.org> .
+
+conversion:dataset_identifier <http://www.w3.org/ns/prov#wasAttributedTo> <http://purl.org/twc> .
+
+rdf:type rdfs:isDefinedBy <http://www.w3.org/1999/02/22-rdf-syntax-ns#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://www.w3.org> .
+
+void:subset rdfs:isDefinedBy <http://rdfs.org/ns/void#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://rdfs.org> .
+
+<http://www.w3.org/2000/10/swap/pim/contact#preferredURI> rdfs:isDefinedBy <http://www.w3.org/2000/10/swap/pim/contact#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://www.w3.org> .
+
+void:triples rdfs:isDefinedBy <http://rdfs.org/ns/void#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://rdfs.org> .
+
+doap:browse rdfs:isDefinedBy <http://usefulinc.com/ns/doap#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://usefulinc.com> .
+
+doap:developer rdfs:isDefinedBy <http://usefulinc.com/ns/doap#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://usefulinc.com> .
+
+ov:csvHeader rdfs:isDefinedBy <http://open.vocab.org/terms/> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://open.vocab.org> .
+
+rdfs:seeAlso rdfs:isDefinedBy <http://www.w3.org/2000/01/rdf-schema#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://www.w3.org> .
+
+doap:maintainer rdfs:isDefinedBy <http://usefulinc.com/ns/doap#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://usefulinc.com> .
+
+conversion:source_identifier <http://www.w3.org/ns/prov#wasAttributedTo> <http://purl.org/twc> .
+
+conversion:LayerDataset <http://www.w3.org/ns/prov#wasAttributedTo> <http://purl.org/twc> .
+
+dcterms:contributor rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://purl.org/dc> .
+
+doap:platform rdfs:isDefinedBy <http://usefulinc.com/ns/doap#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://usefulinc.com> .
+
+vann:preferredNamespacePrefix rdfs:isDefinedBy <http://purl.org/vocab/vann/> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://purl.org/vocab> .
+
+<http://inference-web.org/2.0/pml-justification.owl#isConsequentOf> rdfs:isDefinedBy <http://inference-web.org/2.0/pml-justification.owl#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://inference-web.org> .
+
+<http://inference-web.org/2.1exper/pml-provenance.owl#hasRole> rdfs:isDefinedBy <http://inference-web.org/2.1exper/pml-provenance.owl#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://inference-web.org> .
+
+void:vocabulary rdfs:isDefinedBy <http://rdfs.org/ns/void#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://rdfs.org> .
+
+dcterms:version rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://purl.org/dc> .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/subset/meta> conversion:uses_class void:Dataset , foaf:Agent , conversion:MetaDataset , conversion:DatasetSample , conversion:AbstractDataset , Projects_vocab:Dataset , void:DatasetDescription , conversion:Dataset ;
+	void:vocabulary <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+void:Dataset rdfs:isDefinedBy <http://rdfs.org/ns/void#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://rdfs.org> .
+
+foaf:Agent rdfs:isDefinedBy <http://xmlns.com/foaf/0.1/> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://xmlns.com> .
+
+conversion:MetaDataset <http://www.w3.org/ns/prov#wasAttributedTo> <http://purl.org/twc> .
+
+conversion:DatasetSample <http://www.w3.org/ns/prov#wasAttributedTo> <http://purl.org/twc> .
+
+conversion:AbstractDataset <http://www.w3.org/ns/prov#wasAttributedTo> <http://purl.org/twc> .
+
+Projects_vocab:Dataset rdfs:isDefinedBy <https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#> .
+
+void:DatasetDescription rdfs:isDefinedBy <http://rdfs.org/ns/void#> ;
+	<http://www.w3.org/ns/prov#wasAttributedTo> <http://rdfs.org> .
+
+conversion:Dataset <http://www.w3.org/ns/prov#wasAttributedTo> <http://purl.org/twc> .
+
+<https://github.com/timrdf/csv2rdf4lod-automation/wiki/CSV2RDF4LOD_BASE_URI#/source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/raw> rdfs:comment "hash: 1afa1284c139ae76bb5263fc51a55452debb97c5860" .

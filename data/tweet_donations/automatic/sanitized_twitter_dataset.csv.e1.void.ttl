@@ -1,0 +1,1065 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd2: <http://www.w3.org/TR/xmlschema-2/#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix conversion: <http://purl.org/twc/vocab/conversion/> .
+@prefix ov: <http://open.vocab.org/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix scovo: <http://purl.org/NET/scovo#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix frbrcore: <http://purl.org/vocab/frbr/core#> .
+@prefix coin: <http://purl.org/court/def/2009/coin#> .
+@prefix qcri-disaster-management: <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/> .
+@prefix Projects_vocab: <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/vocab/> .
+@prefix base_vocab: <http://dig.csail.mit.edu/2012/QCRI-DIG-project//vocab/> .
+@prefix local_vocab: <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/vocab/> .
+@prefix raw: <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/vocab/raw/> .
+@prefix e1: <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/vocab/enhancement/1/> .
+@prefix : <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/version/tweet_donations/> .
+@prefix dbpediaprop: <http://dbpedia.org/property/> .
+@prefix nfo: <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix muo: <http://purl.oclc.org/NET/muo/muo#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix vsr: <http://purl.org/twc/vocab/vsr#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix geonames: <http://www.geonames.org/ontology#> .
+@prefix geonamesid: <http://sws.geonames.org/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix govtrackusgov: <http://www.rdfabout.com/rdf/usgov/geo/us/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix con: <http://www.w3.org/2000/10/swap/pim/contact#> .
+@prefix dbpediaowl: <http://dbpedia.org/ontology/> .
+@prefix dgtwc: <http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#> .
+
+e1:id a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "1"^^xsd:integer ;
+	ov:csvHeader "ID" ;
+	conversion:enhancement_layer "1" ;
+	dcterms:isReferencedBy <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/enhancement/1> ;
+	rdfs:label "ID" ;
+	rdfs:range rdfs:Literal ;
+	conversion:enhances raw:id .
+
+e1:tweet a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "2"^^xsd:integer ;
+	ov:csvHeader "TWEET" ;
+	conversion:enhancement_layer "1" ;
+	dcterms:isReferencedBy <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/enhancement/1> ;
+	rdfs:label "TWEET" ;
+	rdfs:range rdfs:Literal ;
+	conversion:enhances raw:tweet .
+
+e1:author a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "3"^^xsd:integer ;
+	ov:csvHeader "AUTHOR" ;
+	conversion:enhancement_layer "1" ;
+	dcterms:isReferencedBy <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/enhancement/1> ;
+	rdfs:label "AUTHOR" ;
+	rdfs:range rdfs:Literal ;
+	conversion:enhances raw:author .
+
+e1:creation_time a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "4"^^xsd:integer ;
+	ov:csvHeader "CREATION-TIME" ;
+	conversion:enhancement_layer "1" ;
+	dcterms:isReferencedBy <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/enhancement/1> ;
+	rdfs:label "CREATION-TIME" ;
+	rdfs:range xsd:dateTime ;
+	conversion:enhances raw:creation_time .
+
+e1:latitude a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "5"^^xsd:integer ;
+	ov:csvHeader "LATITUDE" ;
+	conversion:enhancement_layer "1" ;
+	dcterms:isReferencedBy <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/enhancement/1> ;
+	rdfs:label "LATITUDE" ;
+	rdfs:range rdfs:Literal ;
+	conversion:enhances raw:latitude .
+
+e1:longitude a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "6"^^xsd:integer ;
+	ov:csvHeader "LONGITUDE" ;
+	conversion:enhancement_layer "1" ;
+	dcterms:isReferencedBy <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/enhancement/1> ;
+	rdfs:label "LONGITUDE" ;
+	rdfs:range rdfs:Literal ;
+	conversion:enhances raw:longitude .
+
+e1:is_donation a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "7"^^xsd:integer ;
+	ov:csvHeader "IS_DONATION" ;
+	conversion:enhancement_layer "1" ;
+	dcterms:isReferencedBy <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/enhancement/1> ;
+	rdfs:label "IS_DONATION" ;
+	rdfs:range rdfs:Literal ;
+	conversion:enhances raw:is_donation .
+
+e1:is_donation_confidence a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "8"^^xsd:integer ;
+	ov:csvHeader "IS_DONATION CONFIDENCE" ;
+	conversion:enhancement_layer "1" ;
+	dcterms:isReferencedBy <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/enhancement/1> ;
+	rdfs:label "IS_DONATION CONFIDENCE" ;
+	rdfs:range rdfs:Literal ;
+	conversion:enhances raw:is_donation_confidence .
+
+e1:is_donation_causal_words a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "9"^^xsd:integer ;
+	ov:csvHeader "IS_DONATION CAUSAL WORDS" ;
+	conversion:enhancement_layer "1" ;
+	dcterms:isReferencedBy <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/enhancement/1> ;
+	rdfs:label "IS_DONATION CAUSAL WORDS" ;
+	rdfs:range rdfs:Literal ;
+	conversion:enhances raw:is_donation_causal_words .
+
+e1:is_request a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "10"^^xsd:integer ;
+	ov:csvHeader "IS_REQUEST" ;
+	conversion:enhancement_layer "1" ;
+	dcterms:isReferencedBy <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/enhancement/1> ;
+	rdfs:label "IS_REQUEST" ;
+	rdfs:range rdfs:Literal ;
+	conversion:enhances raw:is_request .
+
+e1:is_request_confidence a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "11"^^xsd:integer ;
+	ov:csvHeader "IS_REQUEST CONFIDENCE" ;
+	conversion:enhancement_layer "1" ;
+	dcterms:isReferencedBy <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/enhancement/1> ;
+	rdfs:label "IS_REQUEST CONFIDENCE" ;
+	rdfs:range rdfs:Literal ;
+	conversion:enhances raw:is_request_confidence .
+
+e1:is_offer a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "12"^^xsd:integer ;
+	ov:csvHeader "IS_OFFER" ;
+	conversion:enhancement_layer "1" ;
+	dcterms:isReferencedBy <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/enhancement/1> ;
+	rdfs:label "IS_OFFER" ;
+	rdfs:range rdfs:Literal ;
+	conversion:enhances raw:is_offer .
+
+e1:is_offer_confidence a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "13"^^xsd:integer ;
+	ov:csvHeader "IS_OFFER CONFIDENCE" ;
+	conversion:enhancement_layer "1" ;
+	dcterms:isReferencedBy <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/enhancement/1> ;
+	rdfs:label "IS_OFFER CONFIDENCE" ;
+	rdfs:range rdfs:Literal ;
+	conversion:enhances raw:is_offer_confidence .
+
+e1:need_type a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "14"^^xsd:integer ;
+	ov:csvHeader "NEED-TYPE" ;
+	conversion:enhancement_layer "1" ;
+	dcterms:isReferencedBy <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/enhancement/1> ;
+	rdfs:label "NEED-TYPE" ;
+	rdfs:range rdfs:Literal ;
+	conversion:enhances raw:need_type .
+
+e1:need_type_confidence a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "15"^^xsd:integer ;
+	ov:csvHeader "NEED-TYPE CONFIDENCE" ;
+	conversion:enhancement_layer "1" ;
+	dcterms:isReferencedBy <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/enhancement/1> ;
+	rdfs:label "NEED-TYPE CONFIDENCE" ;
+	rdfs:range rdfs:Literal ;
+	conversion:enhances raw:need_type_confidence .
+
+e1:source_target_of_donation a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "16"^^xsd:integer ;
+	ov:csvHeader "SOURCE/TARGET OF DONATION" ;
+	conversion:enhancement_layer "1" ;
+	dcterms:isReferencedBy <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/enhancement/1> ;
+	rdfs:label "SOURCE/TARGET OF DONATION" ;
+	rdfs:range rdfs:Literal ;
+	conversion:enhances raw:source_target_of_donation .
+
+e1:source_target_of_donation_confidence a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "17"^^xsd:integer ;
+	ov:csvHeader "SOURCE/TARGET OF DONATION CONFIDENCE" ;
+	conversion:enhancement_layer "1" ;
+	dcterms:isReferencedBy <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/enhancement/1> ;
+	rdfs:label "SOURCE/TARGET OF DONATION CONFIDENCE" ;
+	rdfs:range rdfs:Literal ;
+	conversion:enhances raw:source_target_of_donation_confidence .
+
+e1:money_raising_mode a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "18"^^xsd:integer ;
+	ov:csvHeader "MONEY:RAISING_MODE" ;
+	conversion:enhancement_layer "1" ;
+	dcterms:isReferencedBy <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/enhancement/1> ;
+	rdfs:label "MONEY:RAISING_MODE" ;
+	rdfs:range rdfs:Literal ;
+	conversion:enhances raw:money_raising_mode .
+
+e1:money_raising_mode_confidence a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "19"^^xsd:integer ;
+	ov:csvHeader "MONEY:RAISING_MODE CONFIDENCE" ;
+	conversion:enhancement_layer "1" ;
+	dcterms:isReferencedBy <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/enhancement/1> ;
+	rdfs:label "MONEY:RAISING_MODE CONFIDENCE" ;
+	rdfs:range rdfs:Literal ;
+	conversion:enhances raw:money_raising_mode_confidence .
+
+e1:money_raising_mode_causal_words a rdf:Property ;
+	ov:csvRow "1"^^xsd:integer ;
+	ov:csvCol "20"^^xsd:integer ;
+	ov:csvHeader "MONEY:RAISING_MODE CAUSAL WORDS" ;
+	conversion:enhancement_layer "1" ;
+	dcterms:isReferencedBy <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/enhancement/1> ;
+	rdfs:label "MONEY:RAISING_MODE CAUSAL WORDS" ;
+	rdfs:range rdfs:Literal ;
+	conversion:enhances raw:money_raising_mode_causal_words .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd2: <http://www.w3.org/TR/xmlschema-2/#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix conversion: <http://purl.org/twc/vocab/conversion/> .
+@prefix ov: <http://open.vocab.org/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix scovo: <http://purl.org/NET/scovo#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix frbrcore: <http://purl.org/vocab/frbr/core#> .
+@prefix coin: <http://purl.org/court/def/2009/coin#> .
+@prefix qcri-disaster-management: <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/> .
+@prefix Projects_vocab: <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/vocab/> .
+@prefix base_vocab: <http://dig.csail.mit.edu/2012/QCRI-DIG-project//vocab/> .
+@prefix local_vocab: <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/vocab/> .
+@prefix raw: <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/vocab/raw/> .
+@prefix e1: <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/vocab/enhancement/1/> .
+@prefix : <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/version/tweet_donations/> .
+@prefix dbpediaprop: <http://dbpedia.org/property/> .
+@prefix nfo: <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix muo: <http://purl.oclc.org/NET/muo/muo#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix vsr: <http://purl.org/twc/vocab/vsr#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix geonames: <http://www.geonames.org/ontology#> .
+@prefix geonamesid: <http://sws.geonames.org/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix govtrackusgov: <http://www.rdfabout.com/rdf/usgov/geo/us/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix con: <http://www.w3.org/2000/10/swap/pim/contact#> .
+@prefix dbpediaowl: <http://dbpedia.org/ontology/> .
+@prefix dgtwc: <http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#> .
+
+<http://dig.csail.mit.edu/2012/QCRI-DIG-project//void.ttl> a void:DatasetDescription ;
+	foaf:topic <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management> ;
+	foaf:primaryTopic <http://dig.csail.mit.edu/2012/QCRI-DIG-project//void> .
+
+<http://dig.csail.mit.edu/2012/QCRI-DIG-project//void> a void:Dataset ;
+	void:subset <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management> .
+
+<http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management> a Projects_vocab:Dataset , conversion:Dataset , conversion:AbstractDataset , void:Dataset , conversion:EnhancedDataset ;
+	conversion:base_uri "http://dig.csail.mit.edu/2012/QCRI-DIG-project/" ;
+	conversion:source_identifier "Projects" ;
+	conversion:dataset_identifier "qcri-disaster-management" ;
+	dcterms:contributor <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects> ;
+	dcterms:identifier "Projects qcri-disaster-management" ;
+	foaf:isPrimaryTopicOf <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset_page/qcri-disaster-management> ;
+	void:subset <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/version/tweet_donations> , <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/subset/meta> ;
+	dcterms:modified "2013-05-06T11:54:51.716-05:00"^^xsd:dateTime .
+
+<http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/version/tweet_donations> a Projects_vocab:Dataset , conversion:Dataset , conversion:VersionedDataset , void:Dataset , conversion:EnhancedDataset ;
+	conversion:base_uri "http://dig.csail.mit.edu/2012/QCRI-DIG-project/" ;
+	conversion:source_identifier "Projects" ;
+	conversion:dataset_identifier "qcri-disaster-management" ;
+	conversion:version_identifier "tweet_donations" ;
+	conversion:dataset_version "tweet_donations" ;
+	dcterms:contributor <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects> ;
+	dcterms:identifier "Projects qcri-disaster-management tweet_donations" ;
+	dcterms:modified "2013-05-06T11:54:51.716-05:00"^^xsd:dateTime ;
+	foaf:isPrimaryTopicOf <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset_page/qcri-disaster-management/version/tweet_donations> ;
+	void:dataDump <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/file/qcri-disaster-management/version/tweet_donations/conversion/Projects-qcri-disaster-management-tweet_donations.ttl.gz> ;
+	void:subset <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/enhancement/1> .
+
+<http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/enhancement/1> a Projects_vocab:Dataset , conversion:Dataset , conversion:LayerDataset , void:Dataset , conversion:EnhancedDataset ;
+	dcterms:modified "2013-05-06T11:54:51.716-05:00"^^xsd:dateTime ;
+	conversion:base_uri "http://dig.csail.mit.edu/2012/QCRI-DIG-project/" ;
+	conversion:source_identifier "Projects" ;
+	conversion:dataset_identifier "qcri-disaster-management" ;
+	conversion:version_identifier "tweet_donations" ;
+	conversion:dataset_version "tweet_donations" ;
+	conversion:conversion_identifier "enhancement/1" ;
+	foaf:isPrimaryTopicOf <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset_page/qcri-disaster-management/version/tweet_donations/conversion/enhancement/1> ;
+	void:dataDump <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/file/qcri-disaster-management/version/tweet_donations/conversion/Projects-qcri-disaster-management-tweet_donations.e1.ttl.gz> ;
+	void:subset <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/enhancement/1/subset/sample> ;
+	conversion:uses_predicate void:inDataset , ov:csvRow , e1:id , e1:is_donation , e1:source_target_of_donation , e1:money_raising_mode_confidence , e1:is_offer , e1:is_donation_causal_words , dcterms:isReferencedBy , e1:is_request_confidence , e1:money_raising_mode_causal_words , wgs:long , sioc:content , dcterms:created , e1:is_donation_confidence , e1:source_target_of_donation_confidence , e1:money_raising_mode , e1:is_offer_confidence , sioc:has_creator , e1:is_request , e1:need_type , e1:need_type_confidence , wgs:lat ;
+	void:vocabulary <http://rdfs.org/ns/void#> , <http://open.vocab.org/terms/> , <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/vocab/enhancement/1/> , <http://purl.org/dc/terms/> , <http://www.w3.org/2003/01/geo/wgs84_pos#> , <http://rdfs.org/sioc/ns#> .
+
+void:inDataset rdfs:isDefinedBy <http://rdfs.org/ns/void#> ;
+	prov:wasAttributedTo <http://rdfs.org> .
+
+ov:csvRow rdfs:isDefinedBy <http://open.vocab.org/terms/> ;
+	prov:wasAttributedTo <http://open.vocab.org> .
+
+e1:id rdfs:isDefinedBy <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/vocab/enhancement/1/> ;
+	prov:wasAttributedTo <http://dig.csail.mit.edu> .
+
+e1:is_donation rdfs:isDefinedBy <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/vocab/enhancement/1/> ;
+	prov:wasAttributedTo <http://dig.csail.mit.edu> .
+
+e1:source_target_of_donation rdfs:isDefinedBy <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/vocab/enhancement/1/> ;
+	prov:wasAttributedTo <http://dig.csail.mit.edu> .
+
+e1:money_raising_mode_confidence rdfs:isDefinedBy <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/vocab/enhancement/1/> ;
+	prov:wasAttributedTo <http://dig.csail.mit.edu> .
+
+e1:is_offer rdfs:isDefinedBy <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/vocab/enhancement/1/> ;
+	prov:wasAttributedTo <http://dig.csail.mit.edu> .
+
+e1:is_donation_causal_words rdfs:isDefinedBy <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/vocab/enhancement/1/> ;
+	prov:wasAttributedTo <http://dig.csail.mit.edu> .
+
+dcterms:isReferencedBy rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+	prov:wasAttributedTo <http://purl.org/dc> .
+
+e1:is_request_confidence rdfs:isDefinedBy <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/vocab/enhancement/1/> ;
+	prov:wasAttributedTo <http://dig.csail.mit.edu> .
+
+e1:money_raising_mode_causal_words rdfs:isDefinedBy <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/vocab/enhancement/1/> ;
+	prov:wasAttributedTo <http://dig.csail.mit.edu> .
+
+wgs:long rdfs:isDefinedBy <http://www.w3.org/2003/01/geo/wgs84_pos#> ;
+	prov:wasAttributedTo <http://www.w3.org> .
+
+sioc:content rdfs:isDefinedBy <http://rdfs.org/sioc/ns#> ;
+	prov:wasAttributedTo <http://rdfs.org> .
+
+dcterms:created rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+	prov:wasAttributedTo <http://purl.org/dc> .
+
+e1:is_donation_confidence rdfs:isDefinedBy <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/vocab/enhancement/1/> ;
+	prov:wasAttributedTo <http://dig.csail.mit.edu> .
+
+e1:source_target_of_donation_confidence rdfs:isDefinedBy <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/vocab/enhancement/1/> ;
+	prov:wasAttributedTo <http://dig.csail.mit.edu> .
+
+e1:money_raising_mode rdfs:isDefinedBy <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/vocab/enhancement/1/> ;
+	prov:wasAttributedTo <http://dig.csail.mit.edu> .
+
+e1:is_offer_confidence rdfs:isDefinedBy <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/vocab/enhancement/1/> ;
+	prov:wasAttributedTo <http://dig.csail.mit.edu> .
+
+sioc:has_creator rdfs:isDefinedBy <http://rdfs.org/sioc/ns#> ;
+	prov:wasAttributedTo <http://rdfs.org> .
+
+e1:is_request rdfs:isDefinedBy <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/vocab/enhancement/1/> ;
+	prov:wasAttributedTo <http://dig.csail.mit.edu> .
+
+e1:need_type rdfs:isDefinedBy <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/vocab/enhancement/1/> ;
+	prov:wasAttributedTo <http://dig.csail.mit.edu> .
+
+e1:need_type_confidence rdfs:isDefinedBy <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/vocab/enhancement/1/> ;
+	prov:wasAttributedTo <http://dig.csail.mit.edu> .
+
+wgs:lat rdfs:isDefinedBy <http://www.w3.org/2003/01/geo/wgs84_pos#> ;
+	prov:wasAttributedTo <http://www.w3.org> .
+
+<http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/enhancement/1> void:exampleResource :thing_2 , :thing_820 ;
+	conversion:enhancement_identifier "1" ;
+	dcterms:created "2013-05-06T11:54:50.323-05:00"^^xsd:dateTime ;
+	dcterms:contributor <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects> ;
+	dcterms:identifier "Projects qcri-disaster-management tweet_donations e1" .
+
+<http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/enhancement/1/subset/sample> a Projects_vocab:Dataset , conversion:Dataset , conversion:DatasetSample , void:Dataset ;
+	conversion:base_uri "http://dig.csail.mit.edu/2012/QCRI-DIG-project/" ;
+	conversion:source_identifier "Projects" ;
+	conversion:dataset_identifier "qcri-disaster-management" ;
+	conversion:version_identifier "tweet_donations" ;
+	conversion:dataset_version "tweet_donations" ;
+	conversion:conversion_identifier "enhancement/1" ;
+	dcterms:modified "2013-05-06T11:54:51.716-05:00"^^xsd:dateTime ;
+	foaf:isPrimaryTopicOf <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset_page/qcri-disaster-management/version/tweet_donations/conversion/enhancement/1/subset/sample> ;
+	void:dataDump <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/file/qcri-disaster-management/version/tweet_donations/conversion/Projects-qcri-disaster-management-tweet_donations.e1.sample.ttl> .
+
+<http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/file/qcri-disaster-management/version/tweet_donations/conversion/Projects-qcri-disaster-management-tweet_donations.e1.sample.ttl> dcterms:format <http://www.w3.org/ns/formats/Turtle> .
+
+<http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects> a foaf:Agent ;
+	dcterms:identifier "Projects" ;
+	foaf:isPrimaryTopicOf <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source_page/Projects> .
+
+_:node17pt8qs3hx3 vann:preferredNamespacePrefix "rdf" ;
+	vann:preferredNamespaceUri "http://www.w3.org/1999/02/22-rdf-syntax-ns#" .
+
+_:node17pt8qs3hx4 vann:preferredNamespacePrefix "rdfs" ;
+	vann:preferredNamespaceUri "http://www.w3.org/2000/01/rdf-schema#" .
+
+_:node17pt8qs3hx5 vann:preferredNamespacePrefix "xsd" ;
+	vann:preferredNamespaceUri "http://www.w3.org/2001/XMLSchema#" .
+
+_:node17pt8qs3hx6 vann:preferredNamespacePrefix "xsd2" ;
+	vann:preferredNamespaceUri "http://www.w3.org/TR/xmlschema-2/#" .
+
+_:node17pt8qs3hx7 vann:preferredNamespacePrefix "owl" ;
+	vann:preferredNamespaceUri "http://www.w3.org/2002/07/owl#" .
+
+_:node17pt8qs3hx8 vann:preferredNamespacePrefix "conversion" ;
+	vann:preferredNamespaceUri "http://purl.org/twc/vocab/conversion/" .
+
+_:node17pt8qs3hx9 vann:preferredNamespacePrefix "ov" ;
+	vann:preferredNamespaceUri "http://open.vocab.org/terms/" .
+
+_:node17pt8qs3hx10 vann:preferredNamespacePrefix "dcterms" ;
+	vann:preferredNamespaceUri "http://purl.org/dc/terms/" .
+
+_:node17pt8qs3hx11 vann:preferredNamespacePrefix "foaf" ;
+	vann:preferredNamespaceUri "http://xmlns.com/foaf/0.1/" .
+
+_:node17pt8qs3hx12 vann:preferredNamespacePrefix "void" ;
+	vann:preferredNamespaceUri "http://rdfs.org/ns/void#" .
+
+_:node17pt8qs3hx13 vann:preferredNamespacePrefix "doap" ;
+	vann:preferredNamespaceUri "http://usefulinc.com/ns/doap#" .
+
+_:node17pt8qs3hx14 vann:preferredNamespacePrefix "scovo" ;
+	vann:preferredNamespaceUri "http://purl.org/NET/scovo#" .
+
+_:node17pt8qs3hx15 vann:preferredNamespacePrefix "qb" ;
+	vann:preferredNamespaceUri "http://purl.org/linked-data/cube#" .
+
+_:node17pt8qs3hx16 vann:preferredNamespacePrefix "vann" ;
+	vann:preferredNamespaceUri "http://purl.org/vocab/vann/" .
+
+_:node17pt8qs3hx17 vann:preferredNamespacePrefix "frbrcore" ;
+	vann:preferredNamespaceUri "http://purl.org/vocab/frbr/core#" .
+
+_:node17pt8qs3hx18 vann:preferredNamespacePrefix "coin" ;
+	vann:preferredNamespaceUri "http://purl.org/court/def/2009/coin#" .
+
+_:node17pt8qs3hx19 vann:preferredNamespacePrefix "qcri-disaster-management" ;
+	vann:preferredNamespaceUri "http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/" .
+
+_:node17pt8qs3hx20 vann:preferredNamespacePrefix "Projects_vocab" ;
+	vann:preferredNamespaceUri "http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/vocab/" .
+
+_:node17pt8qs3hx21 vann:preferredNamespacePrefix "base_vocab" ;
+	vann:preferredNamespaceUri "http://dig.csail.mit.edu/2012/QCRI-DIG-project//vocab/" .
+
+_:node17pt8qs3hx22 vann:preferredNamespacePrefix "local_vocab" ;
+	vann:preferredNamespaceUri "http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/vocab/" .
+
+_:node17pt8qs3hx23 vann:preferredNamespacePrefix "raw" ;
+	vann:preferredNamespaceUri "http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/vocab/raw/" .
+
+_:node17pt8qs3hx24 vann:preferredNamespacePrefix "e1" ;
+	vann:preferredNamespaceUri "http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/vocab/enhancement/1/" .
+
+_:node17pt8qs3hx25 vann:preferredNamespacePrefix "" ;
+	vann:preferredNamespaceUri "http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/version/tweet_donations/" .
+
+_:node17pt8qs3hx26 vann:preferredNamespacePrefix "_global_value" ;
+	vann:preferredNamespaceUri "http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/" .
+
+_:node17pt8qs3hx27 vann:preferredNamespacePrefix "dbpediaprop" ;
+	vann:preferredNamespaceUri "http://dbpedia.org/property/" .
+
+_:node17pt8qs3hx28 vann:preferredNamespacePrefix "nfo" ;
+	vann:preferredNamespaceUri "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#" .
+
+_:node17pt8qs3hx29 vann:preferredNamespacePrefix "frbr" ;
+	vann:preferredNamespaceUri "http://purl.org/vocab/frbr/core#" .
+
+_:node17pt8qs3hx30 vann:preferredNamespacePrefix "dcat" ;
+	vann:preferredNamespaceUri "http://www.w3.org/ns/dcat#" .
+
+_:node17pt8qs3hx31 vann:preferredNamespacePrefix "dbpedia" ;
+	vann:preferredNamespaceUri "http://dbpedia.org/resource/" .
+
+_:node17pt8qs3hx32 vann:preferredNamespacePrefix "skos" ;
+	vann:preferredNamespaceUri "http://www.w3.org/2004/02/skos/core#" .
+
+_:node17pt8qs3hx33 vann:preferredNamespacePrefix "muo" ;
+	vann:preferredNamespaceUri "http://purl.oclc.org/NET/muo/muo#" .
+
+_:node17pt8qs3hx34 vann:preferredNamespacePrefix "org" ;
+	vann:preferredNamespaceUri "http://www.w3.org/ns/org#" .
+
+_:node17pt8qs3hx35 vann:preferredNamespacePrefix "wgs" ;
+	vann:preferredNamespaceUri "http://www.w3.org/2003/01/geo/wgs84_pos#" .
+
+_:node17pt8qs3hx36 vann:preferredNamespacePrefix "vs" ;
+	vann:preferredNamespaceUri "http://www.w3.org/2003/06/sw-vocab-status/ns#" .
+
+_:node17pt8qs3hx37 vann:preferredNamespacePrefix "todo" ;
+	vann:preferredNamespaceUri "http://www.w3.org/2000/01/rdf-schema#" .
+
+_:node17pt8qs3hx38 vann:preferredNamespacePrefix "vsr" ;
+	vann:preferredNamespaceUri "http://purl.org/twc/vocab/vsr#" .
+
+_:node17pt8qs3hx39 vann:preferredNamespacePrefix "prov" ;
+	vann:preferredNamespaceUri "http://www.w3.org/ns/prov#" .
+
+_:node17pt8qs3hx40 vann:preferredNamespacePrefix "time" ;
+	vann:preferredNamespaceUri "http://www.w3.org/2006/time#" .
+
+_:node17pt8qs3hx41 vann:preferredNamespacePrefix "geonames" ;
+	vann:preferredNamespaceUri "http://www.geonames.org/ontology#" .
+
+_:node17pt8qs3hx42 vann:preferredNamespacePrefix "geonamesid" ;
+	vann:preferredNamespaceUri "http://sws.geonames.org/" .
+
+_:node17pt8qs3hx43 vann:preferredNamespacePrefix "bibo" ;
+	vann:preferredNamespaceUri "http://purl.org/ontology/bibo/" .
+
+_:node17pt8qs3hx44 vann:preferredNamespacePrefix "sio" ;
+	vann:preferredNamespaceUri "http://semanticscience.org/resource/" .
+
+_:node17pt8qs3hx45 vann:preferredNamespacePrefix "govtrackusgov" ;
+	vann:preferredNamespaceUri "http://www.rdfabout.com/rdf/usgov/geo/us/" .
+
+_:node17pt8qs3hx46 vann:preferredNamespacePrefix "sioc" ;
+	vann:preferredNamespaceUri "http://rdfs.org/sioc/ns#" .
+
+_:node17pt8qs3hx47 vann:preferredNamespacePrefix "con" ;
+	vann:preferredNamespaceUri "http://www.w3.org/2000/10/swap/pim/contact#" .
+
+_:node17pt8qs3hx48 vann:preferredNamespacePrefix "dbpediaowl" ;
+	vann:preferredNamespaceUri "http://dbpedia.org/ontology/" .
+
+_:node17pt8qs3hx49 vann:preferredNamespacePrefix "dgtwc" ;
+	vann:preferredNamespaceUri "http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#" .
+
+_:node17pt8qs3hx2 rdfs:seeAlso _:node17pt8qs3hx3 , _:node17pt8qs3hx4 , _:node17pt8qs3hx5 , _:node17pt8qs3hx6 , _:node17pt8qs3hx7 , _:node17pt8qs3hx8 , _:node17pt8qs3hx9 , _:node17pt8qs3hx10 , _:node17pt8qs3hx11 , _:node17pt8qs3hx12 , _:node17pt8qs3hx13 , _:node17pt8qs3hx14 , _:node17pt8qs3hx15 , _:node17pt8qs3hx16 , _:node17pt8qs3hx17 , _:node17pt8qs3hx18 , _:node17pt8qs3hx19 , _:node17pt8qs3hx20 , _:node17pt8qs3hx21 , _:node17pt8qs3hx22 , _:node17pt8qs3hx23 , _:node17pt8qs3hx24 , _:node17pt8qs3hx25 , _:node17pt8qs3hx26 , _:node17pt8qs3hx27 , _:node17pt8qs3hx28 , _:node17pt8qs3hx29 , _:node17pt8qs3hx30 , _:node17pt8qs3hx31 , _:node17pt8qs3hx32 , _:node17pt8qs3hx33 , _:node17pt8qs3hx34 , _:node17pt8qs3hx35 , _:node17pt8qs3hx36 , _:node17pt8qs3hx37 , _:node17pt8qs3hx38 , _:node17pt8qs3hx39 , _:node17pt8qs3hx40 , _:node17pt8qs3hx41 , _:node17pt8qs3hx42 , _:node17pt8qs3hx43 , _:node17pt8qs3hx44 , _:node17pt8qs3hx45 , _:node17pt8qs3hx46 , _:node17pt8qs3hx47 , _:node17pt8qs3hx48 , _:node17pt8qs3hx49 .
+
+<http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/provenance/qcri-disaster-management/version/tweet_donations/conversion/enhancement/1/nodeset_1> a <http://inference-web.org/2.0/pml-justification.owl#NodeSet> ;
+	<http://inference-web.org/2.0/pml-justification.owl#hasConclusion> <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/file/qcri-disaster-management/version/tweet_donations/conversion/Projects-qcri-disaster-management-tweet_donations.ttl.gz> ;
+	<http://inference-web.org/2.0/pml-justification.owl#isConsequentOf> <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/provenance/qcri-disaster-management/version/tweet_donations/conversion/enhancement/1/infstep_1> .
+
+<http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/provenance/qcri-disaster-management/version/tweet_donations/conversion/enhancement/1/nodeset_2> a <http://inference-web.org/2.0/pml-justification.owl#NodeSet> ;
+	<http://inference-web.org/2.0/pml-justification.owl#hasConclusion> <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/file/qcri-disaster-management/version/tweet_donations/conversion/Projects-qcri-disaster-management-tweet_donations.e1.sample.ttl> ;
+	<http://inference-web.org/2.0/pml-justification.owl#isConsequentOf> <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/provenance/qcri-disaster-management/version/tweet_donations/conversion/enhancement/1/infstep_1> .
+
+<http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/provenance/qcri-disaster-management/version/tweet_donations/conversion/enhancement/1/nodeset_3> a <http://inference-web.org/2.0/pml-justification.owl#NodeSet> ;
+	<http://inference-web.org/2.0/pml-justification.owl#hasConclusion> <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/file/qcri-disaster-management/version/tweet_donations/conversion/Projects-qcri-disaster-management-tweet_donations.e1.ttl.gz> ;
+	<http://inference-web.org/2.0/pml-justification.owl#isConsequentOf> <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/provenance/qcri-disaster-management/version/tweet_donations/conversion/enhancement/1/infstep_1> .
+
+<http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/provenance/qcri-disaster-management/version/tweet_donations/conversion/enhancement/1/infstep_1> a <http://inference-web.org/2.0/pml-justification.owl#InferenceStep> ;
+	<http://inference-web.org/2.0/pml-justification.owl#hasInferenceEngine> _:node17pt8qs3hx1 ;
+	<http://inference-web.org/2.0/pml-justification.owl#hasAntecedentList> _:node17pt8qs3hx50 ;
+	<http://inference-web.org/2.1exper/pml-provenance.owl#hasAntecedentRole> _:node17pt8qs3hx52 , _:node17pt8qs3hx51 .
+
+<http://purl.org/twc/id/software/csv2rdf4lod> con:preferredURI _:node17pt8qs3hx1 .
+
+<http://data.lod2.eu/2011/tools/CSV2RDF4LOD> con:preferredURI _:node17pt8qs3hx1 .
+
+<http://data-gov.tw.rpi.edu/wiki/Special:URIResolver/csv2rdf4lod> con:preferredURI _:node17pt8qs3hx1 .
+
+_:node17pt8qs3hx1 a <http://inference-web.org/2.0/pml-provenance.owl#InferenceEngine> , doap:Version ;
+	dcterms:version "2013-Jan-16" ;
+	doap:revision "2013-Jan-16" ;
+	doap:platform "Java" ;
+	prov:specializationOf <http://data-gov.tw.rpi.edu/wiki/Special:URIResolver/csv2rdf4lod> .
+
+<http://purl.org/twc/id/software/csv2rdf4lod> rdfs:seeAlso <https://github.com/timrdf/csv2rdf4lod-automation/wiki> .
+
+<http://data-gov.tw.rpi.edu/wiki/Special:URIResolver/csv2rdf4lod> a doap:Project ;
+	doap:implements <http://data-gov.tw.rpi.edu/wiki/Special:URIResolver/URI_design_for_RDF_conversion_of_CSV-based_data> , <http://purl.org/twc/vocab/conversion/> ;
+	dcterms:author <http://tw.rpi.edu/instances/TimLebo> ;
+	doap:developer <http://tw.rpi.edu/instances/TimLebo> , <http://tw.rpi.edu/instances/GregoryToddWilliams> , <http://kasei.us/about/foaf.xrdf#greg> , <http://tw.rpi.edu/instances/JamesMcCusker> , <http://tw.rpi.edu/instances/ZhenningShangguan> ;
+	doap:maintainer <http://tw.rpi.edu/instances/TimLebo> ;
+	doap:documenter <http://tw.rpi.edu/instances/TimLebo> , <http://tw.rpi.edu/instances/JohannaFlores> , <http://tw.rpi.edu/instances/LiDing> , <http://tw.rpi.edu/instances/GinoGervasio> ;
+	doap:helper <http://tw.rpi.edu/instances/AlvaroGraves> , <http://tw.rpi.edu/instances/DominicDiFranzo> , <http://tw.rpi.edu/instances/GinoGervasio> , <http://tw.rpi.edu/instances/PingWang> , <http://tw.rpi.edu/instances/XianLi> , <http://tw.rpi.edu/instances/JamesMcCusker> , <http://www.w3.org/People/Eric/ericP-foaf#ericP> , <http://tw.rpi.edu/instances/AnkitSrivastava> , <http://purl.org/twc/id/person/Maryam_Fazel-Zarandi> , <http://tw.rpi.edu/instances/AlexanderLahuerta> ;
+	doap:homepage <https://github.com/timrdf/csv2rdf4lod-automation/wiki> ;
+	doap:audience "Data modelers and architects that need (potentially non-RDB) tabular data encoded within the Resource Description Framework." ;
+	doap:shortdesc "Converts CSV files to RDF using parameters specified by http://purl.org/twc/vocab/conversion/" ;
+	doap:description "Converts CSV files to RDF using parameters specified by http://purl.org/twc/vocab/conversion/. Organizes datasets using 'source', 'dataset', and 'version' identifiers to allow for third-party aggregation, refinement, and integration of third-party data. Uses predicate 'layers' to allow backward-compatible refinements of Resources' descriptions. Minimizes human error and increases transparancy of conversion by using RDF-encoded interpretation parameters to control all processing." .
+
+_:node17pt8qs3hx53 a doap:GitRepository ;
+	foaf:isPrimaryTopicOf <https://github.com/timrdf/csv2rdf4lod-automation> ;
+	doap:browse <https://github.com/timrdf/csv2rdf4lod-automation> .
+
+<http://tw.rpi.edu/instances/GregoryToddWilliams> con:preferredURI <http://kasei.us/about/foaf.xrdf#greg> .
+
+<http://tw.rpi.edu/instances/AlvaroGraves> con:preferredURI <http://alvaro.graves.cl> .
+
+<http://purl.org/twc/id/person/TimLebo> con:preferredURI <http://tw.rpi.edu/instances/TimLebo> .
+
+<http://tw.rpi.edu/wiki/Special:URIResolver/Tim_Lebo> con:preferredURI <http://tw.rpi.edu/instances/TimLebo> .
+
+<http://www.cs.rpi.edu/~weavej3/r/Tim_Lebo> con:preferredURI <http://tw.rpi.edu/instances/TimLebo> .
+
+<http://purl.org/twc/id/person/Maryam_Fazel-Zarandi> con:preferredURI <http://tw.rpi.edu/instances/MaryamFazel-Zarandi> .
+
+_:node17pt8qs3hx50 a rdf:List ;
+	rdf:first <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/provenance/qcri-disaster-management/version/tweet_donations/conversion/enhancement/1/nodeset_4> .
+
+<http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/provenance/qcri-disaster-management/version/tweet_donations/conversion/enhancement/1/nodeset_4> a <http://inference-web.org/2.0/pml-justification.owl#NodeSet> ;
+	<http://inference-web.org/2.0/pml-justification.owl#hasConclusion> <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/fileqcri-disaster-management/version/tweet_donations/source/sanitized_twitter_dataset.csv> .
+
+_:node17pt8qs3hx50 rdf:rest _:node17pt8qs3hx54 .
+
+_:node17pt8qs3hx54 a rdf:List ;
+	rdf:first <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/provenance/qcri-disaster-management/version/tweet_donations/conversion/enhancement/1/nodeset_5> .
+
+<http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/provenance/qcri-disaster-management/version/tweet_donations/conversion/enhancement/1/nodeset_5> a <http://inference-web.org/2.0/pml-justification.owl#NodeSet> ;
+	<http://inference-web.org/2.0/pml-justification.owl#hasConclusion> <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/fileqcri-disaster-management/version/tweet_donations/manual/sanitized_twitter_dataset.csv.e1.params.ttl> .
+
+_:node17pt8qs3hx52 <http://inference-web.org/2.1exper/pml-provenance.owl#hasAntecedent> <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/fileqcri-disaster-management/version/tweet_donations/manual/sanitized_twitter_dataset.csv.e1.params.ttl> .
+
+_:node17pt8qs3hx54 rdf:rest rdf:nil .
+
+_:node17pt8qs3hx52 a <http://inference-web.org/2.1exper/pml-provenance.owl#AntecedentRole> ;
+	<http://inference-web.org/2.1exper/pml-provenance.owl#hasRole> <http://inference-web.org/registry/ROLE/Parameters.owl#Parameters> .
+
+_:node17pt8qs3hx51 a <http://inference-web.org/2.1exper/pml-provenance.owl#AntecedentRole> ;
+	<http://inference-web.org/2.1exper/pml-provenance.owl#hasAntecedent> <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/fileqcri-disaster-management/version/tweet_donations/source/sanitized_twitter_dataset.csv> ;
+	<http://inference-web.org/2.1exper/pml-provenance.owl#hasRole> <http://inference-web.org/registry/ROLE/Input.owl#Input> .
+
+<http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/fileqcri-disaster-management/version/tweet_donations/source/sanitized_twitter_dataset.csv> a <http://inference-web.org/2.0/pml-provenance.owl#Information> ;
+	<http://inference-web.org/2.0/pml-provenance.owl#hasFormat> <http://iw.cs.utep.edu/registry/FMT/text/CSV.owl#CSV> .
+
+<http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/fileqcri-disaster-management/version/tweet_donations/manual/sanitized_twitter_dataset.csv.e1.params.ttl> a <http://inference-web.org/2.0/pml-provenance.owl#Information> ;
+	<http://inference-web.org/2.0/pml-provenance.owl#hasFormat> <http://inference-web.org/registry/FMT/RDFAbstractSyntax.owl#RDFAbstractSyntax> .
+
+conversion:SameAsDataset rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:uses_class rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:has_version rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:MetaDataset rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:num_triples rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:enhances rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:enhancement_layer rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:DatasetSample rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:source_identifier rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:VersionedDataset rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:LayerDataset rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:base_uri rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:uses_predicate rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:interpretation rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:symbol rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:dataset_identifier rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:conversion_identifier rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:AbstractDataset rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:null rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:subject_discriminator rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:Dataset rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+conversion:version_identifier rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> .
+
+<http://people.apache.org/~oshani/foaf.rdf#me> dcterms:identifier "oshani" .
+
+<http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/enhancement/1> conversion:base_uri "http://dig.csail.mit.edu/2012/QCRI-DIG-project/"^^xsd:anyURI .
+
+_:node17pt8qs4mx1 a conversion:EnhancementConversionProcess ;
+	conversion:enhancement_identifier "1" .
+
+_:node17pt8qs4mx2 a foaf:OnlineAccount ;
+	foaf:accountName "oshani" ;
+	sioc:account_of <http://people.apache.org/~oshani/foaf.rdf#me> .
+
+_:node17pt8qs4mx1 dcterms:creator _:node17pt8qs4mx2 ;
+	dcterms:created "2013-05-06T11:18:10-04:00"^^xsd:dateTime ;
+	conversion:delimits_cell "," .
+
+_:node17pt8qs4mx3 ov:csvCol "1"^^xsd:integer ;
+	ov:csvHeader "ID" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17pt8qs4mx1 conversion:enhance _:node17pt8qs4mx3 .
+
+_:node17pt8qs4mx4 ov:csvCol "2"^^xsd:integer ;
+	ov:csvHeader "TWEET" ;
+	conversion:comment "" ;
+	conversion:equivalent_property sioc:content ;
+	conversion:range rdfs:Literal .
+
+_:node17pt8qs4mx1 conversion:enhance _:node17pt8qs4mx4 .
+
+_:node17pt8qs4mx5 ov:csvCol "3"^^xsd:integer ;
+	ov:csvHeader "AUTHOR" ;
+	conversion:comment "" ;
+	conversion:equivalent_property sioc:has_creator ;
+	conversion:range sioc:UserAccount .
+
+_:node17pt8qs4mx1 conversion:enhance _:node17pt8qs4mx5 .
+
+_:node17pt8qs4mx6 ov:csvCol "4"^^xsd:integer ;
+	ov:csvHeader "CREATION-TIME" ;
+	conversion:comment "" ;
+	conversion:equivalent_property dcterms:created ;
+	conversion:range xsd:dateTime .
+
+_:node17pt8qs4mx1 conversion:enhance _:node17pt8qs4mx6 .
+
+_:node17pt8qs4mx7 ov:csvCol "5"^^xsd:integer ;
+	ov:csvHeader "LATITUDE" ;
+	conversion:comment "" ;
+	conversion:equivalent_property wgs:lat ;
+	conversion:range rdfs:Literal .
+
+_:node17pt8qs4mx1 conversion:enhance _:node17pt8qs4mx7 .
+
+_:node17pt8qs4mx8 ov:csvCol "6"^^xsd:integer ;
+	ov:csvHeader "LONGITUDE" ;
+	conversion:comment "" ;
+	conversion:equivalent_property wgs:long ;
+	conversion:range rdfs:Literal .
+
+_:node17pt8qs4mx1 conversion:enhance _:node17pt8qs4mx8 .
+
+_:node17pt8qs4mx9 ov:csvCol "7"^^xsd:integer ;
+	ov:csvHeader "IS_DONATION" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17pt8qs4mx1 conversion:enhance _:node17pt8qs4mx9 .
+
+_:node17pt8qs4mx10 ov:csvCol "8"^^xsd:integer ;
+	ov:csvHeader "IS_DONATION CONFIDENCE" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17pt8qs4mx1 conversion:enhance _:node17pt8qs4mx10 .
+
+_:node17pt8qs4mx11 ov:csvCol "9"^^xsd:integer ;
+	ov:csvHeader "IS_DONATION CAUSAL WORDS" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17pt8qs4mx1 conversion:enhance _:node17pt8qs4mx11 .
+
+_:node17pt8qs4mx12 ov:csvCol "10"^^xsd:integer ;
+	ov:csvHeader "IS_REQUEST" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17pt8qs4mx1 conversion:enhance _:node17pt8qs4mx12 .
+
+_:node17pt8qs4mx13 ov:csvCol "11"^^xsd:integer ;
+	ov:csvHeader "IS_REQUEST CONFIDENCE" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17pt8qs4mx1 conversion:enhance _:node17pt8qs4mx13 .
+
+_:node17pt8qs4mx14 ov:csvCol "12"^^xsd:integer ;
+	ov:csvHeader "IS_OFFER" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17pt8qs4mx1 conversion:enhance _:node17pt8qs4mx14 .
+
+_:node17pt8qs4mx15 ov:csvCol "13"^^xsd:integer ;
+	ov:csvHeader "IS_OFFER CONFIDENCE" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17pt8qs4mx1 conversion:enhance _:node17pt8qs4mx15 .
+
+_:node17pt8qs4mx16 ov:csvCol "14"^^xsd:integer ;
+	ov:csvHeader "NEED-TYPE" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17pt8qs4mx1 conversion:enhance _:node17pt8qs4mx16 .
+
+_:node17pt8qs4mx17 ov:csvCol "15"^^xsd:integer ;
+	ov:csvHeader "NEED-TYPE CONFIDENCE" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17pt8qs4mx1 conversion:enhance _:node17pt8qs4mx17 .
+
+_:node17pt8qs4mx18 ov:csvCol "16"^^xsd:integer ;
+	ov:csvHeader "SOURCE/TARGET OF DONATION" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17pt8qs4mx1 conversion:enhance _:node17pt8qs4mx18 .
+
+_:node17pt8qs4mx19 ov:csvCol "17"^^xsd:integer ;
+	ov:csvHeader "SOURCE/TARGET OF DONATION CONFIDENCE" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17pt8qs4mx1 conversion:enhance _:node17pt8qs4mx19 .
+
+_:node17pt8qs4mx20 ov:csvCol "18"^^xsd:integer ;
+	ov:csvHeader "MONEY:RAISING_MODE" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17pt8qs4mx1 conversion:enhance _:node17pt8qs4mx20 .
+
+_:node17pt8qs4mx21 ov:csvCol "19"^^xsd:integer ;
+	ov:csvHeader "MONEY:RAISING_MODE CONFIDENCE" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17pt8qs4mx1 conversion:enhance _:node17pt8qs4mx21 .
+
+_:node17pt8qs4mx22 ov:csvCol "20"^^xsd:integer ;
+	ov:csvHeader "MONEY:RAISING_MODE CAUSAL WORDS" ;
+	conversion:comment "" ;
+	conversion:range rdfs:Literal .
+
+_:node17pt8qs4mx1 conversion:enhance _:node17pt8qs4mx22 .
+
+<http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/enhancement/1> conversion:conversion_process _:node17pt8qs4mx1 .
+
+<http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/subset/meta> a Projects_vocab:Dataset , conversion:Dataset , conversion:MetaDataset , void:Dataset ;
+	conversion:base_uri "http://dig.csail.mit.edu/2012/QCRI-DIG-project/" ;
+	conversion:source_identifier "Projects" ;
+	conversion:dataset_identifier "qcri-disaster-management" ;
+	dcterms:modified "2013-05-06T11:54:51.716-05:00"^^xsd:dateTime ;
+	foaf:isPrimaryTopicOf <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset_page/qcri-disaster-management/subset/meta> ;
+	void:dataDump <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/file/qcri-disaster-management/version/tweet_donations/conversion/Projects-qcri-disaster-management-tweet_donations.void.ttl.gz> .
+
+<http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/enhancement/1> conversion:num_triples "19022"^^xsd:integer ;
+	void:triples "19022"^^xsd:integer ;
+	prov:wasGeneratedBy <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/provenance/qcri-disaster-management/version/tweet_donations/conversion/enhancement/1/translationActivity_0eefbaec-691b-4854-940c-5844b2a1ab51> .
+
+<http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/provenance/qcri-disaster-management/version/tweet_donations/conversion/enhancement/1/translationActivity_0eefbaec-691b-4854-940c-5844b2a1ab51> a prov:Activity , <http://provenanceweb.org/ns/pml#TranslationActivity> ;
+	conversion:triples_per_minute "822276.6570605187"^^xsd:double ;
+	prov:used void:inDataset , ov:csvRow , e1:id , e1:is_donation , e1:source_target_of_donation , e1:money_raising_mode_confidence , e1:is_offer , e1:is_donation_causal_words , dcterms:isReferencedBy , e1:is_request_confidence , e1:money_raising_mode_causal_words , wgs:long , sioc:content , dcterms:created , e1:is_donation_confidence , e1:source_target_of_donation_confidence , e1:money_raising_mode , e1:is_offer_confidence , sioc:has_creator , e1:is_request , e1:need_type , e1:need_type_confidence , wgs:lat ;
+	void:vocabulary <http://rdfs.org/ns/void#> , <http://open.vocab.org/terms/> , <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/vocab/enhancement/1/> , <http://purl.org/dc/terms/> , <http://www.w3.org/2003/01/geo/wgs84_pos#> , <http://rdfs.org/sioc/ns#> .
+
+<http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/subset/meta> conversion:uses_predicate ov:csvRow , <http://inference-web.org/2.1exper/pml-provenance.owl#hasAntecedent> , void:dataDump , conversion:VersionedDataset , rdfs:label , foaf:topic , foaf:isPrimaryTopicOf , dcterms:author , doap:implements , <http://inference-web.org/2.0/pml-justification.owl#hasInferenceEngine> , dcterms:identifier , doap:revision , dcterms:modified , conversion:enhancement_layer , vann:preferredNamespaceUri , rdfs:isDefinedBy , doap:helper , conversion:uses_predicate , ov:csvCol , doap:audience , doap:description , dcterms:format , doap:documenter , conversion:conversion_identifier , rdfs:range , conversion:version_identifier , <http://inference-web.org/2.0/pml-provenance.owl#hasFormat> , doap:homepage , conversion:num_triples , doap:shortdesc , <http://inference-web.org/2.0/pml-justification.owl#hasConclusion> , dcterms:isReferencedBy , <http://inference-web.org/2.0/pml-justification.owl#hasAntecedentList> , foaf:primaryTopic , conversion:base_uri , <http://inference-web.org/2.1exper/pml-provenance.owl#hasAntecedentRole> , void:exampleResource , conversion:dataset_identifier , conversion:enhancement_identifier , rdf:type , void:subset , con:preferredURI , void:triples , doap:browse , doap:developer , ov:csvHeader , rdfs:seeAlso , doap:maintainer , conversion:enhances , conversion:source_identifier , conversion:LayerDataset , dcterms:contributor , doap:platform , vann:preferredNamespacePrefix , <http://inference-web.org/2.0/pml-justification.owl#isConsequentOf> , <http://inference-web.org/2.1exper/pml-provenance.owl#hasRole> , void:vocabulary , dcterms:version ;
+	void:vocabulary <http://open.vocab.org/terms/> , <http://inference-web.org/2.1exper/pml-provenance.owl#> , <http://rdfs.org/ns/void#> , <http://purl.org/twc/vocab/conversion/> , <http://www.w3.org/2000/01/rdf-schema#> , <http://xmlns.com/foaf/0.1/> , <http://purl.org/dc/terms/> , <http://usefulinc.com/ns/doap#> , <http://inference-web.org/2.0/pml-justification.owl#> , <http://purl.org/vocab/vann/> , <http://inference-web.org/2.0/pml-provenance.owl#> , <http://www.w3.org/1999/02/22-rdf-syntax-ns#> , <http://www.w3.org/2000/10/swap/pim/contact#> .
+
+<http://inference-web.org/2.1exper/pml-provenance.owl#hasAntecedent> rdfs:isDefinedBy <http://inference-web.org/2.1exper/pml-provenance.owl#> ;
+	prov:wasAttributedTo <http://inference-web.org> .
+
+void:dataDump rdfs:isDefinedBy <http://rdfs.org/ns/void#> ;
+	prov:wasAttributedTo <http://rdfs.org> .
+
+conversion:VersionedDataset prov:wasAttributedTo <http://purl.org/twc> .
+
+rdfs:label rdfs:isDefinedBy <http://www.w3.org/2000/01/rdf-schema#> ;
+	prov:wasAttributedTo <http://www.w3.org> .
+
+foaf:topic rdfs:isDefinedBy <http://xmlns.com/foaf/0.1/> ;
+	prov:wasAttributedTo <http://xmlns.com> .
+
+foaf:isPrimaryTopicOf rdfs:isDefinedBy <http://xmlns.com/foaf/0.1/> ;
+	prov:wasAttributedTo <http://xmlns.com> .
+
+dcterms:author rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+	prov:wasAttributedTo <http://purl.org/dc> .
+
+doap:implements rdfs:isDefinedBy <http://usefulinc.com/ns/doap#> ;
+	prov:wasAttributedTo <http://usefulinc.com> .
+
+<http://inference-web.org/2.0/pml-justification.owl#hasInferenceEngine> rdfs:isDefinedBy <http://inference-web.org/2.0/pml-justification.owl#> ;
+	prov:wasAttributedTo <http://inference-web.org> .
+
+dcterms:identifier rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+	prov:wasAttributedTo <http://purl.org/dc> .
+
+doap:revision rdfs:isDefinedBy <http://usefulinc.com/ns/doap#> ;
+	prov:wasAttributedTo <http://usefulinc.com> .
+
+dcterms:modified rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+	prov:wasAttributedTo <http://purl.org/dc> .
+
+conversion:enhancement_layer prov:wasAttributedTo <http://purl.org/twc> .
+
+vann:preferredNamespaceUri rdfs:isDefinedBy <http://purl.org/vocab/vann/> ;
+	prov:wasAttributedTo <http://purl.org/vocab> .
+
+rdfs:isDefinedBy rdfs:isDefinedBy <http://www.w3.org/2000/01/rdf-schema#> ;
+	prov:wasAttributedTo <http://www.w3.org> .
+
+doap:helper rdfs:isDefinedBy <http://usefulinc.com/ns/doap#> ;
+	prov:wasAttributedTo <http://usefulinc.com> .
+
+conversion:uses_predicate prov:wasAttributedTo <http://purl.org/twc> .
+
+ov:csvCol rdfs:isDefinedBy <http://open.vocab.org/terms/> ;
+	prov:wasAttributedTo <http://open.vocab.org> .
+
+doap:audience rdfs:isDefinedBy <http://usefulinc.com/ns/doap#> ;
+	prov:wasAttributedTo <http://usefulinc.com> .
+
+doap:description rdfs:isDefinedBy <http://usefulinc.com/ns/doap#> ;
+	prov:wasAttributedTo <http://usefulinc.com> .
+
+dcterms:format rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+	prov:wasAttributedTo <http://purl.org/dc> .
+
+doap:documenter rdfs:isDefinedBy <http://usefulinc.com/ns/doap#> ;
+	prov:wasAttributedTo <http://usefulinc.com> .
+
+conversion:conversion_identifier prov:wasAttributedTo <http://purl.org/twc> .
+
+rdfs:range rdfs:isDefinedBy <http://www.w3.org/2000/01/rdf-schema#> ;
+	prov:wasAttributedTo <http://www.w3.org> .
+
+conversion:version_identifier prov:wasAttributedTo <http://purl.org/twc> .
+
+<http://inference-web.org/2.0/pml-provenance.owl#hasFormat> rdfs:isDefinedBy <http://inference-web.org/2.0/pml-provenance.owl#> ;
+	prov:wasAttributedTo <http://inference-web.org> .
+
+doap:homepage rdfs:isDefinedBy <http://usefulinc.com/ns/doap#> ;
+	prov:wasAttributedTo <http://usefulinc.com> .
+
+conversion:num_triples prov:wasAttributedTo <http://purl.org/twc> .
+
+doap:shortdesc rdfs:isDefinedBy <http://usefulinc.com/ns/doap#> ;
+	prov:wasAttributedTo <http://usefulinc.com> .
+
+<http://inference-web.org/2.0/pml-justification.owl#hasConclusion> rdfs:isDefinedBy <http://inference-web.org/2.0/pml-justification.owl#> ;
+	prov:wasAttributedTo <http://inference-web.org> .
+
+<http://inference-web.org/2.0/pml-justification.owl#hasAntecedentList> rdfs:isDefinedBy <http://inference-web.org/2.0/pml-justification.owl#> ;
+	prov:wasAttributedTo <http://inference-web.org> .
+
+foaf:primaryTopic rdfs:isDefinedBy <http://xmlns.com/foaf/0.1/> ;
+	prov:wasAttributedTo <http://xmlns.com> .
+
+conversion:base_uri prov:wasAttributedTo <http://purl.org/twc> .
+
+<http://inference-web.org/2.1exper/pml-provenance.owl#hasAntecedentRole> rdfs:isDefinedBy <http://inference-web.org/2.1exper/pml-provenance.owl#> ;
+	prov:wasAttributedTo <http://inference-web.org> .
+
+void:exampleResource rdfs:isDefinedBy <http://rdfs.org/ns/void#> ;
+	prov:wasAttributedTo <http://rdfs.org> .
+
+conversion:dataset_identifier prov:wasAttributedTo <http://purl.org/twc> .
+
+conversion:enhancement_identifier rdfs:isDefinedBy <http://purl.org/twc/vocab/conversion/> ;
+	prov:wasAttributedTo <http://purl.org/twc> .
+
+rdf:type rdfs:isDefinedBy <http://www.w3.org/1999/02/22-rdf-syntax-ns#> ;
+	prov:wasAttributedTo <http://www.w3.org> .
+
+void:subset rdfs:isDefinedBy <http://rdfs.org/ns/void#> ;
+	prov:wasAttributedTo <http://rdfs.org> .
+
+con:preferredURI rdfs:isDefinedBy <http://www.w3.org/2000/10/swap/pim/contact#> ;
+	prov:wasAttributedTo <http://www.w3.org> .
+
+void:triples rdfs:isDefinedBy <http://rdfs.org/ns/void#> ;
+	prov:wasAttributedTo <http://rdfs.org> .
+
+doap:browse rdfs:isDefinedBy <http://usefulinc.com/ns/doap#> ;
+	prov:wasAttributedTo <http://usefulinc.com> .
+
+doap:developer rdfs:isDefinedBy <http://usefulinc.com/ns/doap#> ;
+	prov:wasAttributedTo <http://usefulinc.com> .
+
+ov:csvHeader rdfs:isDefinedBy <http://open.vocab.org/terms/> ;
+	prov:wasAttributedTo <http://open.vocab.org> .
+
+rdfs:seeAlso rdfs:isDefinedBy <http://www.w3.org/2000/01/rdf-schema#> ;
+	prov:wasAttributedTo <http://www.w3.org> .
+
+doap:maintainer rdfs:isDefinedBy <http://usefulinc.com/ns/doap#> ;
+	prov:wasAttributedTo <http://usefulinc.com> .
+
+conversion:enhances prov:wasAttributedTo <http://purl.org/twc> .
+
+conversion:source_identifier prov:wasAttributedTo <http://purl.org/twc> .
+
+conversion:LayerDataset prov:wasAttributedTo <http://purl.org/twc> .
+
+dcterms:contributor rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+	prov:wasAttributedTo <http://purl.org/dc> .
+
+doap:platform rdfs:isDefinedBy <http://usefulinc.com/ns/doap#> ;
+	prov:wasAttributedTo <http://usefulinc.com> .
+
+vann:preferredNamespacePrefix rdfs:isDefinedBy <http://purl.org/vocab/vann/> ;
+	prov:wasAttributedTo <http://purl.org/vocab> .
+
+<http://inference-web.org/2.0/pml-justification.owl#isConsequentOf> rdfs:isDefinedBy <http://inference-web.org/2.0/pml-justification.owl#> ;
+	prov:wasAttributedTo <http://inference-web.org> .
+
+<http://inference-web.org/2.1exper/pml-provenance.owl#hasRole> rdfs:isDefinedBy <http://inference-web.org/2.1exper/pml-provenance.owl#> ;
+	prov:wasAttributedTo <http://inference-web.org> .
+
+void:vocabulary rdfs:isDefinedBy <http://rdfs.org/ns/void#> ;
+	prov:wasAttributedTo <http://rdfs.org> .
+
+dcterms:version rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+	prov:wasAttributedTo <http://purl.org/dc> .
+
+<http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/subset/meta> conversion:uses_class Projects_vocab:Dataset , void:Dataset , foaf:Agent , conversion:MetaDataset , conversion:DatasetSample , conversion:AbstractDataset , void:DatasetDescription , conversion:Dataset ;
+	void:vocabulary <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/vocab/> .
+
+Projects_vocab:Dataset rdfs:isDefinedBy <http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/vocab/> ;
+	prov:wasAttributedTo <http://dig.csail.mit.edu> .
+
+void:Dataset rdfs:isDefinedBy <http://rdfs.org/ns/void#> ;
+	prov:wasAttributedTo <http://rdfs.org> .
+
+foaf:Agent rdfs:isDefinedBy <http://xmlns.com/foaf/0.1/> ;
+	prov:wasAttributedTo <http://xmlns.com> .
+
+conversion:MetaDataset prov:wasAttributedTo <http://purl.org/twc> .
+
+conversion:DatasetSample prov:wasAttributedTo <http://purl.org/twc> .
+
+conversion:AbstractDataset prov:wasAttributedTo <http://purl.org/twc> .
+
+void:DatasetDescription rdfs:isDefinedBy <http://rdfs.org/ns/void#> ;
+	prov:wasAttributedTo <http://rdfs.org> .
+
+conversion:Dataset prov:wasAttributedTo <http://purl.org/twc> .
+
+<http://dig.csail.mit.edu/2012/QCRI-DIG-project//source/Projects/dataset/qcri-disaster-management/version/tweet_donations/conversion/enhancement/1> rdfs:comment "hash: 25440b132875e55e6ef14fac388e041e76270219b5cb" .
