@@ -1,0 +1,859 @@
+<!DOCTYPE YACodeBlocks SYSTEM "support/save_format.dtd">
+<YACodeBlocks ya-version="93" lang-version="17">
+<Pages><Page page-name=" " page-color="237 245 211" page-width="2270" page-height="1600" page-drawer="My Definitions" >
+<PageBlocks>
+<Block id="3743" genus-name="string-vappend" >
+<Location><X>1411</X><Y>752</Y></Location>
+<Label>make text</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="3765" ></BlockConnector></Plug>
+<Sockets num-sockets="11" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="text" is-expandable="yes" position-type="single" con-block-id="3745" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="text" is-expandable="yes" position-type="single" con-block-id="3747" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="text" is-expandable="yes" position-type="single" con-block-id="3749" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="text" is-expandable="yes" position-type="single" con-block-id="3751" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="text" is-expandable="yes" position-type="single" con-block-id="3753" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="text" is-expandable="yes" position-type="single" con-block-id="3755" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="text" is-expandable="yes" position-type="single" con-block-id="3757" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="text" is-expandable="yes" position-type="single" con-block-id="3759" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="text" is-expandable="yes" position-type="single" con-block-id="3761" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="text" is-expandable="yes" position-type="single" con-block-id="3763" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="text" is-expandable="yes" position-type="single" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="3763" genus-name="text" >
+<Location><X>1545</X><Y>1004</Y></Location>
+<Label> } </Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="3743" ></BlockConnector></Plug>
+</Block>
+<Block id="3761" genus-name="text" >
+<Location><X>1545</X><Y>976</Y></Location>
+<Label>   &lt;http:\/\/example\/need1&gt; rdf:type knoq:MoneyNeed .  </Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="3743" ></BlockConnector></Plug>
+</Block>
+<Block id="3759" genus-name="text" >
+<Location><X>1545</X><Y>948</Y></Location>
+<Label>                          wgs:long \"\".  </Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="3743" ></BlockConnector></Plug>
+</Block>
+<Block id="3757" genus-name="text" >
+<Location><X>1545</X><Y>920</Y></Location>
+<Label>                         wgs:lat \"\"; </Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="3743" ></BlockConnector></Plug>
+</Block>
+<Block id="3755" genus-name="text" >
+<Location><X>1545</X><Y>892</Y></Location>
+<Label>                         sioc:content \"Willing to donate money\" ;  </Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="3743" ></BlockConnector></Plug>
+</Block>
+<Block id="3753" genus-name="text" >
+<Location><X>1545</X><Y>864</Y></Location>
+<Label>                        sioc:has_creator &lt;http:\/\/knoesis.org\/socs\/kno-qcri\/user\/app&gt;;   </Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="3743" ></BlockConnector></Plug>
+</Block>
+<Block id="3751" genus-name="text" >
+<Location><X>1545</X><Y>836</Y></Location>
+<Label>   &lt;http:\/\/example\/data1&gt; rdf:type sioc:MicroblogPost, &lt;http:\/\/example\/need1&gt;;  </Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="3743" ></BlockConnector></Plug>
+</Block>
+<Block id="3749" genus-name="text" >
+<Location><X>1545</X><Y>808</Y></Location>
+<Label>INSERT  DATA  { </Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="3743" ></BlockConnector></Plug>
+</Block>
+<Block id="3747" genus-name="text" >
+<Location><X>1545</X><Y>780</Y></Location>
+<Label>prefix knoq: &lt;http:\/\/knoesis.org\/socs\/kno-qcri\/disaster-model\/ns#&gt;   </Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="3743" ></BlockConnector></Plug>
+</Block>
+<Block id="3745" genus-name="text" >
+<Location><X>1545</X><Y>752</Y></Location>
+<Label>prefix wgs: &lt;http:\/\/www.w3.org\/2003\/01\/geo\/wgs84_pos#&gt;   </Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="3743" ></BlockConnector></Plug>
+</Block>
+<Block id="3765" genus-name="SemanticWeb-PublishModel" >
+<Location><X>1165</X><Y>749</Y></Location>
+<Label>SemanticWeb1.PublishModel</Label>
+<BeforeBlockId>3737</BeforeBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="graph" position-type="single" con-block-id="3743" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="3737" genus-name="Button-Click" >
+<Location><X>1137</X><Y>717</Y></Location>
+<Label>DonateButton.Click</Label>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="do" is-indented="yes" position-type="single" con-block-id="3765" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="3485" genus-name="Button-Click" >
+<Location><X>1176</X><Y>310</Y></Location>
+<Label>RequestScreenShowButton.Click</Label>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="do" is-indented="yes" position-type="single" con-block-id="3489" ></BlockConnector>
+</Sockets>
+</Block>
+<BlockStub><StubParentName>NeedAndMapVerticalArrangement.Visible</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="3489" genus-name="componentSetter" >
+<Location><X>1204</X><Y>342</Y></Location>
+<Label>NeedAndMapVerticalArrangement.Visible</Label>
+<BeforeBlockId>3485</BeforeBlockId>
+<AfterBlockId>3613</AfterBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="3491" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<BlockStub><StubParentName>ChoiceScreenVerticalArrangement.Visible</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="3613" genus-name="componentSetter" >
+<Location><X>1204</X><Y>380</Y></Location>
+<Label>ChoiceScreenVerticalArrangement.Visible</Label>
+<BeforeBlockId>3489</BeforeBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="3615" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<Block id="3615" genus-name="false" >
+<Location><X>1508</X><Y>383</Y></Location>
+<Label>false</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="3613" ></BlockConnector></Plug>
+</Block>
+<Block id="3491" genus-name="true" >
+<Location><X>1504</X><Y>345</Y></Location>
+<Label>true</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="3489" ></BlockConnector></Plug>
+</Block>
+<Block id="3151" genus-name="Button-Click" >
+<Location><X>805</X><Y>7</Y></Location>
+<Label>DonateScreenShowButton.Click</Label>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="do" is-indented="yes" position-type="single" con-block-id="3597" ></BlockConnector>
+</Sockets>
+</Block>
+<BlockStub><StubParentName>FormVerticalArrangement.Visible</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="3597" genus-name="componentSetter" >
+<Location><X>833</X><Y>39</Y></Location>
+<Label>FormVerticalArrangement.Visible</Label>
+<BeforeBlockId>3151</BeforeBlockId>
+<AfterBlockId>3497</AfterBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="3599" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<BlockStub><StubParentName>LocationLabel.Text</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="3497" genus-name="componentSetter" >
+<Location><X>833</X><Y>77</Y></Location>
+<Label>LocationLabel.Text</Label>
+<BeforeBlockId>3597</BeforeBlockId>
+<AfterBlockId>3609</AfterBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="3499" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<BlockStub><StubParentName>ChoiceScreenVerticalArrangement.Visible</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="3609" genus-name="componentSetter" >
+<Location><X>833</X><Y>255</Y></Location>
+<Label>ChoiceScreenVerticalArrangement.Visible</Label>
+<BeforeBlockId>3497</BeforeBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="3611" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<Block id="3611" genus-name="false" >
+<Location><X>1137</X><Y>258</Y></Location>
+<Label>false</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="3609" ></BlockConnector></Plug>
+</Block>
+<Block id="3499" genus-name="string-vappend" >
+<Location><X>1003</X><Y>80</Y></Location>
+<Label>make text</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="3497" ></BlockConnector></Plug>
+<Sockets num-sockets="6" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="text" is-expandable="yes" position-type="single" con-block-id="3501" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="text" is-expandable="yes" position-type="single" con-block-id="3503" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="text" is-expandable="yes" position-type="single" con-block-id="3725" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="text" is-expandable="yes" position-type="single" con-block-id="3727" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="text" is-expandable="yes" position-type="single" con-block-id="3729" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="text" is-expandable="yes" position-type="single" ></BlockConnector>
+</Sockets>
+</Block>
+<BlockStub><StubParentName>LocationSensor1.Longitude</StubParentName><StubParentGenus>read-only-property</StubParentGenus><Block id="3729" genus-name="componentGetter" >
+<Location><X>1137</X><Y>192</Y></Location>
+<Label>LocationSensor1.Longitude</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="3499" ></BlockConnector></Plug>
+</Block>
+</BlockStub>
+<BlockStub><StubParentName>LocationSensor1.Latitude</StubParentName><StubParentGenus>read-only-property</StubParentGenus><Block id="3727" genus-name="componentGetter" >
+<Location><X>1137</X><Y>164</Y></Location>
+<Label>LocationSensor1.Latitude</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="3499" ></BlockConnector></Plug>
+</Block>
+</BlockStub>
+<Block id="3725" genus-name="text" >
+<Location><X>1137</X><Y>136</Y></Location>
+<Label> with lat, long </Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="3499" ></BlockConnector></Plug>
+</Block>
+<BlockStub><StubParentName>LocationSensor1.CurrentAddress</StubParentName><StubParentGenus>read-only-property</StubParentGenus><Block id="3503" genus-name="componentGetter" >
+<Location><X>1137</X><Y>108</Y></Location>
+<Label>LocationSensor1.CurrentAddress</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="3499" ></BlockConnector></Plug>
+</Block>
+</BlockStub>
+<Block id="3501" genus-name="text" >
+<Location><X>1137</X><Y>80</Y></Location>
+<Label>Your current location is: </Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="3499" ></BlockConnector></Plug>
+</Block>
+<Block id="3599" genus-name="true" >
+<Location><X>1085</X><Y>42</Y></Location>
+<Label>true</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="3597" ></BlockConnector></Plug>
+</Block>
+<Block id="3723" genus-name="false" >
+<Location><X>1229</X><Y>661</Y></Location>
+<Label>false</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="3721" ></BlockConnector></Plug>
+</Block>
+<BlockStub><StubParentName>NeedAndMapVerticalArrangement.Visible</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="3721" genus-name="componentSetter" >
+<Location><X>929</X><Y>658</Y></Location>
+<Label>NeedAndMapVerticalArrangement.Visible</Label>
+<BeforeBlockId>3715</BeforeBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="3723" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<Block id="3717" genus-name="true" >
+<Location><X>1233</X><Y>623</Y></Location>
+<Label>true</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="3715" ></BlockConnector></Plug>
+</Block>
+<BlockStub><StubParentName>ChoiceScreenVerticalArrangement.Visible</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="3715" genus-name="componentSetter" >
+<Location><X>929</X><Y>620</Y></Location>
+<Label>ChoiceScreenVerticalArrangement.Visible</Label>
+<BeforeBlockId>3707</BeforeBlockId>
+<AfterBlockId>3721</AfterBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="3717" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<Block id="3707" genus-name="Button-Click" >
+<Location><X>901</X><Y>588</Y></Location>
+<Label>BackfromMapButton.Click</Label>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="do" is-indented="yes" position-type="single" con-block-id="3715" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="3713" genus-name="false" >
+<Location><X>1061</X><Y>485</Y></Location>
+<Label>false</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="3711" ></BlockConnector></Plug>
+</Block>
+<BlockStub><StubParentName>FormVerticalArrangement.Visible</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="3711" genus-name="componentSetter" >
+<Location><X>809</X><Y>482</Y></Location>
+<Label>FormVerticalArrangement.Visible</Label>
+<BeforeBlockId>3481</BeforeBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="3713" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<Block id="2313" genus-name="Button-Click" >
+<Location><X>351</X><Y>8</Y></Location>
+<Label>LogoutButton.Click</Label>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="do" is-indented="yes" position-type="single" con-block-id="2317" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="2317" genus-name="Twitter-DeAuthorize" >
+<Location><X>379</X><Y>40</Y></Location>
+<Label>Twitter1.DeAuthorize</Label>
+<BeforeBlockId>2313</BeforeBlockId>
+<AfterBlockId>2319</AfterBlockId>
+</Block>
+<BlockStub><StubParentName>LoginStatusLabel.Text</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="2319" genus-name="componentSetter" >
+<Location><X>379</X><Y>68</Y></Location>
+<Label>LoginStatusLabel.Text</Label>
+<BeforeBlockId>2317</BeforeBlockId>
+<AfterBlockId>3601</AfterBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="2321" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<BlockStub><StubParentName>LogoutButton.Visible</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="3601" genus-name="componentSetter" >
+<Location><X>379</X><Y>106</Y></Location>
+<Label>LogoutButton.Visible</Label>
+<BeforeBlockId>2319</BeforeBlockId>
+<AfterBlockId>3605</AfterBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="3603" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<BlockStub><StubParentName>LoginButton.Visible</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="3605" genus-name="componentSetter" >
+<Location><X>379</X><Y>144</Y></Location>
+<Label>LoginButton.Visible</Label>
+<BeforeBlockId>3601</BeforeBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="3607" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<Block id="3607" genus-name="true" >
+<Location><X>551</X><Y>147</Y></Location>
+<Label>true</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="3605" ></BlockConnector></Plug>
+</Block>
+<Block id="3603" genus-name="false" >
+<Location><X>559</X><Y>109</Y></Location>
+<Label>false</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="3601" ></BlockConnector></Plug>
+</Block>
+<Block id="2321" genus-name="text" >
+<Location><X>567</X><Y>71</Y></Location>
+<Label>Not logged in</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2319" ></BlockConnector></Plug>
+</Block>
+<Block id="3471" genus-name="Button-Click" >
+<Location><X>781</X><Y>412</Y></Location>
+<Label>BackButton.Click</Label>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="do" is-indented="yes" position-type="single" con-block-id="3481" ></BlockConnector>
+</Sockets>
+</Block>
+<BlockStub><StubParentName>ChoiceScreenVerticalArrangement.Visible</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="3481" genus-name="componentSetter" >
+<Location><X>809</X><Y>444</Y></Location>
+<Label>ChoiceScreenVerticalArrangement.Visible</Label>
+<BeforeBlockId>3471</BeforeBlockId>
+<AfterBlockId>3711</AfterBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="3483" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<Block id="3483" genus-name="true" >
+<Location><X>1113</X><Y>447</Y></Location>
+<Label>true</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="3481" ></BlockConnector></Plug>
+</Block>
+<Block id="2427" genus-name="Button-Click" >
+<Location><X>486</X><Y>298</Y></Location>
+<Label>DirectMessageButton.Click</Label>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="do" is-indented="yes" position-type="single" con-block-id="2431" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="2431" genus-name="Twitter-DirectMessage" >
+<Location><X>514</X><Y>330</Y></Location>
+<Comment>
+<Text>The user specified in the UserNameTextBox has to follow the loggedin user. Otherwise, this will fail. How do we handle errors?</Text><Location><X>619</X><Y>212</Y></Location><BoxSize><Width>179</Width><Height>80</Height></BoxSize></Comment>
+<Label>Twitter1.DirectMessage</Label>
+<BeforeBlockId>2427</BeforeBlockId>
+<Sockets num-sockets="2" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="user" position-type="single" con-block-id="2435" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="message" position-type="single" con-block-id="2437" ></BlockConnector>
+</Sockets>
+</Block>
+<BlockStub><StubParentName>RespondTweetTextBox.Text</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="2437" genus-name="componentGetter" >
+<Location><X>762</X><Y>361</Y></Location>
+<Label>RespondTweetTextBox.Text</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2431" ></BlockConnector></Plug>
+</Block>
+</BlockStub>
+<BlockStub><StubParentName>UsernameTextBox.Text</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="2435" genus-name="componentGetter" >
+<Location><X>762</X><Y>333</Y></Location>
+<Label>UsernameTextBox.Text</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2431" ></BlockConnector></Plug>
+</Block>
+</BlockStub>
+<Block id="945" genus-name="Button-Click" >
+<Location><X>49</X><Y>7</Y></Location>
+<Label>LoginButton.Click</Label>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="do" is-indented="yes" position-type="single" con-block-id="1097" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="1097" genus-name="Twitter-Authorize" >
+<Location><X>77</X><Y>39</Y></Location>
+<Label>Twitter1.Authorize</Label>
+<BeforeBlockId>945</BeforeBlockId>
+</Block>
+<Block id="2546" genus-name="true" >
+<Location><X>407</X><Y>1293</Y></Location>
+<Label>true</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2544" ></BlockConnector></Plug>
+</Block>
+<BlockStub><StubParentName>RequestTwitterVerticalArrangement.Visible</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="2544" genus-name="componentSetter" >
+<Location><X>97</X><Y>1290</Y></Location>
+<Label>RequestTwitterVerticalArrangement.Visible</Label>
+<BeforeBlockId>2540</BeforeBlockId>
+<AfterBlockId>2323</AfterBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="2546" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<Block id="2542" genus-name="false" >
+<Location><X>397</X><Y>1255</Y></Location>
+<Label>false</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2540" ></BlockConnector></Plug>
+</Block>
+<BlockStub><StubParentName>NeedAndMapVerticalArrangement.Visible</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="2540" genus-name="componentSetter" >
+<Location><X>97</X><Y>1252</Y></Location>
+<Label>NeedAndMapVerticalArrangement.Visible</Label>
+<BeforeBlockId>2524</BeforeBlockId>
+<AfterBlockId>2544</AfterBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="2542" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<Block id="2532" genus-name="argument" >
+<Location><X>304</X><Y>1219</Y></Location>
+<Label>longitude</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2524" ></BlockConnector></Plug>
+</Block>
+<Block id="2530" genus-name="argument" >
+<Location><X>304</X><Y>1191</Y></Location>
+<Label>latitude</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2524" ></BlockConnector></Plug>
+</Block>
+<Block id="2528" genus-name="argument" >
+<Location><X>304</X><Y>1163</Y></Location>
+<Label>markerId</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2524" ></BlockConnector></Plug>
+</Block>
+<Block id="2524" genus-name="GoogleMap-OnMarkerClick" >
+<Location><X>36</X><Y>1160</Y></Location>
+<Label>GoogleMap1.OnMarkerClick</Label>
+<Sockets num-sockets="4" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="markerId" position-type="single" con-block-id="2528" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="latitude" position-type="single" con-block-id="2530" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="longitude" position-type="single" con-block-id="2532" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="do" is-indented="yes" position-type="single" con-block-id="2540" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="2520" genus-name="glue" >
+<Location><X>98</X><Y>1070</Y></Location>
+<Label>|</Label>
+<BeforeBlockId>2496</BeforeBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2522" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="2522" genus-name="GoogleMap-AddMarkersFromJson" >
+<Location><X>124</X><Y>1073</Y></Location>
+<Label>GoogleMap1.AddMarkersFromJson</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2520" ></BlockConnector></Plug>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="jsonString" position-type="single" con-block-id="2512" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="2512" genus-name="SemanticWeb-URLDecodeText" >
+<Location><X>436</X><Y>1073</Y></Location>
+<Label>SemanticWeb1.URLDecodeText</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2522" ></BlockConnector></Plug>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="text" position-type="single" con-block-id="2514" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="2514" genus-name="SemanticWeb-ResultsToSimpleJSON" >
+<Location><X>696</X><Y>1073</Y></Location>
+<Label>SemanticWeb1.ResultsToSimpleJSON</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2512" ></BlockConnector></Plug>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="results" position-type="single" con-block-id="2516" ></BlockConnector>
+</Sockets>
+</Block>
+<BlockStub><StubParentName>bindings</StubParentName><StubParentGenus>argument</StubParentGenus><Block id="2516" genus-name="getter" >
+<Location><X>1008</X><Y>1073</Y></Location>
+<Label>bindings</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2514" ></BlockConnector></Plug>
+</Block>
+</BlockStub>
+<Block id="2496" genus-name="SemanticWeb-RetrievedResults" >
+<Location><X>40</X><Y>1006</Y></Location>
+<Label>SemanticWeb1.RetrievedResults</Label>
+<Sockets num-sockets="3" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="type" position-type="single" con-block-id="2500" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="bindings" position-type="single" con-block-id="2502" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="do" is-indented="yes" position-type="single" con-block-id="2520" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="2502" genus-name="argument" >
+<Location><X>334</X><Y>1037</Y></Location>
+<Label>bindings</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2496" ></BlockConnector></Plug>
+</Block>
+<Block id="2500" genus-name="argument" >
+<Location><X>334</X><Y>1009</Y></Location>
+<Label>type</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2496" ></BlockConnector></Plug>
+</Block>
+<Block id="2494" genus-name="text" >
+<Location><X>446</X><Y>896</Y></Location>
+<Label> } </Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2460" ></BlockConnector></Plug>
+</Block>
+<Block id="2492" genus-name="text" >
+<Location><X>964</X><Y>866</Y></Location>
+<Label> . </Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2488" ></BlockConnector></Plug>
+</Block>
+<BlockStub><StubParentName>NeedListPicker.Selection</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="2490" genus-name="componentGetter" >
+<Location><X>736</X><Y>866</Y></Location>
+<Label>NeedListPicker.Selection</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2488" ></BlockConnector></Plug>
+</Block>
+</BlockStub>
+<Block id="2488" genus-name="string-append" >
+<Location><X>726</X><Y>859</Y></Location>
+<Label>join</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2484" ></BlockConnector></Plug>
+<Sockets num-sockets="2" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="" position-type="bottom" con-block-id="2490" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="" position-type="bottom" con-block-id="2492" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="2486" genus-name="text" >
+<Location><X>456</X><Y>867</Y></Location>
+<Label>   ?needType rdf:type knoq:</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2484" ></BlockConnector></Plug>
+</Block>
+<Block id="2484" genus-name="string-append" >
+<Location><X>446</X><Y>852</Y></Location>
+<Label>join</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2460" ></BlockConnector></Plug>
+<Sockets num-sockets="2" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="" position-type="bottom" con-block-id="2486" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="" position-type="bottom" con-block-id="2488" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="2482" genus-name="text" >
+<Location><X>446</X><Y>824</Y></Location>
+<Label>      wgs:long ?lng.  </Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2460" ></BlockConnector></Plug>
+</Block>
+<Block id="2480" genus-name="text" >
+<Location><X>446</X><Y>796</Y></Location>
+<Label>      wgs:lat ?lat;  </Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2460" ></BlockConnector></Plug>
+</Block>
+<Block id="2478" genus-name="text" >
+<Location><X>446</X><Y>768</Y></Location>
+<Label>      sioc:has_creator ?title;  </Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2460" ></BlockConnector></Plug>
+</Block>
+<Block id="2476" genus-name="text" >
+<Location><X>446</X><Y>740</Y></Location>
+<Label>      sioc:content ?snippet;  </Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2460" ></BlockConnector></Plug>
+</Block>
+<Block id="2474" genus-name="text" >
+<Location><X>446</X><Y>712</Y></Location>
+<Label>   ?s rdf:type sioc:MicroblogPost, ?needType;  </Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2460" ></BlockConnector></Plug>
+</Block>
+<Block id="2472" genus-name="text" >
+<Location><X>446</X><Y>684</Y></Location>
+<Label>where {  </Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2460" ></BlockConnector></Plug>
+</Block>
+<Block id="2470" genus-name="text" >
+<Location><X>446</X><Y>656</Y></Location>
+<Label>select ?snippet ?title ?lat ?lng   </Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2460" ></BlockConnector></Plug>
+</Block>
+<Block id="2468" genus-name="text" >
+<Location><X>446</X><Y>628</Y></Location>
+<Label>prefix rdf: &lt;http:\/\/www.w3.org\/1999\/02\/22-rdf-syntax-ns#&gt;  </Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2460" ></BlockConnector></Plug>
+</Block>
+<Block id="2466" genus-name="text" >
+<Location><X>446</X><Y>600</Y></Location>
+<Label>prefix knoq: &lt;http:\/\/knoesis.org\/socs\/kno-qcri\/disaster-model\/ns#&gt;  </Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2460" ></BlockConnector></Plug>
+</Block>
+<Block id="2464" genus-name="text" >
+<Location><X>446</X><Y>572</Y></Location>
+<Label>prefix wgs: &lt;http:\/\/www.w3.org\/2003\/01\/geo\/wgs84_pos#&gt;  </Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2460" ></BlockConnector></Plug>
+</Block>
+<Block id="2462" genus-name="text" >
+<Location><X>446</X><Y>544</Y></Location>
+<Label>prefix sioc: &lt;http:\/\/rdfs.org\/sioc\/ns#&gt;  </Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2460" ></BlockConnector></Plug>
+</Block>
+<Block id="2460" genus-name="string-vappend" >
+<Location><X>312</X><Y>544</Y></Location>
+<Label>make text</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2458" ></BlockConnector></Plug>
+<Sockets num-sockets="14" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="text" is-expandable="yes" position-type="single" con-block-id="2462" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="text" is-expandable="yes" position-type="single" con-block-id="2464" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="text" is-expandable="yes" position-type="single" con-block-id="2466" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="text" is-expandable="yes" position-type="single" con-block-id="2468" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="text" is-expandable="yes" position-type="single" con-block-id="2470" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="text" is-expandable="yes" position-type="single" con-block-id="2472" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="text" is-expandable="yes" position-type="single" con-block-id="2474" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="text" is-expandable="yes" position-type="single" con-block-id="2476" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="text" is-expandable="yes" position-type="single" con-block-id="2478" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="text" is-expandable="yes" position-type="single" con-block-id="2480" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="text" is-expandable="yes" position-type="single" con-block-id="2482" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="text" is-expandable="yes" position-type="single" con-block-id="2484" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="text" is-expandable="yes" position-type="single" con-block-id="2494" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="text" is-expandable="yes" position-type="single" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="2458" genus-name="SemanticWeb-ExecuteQuery" >
+<Location><X>60</X><Y>541</Y></Location>
+<Label>SemanticWeb1.ExecuteQuery</Label>
+<BeforeBlockId>2090</BeforeBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="query" position-type="single" con-block-id="2460" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="2090" genus-name="ListPicker-AfterPicking" >
+<Location><X>32</X><Y>509</Y></Location>
+<Label>NeedListPicker.AfterPicking</Label>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="do" is-indented="yes" position-type="single" con-block-id="2458" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="1115" genus-name="Twitter-SetStatus" >
+<Location><X>80</X><Y>300</Y></Location>
+<Label>Twitter1.SetStatus</Label>
+<BeforeBlockId>1111</BeforeBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="status" position-type="single" con-block-id="2439" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="1111" genus-name="Button-Click" >
+<Location><X>52</X><Y>268</Y></Location>
+<Label>TweetButton.Click</Label>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="do" is-indented="yes" position-type="single" con-block-id="1115" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="1625" genus-name="false" >
+<Location><X>390</X><Y>409</Y></Location>
+<Label>false</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1623" ></BlockConnector></Plug>
+</Block>
+<Block id="1629" genus-name="true" >
+<Location><X>380</X><Y>447</Y></Location>
+<Label>true</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1627" ></BlockConnector></Plug>
+</Block>
+<BlockStub><StubParentName>NeedAndMapVerticalArrangement.Visible</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="1627" genus-name="componentSetter" >
+<Location><X>80</X><Y>444</Y></Location>
+<Label>NeedAndMapVerticalArrangement.Visible</Label>
+<BeforeBlockId>1623</BeforeBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="1629" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<BlockStub><StubParentName>RequestTwitterVerticalArrangement.Visible</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="1623" genus-name="componentSetter" >
+<Location><X>80</X><Y>406</Y></Location>
+<Label>RequestTwitterVerticalArrangement.Visible</Label>
+<BeforeBlockId>1186</BeforeBlockId>
+<AfterBlockId>1627</AfterBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="1625" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<Block id="1186" genus-name="Button-Click" >
+<Location><X>52</X><Y>374</Y></Location>
+<Label>ReturnButton.Click</Label>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="do" is-indented="yes" position-type="single" con-block-id="1623" ></BlockConnector>
+</Sockets>
+</Block>
+<BlockStub><StubParentName>UsernameTextBox.Text</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="2323" genus-name="componentSetter" >
+<Location><X>97</X><Y>1328</Y></Location>
+<Label>UsernameTextBox.Text</Label>
+<BeforeBlockId>2544</BeforeBlockId>
+<AfterBlockId>2329</AfterBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="2441" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<BlockStub><StubParentName>OriginalTweetTextBox.Text</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="2329" genus-name="componentSetter" >
+<Location><X>97</X><Y>1434</Y></Location>
+<Label>OriginalTweetTextBox.Text</Label>
+<BeforeBlockId>2323</BeforeBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="2331" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<Block id="2331" genus-name="GoogleMap-GetMarkerSnippet" >
+<Location><X>313</X><Y>1437</Y></Location>
+<Label>GoogleMap1.GetMarkerSnippet</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2329" ></BlockConnector></Plug>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="markerId" position-type="single" con-block-id="2333" ></BlockConnector>
+</Sockets>
+</Block>
+<BlockStub><StubParentName>markerId</StubParentName><StubParentGenus>argument</StubParentGenus><Block id="2333" genus-name="getter" >
+<Location><X>595</X><Y>1437</Y></Location>
+<Label>markerId</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2331" ></BlockConnector></Plug>
+</Block>
+</BlockStub>
+<BlockStub><StubParentName>RespondTweetTextBox.Text</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="2439" genus-name="componentGetter" >
+<Location><X>268</X><Y>303</Y></Location>
+<Label>RespondTweetTextBox.Text</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1115" ></BlockConnector></Plug>
+</Block>
+</BlockStub>
+<Block id="2552" genus-name="false" >
+<Location><X>245</X><Y>129</Y></Location>
+<Label>false</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2550" ></BlockConnector></Plug>
+</Block>
+<Block id="2311" genus-name="true" >
+<Location><X>253</X><Y>167</Y></Location>
+<Label>true</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2309" ></BlockConnector></Plug>
+</Block>
+<Block id="1105" genus-name="text" >
+<Location><X>271</X><Y>212</Y></Location>
+<Label>Logged in as </Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1617" ></BlockConnector></Plug>
+</Block>
+<BlockStub><StubParentName>Twitter1.Username</StubParentName><StubParentGenus>read-only-property</StubParentGenus><Block id="1619" genus-name="componentGetter" >
+<Location><X>461</X><Y>212</Y></Location>
+<Label>Twitter1.Username</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1617" ></BlockConnector></Plug>
+</Block>
+</BlockStub>
+<Block id="1617" genus-name="string-append" >
+<Location><X>261</X><Y>205</Y></Location>
+<Label>join</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1109" ></BlockConnector></Plug>
+<Sockets num-sockets="2" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="" position-type="bottom" con-block-id="1105" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="" position-type="bottom" con-block-id="1619" ></BlockConnector>
+</Sockets>
+</Block>
+<BlockStub><StubParentName>LoginStatusLabel.Text</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="1109" genus-name="componentSetter" >
+<Location><X>73</X><Y>202</Y></Location>
+<Label>LoginStatusLabel.Text</Label>
+<BeforeBlockId>2309</BeforeBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="1617" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<BlockStub><StubParentName>LogoutButton.Visible</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="2309" genus-name="componentSetter" >
+<Location><X>73</X><Y>164</Y></Location>
+<Label>LogoutButton.Visible</Label>
+<BeforeBlockId>2550</BeforeBlockId>
+<AfterBlockId>1109</AfterBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="2311" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<BlockStub><StubParentName>LoginButton.Visible</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="2550" genus-name="componentSetter" >
+<Location><X>73</X><Y>126</Y></Location>
+<Label>LoginButton.Visible</Label>
+<BeforeBlockId>1099</BeforeBlockId>
+<AfterBlockId>2309</AfterBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="2552" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<Block id="1099" genus-name="Twitter-IsAuthorized" >
+<Location><X>45</X><Y>94</Y></Location>
+<Label>Twitter1.IsAuthorized</Label>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="do" is-indented="yes" position-type="single" con-block-id="2550" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="2441" genus-name="get-list-item" >
+<Location><X>295</X><Y>1331</Y></Location>
+<Label>select list item</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2323" ></BlockConnector></Plug>
+<Sockets num-sockets="2" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="list" position-type="single" con-block-id="2335" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="index" position-type="single" con-block-id="2443" ></BlockConnector>
+</Sockets>
+</Block>
+<BlockStub><StubParentName>markerId</StubParentName><StubParentGenus>argument</StubParentGenus><Block id="2327" genus-name="getter" >
+<Location><X>869</X><Y>1331</Y></Location>
+<Label>markerId</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2325" ></BlockConnector></Plug>
+</Block>
+</BlockStub>
+<Block id="2325" genus-name="GoogleMap-GetMarkerTitle" >
+<Location><X>607</X><Y>1331</Y></Location>
+<Label>GoogleMap1.GetMarkerTitle</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2335" ></BlockConnector></Plug>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="markerId" position-type="single" con-block-id="2327" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="2337" genus-name="text" >
+<Location><X>607</X><Y>1363</Y></Location>
+<Label>http:\/\/knoesis.org\/socs\/kno-qcri\/user\/</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2335" ></BlockConnector></Plug>
+</Block>
+<Block id="2335" genus-name="string-split-at-first" >
+<Location><X>465</X><Y>1331</Y></Location>
+<Label>split at first</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2441" ></BlockConnector></Plug>
+<Sockets num-sockets="2" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="text" position-type="single" con-block-id="2325" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="at" position-type="single" con-block-id="2337" ></BlockConnector>
+</Sockets>
+</Block>
+<Block id="2443" genus-name="number" >
+<Location><X>465</X><Y>1395</Y></Location>
+<Label>2</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="2441" ></BlockConnector></Plug>
+</Block>
+</PageBlocks>
+</Page>
+
+</Pages><YoungAndroidMaps><YoungAndroidUuidMap>
+<YoungAndroidUuidEntry uuid="-1480859646" component-id="Label1" component-genus="Label" component-version="2" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="1954296466" component-id="TweetButton" component-genus="Button" component-version="4" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="1006367339" component-id="ButtonHorizontalArrangement" component-genus="HorizontalArrangement" component-version="2" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="1969130090" component-id="NeedAndMapVerticalArrangement" component-genus="VerticalArrangement" component-version="2" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-1315738723" component-id="LoginHorizontalArrangement" component-genus="HorizontalArrangement" component-version="2" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-712768780" component-id="RequestTwitterVerticalArrangement" component-genus="VerticalArrangement" component-version="2" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-2029477332" component-id="DonateScreenShowButton" component-genus="Button" component-version="4" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-206649879" component-id="RespondTweetTextBox" component-genus="TextBox" component-version="5" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-1104025561" component-id="DonateButton" component-genus="Button" component-version="4" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="461546302" component-id="BackfromMapButton" component-genus="Button" component-version="4" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-1348390231" component-id="HorizontalArrangement1" component-genus="HorizontalArrangement" component-version="2" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="1848811377" component-id="RequestScreenShowButton" component-genus="Button" component-version="4" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="526779198" component-id="DirectMessageButton" component-genus="Button" component-version="4" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-898725485" component-id="BackButton" component-genus="Button" component-version="4" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-2146210037" component-id="Twitter1" component-genus="Twitter" component-version="2" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="1280829441" component-id="ChoiceScreenVerticalArrangement" component-genus="VerticalArrangement" component-version="2" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="393829243" component-id="LocationSensor1" component-genus="LocationSensor" component-version="2" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="1360333250" component-id="ReturnButton" component-genus="Button" component-version="4" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-777910545" component-id="LoginButton" component-genus="Button" component-version="4" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="753583116" component-id="UsernameTextBox" component-genus="TextBox" component-version="5" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-285407768" component-id="OriginalTweetTextBox" component-genus="TextBox" component-version="5" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="1129725677" component-id="GoogleMap1" component-genus="GoogleMap" component-version="1" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-377779782" component-id="SemanticWeb1" component-genus="SemanticWeb" component-version="1" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-120393999" component-id="ListPicker1" component-genus="ListPicker" component-version="6" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-1491566478" component-id="LocationLabel" component-genus="Label" component-version="2" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="0" component-id="Screen1" component-genus="Form" component-version="0" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-1812669344" component-id="MessageTextBox" component-genus="TextBox" component-version="5" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-637489132" component-id="LoginStatusLabel" component-genus="Label" component-version="2" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-959102261" component-id="LogoutButton" component-genus="Button" component-version="4" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-1899969917" component-id="NeedListPicker" component-genus="ListPicker" component-version="6" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="1341118614" component-id="FormVerticalArrangement" component-genus="VerticalArrangement" component-version="2" ></YoungAndroidUuidEntry>
+</YoungAndroidUuidMap>
+</YoungAndroidMaps>
+</YACodeBlocks>

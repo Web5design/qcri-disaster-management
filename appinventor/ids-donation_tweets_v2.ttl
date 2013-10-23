@@ -1,0 +1,1561 @@
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix hxl: <http://hxl.humanitarianresponse.info/ns/> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix foaf: <http://xmlns.com/foaf/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix knoq: <http://knoesis.org/socs/kno-qcri/disaster-model/ns#> .
+@prefix : <http://knoesis.org/socs/kno-qcri/resources/> .
+
+knoq:ClothingNeed a rdf:class; 
+	rdfs:subClassOf hxl:Need; 
+	qb:structure knoq:Prov . 
+knoq:FoodNeed a rdf:class; 
+	rdfs:subClassOf hxl:Need; 
+	qb:structure knoq:Prov . 
+knoq:MedicalNeed a rdf:class; 
+	rdfs:subClassOf hxl:Need; 
+	qb:structure knoq:Prov . 
+knoq:MoneyNeed a rdf:class; 
+	qb:structure knoq:Prov . 
+knoq:ShelterNeed a rdf:class; 
+	rdfs:subClassOf hxl:Need; 
+	qb:structure knoq:Prov . 
+knoq:VolunteerNeed a rdf:class; 
+	rdfs:subClassOf hxl:Need; 
+	qb:structure knoq:Prov . 
+
+knoq:Donation a rdf:class; 
+	a rdf:class; 
+	qb:structure knoq:Prov . 
+knoq:Request a rdf:class; 
+	a rdf:class; 
+	qb:structure knoq:Prov . 
+knoq:Offer a rdf:class; 
+	a rdf:class; 
+	qb:structure knoq:Prov . 
+
+knoq:Prov a rdf:class; 
+	a qb:DataStructureDefinition; 
+	qb:component [qb:measure knoq:confidence; 
+			qb:attribute knoq:worker] . 
+
+knoq:confidence a qb:MeasureProperty . 
+knoq:worker a foaf:person . 
+
+knoq:hasObservation a rdf:property; 
+	rdfs:domain qb:DataSet; 
+	rdfs:range qb:Observation . 
+
+knoq:autoAgent a	[
+			a	knoq:worker;
+			a	foaf:member;
+				] .
+
+
+<http://knoesis.org/socs/kno-qcri/post/265655551931850753>
+	rdf:type	sioc:MicroblogPost;
+	a	:x265655551931850753Mon ;
+	a	:x265655551931850753Don ;
+	a	:x265655551931850753Off ;
+	a	:x265655551931850753Req ;
+	sioc:content	"RT%20%40Will___Ferrell%3A%20For%20every%20RT%20%241%20will%20be%20donated%20to%20the%20relief%20efforts%20of%20Hurricane%20Sandy.";
+	sioc:has_creator	<http://knoesis.org/socs/kno-qcri/user/pamster99>;
+	wgs:lat	"43.7844";
+	wgs:long	"-88.7879";
+	xsd:dateTime	"2012-11-06 03:23:13"^^xsd:datetime .
+:x265655551931850753Mon	a	knoq:MoneyNeed;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265655551931850753>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x265655551931850753Don	a	knoq:Donation;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265655551931850753>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x265655551931850753Off	a	knoq:Offer;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265655551931850753>;
+			knoq:confidence	"0.9"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x265655551931850753Req	a	knoq:Request;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265655551931850753>;
+			knoq:confidence	"0.0"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+
+
+<http://knoesis.org/socs/kno-qcri/post/265173887732555776>
+	rdf:type	sioc:MicroblogPost;
+	a	:x265173887732555776Mon ;
+	a	:x265173887732555776Don ;
+	a	:x265173887732555776Off ;
+	a	:x265173887732555776Req ;
+	sioc:content	"RT%20%40Will___Ferrell%3A%20For%20every%20RT%20%241%20will%20be%20donated%20to%20the%20relief%20efforts%20of%20Hurricane%20Sandy.";
+	sioc:has_creator	<http://knoesis.org/socs/kno-qcri/user/AmazonChick>;
+	wgs:lat	"43.6702";
+	wgs:long	"-79.3868";
+	xsd:dateTime	"2012-11-04 19:29:16"^^xsd:datetime .
+:x265173887732555776Mon	a	knoq:MoneyNeed;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265173887732555776>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x265173887732555776Don	a	knoq:Donation;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265173887732555776>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x265173887732555776Off	a	knoq:Offer;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265173887732555776>;
+			knoq:confidence	"0.9"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x265173887732555776Req	a	knoq:Request;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265173887732555776>;
+			knoq:confidence	"0.0"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+
+
+<http://knoesis.org/socs/kno-qcri/post/265002021638266880>
+	rdf:type	sioc:MicroblogPost;
+	a	:x265002021638266880Mon ;
+	a	:x265002021638266880Don ;
+	a	:x265002021638266880Off ;
+	a	:x265002021638266880Req ;
+	sioc:content	"RT%20%40Will___Ferrell%3A%20For%20every%20RT%20%241%20will%20be%20donated%20to%20the%20relief%20efforts%20of%20Hurricane%20Sandy.";
+	sioc:has_creator	<http://knoesis.org/socs/kno-qcri/user/foodyphil>;
+	wgs:lat	"54.042";
+	wgs:long	"-2.89447";
+	xsd:dateTime	"2012-11-04 08:06:20"^^xsd:datetime .
+:x265002021638266880Mon	a	knoq:MoneyNeed;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265002021638266880>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x265002021638266880Don	a	knoq:Donation;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265002021638266880>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x265002021638266880Off	a	knoq:Offer;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265002021638266880>;
+			knoq:confidence	"0.9"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x265002021638266880Req	a	knoq:Request;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265002021638266880>;
+			knoq:confidence	"0.0"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+
+
+<http://knoesis.org/socs/kno-qcri/post/263744507235934209>
+	rdf:type	sioc:MicroblogPost;
+	a	:x263744507235934209Mon ;
+	a	:x263744507235934209Don ;
+	a	:x263744507235934209Off ;
+	a	:x263744507235934209Req ;
+	sioc:content	"Our%20latest%20tee%3A%20Hurricane%20Sandy.%20%245%20from%20each%20sale%20will%20be%20donated%20to%20the%20Red%20Cross.%20Please%20help%20spread%20the%20word%21%20http%3A//t.co/1KbCnp9T";
+	sioc:has_creator	<http://knoesis.org/socs/kno-qcri/user/Cotton_Factory>;
+	wgs:lat	"40.4384";
+	wgs:long	"-80.0019";
+	xsd:dateTime	"2012-10-31 20:49:25"^^xsd:datetime .
+:x263744507235934209Mon	a	knoq:MoneyNeed;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/263744507235934209>;
+			knoq:confidence	"0.99"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x263744507235934209Don	a	knoq:Donation;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/263744507235934209>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x263744507235934209Off	a	knoq:Offer;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/263744507235934209>;
+			knoq:confidence	"0.6"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x263744507235934209Req	a	knoq:Request;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/263744507235934209>;
+			knoq:confidence	"0.3"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+
+
+<http://knoesis.org/socs/kno-qcri/post/265721631270387712>
+	rdf:type	sioc:MicroblogPost;
+	a	:x265721631270387712Mon ;
+	a	:x265721631270387712Don ;
+	a	:x265721631270387712Off ;
+	a	:x265721631270387712Req ;
+	sioc:content	"RT%20%40Will___Ferrell%3A%20For%20every%20RT%20%241%20will%20be%20donated%20to%20the%20relief%20efforts%20of%20Hurricane%20Sandy.";
+	sioc:has_creator	<http://knoesis.org/socs/kno-qcri/user/ivysblog>;
+	wgs:lat	"33.8886";
+	wgs:long	"35.4955";
+	xsd:dateTime	"2012-11-06 07:45:48"^^xsd:datetime .
+:x265721631270387712Mon	a	knoq:MoneyNeed;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265721631270387712>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x265721631270387712Don	a	knoq:Donation;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265721631270387712>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x265721631270387712Off	a	knoq:Offer;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265721631270387712>;
+			knoq:confidence	"0.9"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x265721631270387712Req	a	knoq:Request;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265721631270387712>;
+			knoq:confidence	"0.0"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+
+
+<http://knoesis.org/socs/kno-qcri/post/264959163912830977>
+	rdf:type	sioc:MicroblogPost;
+	a	:x264959163912830977Mon ;
+	a	:x264959163912830977Don ;
+	a	:x264959163912830977Off ;
+	a	:x264959163912830977Req ;
+	sioc:content	"RT%20%40Will___Ferrell%3A%20For%20every%20RT%20%241%20will%20be%20donated%20to%20the%20relief%20efforts%20of%20Hurricane%20Sandy.";
+	sioc:has_creator	<http://knoesis.org/socs/kno-qcri/user/queenmama247>;
+	wgs:lat	"10000";
+	wgs:long	"10000";
+	xsd:dateTime	"2012-11-04 05:16:02"^^xsd:datetime .
+:x264959163912830977Mon	a	knoq:MoneyNeed;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264959163912830977>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264959163912830977Don	a	knoq:Donation;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264959163912830977>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264959163912830977Off	a	knoq:Offer;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264959163912830977>;
+			knoq:confidence	"0.9"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264959163912830977Req	a	knoq:Request;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264959163912830977>;
+			knoq:confidence	"0.0"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+
+
+<http://knoesis.org/socs/kno-qcri/post/264722208667082752>
+	rdf:type	sioc:MicroblogPost;
+	a	:x264722208667082752Mon ;
+	a	:x264722208667082752Don ;
+	a	:x264722208667082752Req ;
+	sioc:content	"RT%20%40NadineCoyleNow%3A%20Watching%20hurricane%20sandy%20coming%20together%21%20People%20are%20hurting.%20We%20can%20help%20a%20little%20at%20least.%20Text%20Redcross%20to%2090999%20%20...";
+	sioc:has_creator	<http://knoesis.org/socs/kno-qcri/user/19dachshund98>;
+	wgs:lat	"10000";
+	wgs:long	"10000";
+	xsd:dateTime	"2012-11-03 13:34:27"^^xsd:datetime .
+:x264722208667082752Mon	a	knoq:MoneyNeed;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264722208667082752>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264722208667082752Don	a	knoq:Donation;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264722208667082752>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264722208667082752Req	a	knoq:Request;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264722208667082752>;
+			knoq:confidence	"0.7"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+
+
+<http://knoesis.org/socs/kno-qcri/post/264527972004925440>
+	rdf:type	sioc:MicroblogPost;
+	a	:x264527972004925440Mon ;
+	a	:x264527972004925440Don ;
+	a	:x264527972004925440Req ;
+	sioc:content	"RT%20%40NBCNews%3A%20%5C%22Hurricane%20Sandy%3A%20Coming%20Together.%5C%22%20To%20help%2C%20call%201-800-Help-Now%2C%20text%20REDCROSS%20to%2090999%20or%20visit%20http%3A//t.co/IXHyRFRe%20%23San%20...";
+	sioc:has_creator	<http://knoesis.org/socs/kno-qcri/user/Shariemanon>;
+	wgs:lat	"40.7499";
+	wgs:long	"-73.988";
+	xsd:dateTime	"2012-11-03 00:42:37"^^xsd:datetime .
+:x264527972004925440Mon	a	knoq:MoneyNeed;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264527972004925440>;
+			knoq:confidence	"0.99"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264527972004925440Don	a	knoq:Donation;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264527972004925440>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264527972004925440Req	a	knoq:Request;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264527972004925440>;
+			knoq:confidence	"0.9"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+
+
+<http://knoesis.org/socs/kno-qcri/post/264555157189173248>
+	rdf:type	sioc:MicroblogPost;
+	a	:x264555157189173248Mon ;
+	a	:x264555157189173248Don ;
+	a	:x264555157189173248Req ;
+	sioc:content	"%40britneyspears%20please%20retweet%21%5CText%20REDCROSS%20to%2090999%20to%20donate%20%2410%20for%20all%20that%20needs%20help%20from%20Hurricane%20Sandy";
+	sioc:has_creator	<http://knoesis.org/socs/kno-qcri/user/BklynGirlLuvsJK>;
+	wgs:lat	"40.6752";
+	wgs:long	"-73.971";
+	xsd:dateTime	"2012-11-03 02:30:39"^^xsd:datetime .
+:x264555157189173248Mon	a	knoq:MoneyNeed;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264555157189173248>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264555157189173248Don	a	knoq:Donation;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264555157189173248>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264555157189173248Req	a	knoq:Request;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264555157189173248>;
+			knoq:confidence	"0.8"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+
+
+<http://knoesis.org/socs/kno-qcri/post/264763862069411840>
+	rdf:type	sioc:MicroblogPost;
+	a	:x264763862069411840Mon ;
+	a	:x264763862069411840Don ;
+	a	:x264763862069411840Req ;
+	sioc:content	"RT%20%40Katina826%3A%20Donate%20to%20Help%20Victims%20of%20Hurricane%20Sandy%20Text%20REDCROSS%20to%2090999%20to%20give%20%2410%20to%20American%20Red%20Cross%20Disaster%20Relief.%20Please%20RT";
+	sioc:has_creator	<http://knoesis.org/socs/kno-qcri/user/padellie>;
+	wgs:lat	"35.2314";
+	wgs:long	"-80.8458";
+	xsd:dateTime	"2012-11-03 16:19:58"^^xsd:datetime .
+:x264763862069411840Mon	a	knoq:MoneyNeed;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264763862069411840>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264763862069411840Don	a	knoq:Donation;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264763862069411840>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264763862069411840Req	a	knoq:Request;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264763862069411840>;
+			knoq:confidence	"0.7"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+
+
+<http://knoesis.org/socs/kno-qcri/post/263467736326348800>
+	rdf:type	sioc:MicroblogPost;
+	a	:x263467736326348800Mon ;
+	a	:x263467736326348800Don ;
+	a	:x263467736326348800Req ;
+	sioc:content	"%93%40richeisen%3A%20Red%20Cross%20is%20providing%20lifesaving%20services%85.to%20Hurricane%20Sandy%20victims.%20Text%20REDCROSS%20to%2090999%20to%20give%20a%20%2410%20donation.%94%20Done";
+	sioc:has_creator	<http://knoesis.org/socs/kno-qcri/user/ryanAZwestrum>;
+	wgs:lat	"10000";
+	wgs:long	"10000";
+	xsd:dateTime	"2012-10-31 02:29:37"^^xsd:datetime .
+:x263467736326348800Mon	a	knoq:MoneyNeed;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/263467736326348800>;
+			knoq:confidence	"0.98"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x263467736326348800Don	a	knoq:Donation;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/263467736326348800>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x263467736326348800Req	a	knoq:Request;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/263467736326348800>;
+			knoq:confidence	"0.8"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+
+
+<http://knoesis.org/socs/kno-qcri/post/263325395041013761>
+	rdf:type	sioc:MicroblogPost;
+	a	:x263325395041013761Mon ;
+	a	:x263325395041013761Don ;
+	a	:x263325395041013761Req ;
+	sioc:content	"RT%20%40DangitNapoleon%3A%20Help%20out%20the%20folks%20from%20Hurricane%20%23Sandy%2C%20text%20REDCROSS%20to%2090999%20to%20make%20a%20%2410%20donation%20or%20visit%20http%3A//t.co/Fq6T14I%20...";
+	sioc:has_creator	<http://knoesis.org/socs/kno-qcri/user/niSWAGra_falls>;
+	wgs:lat	"39.0458";
+	wgs:long	"-76.6413";
+	xsd:dateTime	"2012-10-30 17:04:01"^^xsd:datetime .
+:x263325395041013761Mon	a	knoq:MoneyNeed;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/263325395041013761>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x263325395041013761Don	a	knoq:Donation;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/263325395041013761>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x263325395041013761Req	a	knoq:Request;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/263325395041013761>;
+			knoq:confidence	"0.8"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+
+
+<http://knoesis.org/socs/kno-qcri/post/263663635027619840>
+	rdf:type	sioc:MicroblogPost;
+	a	:x263663635027619840Mon ;
+	a	:x263663635027619840Don ;
+	a	:x263663635027619840Req ;
+	sioc:content	"RT%20%40CheeringWonka%3A%20If%20you%27re%20able%20to%2C%20text%20REDCROSS%20to%2090999%20to%20donate%20%2410%20to%20hurricane%20sandy%20relief%20efforts.";
+	sioc:has_creator	<http://knoesis.org/socs/kno-qcri/user/cheerdanceexpo>;
+	wgs:lat	"10000";
+	wgs:long	"10000";
+	xsd:dateTime	"2012-10-31 15:28:03"^^xsd:datetime .
+:x263663635027619840Mon	a	knoq:MoneyNeed;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/263663635027619840>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x263663635027619840Don	a	knoq:Donation;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/263663635027619840>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x263663635027619840Req	a	knoq:Request;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/263663635027619840>;
+			knoq:confidence	"0.9"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+
+
+<http://knoesis.org/socs/kno-qcri/post/264547646558052352>
+	rdf:type	sioc:MicroblogPost;
+	a	:x264547646558052352Mon ;
+	a	:x264547646558052352Don ;
+	a	:x264547646558052352Req ;
+	sioc:content	"Text%20%5C%22REDCROSS%5C%22%20to%2090999%20to%20donate%20%2410%20to%20help%20the%20recovery%20from%20Hurricane%20Sandy.%20Let%27s%20also%20continue%20our%20prayers%20for%20them.%20%23SandyHelp";
+	sioc:has_creator	<http://knoesis.org/socs/kno-qcri/user/iamhockeyman99>;
+	wgs:lat	"56.7228";
+	wgs:long	"-111.466";
+	xsd:dateTime	"2012-11-03 02:00:48"^^xsd:datetime .
+:x264547646558052352Mon	a	knoq:MoneyNeed;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264547646558052352>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264547646558052352Don	a	knoq:Donation;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264547646558052352>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264547646558052352Req	a	knoq:Request;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264547646558052352>;
+			knoq:confidence	"0.9"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+
+
+<http://knoesis.org/socs/kno-qcri/post/264703978502230016>
+	rdf:type	sioc:MicroblogPost;
+	a	:x264703978502230016Mon ;
+	a	:x264703978502230016Don ;
+	a	:x264703978502230016Req ;
+	sioc:content	"RT%20%40Fergie%3A%20Help%20those%20affected%20by%20Hurricane%20Sandy.%20Text%20REDCROSS%20to%2090999%20to%20make%20a%20%2410%20donation%20or%20go%20to%20http%3A//t.co/pFJbNgKj.%20%40RedCro%20...";
+	sioc:has_creator	<http://knoesis.org/socs/kno-qcri/user/renso2109>;
+	wgs:lat	"-12.0931";
+	wgs:long	"-77.0465";
+	xsd:dateTime	"2012-11-03 12:22:01"^^xsd:datetime .
+:x264703978502230016Mon	a	knoq:MoneyNeed;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264703978502230016>;
+			knoq:confidence	"0.99"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264703978502230016Don	a	knoq:Donation;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264703978502230016>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264703978502230016Req	a	knoq:Request;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264703978502230016>;
+			knoq:confidence	"0.9"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+
+
+<http://knoesis.org/socs/kno-qcri/post/264523314804977667>
+	rdf:type	sioc:MicroblogPost;
+	a	:x264523314804977667Mon ;
+	a	:x264523314804977667Don ;
+	a	:x264523314804977667Req ;
+	sioc:content	"RT%20%40donnabrazile%3A%20%5C%22Hurricane%20Sandy%3A%20Coming%20Together.%5C%22%20To%20help%2C%20call%201-800-Help-Now%2C%20text%20REDCROSS%20to%2090999%20or%20visit%20http%3A//t.co/pEzZHYHJ%20...";
+	sioc:has_creator	<http://knoesis.org/socs/kno-qcri/user/kathyhoran>;
+	wgs:lat	"42.3265";
+	wgs:long	"-71.1425";
+	xsd:dateTime	"2012-11-03 00:24:07"^^xsd:datetime .
+:x264523314804977667Mon	a	knoq:MoneyNeed;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264523314804977667>;
+			knoq:confidence	"0.99"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264523314804977667Don	a	knoq:Donation;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264523314804977667>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264523314804977667Req	a	knoq:Request;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264523314804977667>;
+			knoq:confidence	"0.9"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+
+
+<http://knoesis.org/socs/kno-qcri/post/264746479724404736>
+	rdf:type	sioc:MicroblogPost;
+	a	:x264746479724404736Mon ;
+	a	:x264746479724404736Don ;
+	a	:x264746479724404736Req ;
+	sioc:content	"RT%20%40BMFDV%3A%20Our%20hearts%20go%20out%20to%20all%20those%20affected%20by%20hurricane%20%23sandy%20Text%20REDCROSS%20to%2090999%20to%20make%20a%20%2410%20donation%20for%20the%20recovery%21";
+	sioc:has_creator	<http://knoesis.org/socs/kno-qcri/user/DerekWalenta>;
+	wgs:lat	"10000";
+	wgs:long	"10000";
+	xsd:dateTime	"2012-11-03 15:10:54"^^xsd:datetime .
+:x264746479724404736Mon	a	knoq:MoneyNeed;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264746479724404736>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264746479724404736Don	a	knoq:Donation;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264746479724404736>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264746479724404736Req	a	knoq:Request;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264746479724404736>;
+			knoq:confidence	"0.9"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+
+
+<http://knoesis.org/socs/kno-qcri/post/265297807932542976>
+	rdf:type	sioc:MicroblogPost;
+	a	:x265297807932542976Mon ;
+	a	:x265297807932542976Don ;
+	a	:x265297807932542976Req ;
+	sioc:content	"RT%20%40huffpostgay%3A%20Here%27s%20how%20you%20can%20help%20those%20affected%20by%20Hurricane%20%23Sandy%20http%3A//t.co/Nk0YvFME";
+	sioc:has_creator	<http://knoesis.org/socs/kno-qcri/user/xlorixspearsx>;
+	wgs:lat	"35.0078";
+	wgs:long	"-97.0929";
+	xsd:dateTime	"2012-11-05 03:41:41"^^xsd:datetime .
+:x265297807932542976Mon	a	knoq:MoneyNeed;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265297807932542976>;
+			knoq:confidence	"0.539"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x265297807932542976Don	a	knoq:Donation;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265297807932542976>;
+			knoq:confidence	"0.987"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x265297807932542976Req	a	knoq:Request;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265297807932542976>;
+			knoq:confidence	"0.9"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+
+
+<http://knoesis.org/socs/kno-qcri/post/264670899268120576>
+	rdf:type	sioc:MicroblogPost;
+	a	:x264670899268120576Mon ;
+	a	:x264670899268120576Don ;
+	a	:x264670899268120576Req ;
+	sioc:content	"RT%20%40dabarlow%3A%20%23followfriday%20Help%20those%20affected%20by%20Hurricane%20Sandy%21%20Text%20REDCROSS%20to%2090999%20to%20make%20a%20%2410%20donation.%20%23sandyhelp";
+	sioc:has_creator	<http://knoesis.org/socs/kno-qcri/user/thejenwilkinson>;
+	wgs:lat	"30.2687";
+	wgs:long	"-97.7452";
+	xsd:dateTime	"2012-11-03 10:10:34"^^xsd:datetime .
+:x264670899268120576Mon	a	knoq:MoneyNeed;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264670899268120576>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264670899268120576Don	a	knoq:Donation;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264670899268120576>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264670899268120576Req	a	knoq:Request;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264670899268120576>;
+			knoq:confidence	"0.9"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+
+
+<http://knoesis.org/socs/kno-qcri/post/265478258332676097>
+	rdf:type	sioc:MicroblogPost;
+	a	:x265478258332676097Mon ;
+	a	:x265478258332676097Don ;
+	a	:x265478258332676097Off ;
+	a	:x265478258332676097Req ;
+	sioc:content	"RT%20%40bumblefoot%3A%20I%20want%20to%20auction%20myself%20off%20for%20one-on-one%20guitar%20lessons%20to%20donate%20to%20Hurricane%20Sandy%20relief%20while%20I%27m%20in%20vegas%20this%20m%20...";
+	sioc:has_creator	<http://knoesis.org/socs/kno-qcri/user/luizacarvalho99>;
+	wgs:lat	"41.1698";
+	wgs:long	"-87.5619";
+	xsd:dateTime	"2012-11-05 15:38:43"^^xsd:datetime .
+:x265478258332676097Mon	a	knoq:MoneyNeed;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265478258332676097>;
+			knoq:confidence	"0.99"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x265478258332676097Don	a	knoq:Donation;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265478258332676097>;
+			knoq:confidence	"0.988"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x265478258332676097Off	a	knoq:Offer;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265478258332676097>;
+			knoq:confidence	"0.8"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x265478258332676097Req	a	knoq:Request;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265478258332676097>;
+			knoq:confidence	"0.0"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+
+
+<http://knoesis.org/socs/kno-qcri/post/263339482164641792>
+	rdf:type	sioc:MicroblogPost;
+	a	:x263339482164641792She ;
+	a	:x263339482164641792Don ;
+	a	:x263339482164641792Req ;
+	sioc:content	"RT%20%40buzzfeed%3A%20How%20You%20Can%20Help%20After%20Hurricane%A0Sandy%5Chttp%3A//t.co/fyPaPnVF";
+	sioc:has_creator	<http://knoesis.org/socs/kno-qcri/user/jgwentworth>;
+	wgs:lat	"40.037";
+	wgs:long	"-75.3762";
+	xsd:dateTime	"2012-10-30 17:59:59"^^xsd:datetime .
+:x263339482164641792She	a	knoq:ShelterNeed;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/263339482164641792>;
+			knoq:confidence	"0.39"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x263339482164641792Don	a	knoq:Donation;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/263339482164641792>;
+			knoq:confidence	"0.924"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x263339482164641792Req	a	knoq:Request;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/263339482164641792>;
+			knoq:confidence	"0.9"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+
+
+<http://knoesis.org/socs/kno-qcri/post/264531087924002817>
+	rdf:type	sioc:MicroblogPost;
+	a	:x264531087924002817Mon ;
+	a	:x264531087924002817Don ;
+	a	:x264531087924002817Req ;
+	sioc:content	"RT%20%40MTV%3A%20Text%20REDCROSS%20to%2090999%20to%20make%20a%20%2410%20donation%20to%20those%20affected%20by%20Hurricane%20Sandy.%20%23SandyHelp";
+	sioc:has_creator	<http://knoesis.org/socs/kno-qcri/user/1D_Andrea_JB>;
+	wgs:lat	"56.1304";
+	wgs:long	"-106.347";
+	xsd:dateTime	"2012-11-03 00:55:00"^^xsd:datetime .
+:x264531087924002817Mon	a	knoq:MoneyNeed;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264531087924002817>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264531087924002817Don	a	knoq:Donation;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264531087924002817>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264531087924002817Req	a	knoq:Request;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264531087924002817>;
+			knoq:confidence	"0.8"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+
+
+<http://knoesis.org/socs/kno-qcri/post/265634756811710464>
+	rdf:type	sioc:MicroblogPost;
+	a	:x265634756811710464Mon ;
+	a	:x265634756811710464Don ;
+	a	:x265634756811710464Off ;
+	a	:x265634756811710464Req ;
+	sioc:content	"RT%20%40Will___Ferrell%3A%20For%20every%20RT%20%241%20will%20be%20donated%20to%20the%20relief%20efforts%20of%20Hurricane%20Sandy.";
+	sioc:has_creator	<http://knoesis.org/socs/kno-qcri/user/GregPutnam>;
+	wgs:lat	"10000";
+	wgs:long	"10000";
+	xsd:dateTime	"2012-11-06 02:00:35"^^xsd:datetime .
+:x265634756811710464Mon	a	knoq:MoneyNeed;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265634756811710464>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x265634756811710464Don	a	knoq:Donation;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265634756811710464>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x265634756811710464Off	a	knoq:Offer;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265634756811710464>;
+			knoq:confidence	"0.9"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x265634756811710464Req	a	knoq:Request;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265634756811710464>;
+			knoq:confidence	"0.0"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+
+
+<http://knoesis.org/socs/kno-qcri/post/264818759942934528>
+	rdf:type	sioc:MicroblogPost;
+	a	:x264818759942934528Mon ;
+	a	:x264818759942934528Don ;
+	a	:x264818759942934528Req ;
+	sioc:content	"Hurricane%20Sandy%201st%20responders%20will%20be%20honored%20at%20all%20NFL%20games%20Sunday.%20Text%20REDCROSS%20to%2090999%20to%20donate%20%2410.%20-%20http%3A//t.co/xlyof9ea";
+	sioc:has_creator	<http://knoesis.org/socs/kno-qcri/user/jcichon52>;
+	wgs:lat	"10000";
+	wgs:long	"10000";
+	xsd:dateTime	"2012-11-03 19:58:07"^^xsd:datetime .
+:x264818759942934528Mon	a	knoq:MoneyNeed;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264818759942934528>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264818759942934528Don	a	knoq:Donation;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264818759942934528>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264818759942934528Req	a	knoq:Request;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264818759942934528>;
+			knoq:confidence	"0.8"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+
+
+<http://knoesis.org/socs/kno-qcri/post/264542564047273984>
+	rdf:type	sioc:MicroblogPost;
+	a	:x264542564047273984Mon ;
+	a	:x264542564047273984Don ;
+	a	:x264542564047273984Req ;
+	sioc:content	"RT%20%40NBCNews%3A%20%5C%22Hurricane%20Sandy%3A%20Coming%20Together.%5C%22%20To%20help%2C%20call%201-800-Help-Now%2C%20text%20REDCROSS%20to%2090999%20or%20visit%20http%3A//t.co/IXHyRFRe%20%23San%20...";
+	sioc:has_creator	<http://knoesis.org/socs/kno-qcri/user/SchoolMediaMom>;
+	wgs:lat	"37.0902";
+	wgs:long	"-95.7129";
+	xsd:dateTime	"2012-11-03 01:40:36"^^xsd:datetime .
+:x264542564047273984Mon	a	knoq:MoneyNeed;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264542564047273984>;
+			knoq:confidence	"0.99"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264542564047273984Don	a	knoq:Donation;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264542564047273984>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264542564047273984Req	a	knoq:Request;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264542564047273984>;
+			knoq:confidence	"0.9"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+
+
+<http://knoesis.org/socs/kno-qcri/post/264379699545915393>
+	rdf:type	sioc:MicroblogPost;
+	a	:x264379699545915393Mon ;
+	a	:x264379699545915393Don ;
+	a	:x264379699545915393Off ;
+	a	:x264379699545915393Req ;
+	sioc:content	"I%20wanted%20to%20start%20an%20Indiegogo%20campaign%20where%20Bronies%20could%20donate%20to%20the%20victims%20of%20Hurricane%20Sandy%2C%20but%20now%20I%92...%20http%3A//t.co/tNoxBeIk";
+	sioc:has_creator	<http://knoesis.org/socs/kno-qcri/user/Rainb0w_Dashie>;
+	wgs:lat	"41.8795";
+	wgs:long	"-87.6243";
+	xsd:dateTime	"2012-11-02 14:53:26"^^xsd:datetime .
+:x264379699545915393Mon	a	knoq:MoneyNeed;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264379699545915393>;
+			knoq:confidence	"0.83"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264379699545915393Don	a	knoq:Donation;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264379699545915393>;
+			knoq:confidence	"0.951"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264379699545915393Off	a	knoq:Offer;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264379699545915393>;
+			knoq:confidence	"0.6"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264379699545915393Req	a	knoq:Request;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264379699545915393>;
+			knoq:confidence	"0.1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+
+
+<http://knoesis.org/socs/kno-qcri/post/265524359249145857>
+	rdf:type	sioc:MicroblogPost;
+	a	:x265524359249145857Mon ;
+	a	:x265524359249145857Don ;
+	a	:x265524359249145857Off ;
+	a	:x265524359249145857Req ;
+	sioc:content	"RT%20%40abookapart%3A%2015%25%20of%20all%20sales%20today%20%28Mon%2C%20Nov%205th%29%20will%20be%20donated%20to%20the%20Red%20Cross%20to%20aid%20the%20victims%20of%20Hurricane%20Sandy.%20http%3A//t.c%20...";
+	sioc:has_creator	<http://knoesis.org/socs/kno-qcri/user/drawm>;
+	wgs:lat	"10000";
+	wgs:long	"10000";
+	xsd:dateTime	"2012-11-05 18:41:55"^^xsd:datetime .
+:x265524359249145857Mon	a	knoq:MoneyNeed;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265524359249145857>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x265524359249145857Don	a	knoq:Donation;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265524359249145857>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x265524359249145857Off	a	knoq:Offer;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265524359249145857>;
+			knoq:confidence	"0.7"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x265524359249145857Req	a	knoq:Request;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265524359249145857>;
+			knoq:confidence	"0.0"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+
+
+<http://knoesis.org/socs/kno-qcri/post/264873533610532864>
+	rdf:type	sioc:MicroblogPost;
+	a	:x264873533610532864Mon ;
+	a	:x264873533610532864Don ;
+	a	:x264873533610532864Off ;
+	a	:x264873533610532864Req ;
+	sioc:content	"RT%20%40bumblefoot%3A%20I%20want%20to%20auction%20myself%20off%20for%20one-on-one%20guitar%20lessons%20to%20donate%20to%20Hurricane%20Sandy%20relief%20while%20I%27m%20in%20vegas%20this%20m%20...";
+	sioc:has_creator	<http://knoesis.org/socs/kno-qcri/user/rosaandroses>;
+	wgs:lat	"40.7561";
+	wgs:long	"-73.987";
+	xsd:dateTime	"2012-11-03 23:35:46"^^xsd:datetime .
+:x264873533610532864Mon	a	knoq:MoneyNeed;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264873533610532864>;
+			knoq:confidence	"0.99"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264873533610532864Don	a	knoq:Donation;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264873533610532864>;
+			knoq:confidence	"0.988"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264873533610532864Off	a	knoq:Offer;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264873533610532864>;
+			knoq:confidence	"0.8"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264873533610532864Req	a	knoq:Request;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264873533610532864>;
+			knoq:confidence	"0.0"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+
+
+<http://knoesis.org/socs/kno-qcri/post/265643840524931072>
+	rdf:type	sioc:MicroblogPost;
+	a	:x265643840524931072Mon ;
+	a	:x265643840524931072Don ;
+	a	:x265643840524931072Off ;
+	a	:x265643840524931072Req ;
+	sioc:content	"RT%20%40Will___Ferrell%3A%20For%20every%20RT%20%241%20will%20be%20donated%20to%20the%20relief%20efforts%20of%20Hurricane%20Sandy.";
+	sioc:has_creator	<http://knoesis.org/socs/kno-qcri/user/Two_Troubles>;
+	wgs:lat	"10000";
+	wgs:long	"10000";
+	xsd:dateTime	"2012-11-06 02:36:41"^^xsd:datetime .
+:x265643840524931072Mon	a	knoq:MoneyNeed;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265643840524931072>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x265643840524931072Don	a	knoq:Donation;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265643840524931072>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x265643840524931072Off	a	knoq:Offer;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265643840524931072>;
+			knoq:confidence	"0.9"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x265643840524931072Req	a	knoq:Request;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265643840524931072>;
+			knoq:confidence	"0.0"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+
+
+<http://knoesis.org/socs/kno-qcri/post/264585760768933888>
+	rdf:type	sioc:MicroblogPost;
+	a	:x264585760768933888She ;
+	a	:x264585760768933888Don ;
+	a	:x264585760768933888Off ;
+	a	:x264585760768933888Req ;
+	sioc:content	"Obama%20comforting%20a%20woman%20whos%20Marina%20was%20damaged%20by%20Hurricane%20Sandy.%20This%20is%20the%20kind%20of%20man%20I%20want%20running%20our%20country%20http%3A//t.co/3knV781w";
+	sioc:has_creator	<http://knoesis.org/socs/kno-qcri/user/BenRios021>;
+	wgs:lat	"10000";
+	wgs:long	"10000";
+	xsd:dateTime	"2012-11-03 04:32:15"^^xsd:datetime .
+:x264585760768933888She	a	knoq:ShelterNeed;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264585760768933888>;
+			knoq:confidence	"0.945"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264585760768933888Don	a	knoq:Donation;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264585760768933888>;
+			knoq:confidence	"0.778"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264585760768933888Off	a	knoq:Offer;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264585760768933888>;
+			knoq:confidence	"0.6"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264585760768933888Req	a	knoq:Request;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264585760768933888>;
+			knoq:confidence	"0.0"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+
+
+<http://knoesis.org/socs/kno-qcri/post/265649786529673216>
+	rdf:type	sioc:MicroblogPost;
+	a	:x265649786529673216Mon ;
+	a	:x265649786529673216Don ;
+	a	:x265649786529673216Off ;
+	a	:x265649786529673216Req ;
+	sioc:content	"RT%20%40Will___Ferrell%3A%20For%20every%20RT%20%241%20will%20be%20donated%20to%20the%20relief%20efforts%20of%20Hurricane%20Sandy.";
+	sioc:has_creator	<http://knoesis.org/socs/kno-qcri/user/gogettercarey>;
+	wgs:lat	"41.8795";
+	wgs:long	"-87.6243";
+	xsd:dateTime	"2012-11-06 03:00:19"^^xsd:datetime .
+:x265649786529673216Mon	a	knoq:MoneyNeed;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265649786529673216>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x265649786529673216Don	a	knoq:Donation;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265649786529673216>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x265649786529673216Off	a	knoq:Offer;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265649786529673216>;
+			knoq:confidence	"0.9"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x265649786529673216Req	a	knoq:Request;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265649786529673216>;
+			knoq:confidence	"0.0"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+
+
+<http://knoesis.org/socs/kno-qcri/post/264747290776973313>
+	rdf:type	sioc:MicroblogPost;
+	a	:x264747290776973313Mon ;
+	a	:x264747290776973313Don ;
+	a	:x264747290776973313Off ;
+	a	:x264747290776973313Req ;
+	sioc:content	"RT%20%40Will___Ferrell%3A%20For%20every%20RT%20%241%20will%20be%20donated%20to%20the%20relief%20efforts%20of%20Hurricane%20Sandy.";
+	sioc:has_creator	<http://knoesis.org/socs/kno-qcri/user/mrs_newton>;
+	wgs:lat	"34.0522";
+	wgs:long	"-118.243";
+	xsd:dateTime	"2012-11-03 15:14:07"^^xsd:datetime .
+:x264747290776973313Mon	a	knoq:MoneyNeed;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264747290776973313>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264747290776973313Don	a	knoq:Donation;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264747290776973313>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264747290776973313Off	a	knoq:Offer;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264747290776973313>;
+			knoq:confidence	"0.9"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264747290776973313Req	a	knoq:Request;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264747290776973313>;
+			knoq:confidence	"0.0"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+
+
+<http://knoesis.org/socs/kno-qcri/post/264215414127595520>
+	rdf:type	sioc:MicroblogPost;
+	a	:x264215414127595520Mon ;
+	a	:x264215414127595520Don ;
+	a	:x264215414127595520Off ;
+	a	:x264215414127595520Req ;
+	sioc:content	"50%25%20of%20all%20Amanda%20Lynne%20LUXE%20jewelry%20sales%20will%20be%20donated%20to%20the%20Red%20Cross%20Hurricane%20Relief%20---%3E%20%20http%3A//t.co/yIN6QgLN%20%23boebot%20%23bestofetsy";
+	sioc:has_creator	<http://knoesis.org/socs/kno-qcri/user/AmandaLynneATL>;
+	wgs:lat	"33.7545";
+	wgs:long	"-84.3897";
+	xsd:dateTime	"2012-11-02 04:00:38"^^xsd:datetime .
+:x264215414127595520Mon	a	knoq:MoneyNeed;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264215414127595520>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264215414127595520Don	a	knoq:Donation;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264215414127595520>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264215414127595520Off	a	knoq:Offer;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264215414127595520>;
+			knoq:confidence	"0.7"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264215414127595520Req	a	knoq:Request;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264215414127595520>;
+			knoq:confidence	"0.0"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+
+
+<http://knoesis.org/socs/kno-qcri/post/265064395724451840>
+	rdf:type	sioc:MicroblogPost;
+	a	:x265064395724451840Mon ;
+	a	:x265064395724451840Don ;
+	a	:x265064395724451840Off ;
+	a	:x265064395724451840Req ;
+	sioc:content	"RT%20%40Will___Ferrell%3A%20For%20every%20RT%20%241%20will%20be%20donated%20to%20the%20relief%20efforts%20of%20Hurricane%20Sandy.";
+	sioc:has_creator	<http://knoesis.org/socs/kno-qcri/user/Jmcphee7>;
+	wgs:lat	"53.7501";
+	wgs:long	"-2.48471";
+	xsd:dateTime	"2012-11-04 12:14:11"^^xsd:datetime .
+:x265064395724451840Mon	a	knoq:MoneyNeed;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265064395724451840>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x265064395724451840Don	a	knoq:Donation;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265064395724451840>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x265064395724451840Off	a	knoq:Offer;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265064395724451840>;
+			knoq:confidence	"0.9"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x265064395724451840Req	a	knoq:Request;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265064395724451840>;
+			knoq:confidence	"0.0"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+
+
+<http://knoesis.org/socs/kno-qcri/post/264901654934077441>
+	rdf:type	sioc:MicroblogPost;
+	a	:x264901654934077441Mon ;
+	a	:x264901654934077441Don ;
+	a	:x264901654934077441Off ;
+	a	:x264901654934077441Req ;
+	sioc:content	"RT%20%40MattLalli_lax27%3A%20For%20every%20candy%20wrapper%20collected%2C%20money%20will%20be%20donated%20to%20support%20the%20victims%20of%20Hurricane%20Sandy%2C%20so%20please%20donate%21";
+	sioc:has_creator	<http://knoesis.org/socs/kno-qcri/user/DECANMHS>;
+	wgs:lat	"10000";
+	wgs:long	"10000";
+	xsd:dateTime	"2012-11-04 01:27:30"^^xsd:datetime .
+:x264901654934077441Mon	a	knoq:MoneyNeed;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264901654934077441>;
+			knoq:confidence	"0.85"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264901654934077441Don	a	knoq:Donation;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264901654934077441>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264901654934077441Off	a	knoq:Offer;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264901654934077441>;
+			knoq:confidence	"0.7"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264901654934077441Req	a	knoq:Request;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264901654934077441>;
+			knoq:confidence	"0.12"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+
+
+<http://knoesis.org/socs/kno-qcri/post/264952934347988992>
+	rdf:type	sioc:MicroblogPost;
+	a	:x264952934347988992Mon ;
+	a	:x264952934347988992Don ;
+	a	:x264952934347988992Off ;
+	a	:x264952934347988992Req ;
+	sioc:content	"RT%20%40Will___Ferrell%3A%20For%20every%20RT%20%241%20will%20be%20donated%20to%20the%20relief%20efforts%20of%20Hurricane%20Sandy.";
+	sioc:has_creator	<http://knoesis.org/socs/kno-qcri/user/denaozarks>;
+	wgs:lat	"35.201";
+	wgs:long	"-91.8318";
+	xsd:dateTime	"2012-11-04 04:51:16"^^xsd:datetime .
+:x264952934347988992Mon	a	knoq:MoneyNeed;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264952934347988992>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264952934347988992Don	a	knoq:Donation;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264952934347988992>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264952934347988992Off	a	knoq:Offer;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264952934347988992>;
+			knoq:confidence	"0.9"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x264952934347988992Req	a	knoq:Request;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/264952934347988992>;
+			knoq:confidence	"0.0"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+
+
+<http://knoesis.org/socs/kno-qcri/post/265476908651794432>
+	rdf:type	sioc:MicroblogPost;
+	a	:x265476908651794432Mon ;
+	a	:x265476908651794432Don ;
+	a	:x265476908651794432Off ;
+	a	:x265476908651794432Req ;
+	sioc:content	"RT%20%40jasonsantamaria%3A%20AND%2015%25%20of%20all%20%40abookapart%20sales%20today%20will%20be%20donated%20to%20the%20Red%20Cross%20to%20aid%20the%20victims%20of%20Hurricane%20Sandy%3A%20http%20...";
+	sioc:has_creator	<http://knoesis.org/socs/kno-qcri/user/jtrakul>;
+	wgs:lat	"51.9194";
+	wgs:long	"19.1451";
+	xsd:dateTime	"2012-11-05 15:33:22"^^xsd:datetime .
+:x265476908651794432Mon	a	knoq:MoneyNeed;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265476908651794432>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x265476908651794432Don	a	knoq:Donation;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265476908651794432>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x265476908651794432Off	a	knoq:Offer;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265476908651794432>;
+			knoq:confidence	"0.7"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x265476908651794432Req	a	knoq:Request;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265476908651794432>;
+			knoq:confidence	"0.0"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+
+
+<http://knoesis.org/socs/kno-qcri/post/265620663757316098>
+	rdf:type	sioc:MicroblogPost;
+	a	:x265620663757316098Mon ;
+	a	:x265620663757316098Don ;
+	a	:x265620663757316098Off ;
+	a	:x265620663757316098Req ;
+	sioc:content	"RT%20%40Will___Ferrell%3A%20For%20every%20RT%20%241%20will%20be%20donated%20to%20the%20relief%20efforts%20of%20Hurricane%20Sandy.";
+	sioc:has_creator	<http://knoesis.org/socs/kno-qcri/user/stevejs2>;
+	wgs:lat	"41.6945";
+	wgs:long	"-73.9221";
+	xsd:dateTime	"2012-11-06 01:04:35"^^xsd:datetime .
+:x265620663757316098Mon	a	knoq:MoneyNeed;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265620663757316098>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x265620663757316098Don	a	knoq:Donation;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265620663757316098>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x265620663757316098Off	a	knoq:Offer;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265620663757316098>;
+			knoq:confidence	"0.9"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x265620663757316098Req	a	knoq:Request;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265620663757316098>;
+			knoq:confidence	"0.0"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+
+
+<http://knoesis.org/socs/kno-qcri/post/265255117962485761>
+	rdf:type	sioc:MicroblogPost;
+	a	:x265255117962485761Mon ;
+	a	:x265255117962485761Don ;
+	a	:x265255117962485761Off ;
+	a	:x265255117962485761Req ;
+	sioc:content	"I%20REALLY%20want%20to%20donate%20to%20those%20who%20were%20hit%20by%20the%20hurricane..%20Can%27t%20imagine%20what%20those%20people%20are%20going%20through%20%23staystrong%20%23eastcoast";
+	sioc:has_creator	<http://knoesis.org/socs/kno-qcri/user/tonydame>;
+	wgs:lat	"13.8608";
+	wgs:long	"100.505";
+	xsd:dateTime	"2012-11-05 00:52:02"^^xsd:datetime .
+:x265255117962485761Mon	a	knoq:MoneyNeed;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265255117962485761>;
+			knoq:confidence	"0.68"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x265255117962485761Don	a	knoq:Donation;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265255117962485761>;
+			knoq:confidence	"0.71"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x265255117962485761Off	a	knoq:Offer;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265255117962485761>;
+			knoq:confidence	"0.7"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x265255117962485761Req	a	knoq:Request;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265255117962485761>;
+			knoq:confidence	"0.0"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+
+
+<http://knoesis.org/socs/kno-qcri/post/265234293125701633>
+	rdf:type	sioc:MicroblogPost;
+	a	:x265234293125701633Mon ;
+	a	:x265234293125701633Don ;
+	a	:x265234293125701633Off ;
+	a	:x265234293125701633Req ;
+	sioc:content	"RT%20%40Will___Ferrell%3A%20For%20every%20RT%20%241%20will%20be%20donated%20to%20the%20relief%20efforts%20of%20Hurricane%20Sandy.";
+	sioc:has_creator	<http://knoesis.org/socs/kno-qcri/user/meestergud>;
+	wgs:lat	"30.0653";
+	wgs:long	"-95.3884";
+	xsd:dateTime	"2012-11-04 23:29:17"^^xsd:datetime .
+:x265234293125701633Mon	a	knoq:MoneyNeed;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265234293125701633>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x265234293125701633Don	a	knoq:Donation;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265234293125701633>;
+			knoq:confidence	"1"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x265234293125701633Off	a	knoq:Offer;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265234293125701633>;
+			knoq:confidence	"0.9"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+:x265234293125701633Req	a	knoq:Request;
+		knoq:hasObservation	[
+			a	qb:Observation;
+			qb:dataset	<http://knoesis.org/socs/kno-qcri/post/265234293125701633>;
+			knoq:confidence	"0.0"^^xsd:decimal;
+			knoq:worker	knoq:autoAgent;
+			] .
+
+
